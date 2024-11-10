@@ -47,7 +47,7 @@ B(m,n) = \frac{\Gamma(m)\Gamma(n)}{\Gamma(m+n)}
 ## Transformations
 
 This section is intended to be exam-focused.
-[Proofs for the transformations](#transformation-proofs) are included in a
+[Proofs for the transformations](#transformations-proofs) are included in a
 separate section.
 
 ### Form 0, 6
@@ -88,7 +88,7 @@ B(m,n) = \int_0^1 \frac{x^{m-1} + x^{n-1}}{(1+x)^{m+n}}\,\text{d}x
 
 Form 5 is derived by setting $b=1$. $ $
 
-## Transformation Proofs
+## Transformations Proofs
 
 ### Form 1
 

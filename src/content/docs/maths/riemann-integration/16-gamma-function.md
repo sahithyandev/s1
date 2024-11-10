@@ -84,7 +84,7 @@ through induction, $\Gamma$ function cannot be defined for negative integers.
 ## Transformations
 
 Alternate forms of $\Gamma(n)$. This section is intended to be exam-focused.
-[Proofs for the transformations](#transformation-proofs) are included in a
+[Proofs for the transformations](#transformations-proofs) are included in a
 separate section. $ $
 
 ### Form 0, 1, 4
