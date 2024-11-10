@@ -43,7 +43,7 @@ export const { getStaticPaths, GET } = OGImageRoute({
 			bgGradient: [[250, 254, 247]],
 			logo: {
 				path: "./public/logo.png",
-				size: [120],
+				size: [170],
 			},
 			fonts: ["./public/fonts/noto-sans_5.0.22_latin-400-normal.ttf"],
 			font: {
@@ -58,7 +58,7 @@ export const { getStaticPaths, GET } = OGImageRoute({
 					size: 35,
 				},
 			},
-			padding: 90,
+			padding: 60,
 		};
 	},
 });
