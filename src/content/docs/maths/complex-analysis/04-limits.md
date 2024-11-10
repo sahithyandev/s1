@@ -26,6 +26,25 @@ Suppose $\lim f(z)=L$. $ $
 - $\lim \text{Re}(f(z))=\text{Re}(L)$
 - $\lim \text{Im}(f(z))=\text{Im}(L)$
 
+### Real and imaginary limits
+
+Let $f(z)=u(x,y)+iv(x,y)$, $z_0 = x_0 + iy_0$, $z=x+iy$.
+
+Suppose the real part and imaginary part limits to $L_1,L_2$, which can be
+written as: $ $
+
+```math
+\lim_\limits{(x,y)\to(x_0,y_0)} u(x,y)=L_1
+\;\;\;
+\lim_\limits{(x,y)\to(x_0,y_0)} v(x,y)=L_2
+```
+
+Then:
+
+```math
+\lim_\limits{z\to z_0} f(z)=L_1+iL_2
+```
+
 ## Difference from real functions
 
 For real functions, when considering the limit at a point, the limit could be be
@@ -34,30 +53,14 @@ approaching the point either from left or right.
 For complex functions, the point can be approached along any path in the complex
 plane. The distance $\lvert z − z_0 \rvert$ decreases to $0$.
 
-## Disproving limits
+## Notes for questions
 
-One way of disproving a complex limit is to choose 2 different paths and showing
-the limits on each path are different. This is similar to showing the right and
-left limits are different in real analysis.
-
-In a limit, when using $y=mx$ in $z=x+iy$, if $m$ doesn't cancel out, then the
-limit doesn't exists.
-
-## Real and imaginary limits
-
-Suppose $f(z)=u(x,y)+iv(x,y)$, $z_0 = x_0 + iy_0$, $z=x+iy$, and:
-
-```math
-\lim_\limits{(x,y)\to(x_0,y_0)} u(x,y)=L_1
-\;\;\;
-\lim_\limits{(x,y)\to(x_0,y_0)} v(x,y)=L_2
-```
-
-(The real part and imaginary part limits to $L_1,L_2$), Then: $ $
-
-```math
-\lim_\limits{z\to z_0} f(z)=L_1+iL_2
-```
+- When 2 arbitrary paths are chosen: if the limits on each are different, then
+  the limit DNE.
+- When substituting $z=x+imx$: if $m$ doesn't cancel out, then the limit DNE.
+- In most limits, subtituting $z=re^{i\theta}$ will simplify the limit a lot.
+- In very complex functions, limits can be taken for real and imaginary parts
+  separately.
 
 ## Important limits
 

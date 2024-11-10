@@ -3,11 +3,12 @@ title: Cauchy-Riemann Equations
 slug: maths/complex-analysis/cauchy-riemann-equations
 sidebar:
   order: 8
+next: false
 ---
 
-Suppose $f$ is a complex-valued function of a complex variable. If the
-derivatives are the same for the 2 paths --real and imaginary axes--, then $f$
-is analytic.
+Suppose $f$ is a complex-valued function of a complex variable. **If** the
+derivatives are the same for the 2 paths --real and imaginary axes-- **then**
+$f$ is analytic.
 
 Suppose $f(z)=u(x,y)+iv(x,y)$ for the theorems below. $ $
 
@@ -15,6 +16,8 @@ Suppose $f(z)=u(x,y)+iv(x,y)$ for the theorems below. $ $
 
 The set of equations mentioned below are the Cauchy Riemann Equations, where
 $u,v$ are functions of $x,y$.
+
+### Cartesian form
 
 ```math
 \frac{\partial{u}}{\partial{x}}
@@ -31,6 +34,24 @@ $u,v$ are functions of $x,y$.
 -
 \frac{\partial{v}}{\partial{x}}
 =-v_x
+```
+
+### Polar form
+
+Here the partial derivatives are about $r, \theta$. $ $
+
+```math
+u_r = \frac{1}{r}v_\theta
+\;\;\;
+\land
+\;\;\;
+v_r = -\frac{1}{r}u_\theta
+```
+
+### Complex form
+
+```math
+f_x = -if_y
 ```
 
 ## Theorem 1

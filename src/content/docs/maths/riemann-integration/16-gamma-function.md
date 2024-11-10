@@ -3,6 +3,7 @@ title: Gamma function
 slug: maths/riemann-integration/gamma-function
 sidebar:
   order: 16
+next: false
 ---
 
 Defined as below for $n\gt 0$: $ $
@@ -82,7 +83,37 @@ through induction, $\Gamma$ function cannot be defined for negative integers.
 
 ## Transformations
 
-Alternate forms of $\Gamma(n)$. $ $
+Alternate forms of $\Gamma(n)$. This section is intended to be exam-focused.
+[Proofs for the transformations](#transformation-proofs) are included in a
+separate section. $ $
+
+### Form 0, 1, 4
+
+For $k\in \mathbb{R}$: $ $
+
+```math
+\Gamma(n) = k \int_0^\infty e^{-x^k} x^{kn-1}\,\text{d}x
+```
+
+Form 0 (definition) is resulted when setting $k=1$. Form 1 is resulted when
+setting $k=\frac{1}{n}$. $ $
+
+### Form 2
+
+```math
+\int_0^\infty e^{-kx}x^{n-1}\,\text{d}x
+=
+\frac{\Gamma(n)}{k^n}
+```
+
+### Form 3
+
+```math
+\Gamma(n)=
+\int_0^1 \bigg(\ln\frac{1}{x}\bigg)^{n-1} \,\text{d}x
+```
+
+## Transformations Proofs
 
 ### Form 1
 
