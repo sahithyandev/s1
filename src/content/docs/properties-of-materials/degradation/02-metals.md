@@ -1,19 +1,10 @@
 ---
 title: Degradation of Metals
 sidebar:
-  order: 1
+  order: 2
 slug: properties-of-materials/degradation/metals
 prev: false
 ---
-
-:::note
-
-Ceramics are resistive to degradation. That's why glass is often used to contain
-liquids.
-
-Degradation of metals and polymers are discussed in this section.
-
-:::
 
 ## Corrosion
 

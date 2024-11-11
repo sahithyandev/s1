@@ -2,7 +2,7 @@
 title: Degradation of Polymers
 slug: properties-of-materials/degradation/polymers
 sidebar:
-  order: 4
+  order: 5
 next: false
 ---
 
