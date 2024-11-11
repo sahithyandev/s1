@@ -1,8 +1,9 @@
 ---
 title: Degradation of Polymers
-slug: properties-of-materials/degradation/degradation-of-polymers
+slug: properties-of-materials/degradation/polymers
 sidebar:
-  order: 6
+  order: 4
+next: false
 ---
 
 Change in the chemical and/or physical structure of the polymer chain.

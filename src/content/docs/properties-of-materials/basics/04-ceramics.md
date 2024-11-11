@@ -25,6 +25,10 @@ Glass is **not** an element of ceramics. Hugely differs in structure.
 
 :::
 
+### Refractory ceramics
+
+Ceramics that can withstand high temperatures. Can provide thermal insulation.
+
 Some ceramic materials are:
 
 - magnetic

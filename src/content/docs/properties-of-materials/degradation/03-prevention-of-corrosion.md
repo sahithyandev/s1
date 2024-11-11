@@ -2,7 +2,7 @@
 title: Prevention of Corrosion
 slug: properties-of-materials/degradation/prevention-of-corrosion
 sidebar:
-  order: 5
+  order: 3
 ---
 
 Corrosion results in loss of materials and money. It must be minimized or

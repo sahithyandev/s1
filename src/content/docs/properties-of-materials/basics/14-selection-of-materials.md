@@ -1,11 +1,16 @@
 ---
-title: Introduction to Selection of Materials
+title: Selection of Materials
 sidebar:
-  label: Introduction
   order: 14
 slug: properties-of-materials/basics/selection-of-materials
 next: false
 ---
+
+:::note
+
+This is a separate unit itself and taught as the last thing in the module.
+
+:::
 
 Materials are categorized into a tree.
 
@@ -48,7 +53,9 @@ information (such as listed below) are considered to choose one.
 - Price
 - Availability
 
-## Computerized selection process
+:::note
 
 Nowadays software is used to select materials. World-wide accepted software is
 Cambridge Engineering Selector (CES). Expensive and powerful.
+
+:::
