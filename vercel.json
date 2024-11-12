@@ -1,89 +1,97 @@
 {
-  "redirects": [
-    {
-      "source": "/wp-admin",
-      "destination": "https://sahithyan.dev",
-      "permanent": true
-    },
-    {
-      "source": "/fluid-mechanics/statics",
-      "destination": "/fluid-mechanics/statics/introduction"
-    },
-    {
-      "source": "/fluid-mechanics/dynamics",
-      "destination": "/fluid-mechanics/dynamics/introduction"
-    },
-    {
-      "source": "/fluid-mechanics/machinery",
-      "destination": "/fluid-mechanics/machinery/introduction"
-    },
-    {
-      "source": "/mechanics/statics",
-      "destination": "/mechanics/statics/introduction"
-    },
-    {
-      "source": "/mechanics/dynamics",
-      "destination": "/mechanics/dynamics/introduction"
-    },
-    {
-      "source": "/electrical-fundamentals",
-      "destination": "/electrical-fundamentals/introduction"
-    },
-    {
-      "source": "/properties-of-materials/nanotechnology",
-      "destination": "/properties-of-materials/nanotechnology/introduction"
-    },
-    {
-      "source": "/properties-of-materials/mechanical-properties",
-      "destination": "/properties-of-materials/mechanical-properties/introduction"
-    },
-    {
-      "source": "/properties-of-materials/electrical-properties",
-      "destination": "/properties-of-materials/electrical-properties/introduction"
-    },
-    {
-      "source": "/properties-of-materials/basics",
-      "destination": "/properties-of-materials/basics/introduction"
-    },
-    {
-      "source": "/properties-of-materials/degradation",
-      "destination": "/properties-of-materials/degradation/introduction"
-    },
-    {
-      "source": "/maths/complex-analysis",
-      "destination": "/maths/complex-analysis/introduction"
-    },
-    {
-      "source": "/maths/riemann-integration",
-      "destination": "/maths/riemann-integration/introduction"
-    },
-    {
-      "source": "/maths/ode",
-      "destination": "/maths/ode/introduction"
-    },
-    {
-      "source": "/maths/real-analysis",
-      "destination": "/maths/real-analysis/introduction"
-    },
-    {
-      "source": "/maths/vectors",
-      "destination": "/maths/vectors/introduction"
-    },
-    {
-      "source": "/maths/matrices",
-      "destination": "/maths/matrices/introduction"
-    },
-    {
-      "source": "/programming-fundamentals/a-book",
-      "destination": "/programming-fundamentals/a-book/introduction"
-    },
-    {
-      "source": "/programming-fundamentals/c-book",
-      "destination": "/programming-fundamentals/c-book/computers"
-    },
-    {
-      "source": "/programming-fundamentals/b-book",
-      "destination": "/programming-fundamentals/b-book/number-systems"
-    }
-  ]
+	"redirects": [
+		{
+			"source": "/wp-admin",
+			"destination": "https://sahithyan.dev",
+			"permanent": true
+		},
+		{
+			"source": "/electrical-fundamentals/basics",
+			"destination": "/electrical-fundamentals/basics/introduction"
+		},
+		{
+			"source": "/electrical-fundamentals/electrical-installation",
+			"destination": "/electrical-fundamentals/electrical-installation/introduction"
+		},
+		{
+			"source": "/fluid-mechanics/statics",
+			"destination": "/fluid-mechanics/statics/introduction"
+		},
+		{
+			"source": "/fluid-mechanics/dynamics",
+			"destination": "/fluid-mechanics/dynamics/introduction"
+		},
+		{
+			"source": "/fluid-mechanics/machinery",
+			"destination": "/fluid-mechanics/machinery/introduction"
+		},
+		{
+			"source": "/mechanics/statics",
+			"destination": "/mechanics/statics/introduction"
+		},
+		{
+			"source": "/mechanics/dynamics",
+			"destination": "/mechanics/dynamics/introduction"
+		},
+		{
+			"source": "/electrical-fundamentals",
+			"destination": "/electrical-fundamentals/introduction"
+		},
+		{
+			"source": "/properties-of-materials/nanotechnology",
+			"destination": "/properties-of-materials/nanotechnology/introduction"
+		},
+		{
+			"source": "/properties-of-materials/mechanical-properties",
+			"destination": "/properties-of-materials/mechanical-properties/introduction"
+		},
+		{
+			"source": "/properties-of-materials/electrical-properties",
+			"destination": "/properties-of-materials/electrical-properties/introduction"
+		},
+		{
+			"source": "/properties-of-materials/basics",
+			"destination": "/properties-of-materials/basics/introduction"
+		},
+		{
+			"source": "/properties-of-materials/degradation",
+			"destination": "/properties-of-materials/degradation/introduction"
+		},
+		{
+			"source": "/maths/complex-analysis",
+			"destination": "/maths/complex-analysis/introduction"
+		},
+		{
+			"source": "/maths/riemann-integration",
+			"destination": "/maths/riemann-integration/introduction"
+		},
+		{
+			"source": "/maths/ode",
+			"destination": "/maths/ode/introduction"
+		},
+		{
+			"source": "/maths/real-analysis",
+			"destination": "/maths/real-analysis/introduction"
+		},
+		{
+			"source": "/maths/vectors",
+			"destination": "/maths/vectors/introduction"
+		},
+		{
+			"source": "/maths/matrices",
+			"destination": "/maths/matrices/introduction"
+		},
+		{
+			"source": "/programming-fundamentals/a-book",
+			"destination": "/programming-fundamentals/a-book/introduction"
+		},
+		{
+			"source": "/programming-fundamentals/c-book",
+			"destination": "/programming-fundamentals/c-book/computers"
+		},
+		{
+			"source": "/programming-fundamentals/b-book",
+			"destination": "/programming-fundamentals/b-book/number-systems"
+		}
+	]
 }
