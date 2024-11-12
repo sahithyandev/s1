@@ -30,10 +30,8 @@ shear forces no matter how small the forces may be.
 
 Liquids and gasses are considered fluids. Unlike solids, fluids don't show
 permanent resistance to deformation. Fluids are considered a continuum
-(continuously filled matter). We consider their bulk behaviours to solve fluid
-mechanics problems.
-
-Properties at a point - defined for a fluid particle.
+(continuously filled matter). Their bulk behaviour is considered when solving
+fluid mechanics problems.
 
 ## Fluid Particle
 

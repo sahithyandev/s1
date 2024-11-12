@@ -5,7 +5,7 @@ sidebar:
   label: Introduction
   order: 1
 prev: false
-next: true
+next: false
 ---
 
 An assembly (connected as a complete set) of associated electrical equipment to
@@ -16,7 +16,7 @@ fulfill a specific purpose and having certain coordinated characteristics.
 Any item used in generation, transmission, distribution and utilization of
 electrical energy.
 
-Examples: generators, transformers, measuring instruments, protective devises,
+Examples: generators, transformers, measuring instruments, protective devices,
 wiring materials, etc.
 
 ### Overcurrent
@@ -71,5 +71,6 @@ Protecting livestock and electrical equipments from electric faults.
 
 - Earthing of equipments
 - Use of
-  [circuit breakers](/electrical-fundamentals/mcb)/[fuses](/electrical-fundamentals/fuses/)
-- Use of [residual current circuit breakers](/electrical-fundamentals/rcd)
+  [circuit breakers](/electrical-fundamentals/electrical-installation/mcb)/[fuses](/electrical-fundamentals/electrical-installation/fuses/)
+- Use of
+  [residual current circuit breakers](/electrical-fundamentals/electrical-installation/rcd)

@@ -4,7 +4,7 @@ slug: fluid-mechanics/statics/properties-of-fluids
 sidebar:
   order: 2
 prev: true
-next: true
+next: false
 ---
 
 ## Mass Density
@@ -25,8 +25,8 @@ Varies very slightly with temperature (negligible in calculations).
 
 Example: Water
 
-- $ 100kgm^{-3} $ - at $ 4\degree C $
-- $ 995.7kgm^{-3} $ - at $ 30\degree C $
+- $ 100\,\text{kgm}^{-3} $ - at $ 4\degree \text{C}$
+- $ 995.7\,\text{kgm}^{-3} $ - at $ 30\degree \text{C}$
 
 ### For gases
 
@@ -47,6 +47,24 @@ substance}}
 
 For solids and liquids, water is the standard substance.
 
+## Pressure
+
+A force is exerted on all surfaces in contact with a fluid. A scalar.
+
+```math
+P = \frac{\text{Normal Force}}{\text{Area}} = \frac{F}{A}
+```
+
+## Vapour Pressure
+
+Vaporisation is when evaporation happens at the free surface of a liquid.
+
+Vapour Pressure is the pressure due to liquid vapour just above the free surface
+of the liquid. Increases with temperature.
+
+A liquid boils when:
+$\text{vapour pressure} = \text{external pressure on the liquid}$ $ $
+
 ## Bulk Modulus
 
 ```math
@@ -61,16 +79,6 @@ k = \rho \frac{\text{d}p}{\text{d}\rho}
 ```
 
 High bulk modulus means hard to compress.
-
-## Vapour Pressure
-
-Vaporisation is when evaporation happens at the free surface of a liquid.
-
-Vapour Pressure is the pressure due to liquid vapour just above the free surface
-of the liquid. Increases with temperature.
-
-A liquid boils when:
-$\text{vapour pressure} = \text{external pressure on the liquid}$ $ $
 
 ## Surface Tension
 
@@ -121,12 +129,4 @@ Fluids can be divided into 2 types:
 
 ```math
 v = \frac{\mu}{\rho}
-```
-
-## Pressure
-
-A force is exerted on all surfaces in contact with a fluid. A scalar.
-
-```math
-P = \frac{\text{Normal Force}}{\text{Area}} = \frac{F}{A}
 ```
