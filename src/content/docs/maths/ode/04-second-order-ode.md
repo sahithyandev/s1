@@ -4,6 +4,8 @@ sidebar:
   label: Solving Second Order ODE
   order: 4
 slug: maths/ode/second-order-ode
+prev: true
+next: true
 ---
 
 ## Homogenous

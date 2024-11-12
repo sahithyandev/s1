@@ -3,6 +3,8 @@ title: Sequential Characterization of Integrability
 slug: maths/riemann-integration/sequential-characterization
 sidebar:
   order: 10
+prev: true
+next: true
 ---
 
 A bounded function $f:[a,b]\to \mathbb{R}$ is Riemann integrable **iff**

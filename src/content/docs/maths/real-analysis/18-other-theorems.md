@@ -3,6 +3,8 @@ title: Other Theorems
 slug: maths/real-analysis/other-theorems
 sidebar:
   order: 18
+prev: true
+next: true
 ---
 
 ## Darboux's Theorem

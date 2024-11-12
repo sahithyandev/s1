@@ -3,6 +3,8 @@ title: Upper & Lower integral
 slug: maths/riemann-integration/upper-lower-integral
 sidebar:
   order: 5
+prev: true
+next: true
 ---
 
 Let $\mathbb{P}$ be the set of all possible partitions of the interval $[a, b]$.

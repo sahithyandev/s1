@@ -3,6 +3,8 @@ title: Integers
 slug: programming-fundamentals/b-book/integers
 sidebar:
   order: 3
+prev: true
+next: true
 ---
 
 ## Unsigned integers

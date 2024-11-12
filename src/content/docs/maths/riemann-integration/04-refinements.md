@@ -3,6 +3,8 @@ title: Refinements
 slug: maths/riemann-integration/refinements
 sidebar:
   order: 4
+prev: true
+next: true
 ---
 
 $Q$ is called a refinement of $P \iff $ $P$ and $Q$ are partitions of $[a,b]$

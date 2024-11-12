@@ -3,6 +3,8 @@ title: Perpendicular Axis Theorem
 slug: mechanics/statics/perpendicular-axis-theorem
 sidebar:
   order: 4
+prev: true
+next: true
 ---
 
 ```math

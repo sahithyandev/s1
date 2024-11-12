@@ -3,6 +3,8 @@ title: Field Axioms
 slug: maths/real-analysis/field-axioms
 sidebar:
   order: 5
+prev: true
+next: true
 ---
 
 ## Field Axioms of R

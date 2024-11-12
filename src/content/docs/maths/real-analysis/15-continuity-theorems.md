@@ -3,6 +3,8 @@ title: Continuity Theorems
 slug: maths/real-analysis/continuity-theorems
 sidebar:
   order: 15
+prev: true
+next: true
 ---
 
 ## Extreme Value Theorem

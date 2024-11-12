@@ -3,6 +3,8 @@ title: Interning
 slug: programming-fundamentals/a-book/interning
 sidebar:
   order: 2
+prev: true
+next: true
 ---
 
 Interning is re-using objects of equal value on-demand instead of creating new

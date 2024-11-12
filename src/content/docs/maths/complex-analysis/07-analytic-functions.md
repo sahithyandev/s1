@@ -3,7 +3,8 @@ title: Analytic Functions
 slug: maths/complex-analysis/analytic-functions
 sidebar:
   order: 7
-next: false
+next: true
+prev: true
 ---
 
 A function $f$ is said to be analytic at $z_0$ **iff** it is differentiable

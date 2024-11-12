@@ -3,6 +3,8 @@ title: Composites
 slug: properties-of-materials/basics/composites
 sidebar:
   order: 6
+prev: true
+next: true
 ---
 
 Materials that are a mixture of 2 different-typed materials. Materials are

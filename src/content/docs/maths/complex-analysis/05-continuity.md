@@ -3,6 +3,8 @@ title: Continuity
 slug: maths/complex-analysis/continuity
 sidebar:
   order: 5
+prev: true
+next: true
 ---
 
 $f(z)$ is continuous at $z_0$ **iff**:

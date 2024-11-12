@@ -4,6 +4,7 @@ slug: maths/riemann-integration/beta-function
 sidebar:
   order: 17
 next: false
+prev: true
 ---
 
 Beta function is defined as below, for $m,n\gt 0$: $ $

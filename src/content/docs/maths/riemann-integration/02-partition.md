@@ -3,6 +3,8 @@ title: Partition
 slug: maths/riemann-integration/partition
 sidebar:
   order: 2
+prev: true
+next: true
 ---
 
 Let $I$ be a non-empty, compact interval (closed and bounded). A partition of

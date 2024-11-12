@@ -3,6 +3,8 @@ title: Semiconductivity
 slug: properties-of-materials/electrical-properties/semiconductivity
 sidebar:
   order: 3
+prev: true
+next: true
 ---
 
 Materials with band gap of less than $2.5\,\text{eV}$. $ $

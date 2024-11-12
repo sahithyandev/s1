@@ -3,6 +3,8 @@ title: Section Formula
 slug: maths/vectors/section-formula
 sidebar:
   order: 2
+prev: true
+next: true
 ---
 
 Suppose $\text{R}$ divides the line segment $\text{PQ}$ in the ratio $m:n$ (both

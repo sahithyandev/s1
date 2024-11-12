@@ -3,6 +3,8 @@ title: Orthonormal
 slug: maths/matrices/orthonormal
 sidebar:
   order: 16
+prev: true
+next: true
 ---
 
 For a set of $n$ column vectors, they are orthonormal **iff**: $ $

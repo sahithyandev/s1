@@ -40,12 +40,6 @@ export async function autoSlug(mdFilePaths) {
 		file.data = {
 			...currentFrontMatter,
 		};
-		if (filename.startsWith("01")) {
-			file.data.prev = false;
-		}
-		if (i === mdFilePaths.length - 1 || !mdFilePaths[i + 1].includes(section)) {
-			file.data.next = false;
-		}
 
 		const slugSection = relativeFromDocsDirectory.replace(".md", "");
 		const newSlug = slugSection.replace(PATTERN_TITLE_PREFIX, "/");
@@ -62,17 +56,27 @@ export async function autoSlug(mdFilePaths) {
 		// } else {
 		// 	file.data.sidebar.badge = undefined;
 		// }
+		if (!file.data.sidebar) {
+			file.data.sidebar = {};
+		}
 		const orderMatched = slugSection.match(PATTERN_TITLE_PREFIX);
 		if (orderMatched) {
 			const orderNumber = safeParseInt(orderMatched[1]);
 			if (orderNumber !== undefined) {
-				if (!file.data.sidebar) {
-					file.data.sidebar = {};
-				}
 				file.data.sidebar.order = orderNumber;
 			}
 		} else {
 			console.log(filePath, "isn't named correctly.");
+		}
+		if (file.data.sidebar.order === 1) {
+			file.data.prev = false;
+		} else {
+			file.data.prev = true;
+		}
+		if (i === mdFilePaths.length - 1 || !mdFilePaths[i + 1].includes(section)) {
+			file.data.next = false;
+		} else {
+			file.data.next = true;
 		}
 		const updatedFileContent = matter.stringify(file, {});
 		writeFile(filePath, updatedFileContent);

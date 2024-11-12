@@ -3,6 +3,8 @@ title: Arduino
 slug: programming-fundamentals/c-book/arduino
 sidebar:
   order: 13
+prev: true
+next: true
 ---
 
 An open-source physical computing platform based on a simple general purpose

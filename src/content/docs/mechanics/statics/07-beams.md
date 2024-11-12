@@ -3,6 +3,8 @@ title: Beams
 slug: mechanics/statics/beams
 sidebar:
   order: 7
+prev: true
+next: true
 ---
 
 ![Beam](/mechanics/beam.jpg)

@@ -5,6 +5,7 @@ sidebar:
   label: Introduction
   order: 1
 prev: false
+next: true
 ---
 
 Equations which are composed of an unknown function and its derivatives.

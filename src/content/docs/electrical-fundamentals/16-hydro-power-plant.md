@@ -3,6 +3,8 @@ title: Hydro Power Plant
 slug: electrical-fundamentals/hydro-power-plant
 sidebar:
   order: 16
+prev: true
+next: true
 ---
 
 ## Parts

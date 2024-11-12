@@ -3,6 +3,8 @@ title: Inverse
 slug: maths/matrices/inverse
 sidebar:
   order: 7
+prev: true
+next: true
 ---
 
 Suppose $A$ and $B$ are square matrices of the same order. If $AB = BA = I$ then

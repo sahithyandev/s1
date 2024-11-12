@@ -3,6 +3,8 @@ title: Space Lattice
 slug: properties-of-materials/basics/space-lattice
 sidebar:
   order: 8
+prev: true
+next: true
 ---
 
 An infinite set of equally-spaced **points** in a space.

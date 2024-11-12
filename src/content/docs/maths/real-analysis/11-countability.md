@@ -3,6 +3,8 @@ title: Countability
 slug: maths/real-analysis/countability
 sidebar:
   order: 11
+prev: true
+next: true
 ---
 
 A set $A$ is countable **iff** $\,\exists f:A\rightarrow Z^{+}$, where $f$ is a

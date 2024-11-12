@@ -3,6 +3,8 @@ title: Four-bar Mechanism
 slug: mechanics/dynamics/four-bar-mechanism
 sidebar:
   order: 4
+prev: true
+next: true
 ---
 
 Four bar-shaped members connected to each other in one plane.

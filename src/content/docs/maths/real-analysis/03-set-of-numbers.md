@@ -3,6 +3,8 @@ title: Set of Numbers
 slug: maths/real-analysis/set-of-numbers
 sidebar:
   order: 3
+prev: true
+next: true
 ---
 
 ## Sets of numbers

@@ -3,6 +3,8 @@ title: Known Series
 slug: maths/real-analysis/known-series
 sidebar:
   order: 26
+prev: true
+next: true
 ---
 
 These series are helpful when using the direct comparison test or limit

@@ -3,7 +3,8 @@ title: Cauchy Criterion
 slug: maths/riemann-integration/cauchy-criterion
 sidebar:
   order: 7
-next: false
+next: true
+prev: true
 ---
 
 ## Theorem

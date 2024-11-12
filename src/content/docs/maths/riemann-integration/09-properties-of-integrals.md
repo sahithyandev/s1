@@ -3,6 +3,8 @@ title: Properties of Integrals
 slug: maths/riemann-integration/properties-of-integrals
 sidebar:
   order: 9
+prev: true
+next: true
 ---
 
 Suppose $f$ and $g$ are integrable on $[a,b]$.

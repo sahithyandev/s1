@@ -3,6 +3,8 @@ title: Computer Hardware
 slug: programming-fundamentals/c-book/computer-hardware
 sidebar:
   order: 2
+prev: true
+next: true
 ---
 
 ## Major components of a PC

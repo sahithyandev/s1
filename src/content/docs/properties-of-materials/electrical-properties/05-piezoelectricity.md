@@ -3,6 +3,8 @@ title: Piezoelectricity
 slug: properties-of-materials/electrical-properties/piezoelectricity
 sidebar:
   order: 5
+prev: true
+next: true
 ---
 
 ## Piezoelectric Materials

@@ -3,6 +3,8 @@ title: Forms of Corrosion
 slug: properties-of-materials/degradation/forms-of-corrosion
 sidebar:
   order: 3
+prev: true
+next: true
 ---
 
 8 main forms:

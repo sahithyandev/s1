@@ -3,6 +3,8 @@ title: Phasor Representation
 slug: electrical-fundamentals/phasor-representation
 sidebar:
   order: 12
+prev: true
+next: true
 ---
 
 Phasor (phase vector) is a vector representing a sinusoidal function.

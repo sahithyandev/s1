@@ -3,6 +3,8 @@ title: Generlized IVT
 slug: maths/riemann-integration/generalized-ivt
 sidebar:
   order: 12
+prev: true
+next: true
 ---
 
 Suppose $f,g$ are continuous functions on $[a,b]$ and $g \ge 0$. Then

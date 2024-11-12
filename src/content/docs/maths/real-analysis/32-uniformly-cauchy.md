@@ -3,6 +3,8 @@ title: Uniformly Cauchy
 slug: maths/real-analysis/uniformly-cauchy
 sidebar:
   order: 32
+prev: true
+next: true
 ---
 
 $u_n(x)$ in $x\in A$ is said to be uniformly Cauchy **iff**:

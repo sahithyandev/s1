@@ -3,6 +3,8 @@ title: Centre of Pressure Derivations
 slug: fluid-mechanics/statics/centre-of-pressure-derivations
 sidebar:
   order: 7
+prev: true
+next: true
 ---
 
 | Shape                      | Description                                        | $y_p$             |

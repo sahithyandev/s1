@@ -3,6 +3,8 @@ title: Relative Equilibrium
 slug: fluid-mechanics/statics/relative-equilibrium
 sidebar:
   order: 10
+prev: true
+next: true
 ---
 
 When a fluid-contained vessel moves with a constant acceleration it will be

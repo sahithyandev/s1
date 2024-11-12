@@ -5,6 +5,7 @@ sidebar:
   order: 1
 slug: properties-of-materials/electrical-properties/introduction
 prev: false
+next: true
 ---
 
 Electrical properties include the response of a material for an applied electric

@@ -3,6 +3,8 @@ title: Continued Fraction Expansion
 slug: maths/real-analysis/continued-fraction
 sidebar:
   order: 4
+prev: true
+next: true
 ---
 
 ## The process

@@ -3,6 +3,8 @@ title: Straight Lines
 slug: maths/vectors/straight-lines
 sidebar:
   order: 3
+prev: true
+next: true
 ---
 
 ### Passes through a point & parallel to a vector

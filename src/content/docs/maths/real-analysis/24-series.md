@@ -3,6 +3,8 @@ title: Series
 slug: maths/real-analysis/series
 sidebar:
   order: 24
+prev: true
+next: true
 ---
 
 Let $(u_n)$ be a sequence, and a series (a new sequence) can be defined from it

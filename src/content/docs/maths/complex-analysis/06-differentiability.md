@@ -3,6 +3,8 @@ title: Differentiability
 slug: maths/complex-analysis/differentiability
 sidebar:
   order: 6
+prev: true
+next: true
 ---
 
 A complex function $f$ is differentiable at $z_0$ **iff**:

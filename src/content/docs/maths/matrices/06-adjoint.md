@@ -3,6 +3,8 @@ title: Adjoint
 slug: maths/matrices/adjoint
 sidebar:
   order: 6
+prev: true
+next: true
 ---
 
 Suppose $A=(a_{ij})_{n\times{n}}$. $ $

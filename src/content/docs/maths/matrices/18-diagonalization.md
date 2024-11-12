@@ -3,6 +3,8 @@ title: Diagonalization
 slug: maths/matrices/diagonalization
 sidebar:
   order: 18
+prev: true
+next: true
 ---
 
 ### Similar matrices

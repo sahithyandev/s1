@@ -3,6 +3,8 @@ title: Protection Tests
 slug: electrical-fundamentals/protection-tests
 sidebar:
   order: 24
+prev: true
+next: true
 ---
 
 After an electric installation is done, it must be tested for faults, to ensure

@@ -4,6 +4,8 @@ description: Thrust exerted on a submerged object in a liquid
 slug: fluid-mechanics/statics/buoyancy
 sidebar:
   order: 8
+prev: true
+next: true
 ---
 
 Thrust exerted on a submerged object in a liquid. Direction is vertically

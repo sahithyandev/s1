@@ -3,6 +3,8 @@ title: Mechanisms
 slug: mechanics/dynamics/mechanisms
 sidebar:
   order: 3
+prev: true
+next: true
 ---
 
 ### Mechanism

@@ -3,6 +3,8 @@ title: Tensile Test
 slug: properties-of-materials/mechanical-properties/tensile-test
 sidebar:
   order: 4
+prev: true
+next: true
 ---
 
 [Stress-strain plot](/properties-of-materials/mechanical-properties/stress-strain-plot/)

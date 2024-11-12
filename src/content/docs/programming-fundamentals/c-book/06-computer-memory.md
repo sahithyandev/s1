@@ -3,6 +3,8 @@ title: Computer Memory
 slug: programming-fundamentals/c-book/computer-memory
 sidebar:
   order: 6
+prev: true
+next: true
 ---
 
 2 types:

@@ -3,7 +3,8 @@ title: Solution of Non-homogenous Systems
 slug: maths/matrices/non-homogenous-systems
 sidebar:
   order: 13
-next: false
+next: true
+prev: true
 ---
 
 Consider the system: $A_{n\times n}X_{n\times 1}=B_{n\times 1}$. $ $

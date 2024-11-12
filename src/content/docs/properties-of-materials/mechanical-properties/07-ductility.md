@@ -3,6 +3,8 @@ title: Ductility
 slug: properties-of-materials/mechanical-properties/ductility
 sidebar:
   order: 7
+prev: true
+next: true
 ---
 
 A measure of the degree of plastic deformation at fracture.

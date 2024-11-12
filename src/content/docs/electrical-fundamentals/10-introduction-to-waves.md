@@ -3,7 +3,8 @@ title: Introduction to Waves
 slug: electrical-fundamentals/introduction-to-waves
 sidebar:
   order: 10
-next: false
+next: true
+prev: true
 ---
 
 ## Waveform

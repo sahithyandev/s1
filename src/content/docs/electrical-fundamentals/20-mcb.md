@@ -3,6 +3,8 @@ title: Circuit Breaker
 slug: electrical-fundamentals/mcb
 sidebar:
   order: 20
+prev: true
+next: true
 ---
 
 A device for making and breaking a circuit. Operated by hand or automatically.

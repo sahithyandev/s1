@@ -3,6 +3,8 @@ title: Graphene
 slug: properties-of-materials/nanotechnology/graphene
 sidebar:
   order: 2
+prev: true
+next: true
 ---
 
 Carbons arranged to a hexagonal network. 2D crystal based. Has 3 fold symmetry.

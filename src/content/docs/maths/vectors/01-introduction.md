@@ -5,6 +5,7 @@ sidebar:
   label: Introduction
   order: 1
 prev: false
+next: true
 ---
 
 Revise Vectors unit from G.C.E (A/L) Combined Mathematics.

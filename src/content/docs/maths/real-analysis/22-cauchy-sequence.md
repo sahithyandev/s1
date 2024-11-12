@@ -3,6 +3,8 @@ title: Cauchy Sequence
 slug: maths/real-analysis/cauchy-sequence
 sidebar:
   order: 22
+prev: true
+next: true
 ---
 
 A sequence $u:\mathbb{Z}^+ \rightarrow A$ is Cauchy **iff**: $ $

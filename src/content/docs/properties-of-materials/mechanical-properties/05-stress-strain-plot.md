@@ -3,6 +3,8 @@ title: Stress Strain Plot
 slug: properties-of-materials/mechanical-properties/stress-strain-plot
 sidebar:
   order: 5
+prev: true
+next: true
 ---
 
 ## Observables

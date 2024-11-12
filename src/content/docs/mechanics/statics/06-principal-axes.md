@@ -3,6 +3,8 @@ title: Principal Axes
 slug: mechanics/statics/principal-axes
 sidebar:
   order: 6
+prev: true
+next: true
 ---
 
 The product of moment of area is $0$ about principal axes. $ $

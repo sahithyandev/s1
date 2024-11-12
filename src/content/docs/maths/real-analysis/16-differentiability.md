@@ -3,6 +3,8 @@ title: Differentiability
 slug: maths/real-analysis/differentiability
 sidebar:
   order: 16
+prev: true
+next: true
 ---
 
 A function $f$ is differentiable at $a$ **iff**:

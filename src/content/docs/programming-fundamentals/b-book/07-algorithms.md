@@ -3,6 +3,8 @@ title: Algorithms
 slug: programming-fundamentals/b-book/algorithms
 sidebar:
   order: 7
+prev: true
+next: true
 ---
 
 An algorithm is a finite set of instructions, used to solve a problem.

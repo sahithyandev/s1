@@ -3,6 +3,8 @@ title: Trace
 slug: maths/matrices/trace
 sidebar:
   order: 17
+prev: true
+next: true
 ---
 
 Suppose $A=(a_{ij})_{n\times n}$ is an square matrix. Trace of $A$ is the sum of

@@ -3,6 +3,8 @@ title: Planes
 slug: maths/vectors/planes
 sidebar:
   order: 4
+prev: true
+next: true
 ---
 
 Equation of planes can expressed in either vector or cartesian form. Vector

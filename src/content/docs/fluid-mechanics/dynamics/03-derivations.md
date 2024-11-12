@@ -3,6 +3,8 @@ title: Derivations
 slug: fluid-mechanics/dynamics/derivations
 sidebar:
   order: 3
+prev: true
+next: true
 ---
 
 ## Continuity equation

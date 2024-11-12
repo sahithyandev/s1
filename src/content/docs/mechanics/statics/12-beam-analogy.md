@@ -3,6 +3,8 @@ title: Beam Analogy (Approximate) method
 slug: mechanics/statics/beam-analogy
 sidebar:
   order: 12
+prev: true
+next: true
 ---
 
 In this method, the internal forces are found assuming the elongated truss is a

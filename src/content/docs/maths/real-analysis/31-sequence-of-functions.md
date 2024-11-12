@@ -3,6 +3,8 @@ title: Sequence of Functions
 slug: maths/real-analysis/sequence-of-functions
 sidebar:
   order: 31
+prev: true
+next: true
 ---
 
 ## Types of Convergence

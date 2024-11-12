@@ -4,6 +4,8 @@ sidebar:
   label: Solving First Order ODE
   order: 2
 slug: maths/ode/first-order-ode
+prev: true
+next: true
 ---
 
 ## Separable equation

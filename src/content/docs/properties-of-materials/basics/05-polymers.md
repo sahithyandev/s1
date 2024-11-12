@@ -3,6 +3,8 @@ title: Polymers
 slug: properties-of-materials/basics/polymers
 sidebar:
   order: 5
+prev: true
+next: true
 ---
 
 Polymers can be made 100% amorphous but not 100% crystalline.

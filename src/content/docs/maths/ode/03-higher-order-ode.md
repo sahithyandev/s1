@@ -4,7 +4,8 @@ sidebar:
   label: Higher Order ODE
   order: 3
 slug: maths/ode/higher-order-ode
-next: false
+next: true
+prev: true
 ---
 
 ## Linear Differential Equations

@@ -4,6 +4,7 @@ slug: programming-fundamentals/c-book/computers
 sidebar:
   order: 1
 prev: false
+next: true
 ---
 
 An electronic device for analyzing and storing data, making calculations, etc.

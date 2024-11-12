@@ -3,6 +3,8 @@ title: Eigenvalues & Eigenvectors
 slug: maths/matrices/eigenvalues-eigenvectors
 sidebar:
   order: 14
+prev: true
+next: true
 ---
 
 ## Definitions

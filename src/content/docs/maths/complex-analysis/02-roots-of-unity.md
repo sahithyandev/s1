@@ -3,6 +3,8 @@ title: Roots of Unity
 slug: maths/complex-analysis/roots-of-unity
 sidebar:
   order: 2
+prev: true
+next: true
 ---
 
 $n$-th roots of unity ($1$) are the complex numbers that satisfy the equation,

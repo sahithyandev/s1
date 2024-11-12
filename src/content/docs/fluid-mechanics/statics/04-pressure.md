@@ -3,6 +3,8 @@ title: Pressure
 slug: fluid-mechanics/statics/pressure
 sidebar:
   order: 4
+prev: true
+next: true
 ---
 
 ## Atmospheric Pressure

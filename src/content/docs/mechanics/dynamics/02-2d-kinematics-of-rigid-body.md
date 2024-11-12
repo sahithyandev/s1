@@ -3,6 +3,8 @@ title: 2D kinematics of a rigid body
 slug: mechanics/dynamics/2d-kinematics-of-rigid-body
 sidebar:
   order: 2
+prev: true
+next: true
 ---
 
 ### Rigid body

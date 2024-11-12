@@ -3,6 +3,8 @@ title: CPU Support Chips
 slug: programming-fundamentals/c-book/cpu-support-chips
 sidebar:
   order: 5
+prev: true
+next: true
 ---
 
 Carries out tasks on behalf of the CPU.

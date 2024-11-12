@@ -4,6 +4,7 @@ slug: electrical-fundamentals/electric-shock
 sidebar:
   order: 25
 next: false
+prev: true
 ---
 
 Occurs when current flows through the human body.

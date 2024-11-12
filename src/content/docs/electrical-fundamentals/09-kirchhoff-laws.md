@@ -3,6 +3,8 @@ title: Kirchhoff Laws
 slug: electrical-fundamentals/kirchhoff-laws
 sidebar:
   order: 9
+prev: true
+next: true
 ---
 
 ## Kirchhoff Current Law

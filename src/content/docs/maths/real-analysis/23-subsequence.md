@@ -3,6 +3,8 @@ title: Subsequence
 slug: maths/real-analysis/subsequence
 sidebar:
   order: 23
+prev: true
+next: true
 ---
 
 Suppose $u:\mathbb{Z}^+\rightarrow \mathbb{R}$ be a sequence and

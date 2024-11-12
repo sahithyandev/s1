@@ -3,6 +3,8 @@ title: Definitions in AC Theory
 slug: electrical-fundamentals/definitions-in-ac-theory
 sidebar:
   order: 11
+prev: true
+next: true
 ---
 
 :::note

@@ -3,7 +3,8 @@ title: Degradation of Metals
 sidebar:
   order: 2
 slug: properties-of-materials/degradation/metals
-prev: false
+prev: true
+next: true
 ---
 
 ## Corrosion

@@ -4,6 +4,7 @@ slug: mechanics/dynamics/inversions
 sidebar:
   order: 8
 next: false
+prev: true
 ---
 
 The inversions are obtained by making different kinematic element stationary

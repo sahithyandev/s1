@@ -3,6 +3,8 @@ title: Extremums
 slug: maths/real-analysis/extremums
 sidebar:
   order: 17
+prev: true
+next: true
 ---
 
 Suppose $f:[a,b]\rightarrow \mathbb{R}$, and

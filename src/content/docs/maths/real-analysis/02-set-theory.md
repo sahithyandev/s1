@@ -3,6 +3,8 @@ title: Set theory
 slug: maths/real-analysis/set-theory
 sidebar:
   order: 2
+prev: true
+next: true
 ---
 
 Zermelo-Fraenkel set theory with axiom of choice (ZFC) --

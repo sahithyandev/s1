@@ -3,6 +3,8 @@ title: Crystal Structure
 slug: properties-of-materials/basics/crystal-secture
 sidebar:
   order: 7
+prev: true
+next: true
 ---
 
 Materials are categorized into 2, based on the arrangement of atoms or

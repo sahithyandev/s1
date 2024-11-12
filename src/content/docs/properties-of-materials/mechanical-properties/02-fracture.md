@@ -3,6 +3,8 @@ title: Fracture
 slug: properties-of-materials/mechanical-properties/fracture
 sidebar:
   order: 2
+prev: true
+next: true
 ---
 
 Separation of a solid into more than 1 parts under load or stress.

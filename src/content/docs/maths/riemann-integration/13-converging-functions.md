@@ -3,6 +3,8 @@ title: Converging Functions
 slug: maths/riemann-integration/converging-functions
 sidebar:
   order: 13
+prev: true
+next: true
 ---
 
 Convergence of functions is introduced in

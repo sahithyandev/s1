@@ -3,6 +3,8 @@ title: Fuses
 slug: electrical-fundamentals/fuses
 sidebar:
   order: 19
+prev: true
+next: true
 ---
 
 A device for opening a circuit by means of a conductor designed to melt when an

@@ -4,6 +4,7 @@ slug: programming-fundamentals/b-book/software-engineering
 sidebar:
   order: 8
 next: false
+prev: true
 ---
 
 ## Software

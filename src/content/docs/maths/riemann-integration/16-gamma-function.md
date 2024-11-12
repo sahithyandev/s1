@@ -3,7 +3,8 @@ title: Gamma function
 slug: maths/riemann-integration/gamma-function
 sidebar:
   order: 16
-next: false
+next: true
+prev: true
 ---
 
 Defined as below for $n\gt 0$: $ $

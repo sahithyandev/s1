@@ -3,6 +3,8 @@ title: Alternating Series
 slug: maths/real-analysis/alternating-series
 sidebar:
   order: 27
+prev: true
+next: true
 ---
 
 Suppose $u_k>0$. An alternating series is:$ $

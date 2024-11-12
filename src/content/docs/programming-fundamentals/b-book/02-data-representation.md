@@ -3,6 +3,8 @@ title: Data Representation
 slug: programming-fundamentals/b-book/data-representation
 sidebar:
   order: 2
+prev: true
+next: true
 ---
 
 There are 2 types of data in computers.

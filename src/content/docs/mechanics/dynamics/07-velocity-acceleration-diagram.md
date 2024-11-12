@@ -3,6 +3,8 @@ title: Velocity & Acceleration Diagram
 slug: mechanics/dynamics/velocity-acceleration-diagram
 sidebar:
   order: 7
+prev: true
+next: true
 ---
 
 $\text{O}$ is a fixed point. $ $

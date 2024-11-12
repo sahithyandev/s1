@@ -3,6 +3,8 @@ title: Impedance & Admittance
 slug: electrical-fundamentals/impedance-and-admittance
 sidebar:
   order: 13
+prev: true
+next: true
 ---
 
 ### Impedance (Z)

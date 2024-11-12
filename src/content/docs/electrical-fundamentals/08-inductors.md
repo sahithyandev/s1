@@ -3,6 +3,8 @@ title: Inductors
 slug: electrical-fundamentals/inductors
 sidebar:
   order: 8
+prev: true
+next: true
 ---
 
 When there is a current in the inductor, a magnetic field is created. Any change

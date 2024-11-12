@@ -5,6 +5,7 @@ sidebar:
   order: 1
 slug: fluid-mechanics/machinery/introduction
 prev: false
+next: true
 ---
 
 Learning about machines that transfer energy between its operating parts and a

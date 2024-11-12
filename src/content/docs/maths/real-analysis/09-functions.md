@@ -3,6 +3,8 @@ title: Functions
 slug: maths/real-analysis/functions
 sidebar:
   order: 9
+prev: true
+next: true
 ---
 
 A function $f:\,A\rightarrow{B}$ is a relation $f:\,A\rightarrow{B}$ which is

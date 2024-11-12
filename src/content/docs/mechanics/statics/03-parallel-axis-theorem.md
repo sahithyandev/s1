@@ -3,6 +3,8 @@ title: Parallel Axis Theorem
 slug: mechanics/statics/parallel-axis-theorem
 sidebar:
   order: 3
+prev: true
+next: true
 ---
 
 ```math

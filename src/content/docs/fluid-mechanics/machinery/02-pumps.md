@@ -3,6 +3,8 @@ title: Pumps
 slug: fluid-mechanics/machinery/pumps
 sidebar:
   order: 2
+prev: true
+next: true
 ---
 
 Energy flow direction is machine to fluid.

@@ -3,6 +3,8 @@ title: Ceramics
 slug: properties-of-materials/basics/ceramics
 sidebar:
   order: 4
+prev: true
+next: true
 ---
 
 Inter-molecular bonds: covalent and/or ionic.

@@ -5,6 +5,7 @@ sidebar:
   label: Introduction
   order: 1
 prev: false
+next: true
 ---
 
 A branch of mechanics, which deals with motion of bodies.

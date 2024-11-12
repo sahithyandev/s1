@@ -3,6 +3,8 @@ title: Functional Materials
 slug: properties-of-materials/basics/functional-materials
 sidebar:
   order: 13
+prev: true
+next: true
 ---
 
 Classification of materials based on whether most important function they

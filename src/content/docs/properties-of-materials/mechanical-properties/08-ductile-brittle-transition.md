@@ -3,6 +3,8 @@ title: Ductile-Brittle Transition
 slug: properties-of-materials/mechanical-properties/ductile-brittle-transition
 sidebar:
   order: 8
+prev: true
+next: true
 ---
 
 Ductile materials show brittle behavior as the temperature is lowered. This is

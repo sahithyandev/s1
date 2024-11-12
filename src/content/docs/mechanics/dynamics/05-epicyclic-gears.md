@@ -3,6 +3,8 @@ title: Epicyclic Gears
 slug: mechanics/dynamics/epicyclic-gears
 sidebar:
   order: 5
+prev: true
+next: true
 ---
 
 In below equations:

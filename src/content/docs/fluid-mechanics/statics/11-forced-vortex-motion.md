@@ -4,6 +4,7 @@ slug: fluid-mechanics/statics/forced-vortex-motion
 sidebar:
   order: 11
 next: false
+prev: true
 ---
 
 Another type of relative equilibrium. If a fluid-contained vessel is rotating at

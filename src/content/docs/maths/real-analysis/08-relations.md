@@ -3,6 +3,8 @@ title: Relations
 slug: maths/real-analysis/relations
 sidebar:
   order: 8
+prev: true
+next: true
 ---
 
 ## Definitions

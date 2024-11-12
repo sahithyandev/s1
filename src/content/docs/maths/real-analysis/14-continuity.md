@@ -3,6 +3,8 @@ title: Continuity
 slug: maths/real-analysis/continuity
 sidebar:
   order: 14
+prev: true
+next: true
 ---
 
 A function $f$ is continuous at $a$ **iff**:

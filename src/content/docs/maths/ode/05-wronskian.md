@@ -3,6 +3,8 @@ title: Wronskian
 slug: maths/ode/wronskian
 sidebar:
   order: 5
+prev: true
+next: true
 ---
 
 Consider the equation, where $P,Q$ are functions of $x$ alone, and which has $2$

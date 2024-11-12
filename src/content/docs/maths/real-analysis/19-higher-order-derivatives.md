@@ -3,6 +3,8 @@ title: Higher Order Derivatives
 slug: maths/real-analysis/higher-order-derivatives
 sidebar:
   order: 19
+prev: true
+next: true
 ---
 
 Suppose $f$ is a function defined on $(a,b)$. $f$ is $n$ times differentiable or

@@ -3,6 +3,8 @@ title: 3-Phased System
 slug: electrical-fundamentals/3-phase-system
 sidebar:
   order: 17
+prev: true
+next: true
 ---
 
 ## Why 3-phase?

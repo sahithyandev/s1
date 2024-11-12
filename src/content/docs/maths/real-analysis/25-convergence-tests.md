@@ -3,6 +3,8 @@ title: Convergence Tests
 slug: maths/real-analysis/convergence-tests
 sidebar:
   order: 25
+prev: true
+next: true
 ---
 
 ## Divergence test

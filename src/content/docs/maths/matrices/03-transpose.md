@@ -3,6 +3,8 @@ title: Transpose
 slug: maths/matrices/transpose
 sidebar:
   order: 3
+prev: true
+next: true
 ---
 
 Matrix obtained from a given matrix by interchanging its rows and columns.

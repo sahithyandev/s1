@@ -3,6 +3,8 @@ title: Echelon Form
 slug: maths/matrices/echelon-form
 sidebar:
   order: 9
+prev: true
+next: true
 ---
 
 A matrix is in row echelon form (or just "echelon" form) **iff**:

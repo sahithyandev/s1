@@ -3,6 +3,8 @@ title: Transformation Law
 slug: mechanics/statics/transformation-law
 sidebar:
   order: 5
+prev: true
+next: true
 ---
 
 The 2 sets of axes must share the origin.

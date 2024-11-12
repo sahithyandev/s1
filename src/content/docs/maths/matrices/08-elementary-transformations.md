@@ -3,6 +3,8 @@ title: Elementary Transformations
 slug: maths/matrices/elementary-transformations
 sidebar:
   order: 8
+prev: true
+next: true
 ---
 
 - Interchange of any columns or rows

@@ -4,6 +4,7 @@ slug: properties-of-materials/degradation/polymers
 sidebar:
   order: 5
 next: false
+prev: true
 ---
 
 Change in the chemical and/or physical structure of the polymer chain.

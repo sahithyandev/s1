@@ -3,6 +3,8 @@ title: Riemann Integrable
 slug: maths/riemann-integration/riemann-integrable
 sidebar:
   order: 6
+prev: true
+next: true
 ---
 
 A bounded function $f:[a,b]\rightarrow\mathbb{R}$ is Riemann integrable on

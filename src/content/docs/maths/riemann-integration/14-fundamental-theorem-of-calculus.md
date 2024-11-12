@@ -3,6 +3,8 @@ title: Fundamental Theorem of Calculus
 slug: maths/riemann-integration/fundamental-theorem-of-calculus
 sidebar:
   order: 14
+prev: true
+next: true
 ---
 
 ## Theorem I

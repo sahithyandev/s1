@@ -3,6 +3,8 @@ title: Trusses
 slug: mechanics/statics/trusses
 sidebar:
   order: 10
+prev: true
+next: true
 ---
 
 Also known as Ties-Struts model.

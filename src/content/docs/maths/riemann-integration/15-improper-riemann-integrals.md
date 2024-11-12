@@ -3,6 +3,8 @@ title: Improper Riemann Integrals
 slug: maths/riemann-integration/improper-riemann-integrals
 sidebar:
   order: 15
+prev: true
+next: true
 ---
 
 Iniitally Riemann integrals are defined only for **bounded** functions defined

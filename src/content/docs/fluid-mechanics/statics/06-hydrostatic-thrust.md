@@ -3,6 +3,8 @@ title: Hydrostatic Thrust
 slug: fluid-mechanics/statics/hydrostatic-thrust
 sidebar:
   order: 6
+prev: true
+next: true
 ---
 
 ## On a Plane Surface

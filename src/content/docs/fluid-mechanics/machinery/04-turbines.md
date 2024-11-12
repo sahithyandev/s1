@@ -4,6 +4,7 @@ slug: fluid-mechanics/machinery/turbines
 sidebar:
   order: 4
 next: false
+prev: true
 ---
 
 Used to generate electricity. Direction of energy transfer is fluid to machine.

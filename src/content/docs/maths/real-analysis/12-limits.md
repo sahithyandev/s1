@@ -3,6 +3,8 @@ title: Limits
 slug: maths/real-analysis/limits
 sidebar:
   order: 12
+prev: true
+next: true
 ---
 
 $\lim_\limits{x\to{a}}{f(x)}=L$ **iff**: $ $

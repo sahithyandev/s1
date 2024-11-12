@@ -3,6 +3,8 @@ title: Analysis of Trusses
 slug: mechanics/statics/analysis-of-trusses
 sidebar:
   order: 11
+prev: true
+next: true
 ---
 
 Deviations from the ideal in real trusses.

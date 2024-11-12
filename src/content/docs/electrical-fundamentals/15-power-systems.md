@@ -3,6 +3,8 @@ title: Power systems
 slug: electrical-fundamentals/power-systems
 sidebar:
   order: 15
+prev: true
+next: true
 ---
 
 An electric power system consists of 3 principle sections

@@ -3,6 +3,8 @@ title: Derived Formulas for Common Shapes
 slug: mechanics/statics/common-shapes
 sidebar:
   order: 2
+prev: true
+next: true
 ---
 
 | Shape                      | Description                                                   | $I_{xx}$                |

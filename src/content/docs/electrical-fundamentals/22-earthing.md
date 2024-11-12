@@ -3,6 +3,8 @@ title: Earthing
 slug: electrical-fundamentals/earthing
 sidebar:
   order: 22
+prev: true
+next: true
 ---
 
 An effective earthing system avoids having dangerous potentials on the equipment

@@ -3,6 +3,8 @@ title: CPU
 slug: programming-fundamentals/c-book/cpu
 sidebar:
   order: 3
+prev: true
+next: true
 ---
 
 CPU in today's computers are microprocessors. A CPU:

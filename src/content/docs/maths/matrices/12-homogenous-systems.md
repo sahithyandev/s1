@@ -3,6 +3,8 @@ title: Solutions of Homogenous Systems
 slug: maths/matrices/homogenous-systems
 sidebar:
   order: 12
+prev: true
+next: true
 ---
 
 Consider the system:

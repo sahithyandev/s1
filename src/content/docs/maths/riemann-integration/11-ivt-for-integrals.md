@@ -4,6 +4,8 @@ slug: maths/riemann-integration/ivt-for-integrals
 sidebar:
   label: IVT for Integrals
   order: 11
+prev: true
+next: true
 ---
 
 Suppose $f$ is a continuous function on $[a,b]$. Then $\exists x \in (a,b)$:

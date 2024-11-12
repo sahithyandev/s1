@@ -3,6 +3,8 @@ title: Toughness
 slug: properties-of-materials/mechanical-properties/toughness
 sidebar:
   order: 10
+prev: true
+next: true
 ---
 
 Maximum strain energy, a material can absorb upto fracture. Area under the

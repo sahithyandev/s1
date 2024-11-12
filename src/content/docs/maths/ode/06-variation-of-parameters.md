@@ -4,6 +4,7 @@ slug: maths/ode/variation-of-parameters
 sidebar:
   order: 6
 next: false
+prev: true
 ---
 
 Consider the equation, where $P,Q$ are functions of $x$ alone, and which has 2

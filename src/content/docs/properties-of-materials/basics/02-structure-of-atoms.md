@@ -3,6 +3,8 @@ title: Structure of Atoms
 slug: properties-of-materials/basics/structure-of-atoms
 sidebar:
   order: 2
+prev: true
+next: true
 ---
 
 ## Bohr theory

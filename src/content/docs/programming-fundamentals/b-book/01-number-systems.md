@@ -4,6 +4,7 @@ slug: programming-fundamentals/b-book/number-systems
 sidebar:
   order: 1
 prev: false
+next: true
 ---
 
 A writing system for expressing numbers. Each number system defines a set of

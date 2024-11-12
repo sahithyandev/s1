@@ -3,6 +3,8 @@ title: Strings
 slug: programming-fundamentals/b-book/strings
 sidebar:
   order: 5
+prev: true
+next: true
 ---
 
 A way of representing non-numerical data.

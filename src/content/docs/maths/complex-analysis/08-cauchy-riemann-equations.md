@@ -3,7 +3,8 @@ title: Cauchy-Riemann Equations
 slug: maths/complex-analysis/cauchy-riemann-equations
 sidebar:
   order: 8
-next: false
+next: true
+prev: true
 ---
 
 Suppose $f$ is a complex-valued function of a complex variable. **If** the

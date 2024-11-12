@@ -3,6 +3,8 @@ title: Hydrostatic Pressure
 slug: fluid-mechanics/statics/hydrostatic-pressure
 sidebar:
   order: 3
+prev: true
+next: true
 ---
 
 ![Pressure Definition](/fluids/pressure-definition.jpg)

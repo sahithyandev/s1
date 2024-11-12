@@ -3,6 +3,8 @@ title: Sequence
 slug: maths/real-analysis/sequence
 sidebar:
   order: 21
+prev: true
+next: true
 ---
 
 A sequence on a set $A$ is a function $u:\mathbb{Z}^{+}\rightarrow A$.

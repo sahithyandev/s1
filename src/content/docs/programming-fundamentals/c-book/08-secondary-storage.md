@@ -3,6 +3,8 @@ title: Secondary Storage
 slug: programming-fundamentals/c-book/secondary-storage
 sidebar:
   order: 8
+prev: true
+next: true
 ---
 
 Non-volatile or permanent. High capacity. Low cost-per-megabyte.

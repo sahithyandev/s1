@@ -3,6 +3,8 @@ title: Work Hardening
 slug: properties-of-materials/mechanical-properties/work-hardening
 sidebar:
   order: 9
+prev: true
+next: true
 ---
 
 Strength and hardness of a metal increases as a result of plastic deformation.

@@ -3,6 +3,8 @@ title: Conservation Laws
 slug: fluid-mechanics/dynamics/conservation-laws
 sidebar:
   order: 2
+prev: true
+next: true
 ---
 
 In fluid dynamics, 4 laws are used to analyse the fluid flow.

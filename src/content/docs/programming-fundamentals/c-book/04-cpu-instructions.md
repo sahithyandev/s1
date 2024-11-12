@@ -3,6 +3,8 @@ title: CPU Instructions
 slug: programming-fundamentals/c-book/cpu-instructions
 sidebar:
   order: 4
+prev: true
+next: true
 ---
 
 ## Instruction set

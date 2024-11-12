@@ -3,6 +3,8 @@ title: Known Limits
 slug: maths/real-analysis/known-limits
 sidebar:
   order: 13
+prev: true
+next: true
 ---
 
 ## Well-known limits

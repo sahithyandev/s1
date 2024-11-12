@@ -4,6 +4,7 @@ slug: properties-of-materials/electrical-properties/conductive-polymers
 sidebar:
   order: 6
 next: false
+prev: true
 ---
 
 A class of polymers that conduct electricity. aka. intrinsically conducting

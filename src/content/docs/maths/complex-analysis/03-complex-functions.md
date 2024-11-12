@@ -3,6 +3,8 @@ title: Complex Functions
 slug: maths/complex-analysis/complex-functions
 sidebar:
   order: 3
+prev: true
+next: true
 ---
 
 Suppose $w=f(z)$ where $z,w \in \mathbb{C}$. Input and output points are marked

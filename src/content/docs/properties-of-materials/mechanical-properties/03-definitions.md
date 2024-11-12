@@ -3,6 +3,8 @@ title: Definitions
 slug: properties-of-materials/mechanical-properties/definitions
 sidebar:
   order: 3
+prev: true
+next: true
 ---
 
 :::caution[TODO]

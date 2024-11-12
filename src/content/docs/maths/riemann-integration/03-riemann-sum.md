@@ -3,6 +3,8 @@ title: Riemann Sum
 slug: maths/riemann-integration/riemann-sum
 sidebar:
   order: 3
+prev: true
+next: true
 ---
 
 Let

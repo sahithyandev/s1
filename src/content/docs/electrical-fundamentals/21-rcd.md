@@ -3,6 +3,8 @@ title: Residual Current Device (RCD)
 slug: electrical-fundamentals/rcd
 sidebar:
   order: 21
+prev: true
+next: true
 ---
 
 ![RCD](/electrical/rcd.jpg)

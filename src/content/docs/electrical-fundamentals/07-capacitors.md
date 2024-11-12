@@ -3,6 +3,8 @@ title: Capacitors
 slug: electrical-fundamentals/capacitors
 sidebar:
   order: 7
+prev: true
+next: true
 ---
 
 Made of two conductive plates separated by an insulating

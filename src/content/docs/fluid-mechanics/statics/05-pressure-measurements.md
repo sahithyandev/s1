@@ -3,6 +3,8 @@ title: Pressure Measurements
 slug: fluid-mechanics/statics/pressure-measurements
 sidebar:
   order: 5
+prev: true
+next: true
 ---
 
 ## Barometer

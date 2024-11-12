@@ -3,6 +3,8 @@ title: Matrix Multiplication
 slug: maths/matrices/matrix-multiplication
 sidebar:
   order: 2
+prev: true
+next: true
 ---
 
 Suppose $A=(a_{ij})_{m\times{p}}$ and $B=(b_{ij})_{q\times{n}}$. Matrix

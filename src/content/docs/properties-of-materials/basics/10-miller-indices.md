@@ -3,6 +3,8 @@ title: Miller Indices
 slug: properties-of-materials/basics/miller-indices
 sidebar:
   order: 10
+prev: true
+next: true
 ---
 
 ![Miller Indices in Simple Cubic](/props/miller-indices.jpg)

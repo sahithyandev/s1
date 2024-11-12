@@ -3,6 +3,8 @@ title: Theorems on Integrability
 slug: maths/riemann-integration/theorems-on-integrability
 sidebar:
   order: 8
+prev: true
+next: true
 ---
 
 ## Theorem 1

@@ -3,6 +3,8 @@ title: Cayley-Hamilton Theorem
 slug: maths/matrices/cayley-hamilton-theorem
 sidebar:
   order: 19
+prev: true
+next: true
 ---
 
 If $p(\lambda)$ is the characteristic polynomial of the matrix $A_{n\times n}$,

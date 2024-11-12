@@ -3,6 +3,8 @@ title: More Types of Matrices
 slug: maths/matrices/more-types
 sidebar:
   order: 4
+prev: true
+next: true
 ---
 
 ## Symmetric matrix

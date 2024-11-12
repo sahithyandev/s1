@@ -3,6 +3,8 @@ title: Common Terms
 slug: electrical-fundamentals/terms
 sidebar:
   order: 3
+prev: true
+next: true
 ---
 
 ## Branch

@@ -3,6 +3,8 @@ title: Limits
 slug: maths/complex-analysis/limits
 sidebar:
   order: 4
+prev: true
+next: true
 ---
 
 $\lim_\limits{z\to z_0} f(z) = L$ **iff**: $ $

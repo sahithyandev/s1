@@ -3,6 +3,8 @@ title: Structural Elements
 slug: mechanics/statics/structural-elements
 sidebar:
   order: 9
+prev: true
+next: true
 ---
 
 3 types:

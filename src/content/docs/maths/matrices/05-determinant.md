@@ -3,6 +3,8 @@ title: Determinant
 slug: maths/matrices/determinant
 sidebar:
   order: 5
+prev: true
+next: true
 ---
 
 Defined only for square matrices. Denoted by $\lvert A\rvert$. $ $

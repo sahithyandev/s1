@@ -3,6 +3,8 @@ title: Completeness Axiom
 slug: maths/real-analysis/completeness-axiom
 sidebar:
   order: 6
+prev: true
+next: true
 ---
 
 Let $A$ be a non empty subset of $\mathbb{R}$.

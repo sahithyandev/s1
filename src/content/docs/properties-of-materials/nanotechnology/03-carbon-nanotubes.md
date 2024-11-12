@@ -4,6 +4,7 @@ slug: properties-of-materials/nanotechnology/carbon-nanotubes
 sidebar:
   order: 3
 next: false
+prev: true
 ---
 
 A rolled up sheet of graphene.

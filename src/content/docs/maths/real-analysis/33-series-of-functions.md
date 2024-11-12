@@ -3,6 +3,8 @@ title: Series of Functions
 slug: maths/real-analysis/series-of-functions
 sidebar:
   order: 33
+prev: true
+next: true
 ---
 
 Let $u_k(x)$ is a sequence of integrable functions. And series of those

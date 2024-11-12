@@ -3,6 +3,8 @@ title: Orthogonal
 slug: maths/matrices/orthogonal
 sidebar:
   order: 15
+prev: true
+next: true
 ---
 
 Consider 2 column matrices $v_1$ and $v_2$:

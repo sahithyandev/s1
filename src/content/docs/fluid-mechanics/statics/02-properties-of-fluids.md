@@ -3,6 +3,8 @@ title: Properties of Fluids
 slug: fluid-mechanics/statics/properties-of-fluids
 sidebar:
   order: 2
+prev: true
+next: true
 ---
 
 ## Mass Density

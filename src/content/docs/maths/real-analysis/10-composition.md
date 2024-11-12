@@ -3,6 +3,8 @@ title: Composition
 slug: maths/real-analysis/composition
 sidebar:
   order: 10
+prev: true
+next: true
 ---
 
 ## Composition of relations

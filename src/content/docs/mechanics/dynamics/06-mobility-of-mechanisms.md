@@ -3,6 +3,8 @@ title: Mobility of Mechanisms
 slug: mechanics/dynamics/mobility-of-mechanisms
 sidebar:
   order: 6
+prev: true
+next: true
 ---
 
 ### Independent object

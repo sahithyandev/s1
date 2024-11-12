@@ -3,6 +3,8 @@ title: Metals
 slug: properties-of-materials/basics/metals
 sidebar:
   order: 3
+prev: true
+next: true
 ---
 
 Metals can be categorized into 2 types. Metals are isotropic. Metals are
