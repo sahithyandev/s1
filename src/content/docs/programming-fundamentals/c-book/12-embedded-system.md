@@ -86,11 +86,10 @@ optimizations which are greater than the sum of their parts.
 
 ### Delivering good performance
 
-Many embedded systems (e.g., anti-lock brakes in a car) have real-time
-requirements. Unfortunately, many of the performance enhancing features which
-make personal computers so fast also make it difficult to predict their
-performance accurately. Such features include pipelined and out-of-order
-instruction execution in the processor, and caches in the memory system. Hence
-the challenge for real-time system researchers is to develop approaches to
+Many embedded systems have real-time requirements. Unfortunately, many of the
+performance enhancing features make it difficult to predict their performance
+accurately.
+
+Hence the challenge for real-time system researchers is to develop approaches to
 design fast systems with easily predicted performance, or to measure existing
 complex but fast systems more accurately.

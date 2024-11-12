@@ -4,7 +4,7 @@ slug: programming-fundamentals/b-book/data-types
 sidebar:
   order: 6
 prev: true
-next: true
+next: false
 ---
 
 Data types can be grouped into 3 categories.
@@ -75,13 +75,13 @@ collection.
 
 Defined methods:
 
-- isEmpty()
-- prepend(item)
-- append(item)
-- head()
-- get(i)
-- set(i)
-- tail()
+- `isEmpty()`
+- `prepend(item)`
+- `append(item)`
+- `head()`
+- `get(i)`
+- `set(i)`
+- `tail()`
 
 :::note
 
@@ -98,6 +98,14 @@ elements must be immutable). No duplicate elements.
 ### Dictionary
 
 Collection of key-value pairs. Unordered.
+
+### Stack
+
+A "Last-In-First-Out" model.
+
+### Queue
+
+A "First-In-First-Out" model. Implemented in Python as `deque`.
 
 ### Tree
 

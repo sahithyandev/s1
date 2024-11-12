@@ -124,15 +124,12 @@ Type of memory modules:
 ## Memory Hierarchy
 
 Modern CPUs are much faster than the speed of memory. The memory has to be
-organised in such a way that its slower speed does not reduce the performance of
-the overall system.
+organised in such a way that its slower speed does not reduce the overall system
+performance.
 
-The ultimate objective of having a memory hierarchy is to have a memory system
-with a sufficient capacity and which is as cheap as the cheapest memory type and
-as fast as the fastest memory type. The main idea is to use a limited capacity
-of fast but expensive memory types and a larger capacity of slow but cheap
-memory types. Special methods are used to store the frequently used items in the
-faster devices and others in slower devices.
+The objective of having a memory hierarchy is to minimize cost, maximize
+capacity and performance. Special methods are used to store the frequently used
+items in the faster devices and others in slower devices.
 
 ### Traditional
 

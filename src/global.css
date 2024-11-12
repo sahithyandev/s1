@@ -252,7 +252,15 @@ blockquote {
 svg text {
 	@apply fill-current;
 }
-
 .sl-link-button {
 	@apply rounded-lg py-3;
+}
+.sl-markdown-content li code {
+	font-size: 0.9em;
+}
+.sl-markdown-content p code {
+	font-size: 0.9em;
+}
+.pagination-links a {
+	@apply bg-gray-100 dark:bg-gray-700 shadow-none;
 }

@@ -5,7 +5,7 @@ sidebar:
   label: Introduction
   order: 1
 prev: false
-next: false
+next: true
 ---
 
 An assembly (connected as a complete set) of associated electrical equipment to
@@ -71,6 +71,6 @@ Protecting livestock and electrical equipments from electric faults.
 
 - Earthing of equipments
 - Use of
-  [circuit breakers](/electrical-fundamentals/electrical-installation/mcb)/[fuses](/electrical-fundamentals/electrical-installation/fuses/)
+  [circuit breakers](/electrical-fundamentals/electrical-installation/circuit-breakers)/[fuses](/electrical-fundamentals/electrical-installation/fuses/)
 - Use of
   [residual current circuit breakers](/electrical-fundamentals/electrical-installation/rcd)

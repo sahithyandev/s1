@@ -1,10 +1,10 @@
 ---
 title: Circuit Breaker
-slug: electrical-fundamentals/electrical-installation/mcb
+slug: electrical-fundamentals/electrical-installation/circuit-breakers
 sidebar:
   order: 3
 prev: true
-next: true
+next: false
 ---
 
 A device for making and breaking a circuit. Operated by hand or automatically.
@@ -22,14 +22,13 @@ Things to consider when choosing a circuit breaker:
 
 MCB is short for miniature circuit breaker. Not main circuit breaker.
 
-Has 4 functional components:
+Has 3 functional components:
 
-- A thermal overload trip (bi-metal)
-- An electromagnetic short-circuit trip
+- A thermal overload trip (bi-metal) or an electromagnetic short-circuit trip
 - A switching mechanism with contacts
 - Arc exhausting system
 
-## Function of the thermal device
+### Function of the thermal device
 
 ![Thermal device of MCB](/electrical/function-of-mcb-thermal.jpg)
 
@@ -40,7 +39,7 @@ intensity of heat dependent on the intensity of the current flow and the
 duration. As can be seen from the figure, after the deflection (or temperature)
 exceeds a predetermined amount, the tripping mechanism is activated
 
-## Function of the EM device
+### Function of the EM device
 
 ![EM device of MCB](/electrical/function-of-mcb-em.jpg)
 
@@ -65,7 +64,8 @@ Advantages of a MCB over fuses:
 
 ### Earth leakage current
 
-Can be used to detect electrical faults to earth in electrical.
+Can be used to detect electrical faults to earth in electrical. There are 2
+types of circuit breakers to detect electrical faults to earth.
 
 - Voltage operated protection - Earth Leakage Circuit Breaker (ELCB)
 - Current operated protection - Residual Current Circuit Breaker (RCCB) or
