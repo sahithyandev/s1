@@ -166,11 +166,12 @@ br {
 	@apply !mb-0;
 }
 @page {
-	margin-top: 1in;
+	margin-top: 0.3in;
 	margin-bottom: 1in;
 }
 @media print {
 	:root {
+		--credits: "Sahithyan's S1";
 		--path: "https://s1.sahithyan.dev";
 	}
 	header.header,
@@ -182,10 +183,15 @@ br {
 	}
 	div:has(> .sl-markdown-content)::after {
 		@apply block mt-8 text-sm;
-		content: "This PDF is saved from " var(--path);
+		content: "This PDF is saved from " var(--credits) " (" var(--path) ")";
 	}
 	.main-frame {
 		@apply pt-2 pl-2;
+	}
+	h1::before {
+		@apply opacity-80 block mb-1;
+		content: "Sahithyan's S1";
+		font-size: 1rem;
 	}
 	h1,
 	h2,

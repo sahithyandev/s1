@@ -109,7 +109,7 @@ export default function generatePdfsIntegration(): AstroIntegration {
 							.replaceAll("title: Introduction to ", "");
 						const frontmatter = parts[1]
 							.split("\n")[1]
-							.replaceAll("Introduction to ", "Summary | ")
+							.replaceAll("Introduction to ", "")
 							.concat(`\nsidebar:\n  label: ${sidebarLabel}\n`);
 						outputFileContents[outputPath] = "---".concat(
 							"\n",
@@ -220,6 +220,12 @@ export default function generatePdfsIntegration(): AstroIntegration {
 							path: pathToSavePdf,
 							format: "A4",
 							scale: 0.9,
+							margin: {
+								top: 0,
+								left: 0,
+								bottom: 0,
+								right: 0,
+							},
 						});
 						logger.info(`saved: ${pageUrl} (to ${pathToSavePdf})`);
 
