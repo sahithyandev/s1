@@ -13,6 +13,14 @@ Deterioration of metals due to the reaction with the environment.
 
 All corrosion reactions are electrochemical in nature.
 
+:::note
+
+If the water contained salt(s), metal chloride(s) will be formed. All metal
+chlorides other than $\ce{NaCl, KCl}$ hydrolize in water, and produces acid.
+Acids increase the rate of corrosion. $ $
+
+:::
+
 ## Electrochemical reactions
 
 Pair of reactions in which electron transfer occurs from one reaction to
@@ -40,6 +48,11 @@ The site at which reduction takes place.
 
 Measure of a metal's ability to work as a anode or cathode. Measured in
 reference to hydrogen. Denoted by $E^\theta$. $ $
+
+## Electrochemical series
+
+A series of pure metals in the order of their standard electrode potential.
+Alloys and other materials are not listed.
 
 ## Cell
 

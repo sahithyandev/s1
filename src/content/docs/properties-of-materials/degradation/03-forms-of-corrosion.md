@@ -39,30 +39,41 @@ All other forms of corrosion happen on selected areas of a metal.
 
 When 2 metals are in contact (electrically) and placed in a corrosive
 environment, only one metal --the element with most negative potential--
-corrodes. Aka. two metal corrosion.
-
-Galvanic corrosion can happen even inside 1 metal. In such cases, one part of
-the metal becomes anodic to the rest. For example, a piece of iron immersed in
-water. Initially iron goes under uniform corrosion. Once the oxygen in the water
-is depleted, iron just above the water surface starts to react as a cathode.
-Severe corrosion occurs just below the water level.
-
-Corrosion will be severe at the junction.
+corrodes. Aka. two metal corrosion. Corrosion happens in the anode near the
+junction.
 
 ### Area effect
 
-Smaller the anode, severe will be the corrosion.
+Smaller the anode, severe will be the corrosion. To reduce the corrosion when 2
+metals are in contact, bigger anode is used to reduce the area effect.
 
 ### Galvanic series
 
 Designed to be an extension of electrochemical series that includes alloys and
-non-metals. Materials are ordered in ascending order of reactivity. Materials in
-the lower position becomes the anode. Specific for a particular environment.
+non-metals. Materials are ordered in ascending order of reactivity. Only a
+ranking order and not a measure. Materials in the lower position becomes the
+anode. Specific for a particular environment.
+
+### In a single metal
+
+Galvanic corrosion can happen in a single metal. One part of the metal becomes
+anodic to the rest.
+
+For example, a piece of iron immersed in water. Initially iron goes under
+uniform corrosion. Once the oxygen in the water is depleted, the iron inside the
+water will become the anode. Iron just above the water surface becomes the
+cathode. Severe corrosion occurs just below the water level.
 
 ## Crevice corrosion
 
-If a crevice (a crack forming a narrow opening) is in contact with a liquid, the
-crevice undergoes corrosion with virtually no attack in the other region.
+When a crevice is in contact with a liquid, the crevice undergoes corrosion.
+Corrosion is limited to the crevice.
+
+:::note
+
+A crevice is a crack forming a narrow opening.
+
+:::
 
 Crevice becomes anodic becuase of low oxygen supply. Exposed area has high
 oxygen supply and works as a cathode.
@@ -72,9 +83,5 @@ oxygen supply and works as a cathode.
 Consider a riveted metal-plate section in contact with domestic water.
 
 Initially it will corrode uniformly. After some time, crevice becomes depleted
-with oxygen due to restricted convection. Now the crevice becomes the anode. As
-the anode area is much smaller compared to cathode, corrosion will be severe.
-
-If the water contained salt(s), metal chloride(s) will be formed. All metal
-chlorides other than NaCl, KCl hydrolize in water. And produces acid. Acids
-increase the rate of corrosion.
+with oxygen due to restricted convection. Now the crevice becomes the anode.
+Becasue of [area effect](#area-effect), corrosion will be severe.

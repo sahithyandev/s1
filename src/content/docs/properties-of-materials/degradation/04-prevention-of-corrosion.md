@@ -4,7 +4,7 @@ slug: properties-of-materials/degradation/prevention-of-corrosion
 sidebar:
   order: 4
 prev: true
-next: true
+next: false
 ---
 
 Corrosion results in loss of materials and money. It must be minimized or
@@ -12,7 +12,7 @@ controlled.
 
 ## To avoid corrosion
 
-- Use noble metals (Au, Pt)
+- Use noble metals $(\ce{Au}, \ce{Pt})$
 - Use purest possible metal - not possible in real life
 - Use corrosion resistant alloys
 - Use non-metals (like polymers or ceramics)
@@ -26,8 +26,8 @@ Corrosion can be prevented by making the metallic structure as cathode.
 ### Galvanic protection
 
 Metal to be protected is made cathode by connecting it to an anodic metal (which
-is called the sacrificial anode). Zn and Mg are commonly used as anodic metals.
-Aka. sacrificial anodic protection.
+is called the sacrificial anode). $\ce{Zn}$ and $\ce{Mg}$ are commonly used as
+anodic metals. Aka. sacrificial anodic protection.
 
 #### Uses
 
@@ -70,15 +70,14 @@ environment.
 
 :::note
 
-Stainless steel is usually protected from corrosion by $\text{Cr}_2\text{O}_3$
-layer.
+Stainless steel is usually protected from corrosion by $\ce{Cr2O3}$ layer. $ $
 
 :::
 
 ### Galvanizing
 
-The process of coating steel sheets with a thin coat of zinc to prevent them
-from rusting.
+The process of coating steel sheets with a thin coat of $\ce{Zn}$ to prevent
+them from rusting. $ $
 
 Steel article is:
 
