@@ -33,8 +33,8 @@ anodic metals. Aka. sacrificial anodic protection.
 
 - Protection from soil corrosion of buried pipelines, underground cables
 - Protection from marine corrosion of cables, ship hulls, piers
-- Prevention of rust in water boilers by inserting magnesium
-- Minimizing engine corrosion using calcium
+- Prevention of rust in water boilers by inserting $\ce{Mg}$
+- Minimizing engine corrosion using $\ce{Ca}$
 
 ### Impressed current cathodic protection
 
@@ -49,7 +49,7 @@ Corrosion can be prevented by adding inhibitors to the environment.
 
 Examples:
 
-- Hydrogen evolution posions - used when cathodic reactions are HER.
+- Hydrogen evolution poisons - used when cathodic reactions are HER.
 - Oxygen scavengers - eliminates oxygen from the corroding medium. used when
   cathodic reactions are ORR.
 
@@ -79,14 +79,14 @@ Stainless steel is usually protected from corrosion by $\ce{Cr2O3}$ layer. $ $
 The process of coating steel sheets with a thin coat of $\ce{Zn}$ to prevent
 them from rusting. $ $
 
-Steel article is:
+The process steps are, Steel article is:
 
-1. cleaned with diluted sulfuric acid
+1. cleaned with diluted $\ce{H2SO4}$
 2. washed with distilled water
 3. dried
-4. dipped in a bath of molten zinc
+4. dipped in a bath of molten $\ce{Zn}$
 
-Now zinc is coated on the steel article.
+And now the $\ce{Zn}$ coating will have been applied. $ $
 
 ### Paints
 

@@ -21,6 +21,7 @@ const TIME_NOW = new Date().valueOf();
     @param {Array<string>} mdFilePaths
 */
 export async function autoSlug(mdFilePaths) {
+	console.log(mdFilePaths);
 	for (let i = 0; i < mdFilePaths.length; i++) {
 		const filePath = mdFilePaths[i];
 		if (!filePath.endsWith(".md")) {
@@ -73,6 +74,7 @@ export async function autoSlug(mdFilePaths) {
 		} else {
 			file.data.prev = true;
 		}
+		console.log(`${i} ${file.data.slug} ${section}`);
 		if (i === mdFilePaths.length - 1 || !mdFilePaths[i + 1].includes(section)) {
 			file.data.next = false;
 		} else {
