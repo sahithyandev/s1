@@ -1,17 +1,17 @@
 ---
 title: Power and Power factor
-slug: electrical-fundamentals/power-and-power-factor
+slug: electrical-fundamentals/basics/power-and-power-factor
 sidebar:
-  order: 14
+  order: 13
 prev: true
 next: true
 ---
 
 - In a purely resistive AC circuit, the energy delivered by the source will be
-  dissipated in the form of the heat by the resistance.
+  dissipated as heat by the resistor.
 - In a purely capacitive or purely inductive circuit, all of the energy will be
-  stored during one half of each cycle, and then returned to the source during
-  the other half cycle – there will be no net conversion to heat.
+  stored during a half cycle, and then returned to the source during the other –
+  there will be no net conversion to heat.
 - When there is both a resistive component and a reactive component, some energy
   will be stored, and some will be converted to heat during each cycle.
 
@@ -31,7 +31,7 @@ p(t) = \frac{V_m^2}{R}\cos^2{(\omega t)}
 Always: $p(t)\gt 0$. $ $
 
 ```math
-\text{Average power} = \frac{1}{2}\text{Peak power}=\cfrac{V_m^2}{2R}
+\text{Average power} = \frac{1}{2}\times\text{Peak power}=\cfrac{V_m^2}{2R}
 ```
 
 ### Purely inductive circuit
@@ -56,7 +56,7 @@ Instantaneous power dissipated by the load is given by:
 p(t) = -\frac{V_m^2 \omega C}{2}\sin{(2\omega t)}
 ```
 
-### Power of a general load
+### General load
 
 Consider a general load with both resistive and reactive components. Depending
 on how inductive or capacitive the reactive component, the phase shift between
@@ -72,10 +72,10 @@ i(t) = I_m\cos{(\omega t - \theta)}
 This ends up with:
 
 ```math
-p(t) = \frac{1}{2}V_mI_m\bigg[\cos\theta+\cos\bigg(\omega t - \frac{\theta}{2}\bigg)\bigg]
+p(t) = \frac{1}{2}V_mI_m\bigg[\cos\theta+\cos (2\omega t - \theta)\bigg]
 ```
 
-#### Average of over 1 cycle
+#### Average over 1 cycle
 
 ```math
 P_\text{avg} =\frac{1}{T}\int_{t_0}^{t_0 + T} p(t)\,\text{d}t = V_{\text{rms}}I_{\text{rms}}\cos{\theta}
@@ -85,25 +85,24 @@ P_\text{avg} =\frac{1}{T}\int_{t_0}^{t_0 + T} p(t)\,\text{d}t = V_{\text{rms}}I_
 
 ### Reactive Power
 
-Power delivered to/from a pure energy storage element is known as reactive
-power.
+Power delivered to/from a pure energy storage element (inductors and capacitors)
+is known as reactive power.
 
-- Average power consumed by a pure energy storage element is zero.
+- Average power consumed by a pure energy storage element is $0$.
 - Current associated with it is **not** $0$. Transmission lines, transformers,
   fuses, etc. must all be designed to be capable of withstanding this current.
 - Loads with energy storage elements will draw large currents and require heavy
   duty wiring even though little average power is consumed.
-- In all electrical and electronic systems, it is the true power (the resistive
-  power) that does the work, the reactive power simply shuttles back and forth
-  between the source and the load.
-- This means that the apparent power supplied is a combination of the true and
-  the reactive power.
+- Shuttles back and forth between the source and the load.
 
 ```math
 Q_\text{reactive} = V_\text{rms}I_\text{rms}\sin\theta
 ```
 
 ### Active power
+
+Aka. true power, resistive power. In all electrical and electronic systems, it
+is the true power (the resistive power) that does the work.
 
 ```math
 P = V_{\text{rms}}I_{\text{rms}}\cos{\theta}
@@ -117,23 +116,26 @@ In a question, if "power" is asked to be calculated, that means "active power".
 
 ### Apparent power
 
+Combination of active and reactive power.
+
 ```math
 S = V_\text{rms}I_\text{rms} = \sqrt{P^2 + Q^2}
 ```
 
-The apparent power is essentially the effective power that the source “sees”
+The apparent power is essentially the effective power that the source “sees”.
 
-:::note[The Beer Analogy]
+## The Beer Analogy
 
-- Beer - Active power Liquid beer is useful power. The power that does the work.
-- Foam - Reactive power Wasted or lost power. The power that does the work.
-- Mug - Apparent power Demand power, that is being delivered by the utility.
-
-:::
+- Beer - Active power  
+  Liquid beer is useful power. The power that does the work.
+- Foam - Reactive power  
+  Wasted or lost power.
+- Mug - Apparent power  
+  Demand power, that is being delivered by the utility.
 
 ## Power factor
 
-If $\theta$ is the phase angle difference between $v$ and $i$, $cos(\theta)$ is
+If $\theta$ is the phase angle difference between $v$ and $i$, $\cos(\theta)$ is
 called the power factor.
 
 Power factor appears in the equation of $P_\text{avg}$. $ $

@@ -1,8 +1,8 @@
 ---
-title: Introduction to Waves
-slug: electrical-fundamentals/introduction-to-waves
+title: Waves
+slug: electrical-fundamentals/basics/waves
 sidebar:
-  order: 10
+  order: 9
 next: true
 prev: true
 ---
@@ -22,9 +22,14 @@ $\frac{1}{T}$.
 A waveform that changes in magnitude and direction with time. Is also a periodic
 waveform.
 
+### Symmetric Waveform
+
+A periodic waveform that is symmetric about the time axis.
+
 ### Sinusoidal Waves
 
-Same as $\sin\theta$ vs $\theta$ (in rad). Also called sine waves or sinusoid.
+An alternating and symmetric waveform. Same as $\sin\theta$ vs $\theta$ (in
+rad). Also called sine waves or sinusoid.
 
 $y=A\sin(\omega{t}+\phi)$
 

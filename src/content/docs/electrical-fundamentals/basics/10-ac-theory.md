@@ -1,8 +1,8 @@
 ---
-title: Definitions in AC Theory
-slug: electrical-fundamentals/definitions-in-ac-theory
+title: AC Theory
+slug: electrical-fundamentals/basics/ac-theory
 sidebar:
-  order: 11
+  order: 10
 prev: true
 next: true
 ---
@@ -13,7 +13,7 @@ Only sinusoidal AC supply are considered in s1.
 
 :::
 
-Say $v$ is alternating as in $v=V_{m}sin(\omega{t}+\phi)$.
+Say $v$ is alternating as in $v=V_{m}\sin(\omega{t}+\phi)$.
 
 ## Peak value
 
@@ -22,9 +22,8 @@ Maximum instantaneous value. $V_m$ in the example. $ $
 ## Peak-to-peak value
 
 Maximum variation between maximum positive and negative instantaneous values.
-$2V_m$ in the example. $ $
-
-For a sinusoidal waveform, this is twice the peak value.
+For a sinusoidal waveform, this is twice the peak value. $2V_m$ in the example.
+$ $
 
 ## Mean value
 
@@ -69,7 +68,10 @@ v_{\text{average}}
 0.637V_m
 ```
 
-## Effective value or rms (root mean square) value
+## rms value
+
+Aka. effective value. rms value is always used to express the magnitude of a
+time varying quantity.
 
 ```math
 v_{\text{rms}}=
@@ -86,7 +88,7 @@ v_{\text{rms}}=
 V_m
 \sqrt{
 \frac{1}{T}
-\int_{T_0}^{T_0+T}{sin^2{(\omega{t}+\phi)}\,\text{d}t}
+\int_{T_0}^{T_0+T}{\sin^2{(\omega{t}+\phi)}\,\text{d}t}
 }
 =
 \frac{V_m}{\sqrt{2}}
@@ -96,12 +98,6 @@ V_m
 
 $i_{\text{rms}}$ is the equivalent current that dissipates same amount of power
 across a resistor $R$ in time $T$ as $i(t)$. Similar for voltage.
-
-:::
-
-:::note
-
-rms value is always used to express the magnitude of a time varying quantity.
 
 :::
 

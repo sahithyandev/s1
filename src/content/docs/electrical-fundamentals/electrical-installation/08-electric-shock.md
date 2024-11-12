@@ -1,8 +1,8 @@
 ---
 title: Electric Shock
-slug: electrical-fundamentals/electric-shock
+slug: electrical-fundamentals/electrical-installation/electric-shock
 sidebar:
-  order: 25
+  order: 8
 next: false
 prev: true
 ---

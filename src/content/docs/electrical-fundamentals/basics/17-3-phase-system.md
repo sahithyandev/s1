@@ -1,10 +1,10 @@
 ---
 title: 3-Phased System
-slug: electrical-fundamentals/3-phase-system
+slug: electrical-fundamentals/basics/3-phase-system
 sidebar:
   order: 17
 prev: true
-next: true
+next: false
 ---
 
 ## Why 3-phase?
@@ -145,13 +145,14 @@ Here:
 - $V_l$ - line voltage
 - $I_l$ - line current
 - $\cos\theta$ - power factor
-- The power can either be source power, load power, transmission power losses.
+- The power can either be source power, load power, or transmission power
+  losses.
 
 ## Unbalanced 3-phase system
 
-A 3-phase system becomes unbalanced, when load distribution among the phases is
-equal. $I_N\neq 0$. Highly undesirable. Neutral wire is the return path for the
-line currents. $ $
+A 3-phase system becomes unbalanced, when load distribution is not equal among
+the phases. $I_N\neq 0$. Highly undesirable. Neutral wire is the return path for
+the line currents and is compulsory. $ $
 
 Large currents in the neutral wire could cause:
 
@@ -161,3 +162,9 @@ Large currents in the neutral wire could cause:
 
 Each phase will be different. Complete system has to be considered when
 analyzing the circuit.
+
+:::note
+
+Analyis of unbalanced 3-phase systems is not required in s1.
+
+:::

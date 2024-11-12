@@ -1,6 +1,6 @@
 ---
 title: Hydro Power Plant
-slug: electrical-fundamentals/hydro-power-plant
+slug: electrical-fundamentals/basics/hydro-power-plant
 sidebar:
   order: 16
 prev: true
@@ -11,8 +11,8 @@ next: true
 
 ### Penstock
 
-Large pipes laid on a slope. Carries water from the reservoir to the turbine.
-Used to increase the velocity of the water.
+Large pipes laid on a slope. Carries water from a reservoir to a turbine. Used
+to increase the velocity of the water.
 
 ### Surge tank
 

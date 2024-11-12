@@ -93,10 +93,22 @@ export default defineConfig({
 				},
 				{
 					label: "Electrical Fundamentals",
-					collapsed: true,
-					autogenerate: {
-						directory: "electrical-fundamentals",
-					},
+					items: [
+						{
+							label: "Basics",
+							collapsed: true,
+							autogenerate: {
+								directory: "electrical-fundamentals/basics",
+							},
+						},
+						{
+							label: "Electrical Installation",
+							collapsed: true,
+							autogenerate: {
+								directory: "electrical-fundamentals/electrical-installation",
+							},
+						},
+					],
 				},
 				{
 					label: "Fluid Mechanics",

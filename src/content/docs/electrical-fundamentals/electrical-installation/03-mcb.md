@@ -1,8 +1,8 @@
 ---
 title: Circuit Breaker
-slug: electrical-fundamentals/mcb
+slug: electrical-fundamentals/electrical-installation/mcb
 sidebar:
-  order: 20
+  order: 3
 prev: true
 next: true
 ---

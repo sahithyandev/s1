@@ -1,8 +1,8 @@
 ---
 title: Impedance & Admittance
-slug: electrical-fundamentals/impedance-and-admittance
+slug: electrical-fundamentals/basics/impedance-and-admittance
 sidebar:
-  order: 13
+  order: 12
 prev: true
 next: true
 ---
@@ -17,6 +17,12 @@ Here:
 
 - $R$: Resistance
 - $X$: Reactance
+
+:::note
+
+When mentioning the reactance of an element, the $j$ should not be included. $ $
+
+:::
 
 ### Admittance (Y)
 
@@ -61,7 +67,7 @@ Let $i=I_m\sin{(\omega t + \phi_0)}$ is applied across an inductor with
 inductance $L$.
 
 ```math
-v=L\omega I_m\sin{(\omega t + (\phi_0+\frac{\pi}{2}))}
+v=L\omega I_m\sin{\bigg(\omega t + \Big(\phi_0+\frac{\pi}{2}\Big)\bigg)}
 \implies
 Z_L = j\omega L
 ```
@@ -107,38 +113,10 @@ If $v$: $ $
 
 ## For complex circuit elements
 
-### Real Inductor
+### For a series circuit
 
-![Real Inductor](/electrical/real-inductor.jpg)
+Resultant impedance is the sum of each component's impedance.
 
-Take $\overline{I}$ as the reference. We get: $ $
+### For a parallel circuit
 
-```math
-\overline{V}=
-\overline{I}(R+j\omega L)
-```
-
-From here $\overline{Z}$ can be written (in cartesian or polar form): $ $
-
-```math
-\overline{Z}=R+j\omega L=\lvert \overline{Z}\rvert\angle\phi
-```
-
-### RLC series circuit
-
-![RLC series circuit](/electrical/rlc-series-circuit.jpg)
-
-Complex impedances are added up to find the total impedance of a series circuit.
-
-```math
-\overline{Z}=
-R+j(\omega L - \frac{1}{\omega C})
-```
-
-## For a series circuit
-
-Total impedance is the sum of each component's impedance.
-
-## For a parallel circuit
-
-Total admittance is the sum of each component's admittance.
+Resultant admittance is the sum of each component's admittance.

@@ -1,8 +1,8 @@
 ---
 title: Basic Domestic Installations
-slug: electrical-fundamentals/basic-domestic-installations
+slug: electrical-fundamentals/electrical-installation/basic-domestic-installations
 sidebar:
-  order: 23
+  order: 6
 prev: true
 next: true
 ---

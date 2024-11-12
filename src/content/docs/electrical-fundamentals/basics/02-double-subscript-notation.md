@@ -1,6 +1,6 @@
 ---
 title: Double subscript notation
-slug: electrical-fundamentals/double-subscript-notation
+slug: electrical-fundamentals/basics/double-subscript-notation
 sidebar:
   order: 2
 prev: true

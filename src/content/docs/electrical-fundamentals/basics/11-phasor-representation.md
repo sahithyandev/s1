@@ -1,8 +1,8 @@
 ---
 title: Phasor Representation
-slug: electrical-fundamentals/phasor-representation
+slug: electrical-fundamentals/basics/phasor-representation
 sidebar:
-  order: 12
+  order: 11
 prev: true
 next: true
 ---
@@ -13,7 +13,8 @@ Phasor (phase vector) is a vector representing a sinusoidal function.
 - Angle of the phasor: The angular position $\phi$, with respect to a reference
   direction
 
-Can also be represented by a complex number.
+Can also be represented by a complex number. But $j$ is used as the imaginary
+unit becasue $i$ is used for time-varying current.
 
 ## Representation
 

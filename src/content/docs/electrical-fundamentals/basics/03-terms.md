@@ -1,6 +1,6 @@
 ---
 title: Common Terms
-slug: electrical-fundamentals/terms
+slug: electrical-fundamentals/basics/terms
 sidebar:
   order: 3
 prev: true
@@ -29,7 +29,7 @@ An element connected to two nodes. Branches are two terminal elements.
 ## Loop
 
 A loop is a closed path through a circuit in which no node is encountered more
-than once except for the same start/finish node.
+than once except the start/finish node.
 
 ## Mesh
 

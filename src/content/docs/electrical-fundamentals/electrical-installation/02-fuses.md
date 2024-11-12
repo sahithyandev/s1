@@ -1,8 +1,8 @@
 ---
 title: Fuses
-slug: electrical-fundamentals/fuses
+slug: electrical-fundamentals/electrical-installation/fuses
 sidebar:
-  order: 19
+  order: 2
 prev: true
 next: true
 ---

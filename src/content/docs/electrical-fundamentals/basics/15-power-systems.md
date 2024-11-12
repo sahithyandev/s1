@@ -1,13 +1,13 @@
 ---
 title: Power systems
-slug: electrical-fundamentals/power-systems
+slug: electrical-fundamentals/basics/power-systems
 sidebar:
   order: 15
 prev: true
 next: true
 ---
 
-An electric power system consists of 3 principle sections
+An electric power system consists of 3 principle sections.
 
 - Power stations: electricity is generated
 - Transmission: voltage is stepped to high voltage
@@ -55,8 +55,8 @@ safety regulator of the electricity industry in Sri Lanka.
 P_{\text{loss}} = I^2R
 ```
 
-Power losses in transmission lines are called "I^2R" losses. To reduce the power
-loss, current have to be reduced.
+Power losses in transmission lines are called "$I^2R$" losses. To reduce the
+power loss, current have to be reduced. $ $
 
 Power generation in the generator is constant. So voltage is increased to reduce
 the current.
@@ -69,5 +69,5 @@ through it.
 ### Reduction of power transmission cost
 
 To carry higher currents, the transmission lines must have higher cross
-sectional area. So reduced current means smaller transmission lines, and reduced
-cost.
+sectional area. Reduced current means smaller transmission lines are enough.
+Which leads to reduced cost.

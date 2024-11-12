@@ -1,9 +1,10 @@
 ---
-title: Electrical Installations
-slug: electrical-fundamentals/electrical-installations
+title: Introduction to Electrical Installations
+slug: electrical-fundamentals/electrical-installation/introduction
 sidebar:
-  order: 18
-prev: true
+  label: Introduction
+  order: 1
+prev: false
 next: true
 ---
 

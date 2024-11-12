@@ -1,8 +1,8 @@
 ---
 title: Kirchhoff Laws
-slug: electrical-fundamentals/kirchhoff-laws
+slug: electrical-fundamentals/basics/kirchhoff-laws
 sidebar:
-  order: 9
+  order: 8
 prev: true
 next: true
 ---

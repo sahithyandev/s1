@@ -1,8 +1,8 @@
 ---
 title: Earthing
-slug: electrical-fundamentals/earthing
+slug: electrical-fundamentals/electrical-installation/earthing
 sidebar:
-  order: 22
+  order: 5
 prev: true
 next: true
 ---

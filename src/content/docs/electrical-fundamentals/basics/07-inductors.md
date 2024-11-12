@@ -1,8 +1,8 @@
 ---
 title: Inductors
-slug: electrical-fundamentals/inductors
+slug: electrical-fundamentals/basics/inductors
 sidebar:
-  order: 8
+  order: 7
 prev: true
 next: true
 ---
@@ -11,7 +11,7 @@ When there is a current in the inductor, a magnetic field is created. Any change
 in current causes the magnetic field to change, this in turn induces a voltage
 across the inductor that opposes the original change in current.
 
-A length of wire turned into a coil works as a inductor.
+A length of wire turned into a coil works as an inductor.
 
 ## Inductance (L)
 
@@ -28,7 +28,7 @@ The polarity is such as to oppose the change in current.
 
 ## Energy stored
 
-Assume voltage across an inductor rises from $0$ to $ i $ during a time period
+Suppose voltage across an inductor rises from $0$ to $ i $ during a time period
 of $t$ seconds.
 
 ```math

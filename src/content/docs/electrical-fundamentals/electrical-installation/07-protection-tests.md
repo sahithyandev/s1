@@ -1,8 +1,8 @@
 ---
 title: Protection Tests
-slug: electrical-fundamentals/protection-tests
+slug: electrical-fundamentals/electrical-installation/protection-tests
 sidebar:
-  order: 24
+  order: 7
 prev: true
 next: true
 ---

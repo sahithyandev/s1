@@ -1,6 +1,6 @@
 ---
 title: Circuit elements
-slug: electrical-fundamentals/circuit-elements
+slug: electrical-fundamentals/basics/circuit-elements
 sidebar:
   order: 4
 prev: true
@@ -20,6 +20,16 @@ Capable of generating electrical energy.
 - Current sources
 
 These can interchangeably be used.
+
+### Voltage sources
+
+- Batteries - electrochemical
+- Solar cells - photo voltaic
+- Generators - electromagnetic
+
+#### Ideal voltage source
+
+Constant voltage for any required currents. Does not exist.
 
 ## Passive
 

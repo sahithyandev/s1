@@ -1,8 +1,8 @@
 ---
 title: Capacitors
-slug: electrical-fundamentals/capacitors
+slug: electrical-fundamentals/basics/capacitors
 sidebar:
-  order: 7
+  order: 6
 prev: true
 next: true
 ---
