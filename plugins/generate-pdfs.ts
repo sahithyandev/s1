@@ -41,6 +41,25 @@ async function waitForServer(url: string, timeout = 10000, interval = 500) {
 	throw new Error(`Server did not become ready within ${timeout}ms`);
 }
 
+function safeSplit(str: string, splitter: string, maximumSplits?: number) {
+	const parts: Array<string> = [];
+	let currentCursor = 0;
+	while (currentCursor <= str.length) {
+		const nextOccuranceIndex = str.indexOf(splitter, currentCursor);
+		if (
+			(typeof maximumSplits === "number" &&
+				parts.length === maximumSplits - 1) ||
+			nextOccuranceIndex === -1
+		) {
+			parts.push(str.substring(currentCursor));
+			return parts;
+		}
+		parts.push(str.substring(currentCursor, nextOccuranceIndex));
+		currentCursor = nextOccuranceIndex + splitter.length;
+	}
+	return parts;
+}
+
 export default function generatePdfsIntegration(): AstroIntegration {
 	let browser: Browser;
 	let previewServer: ChildProcessWithoutNullStreams;
@@ -84,7 +103,7 @@ export default function generatePdfsIntegration(): AstroIntegration {
 					});
 					const outputPath = outputFilename(fileString);
 					if (outputFileContents[outputPath] === undefined) {
-						const parts = content.split("---");
+						const parts = safeSplit(content, "---", 3);
 						const sidebarLabel = parts[1]
 							.split("\n")[1]
 							.replaceAll("title: Introduction to ", "");
