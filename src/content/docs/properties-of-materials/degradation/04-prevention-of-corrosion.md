@@ -94,3 +94,13 @@ Paint is a viscous, opaque mechanical dispersion mixture of one or more pigments
 (dye) in a vehicle (drying oil).
 
 Corrosion inhabitors are added to paints.
+
+:::note
+
+Coating is enough to prevent corrosion. But in steel, $\ce{Zn}$ coating is
+preferred instead of $\ce{Sb}$ coating. The reason for this is, when $\ce{Sb}$
+coating is used, when the coating is damaged (even a little), the corrosion of
+steel will not be prevented. When $\ce{Zn}$ is used, it will work as an anode
+and steel will be protected from corrosion.
+
+:::

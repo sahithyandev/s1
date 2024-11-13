@@ -4,7 +4,7 @@ slug: properties-of-materials/basics/ceramics
 sidebar:
   order: 4
 prev: true
-next: true
+next: false
 ---
 
 Inter-molecular bonds: covalent and/or ionic.
@@ -23,7 +23,9 @@ Inter-molecular bonds: covalent and/or ionic.
 
 :::note
 
-Glass is **not** an element of ceramics. Hugely differs in structure.
+Glass is **not** an element of ceramics. Hugely differs in structure. Glass can
+be used to store liquids. But $\ce{HF}$ cannot be stored in glass. Because glass
+is soluable in $\ce{HF}$.
 
 :::
 
