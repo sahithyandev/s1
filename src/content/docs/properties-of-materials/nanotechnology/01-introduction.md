@@ -17,33 +17,43 @@ A material with
 At nanoscale, materials exhibit very unusual and very interesting properties.
 Examples: Graphene has very high young's modulus and very high carrier mobility.
 
-## Nano-object
+## Nomenclature
+
+### Nano-object
 
 An object with any external dimension is in the nanoscale.
 
-Examples: carbon nanotube, bucky ball.
+Examples:
+[carbon nanotube](/properties-of-materials/nanotechnology/carbon-nanotubes),
+bucky ball.
 
-## Nano-structured material
+#### Bucky ball
+
+Short for Buckminsterfullerene. Has $60\;\ce{C}$ atoms inside a molecule. A
+molecule is a truncated icosahedron shaped. Diameter of the molecule is approx.
+$1\,\text{nm}$. Each carbon atom is bonded to another 3. Not chemically inert.
+
+### Nano-structured material
 
 A material where its internal or surface structure is in the nanoscale.
 
-Examples: $\text{TiO}_2$ nanotube films. $ $
+Examples: $\ce{TiO2}$ nanotube films. $ $
 
-## Nano in nature
+### Nano in nature
 
 - Lotus leaves being super-hydrophobic
 - Gecko adhesive system
 
-## Nano-science
+### Nano-science
 
 Study of structures and materials on the nanoscale.
 
-## Nanotechnology
+### Nanotechnology
 
 Development of materials and devices by exploiting the characteristics of
 particles on the nanoscale.
 
-### Applications
+#### Applications
 
 - Nanoscale transistors
   - Higher-performance
@@ -69,8 +79,8 @@ Can be used to create nanoscale patterns in thin films or bulk substrates.
 
 The steps:
 
-1. Coat $\text{Si}$ wafer with a photosensitive material. A material which
-   changes its properties when exposed to electromagnetic radiation
+1. Coat $\ce{Si}$ wafer with a photosensitive material. A material which changes
+   its properties when exposed to electromagnetic radiation
 2. Add a mask and use an EM radiation.
 3. Developer solution removes either reacted or unreacted material.
 4. The silicon wafer is etched to transfer the pattern onto silicon wafer.

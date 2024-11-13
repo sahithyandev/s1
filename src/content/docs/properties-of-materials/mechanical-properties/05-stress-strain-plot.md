@@ -4,7 +4,7 @@ slug: properties-of-materials/mechanical-properties/stress-strain-plot
 sidebar:
   order: 5
 prev: true
-next: true
+next: false
 ---
 
 ## Observables
@@ -28,10 +28,17 @@ harder.
 
 :::
 
-### Stiff
+### Ductility
 
-Area under the curve, until the yield point. Higher area means the higher
-stiffness.
+Higher strain at fracture or failure strain.
+
+Implies:
+
+- Greatest percentage elongation
+
+### Stiffness
+
+Slope of the elastic region. Steeper line means more stiffness.
 
 ### Strong/strength
 
@@ -43,10 +50,11 @@ stiffness.
 
 Higher strain in elastic region.
 
+### Toughness
+
+Area under the curve, until the breaking point. Higher area means the higher
+toughness.
+
 ### Weak
 
 Opposite to strengthness.
-
-### Greatest percentage elongation
-
-Maximum strain or failure strain.

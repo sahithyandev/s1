@@ -4,7 +4,7 @@ slug: properties-of-materials/basics/polymers
 sidebar:
   order: 5
 prev: true
-next: true
+next: false
 ---
 
 Polymers can be made 100% amorphous but not 100% crystalline.
@@ -31,6 +31,8 @@ Elastomers are a type of polymers.
 :::
 
 ## Examples
+
+- Silicone (not to be confused with silicon which is a metalloid)
 
 ### Plastics
 

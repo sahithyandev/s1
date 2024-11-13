@@ -4,7 +4,7 @@ slug: properties-of-materials/basics/ceramics
 sidebar:
   order: 4
 prev: true
-next: false
+next: true
 ---
 
 Inter-molecular bonds: covalent and/or ionic.
@@ -49,6 +49,7 @@ Some ceramic materials are:
 
 ## Examples
 
+- Alumina
 - Sand
 - Tiles
 - Cement

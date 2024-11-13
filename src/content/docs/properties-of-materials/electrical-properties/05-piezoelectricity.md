@@ -4,7 +4,7 @@ slug: properties-of-materials/electrical-properties/piezoelectricity
 sidebar:
   order: 5
 prev: true
-next: true
+next: false
 ---
 
 ## Piezoelectric Materials
@@ -35,7 +35,12 @@ Here:
 - $\sigma$ - applied stress
 - $t$ - thickness
 
-## Piezoelectric Transducer
+## Uses
+
+- Can be used to convert mechanical stresses into electrical signals
+- Can be used to produce X-rays
+
+### Piezoelectric Transducer
 
 Can be used to measure changes in pressure, force, acceleration, strain by
 converting them into an electrical signal. The applied force (or pressure) to

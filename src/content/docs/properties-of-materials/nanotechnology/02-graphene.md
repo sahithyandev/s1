@@ -34,7 +34,7 @@ discovery won a Nobel prize in 2010.
 ## Properties
 
 - Band gap is $0$
-- High tensile strength ($\sim 1100\text{ GPa}$)
-- High young's modulus ($\sim 1\text{ TPa}$)
-- High charge carrier mobility ($~2$)
-- Highly transparent ($97%$)
+- High tensile strength ($\sim 1100\;\text{GPa}$)
+- High young's modulus ($\sim 1\;\text{TPa}$)
+- High charge carrier mobility ($\sim 2$)
+- Highly transparent ($97\%$)

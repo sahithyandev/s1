@@ -18,7 +18,7 @@ levels form an energy band. Multiple energy bands are created.
 ## Energy bands in a solid
 
 - **Valence band**: The highest energy band that can be occupied by electrons at
-  $0\text{K}$.
+  $0\,\text{K}$.
 - **Conduction band**: The empty band just above the valence band.
 
 At higher temperatures, electrons which have sufficient energy can jump to
@@ -27,7 +27,8 @@ the conduction band.
 
 ## Fermi Energy
 
-The energy level which is occupied by the highest electron orbital at $0K$. $ $
+The energy level which is occupied by the highest electron orbital at
+$0\,\text{K}$. $ $
 
 In absolute zero temperature, electrons settle into lowest available energy
 states and build a _Fermi Sea_ of electron energy states. Fermi energy is the
@@ -70,7 +71,9 @@ Fermi-Dirac distribution of Fermi level is $0.5$. $ $
 
 :::note
 
-From this equation, all materials are insulators at $T=0$. $ $ :::
+From this equation, all materials are insulators at $T=0$. $ $
+
+:::
 
 ### At T=0
 

@@ -132,7 +132,7 @@ D=\frac{|\text{CH}|}{\pi}=\frac{a}{\pi}\sqrt{n^2+m^2+nm}
   - Conducts thermal energy only in the axial direction; radial direction is
     insulating
 
-### Chirality dependent electrical properties
+### Chirality-dependent
 
 For a $(n,m)$ tube: $ $
 
