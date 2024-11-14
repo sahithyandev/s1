@@ -2,7 +2,7 @@
 title: Fuses
 slug: electrical-fundamentals/electrical-installation/fuses
 sidebar:
-  order: 2
+  order: 4
 prev: true
 next: true
 ---
@@ -22,12 +22,6 @@ Part of a fuse. Designed to melt and open the circuit when overcurrent flows.
 
 Part of a fuse, which comprises a fuse element and a cartridge (or other
 container) and is capable of being attached to the fuse contacts.
-
-:::caution[Todo]
-
-Improve the explanation.
-
-:::
 
 ### Current rating
 

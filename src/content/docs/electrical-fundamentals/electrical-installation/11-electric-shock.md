@@ -2,7 +2,7 @@
 title: Electric Shock
 slug: electrical-fundamentals/electrical-installation/electric-shock
 sidebar:
-  order: 8
+  order: 11
 next: false
 prev: true
 ---

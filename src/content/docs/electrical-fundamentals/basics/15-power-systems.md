@@ -4,13 +4,13 @@ slug: electrical-fundamentals/basics/power-systems
 sidebar:
   order: 15
 prev: true
-next: true
+next: false
 ---
 
 An electric power system consists of 3 principle sections.
 
 - Power stations: electricity is generated
-- Transmission: voltage is stepped to high voltage
+- Transmission: voltage is stepped up to high voltage
 - Distribution: voltage is stepped down to medium voltage for distribution over
   a relatively small region
 
@@ -28,6 +28,8 @@ Nation-wide, massive, geographically distributed system for electrical power
 supply network.
 
 ## Sri Lankan Scenario
+
+There are 2 major electric utilities in Sri Lanka: CEB and LECO.
 
 ### Voltage Levels
 

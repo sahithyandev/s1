@@ -11,6 +11,14 @@ next: true
 An assembly (connected as a complete set) of associated electrical equipment to
 fulfill a specific purpose and having certain coordinated characteristics.
 
+### Standard colors
+
+- Protective earth: mixed yellow and green
+- Neutral: blue
+- Single phase line: black or brown
+
+## Nomenclature
+
 ### Electrical equipment
 
 Any item used in generation, transmission, distribution and utilization of
@@ -69,7 +77,8 @@ Protecting livestock and electrical equipments from electric faults.
 
 ### Protection methods
 
-- Earthing of equipments
+- [Earthing](/electrical-fundamentals/electrical-installation/earthing) of
+  equipments
 - Use of
   [circuit breakers](/electrical-fundamentals/electrical-installation/circuit-breakers)/[fuses](/electrical-fundamentals/electrical-installation/fuses/)
 - Use of

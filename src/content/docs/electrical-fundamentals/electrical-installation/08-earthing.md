@@ -2,7 +2,7 @@
 title: Earthing
 slug: electrical-fundamentals/electrical-installation/earthing
 sidebar:
-  order: 5
+  order: 8
 prev: true
 next: true
 ---

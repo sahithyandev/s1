@@ -2,7 +2,7 @@
 title: Residual Current Device (RCD)
 slug: electrical-fundamentals/electrical-installation/rcd
 sidebar:
-  order: 4
+  order: 7
 prev: true
 next: true
 ---
