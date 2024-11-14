@@ -36,3 +36,35 @@ than once except the start/finish node.
 A mesh is a loop without having other loops inside it. Subset of loops.
 
 ![Common Terms Explanation](/electrical/common-terms-explanation.jpg)
+
+## Connection types
+
+### Delta connection
+
+![Delta connection](/electrical/delta-connection.jpg)
+
+Doesn't have a neutral wire. Neutral point is imaginary.
+
+### Star connection
+
+![Star connection](/electrical/star-connection.jpg)
+
+### Delta-Star conversion
+
+![Delta-Star conversion](/electrical/delta-star-conversion.jpg)
+
+#### Delta to Star
+
+```math
+R_{\text{A}} = \frac{R_\text{AB} \times R_\text{AC}}{R_\text{AB} + R_\text{BC} + R_\text{AC}}
+```
+
+$R_\text{B}, R_\text{C}$ can be found similarily. $ $
+
+#### Star to Delta
+
+```math
+R_{\text{AB}} = \frac{(R_\text{A} \times R_\text{B}) + (R_\text{B}\times R_\text{C}) + (R_\text{C} \times R_\text{A})}{R_\text{C}}
+```
+
+$R_\text{BC}, R_\text{AC}$ can be found similarily. $ $

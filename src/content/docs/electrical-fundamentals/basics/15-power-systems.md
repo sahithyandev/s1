@@ -31,10 +31,11 @@ supply network.
 
 ### Voltage Levels
 
-- High voltage $132\text{ kV}$ or $220\text{ kV}$
-- Medium voltage $11\text{ kV}$ or $33\text{ kV}$
-- Nominal voltage $230\text{ V}$
-- Nominal line-to-line $400\text{ V}$
+- Generation voltage $13.8\;\text{kV}$
+- High voltage $132\;\text{kV}$ or $220\;\text{kV}$
+- Medium voltage $11\;\text{kV}$ or $33\;\text{kV}$
+- Nominal voltage $230\;\text{V}$
+- Nominal line-to-line $400\;\text{V}$
 
 ### Power sources
 

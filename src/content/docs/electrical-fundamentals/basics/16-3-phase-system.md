@@ -2,7 +2,7 @@
 title: 3-Phased System
 slug: electrical-fundamentals/basics/3-phase-system
 sidebar:
-  order: 17
+  order: 16
 prev: true
 next: false
 ---
@@ -69,18 +69,6 @@ V_{\text{BN}}
 In a 3-phase system, line-to-line voltage is mentioned.
 
 :::
-
-## Connection types
-
-### Delta connection
-
-![Delta connection](/electrical/delta-connection.jpg)
-
-Doesn't have a neutral wire. Neutral point is imaginary.
-
-### Star connection
-
-![Star connection](/electrical/star-connection.jpg)
 
 ## Analysis
 

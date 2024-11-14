@@ -56,6 +56,12 @@ Instantaneous power dissipated by the load is given by:
 p(t) = -\frac{V_m^2 \omega C}{2}\sin{(2\omega t)}
 ```
 
+The capacitive reactive power is given by:
+
+```math
+Q = V^2\omega C
+```
+
 ### General load
 
 Consider a general load with both resistive and reactive components. Depending
@@ -141,7 +147,9 @@ called the power factor.
 Power factor appears in the equation of $P_\text{avg}$. $ $
 
 ```math
-\cos{\theta}=\frac{\text{Active power}}{\text{Apparent power}}
+\cos{\theta}
+=\frac{\text{Active power}}{\text{Apparent power}}
+=\frac{\text{Resistance}}{\text{Impedance}}
 ```
 
 Power factor is:
