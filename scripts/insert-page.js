@@ -85,7 +85,13 @@ async function insertPage(args) {
 		`${n.toString().padStart(2, "0")}-${title}.md`,
 	);
 	console.log("writing", newFileLocation, "with the content below");
-	const lines = ["---", `title: ${hyphenCaseToTitleCase(title)}`, "---"];
+	const lines = [
+		"---",
+		`title: ${hyphenCaseToTitleCase(title)}`,
+		"sidebar:",
+		`  order: ${n}`,
+		"---",
+	];
 	for (const line of lines) {
 		console.log(">>>", line);
 	}
