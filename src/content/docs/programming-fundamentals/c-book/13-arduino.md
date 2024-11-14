@@ -23,13 +23,16 @@ program and run it without any additional circuit development.
 The boards can be assembled by hand or purchased pre-assembled; the open-source
 IDE can be downloaded for free.
 
+## Differences
+
 Programming an embedded platform like the Arduino is somewhat different from
-programming a PC. Unlike the PC, Arduino does not have a keyboard, or a display
-screen. Moreover, the small amount of memory and storage available is
-insufficient to host a usable program development environment such as an IDE and
-a compiler or an interpreter. Hence Arduino programs are usually written and
-compiled in a different computer (usually a PC) and later downloaded into the
-Arduino board via the USB cable.
+programming a PC.
+
+- Arduino does not have a keyboard, or a display screen
+- Memory and storage are limitted
+
+Arduino programs are usually written and compiled in a different computer
+(usually a PC) and later downloaded into the Arduino board via the USB cable.
 
 ## Advantages
 

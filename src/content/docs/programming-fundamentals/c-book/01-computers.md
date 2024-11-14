@@ -1,5 +1,5 @@
 ---
-title: Introduction to Computers
+title: Introduction to Programming C-book
 slug: programming-fundamentals/c-book/computers
 sidebar:
   order: 1
@@ -21,7 +21,7 @@ IBM. Built around a family of microprocessors referred to as "8086"
 (manufactured by Intel). Therefore its structure is referred to as "x86
 architecture".
 
-An alternate system was Macintosh (introduced by Apply). Due to differences in
+An alternate system was Macintosh (introduced by Apple). Due to differences in
 hardware architecture between x86 and Macintosh, software used by these systems
 were not portable to the other.
 

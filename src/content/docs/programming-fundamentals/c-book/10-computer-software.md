@@ -37,13 +37,8 @@ Any software that satisfies any one of the following conditions:
 
 Example: [operating system](/programming-fundamentals/c-book/operating-system)
 
-:::note
-
-Systems programming is the process of producing system software. Requires a
-greater degree of hardware awareness compared to programming application
-software.
-
-:::
+Systems programming requires a greater degree of hardware awareness compared to
+programming application software.
 
 #### Utility software
 
@@ -62,11 +57,7 @@ Examples:
 - Linkers
 - Debuggers
 
-:::note
-
 Some operating systems (like Linux) provide such software by default.
-
-:::
 
 #### Firmware
 

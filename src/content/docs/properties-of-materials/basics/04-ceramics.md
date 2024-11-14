@@ -4,7 +4,7 @@ slug: properties-of-materials/basics/ceramics
 sidebar:
   order: 4
 prev: true
-next: true
+next: false
 ---
 
 Inter-molecular bonds: covalent and/or ionic.
@@ -29,16 +29,16 @@ is soluable in $\ce{HF}$.
 
 :::
 
-### Refractory ceramics
-
-Ceramics that can withstand high temperatures. Can provide thermal insulation.
-
 Some ceramic materials are:
 
 - magnetic
 - [piezoelectric](/properties-of-materials/electrical-properties/piezoelectricity/)
 - [superconductors](/properties-of-materials/electrical-properties/semiconductivity/)
   (only few, and only at very low temperatures)
+
+### Refractory ceramics
+
+Ceramics that can withstand high temperatures. Can provide thermal insulation.
 
 ## Types
 

@@ -10,8 +10,7 @@ prev: true
 :::note
 
 I don't like including stuff like these in the curriculum. The trends are
-changing quickly. Even within an year, half of the content might become outdated
-or false.
+changing quickly.
 
 Included those for the sake of completeness.
 
