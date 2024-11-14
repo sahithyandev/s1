@@ -20,8 +20,8 @@ The general solution of the equation is:
 y_g=c_1y_1 + c_2y_2
 ```
 
-Now replace $c_1,c_2$ with $u(x),v(x)$ and we get $y_p=uy_1 + vy_2$ which can be
-found using the method of variation of parameters.
+Now replacing $c_1,c_2$ with $u(x),v(x)$ will give $y_p=uy_1 + vy_2$, which can
+be found using the method of variation of parameters.
 
 ```math
 u=-\int{\frac{y_2f}{W(x)}\,\text{d}x}

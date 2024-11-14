@@ -16,7 +16,7 @@ A function $f:\,A\rightarrow{B}$ is a relation $f:\,A\rightarrow{B}$ which is
 ## Inverse
 
 For a function $f:\,A\rightarrow{B}$ to have its inverse relation
-$f^{-1}:\,B\rightarrow{A}$ be also a function, we need:
+$f^{-1}:\,B\rightarrow{A}$ be also a function:
 
 - $f$ is [onto](/maths/real-analysis/relations/#onto)
 - $f$ is [not many-one](/maths/real-analysis/relations/#not-many-one) (in other

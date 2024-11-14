@@ -19,7 +19,7 @@ a\frac{\text{d}y}{\text{d}x}+
 
 Consider the function $y=e^{mx}$. Here $m$ is a constant to be found.
 
-By applying the function to the above equation, we get:
+By applying the function to the above equation:
 
 ```math
 m^2 + am + b = 0
@@ -57,8 +57,8 @@ a\frac{\text{d}y}{\text{d}x}+
 
 ### Method of undetermined coefficients
 
-We find $y_p$ by guessing and substitution which depends on the nature of
-$q(x)$.
+$y_p$ is guessed with undetermined coefficients. And subtituted in the given
+equation to find the coefficients. The guess depends on the nature of $q(x)$.
 
 If $q(x)$ is:$ $
 

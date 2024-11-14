@@ -4,7 +4,7 @@ slug: maths/riemann-integration/converging-functions
 sidebar:
   order: 13
 prev: true
-next: true
+next: false
 ---
 
 Convergence of functions is introduced in
@@ -44,7 +44,7 @@ and:
 
 :::
 
-When $f_n$ converges to $f$ pointwise, we cannot be sure if $f$ is Riemann
+When $f_n$ converges to $f$ pointwise, it is not certain whether $f$ is Riemann
 integrable or not. An example where $f$ is not Riemann integrable:
 
 ```math

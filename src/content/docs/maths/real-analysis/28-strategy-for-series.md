@@ -4,7 +4,7 @@ slug: maths/real-analysis/strategy-for-series
 sidebar:
   order: 28
 prev: true
-next: true
+next: false
 ---
 
 Consider a series in the form $\sum_{k=1}^n {u_n}$. To determine whether the
@@ -58,3 +58,9 @@ or
 [limit comparison test](/maths/real-analysis/convergence-tests/#direct-comparison-test).
 The list is found on a video by
 [blackpenredpen on YouTube](https://www.youtube.com/@blackpenredpen).
+
+Also:
+
+```math
+n \lt n\ln(n) \lt n^2
+```

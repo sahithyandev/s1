@@ -4,7 +4,7 @@ slug: programming-fundamentals/b-book/floating-point-numbers
 sidebar:
   order: 4
 prev: true
-next: true
+next: false
 ---
 
 IEEE 754 standard.
@@ -32,7 +32,7 @@ Exponent field range - $[0,255]$. In this range $[1,254]$ is defined for normal
 numbers. $0$ and $255$ are reserved for subnormal, infinite, signed zeros and
 NaN.
 
-To support negative exponents, we subtract $127$ (half of $254$) from this
+To support negative exponents, $127$ (half of $254$) is subtracted from this
 range. $[-126,127]$. This range is the representable range.
 
 ### Mantissa
@@ -40,7 +40,7 @@ range. $[-126,127]$. This range is the representable range.
 In scientific notation, the part that doesn't contain the base and the power.
 
 In binary scientific notation, there will always be exactly one $1$ bit before
-the dot. So we don't include that one. $ $
+the dot. So the inital $1$ is not included in the mantissa.
 
 :::note[Example]
 
@@ -80,7 +80,7 @@ Exponent field range - $[0,2047]$. In this range $[1,2046]$ is defined for
 normal numbers. $0$ and $2047$ are reserved for subnormal, infinite, signed
 zeros and NaN.
 
-To support negative exponents, we subtract $1023$ (half of $2046$) from this
+To support negative exponents, $1023$ (half of $2046$) is subtracted from this
 range. $[-1022,1023]$. This range is the representable range.
 
 ### Mantissa

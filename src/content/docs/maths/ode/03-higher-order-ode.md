@@ -98,7 +98,7 @@ Defined as:
 \text{D}^i=\frac{\text{d}^i}{\text{d}x^i}\;;\;n\in\mathbb{Z}^+
 ```
 
-We can write the above equation using the differential operator:
+The above equation can be written using the differential operator:
 
 ```math
 \text{D}^ny+
@@ -108,7 +108,7 @@ a_1\text{D}^{n-1}y+
 =q(x)
 ```
 
-Here if we factor out $y$ (_**how tf?**_), we get:$ $
+Here if $y$ is factored out (_**how tf?**_):$ $
 
 ```math
 (\text{D}^n+

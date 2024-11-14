@@ -4,7 +4,7 @@ slug: mechanics/dynamics/mobility-of-mechanisms
 sidebar:
   order: 6
 prev: true
-next: true
+next: false
 ---
 
 ### Independent object
@@ -13,7 +13,8 @@ Has $3$ degrees of freedom. $ $
 
 ### Lower Pair
 
-A pair of kinematic elements which share a surface of contact.
+Aka. primary pair. A pair of kinematic elements which share a surface of
+contact.
 
 When a rigid body is constrained by a lower pair, which allows only rotational
 or sliding movement. It has $1$ degree of freedom, and the $2$ degrees of
