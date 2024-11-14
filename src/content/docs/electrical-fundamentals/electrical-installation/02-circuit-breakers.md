@@ -4,7 +4,7 @@ slug: electrical-fundamentals/electrical-installation/circuit-breakers
 sidebar:
   order: 2
 prev: true
-next: true
+next: false
 ---
 
 A device for making and breaking a circuit. Operated by hand or automatically.
@@ -24,10 +24,10 @@ Can be used to detect electrical faults to earth in electrical. There are 2
 types of circuit breakers to detect electrical faults to earth.
 
 - Voltage operated protection -
-  [Earth Leakage Circuit Breaker](/electrical-fundamentals/electrical-installations/elcb)
+  [Earth Leakage Circuit Breaker](/electrical-fundamentals/electrical-installation/elcb)
 - Current operated protection -
-  [Residual Current Circuit Breaker](/electrical-fundamentals/electrical-installations/rccb)
+  [Residual Current Circuit Breaker](/electrical-fundamentals/electrical-installation/rccb)
   or
-  [Residual Current Device](/electrical-fundamentals/electrical-installations/rcd)
+  [Residual Current Device](/electrical-fundamentals/electrical-installation/rcd)
 
 The earth leakage protection device is called as trip switch.
