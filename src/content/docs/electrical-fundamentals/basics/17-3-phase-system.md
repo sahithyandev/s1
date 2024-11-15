@@ -2,7 +2,7 @@
 title: 3-Phased System
 slug: electrical-fundamentals/basics/3-phase-system
 sidebar:
-  order: 16
+  order: 17
 prev: true
 next: false
 ---

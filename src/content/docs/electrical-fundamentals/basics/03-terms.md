@@ -45,9 +45,25 @@ A mesh is a loop without having other loops inside it. Subset of loops.
 
 Doesn't have a neutral wire. Neutral point is imaginary.
 
+```math
+V_P = V_L
+\;\;\;
+\land
+\;\;\;
+I_L = \sqrt{3} I_P
+```
+
 ### Star connection
 
 ![Star connection](/electrical/star-connection.jpg)
+
+```math
+I_P = I_L
+\;\;\;
+\land
+\;\;\;
+V_L = \sqrt{3} V_P
+```
 
 ### Delta-Star conversion
 
