@@ -3,6 +3,7 @@ const specialWords = ["of"];
     @param {string} text
 */
 export function hyphenCaseToTitleCase(text) {
+	if (text.length === 0) return text;
 	const words = text.split("-");
 	const newText = new Array(words.length);
 

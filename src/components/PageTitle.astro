@@ -3,11 +3,23 @@ import type {Props} from "@astrojs/starlight/props";
 import { SITE_TITLE } from "../../config.mjs";
 import {hyphenCaseToTitleCase} from "../../utils/index";
 
-const sectionLabel = hyphenCaseToTitleCase(Astro.props.entry.slug.split("/")[0])
+let sectionLabel = null;
+
+if (Astro.props.slug.startsWith("summary/")) {
+const slug = Astro.props.entry.slug.split("/").at(-1);
+if (slug) {
+  const parts = slug.split("--");
+  if (parts.length > 0) {
+    sectionLabel = hyphenCaseToTitleCase(parts[0])
+  }
+}
+} else {
+  sectionLabel = hyphenCaseToTitleCase(Astro.props.entry.slug.split("/")[0]);
+}
 ---
 
 <div class="mt-4">
-    <strong class="mb-0 text-inherit hidden header-credits">{SITE_TITLE} -- {sectionLabel}</strong>
+    <strong class="mb-0 text-inherit header-credits">{SITE_TITLE} {sectionLabel ? `-- ${sectionLabel}` : null}</strong>
     <h1 id="_top" class="font-semibold">{Astro.props.entry.data.title}</h1>
 </div>
 

@@ -93,7 +93,7 @@ export default function generatePdfsIntegration(): AstroIntegration {
 					if (
 						!fileString.includes("/") ||
 						!fileString.endsWith(".md") ||
-						fileString.includes("summary")
+						fileString.includes("summary/")
 					) {
 						continue;
 					}
