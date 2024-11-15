@@ -2,9 +2,9 @@
 title: Circuit Breaker
 slug: electrical-fundamentals/electrical-installation/circuit-breakers
 sidebar:
-  order: 2
+  order: 3
 prev: true
-next: false
+next: true
 ---
 
 A device for making and breaking a circuit. Operated by hand or automatically.

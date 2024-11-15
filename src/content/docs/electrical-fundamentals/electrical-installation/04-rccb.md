@@ -1,7 +1,7 @@
 ---
 title: RCCB
 sidebar:
-  order: 3
+  order: 4
 slug: electrical-fundamentals/electrical-installation/rccb
 prev: true
 next: true
@@ -9,18 +9,21 @@ next: true
 
 ![RCCB](/electrical/rccb.jpg)
 
+Short for Residual Current Circuit Breaker.
+
 Trips when line current and neutral current are different. Residual current is
 the difference between live and neutral currents. Provides protection against
 earth faults and leakage currents.
 
-The current difference between line and neutral currrents is used to energize
-the solenoid, which causes the switch to open. Under normal operating
-conditions, two identical windings, m1 and m2, will carry the main current.
-Since the currents are equal and opposite through the two windings, there is mmf
-balance and there will be no induced emf on the detector winding. Thus the
-operating coil will not be energized. However, in case of a fault the line and
-neutral currents will not equal and the trip coil will be energized due to the
-induced currents in the detector winding.
+Consists of a solonoid coil.
+
+Under normal operating conditions, two identical windings will carry the main
+current. Since the currents are equal and opposite through the two windings,
+there is emf balance and there will be no induced emf on the detector winding.
+Thus the operating coil will not be energized.
+
+In case of a fault, the line and neutral currents will not be equal and the trip
+coil will be energized due to the induced currents in the detector winding.
 
 :::note
 

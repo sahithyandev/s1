@@ -2,7 +2,7 @@
 title: Fuses
 slug: electrical-fundamentals/electrical-installation/fuses
 sidebar:
-  order: 4
+  order: 2
 prev: true
 next: true
 ---
