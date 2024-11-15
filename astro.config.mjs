@@ -15,7 +15,9 @@ export default defineConfig({
 	},
 	site: "https://s1.sahithyan.dev",
 	integrations: [
-		generatePdfsIntegration(),
+		generatePdfsIntegration({
+			watermarkImage: "public/logo.png",
+		}),
 		starlight({
 			plugins: [
 				starlightLinksValidator({

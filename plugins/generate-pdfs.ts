@@ -60,7 +60,18 @@ function safeSplit(str: string, splitter: string, maximumSplits?: number) {
 	return parts;
 }
 
-export default function generatePdfsIntegration(): AstroIntegration {
+const WATERMARK_EXPECTED_WIDTH = 200; // px
+
+interface Config {
+	/**
+    Path to the watermark image. Relative to the project root.
+  */
+	watermarkImage?: string;
+}
+
+export default function generatePdfsIntegration(
+	config: Config,
+): AstroIntegration {
 	let browser: Browser;
 	let previewServer: ChildProcessWithoutNullStreams;
 	/**
@@ -269,16 +280,43 @@ export default function generatePdfsIntegration(): AstroIntegration {
 					logger.info(`deleted: ${summaryFolder}`);
 				});
 
+				let watermarkImageBytes: Buffer | undefined = undefined;
+				if (config.watermarkImage) {
+					watermarkImageBytes = await readFile(config.watermarkImage, {});
+				}
+				const watermarkSize = { width: WATERMARK_EXPECTED_WIDTH, height: 0 };
+
 				await Promise.all(
 					pagesAdditionalInformations.map(async (pageInfo) => {
 						const pdfBuffer = await readFile(pageInfo.path, {});
 						const pdfDoc = await PDFDocument.load(Uint8Array.from(pdfBuffer));
+						if (watermarkImageBytes) {
+							const watermarkImage = await pdfDoc.embedPng(
+								Uint8Array.from(watermarkImageBytes),
+							);
+							if (watermarkSize.height === 0) {
+								watermarkSize.height =
+									(watermarkImage.height * WATERMARK_EXPECTED_WIDTH) /
+									watermarkImage.width;
+							}
+
+							for (const page of pdfDoc.getPages()) {
+								page.drawImage(watermarkImage, {
+									x: (page.getWidth() - watermarkSize.width) / 2,
+									y: (page.getHeight() - watermarkSize.height) / 2,
+									width: watermarkSize.width,
+									height: watermarkSize.height,
+									opacity: 0.1,
+								});
+							}
+						}
 
 						//meta overrides
 						pageInfo.meta.creator =
 							"Sahithyan Kandathasan (https://sahithyan.dev)";
 						pageInfo.meta.author = pageInfo.meta.creator;
-						pageInfo.meta.producer = "Sahithyan's S1";
+						pageInfo.meta.producer =
+							"Sahithyan's S1 (https://s1.sahithyan.dev)";
 
 						setMetadata(pdfDoc, pageInfo.meta);
 						setOutline(pdfDoc, pageInfo.outlines, false);
