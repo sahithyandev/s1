@@ -15,18 +15,22 @@ molecules.
 
 ## Crystalline
 
-When atoms or molecules are arranged in a ordered structure. Long-order is
-present.
+Atoms or molecules are arranged in a ordered structure. Long-order is present.
+Situated in a repeating array over large atomic distances (long-range order).
 
-- Situated in a repeating array over large atomic distances (long-range order).
-- Example: Metals and Ceramics.
+Examples:
+
+- Metals
+- Ceramics
 
 Atomic arrangement is usually described by
 **[space lattice](/properties-of-materials/basics/space-lattice)**.
 
 ## Amorphous (or Non Crystalline)
 
-When atoms or molecules are randomly arranged. Long-range order is absent.
+Atoms or molecules are randomly arranged. Long-range order is absent.
 
-- Example: Glass.
-- Polymers are semi-crystalline.
+Example:
+
+- Glass
+- Polymers are semi-crystalline

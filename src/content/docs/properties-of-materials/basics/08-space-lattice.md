@@ -15,14 +15,14 @@ eye. They are not part of the lattice.
 ## Unit Cell
 
 Smallest repeating parallelepiped inside the lattice. By stacking in all
-directions, the lattice can be generated.
+directions, the lattice can be formed.
 
 ### Density
 
 ```math
 \rho=
 \frac{\text{Mass/unit cell}}{\text{Volume/unit cell}} =
-\frac{M \times n}{v \times L}
+\frac{M n}{v L}
 ```
 
 Here:
@@ -34,8 +34,8 @@ Here:
 
 :::note
 
-When considering the density change from one structure transitioned to another,
-note that the total number of atoms stays the change.
+The total number of atoms stays the same when one structure transitions into
+another.
 
 :::
 
@@ -80,8 +80,10 @@ particle contacts.
 
 ## Atomic Packing Factor (APF)
 
-$ \text{APF} = \frac{\text{True volume}}{\text{Bulk volume}} =
-\frac{\text{Volume of atoms/unit cell}}{\text{Volume/unit cell}} $
+```math
+\text{APF} = \frac{\text{True volume}}{\text{Bulk volume}} =
+\frac{\text{Volume of atoms/unit cell}}{\text{Volume/unit cell}}
+```
 
 Geometrically maximum APF in real life (assuming spherical and identical atoms)
 is 74%. If a structure has 74% APF, the structure is called a **close-packed

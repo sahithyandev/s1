@@ -4,12 +4,13 @@ slug: properties-of-materials/basics/polymers
 sidebar:
   order: 5
 prev: true
-next: false
+next: true
 ---
 
-Polymers can be made 100% amorphous but not 100% crystalline.
+Polymers can be made 100% amorphous but not 100% crystalline. Inter-molecular
+bonds: Covalent and Van der Waals or Hydrogen.
 
-Inter-molecular bonds: Covalent and Van der Waals or Hydrogen.
+Elastomers are a type of polymers.
 
 ## Properties
 
@@ -24,12 +25,6 @@ Inter-molecular bonds: Covalent and Van der Waals or Hydrogen.
   [conductive polymers](/properties-of-materials/electrical-properties/conductive-polymers/)
   exist)
 
-:::note
-
-Elastomers are a type of polymers.
-
-:::
-
 ## Examples
 
 - Silicone (not to be confused with silicon which is a metalloid)
@@ -41,8 +36,8 @@ Elastomers are a type of polymers.
 - Polypropylene (PP)
 - Polystyrene (PS)
 - Polypropylene used in kitchen-were
-- Polymethylmethacrylite (PMMA) Perspex It's transparent and lightweight. Used
-  in aircraft windows and contact lenses.
+- Polymethylmethacrylite (PMMA) Perspex  
+  It's transparent and lightweight. Used in aircraft windows and contact lenses.
 - Polytetrafluoroethylene (PTFE) Teflon
 - Polysiloxane or Silicone
 

@@ -19,7 +19,7 @@ Deformation is temporary. Returns to its original shape when load is released.
 
 ### Linear elastic materials
 
-When elastic deformation portion in stress-strain diagram is straight line.
+When elastic deformation portion in stress-strain diagram is a straight line.
 
 #### Young's modulus (aka Elastic modulus)
 
@@ -31,7 +31,8 @@ Can be thought of as **stiffness**.
 
 ### Nonlinear elastic materials
 
-When elastic deformation portion in stress-strain diagram is not straight line.
+When elastic deformation portion in stress-strain diagram is not a straight
+line.
 
 #### Secant modulus
 

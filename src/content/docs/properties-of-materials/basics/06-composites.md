@@ -13,8 +13,14 @@ combined together to get the advantages of two materials.
 ## Examples
 
 - Concrete (conventional one)
-- Fiber glass (GFRP)
+- Fiber glass (GFRP)  
+  A combination of glass and plastic. Not brittle.
 
-Fiber glass is a combination of glass and plastic. Not brittle. The procedure to
-creating fiber glass: glass => fiber (a shape not material) => add plastic ==
-fiber glass
+:::note
+
+The procedure of creating fiber glass:
+
+- Glass is converted into fiber (which is a shape; not a material)
+- Add plastic
+
+:::

@@ -43,6 +43,8 @@ Equivalent directions are grouped into a **family**.
 - No of planes: $8$
 - $[111],[11\bar{1}],[1\bar{1}1],[\bar{1}11],[\bar{1}\bar{1}1],[\bar{1}1\bar{1}],[1\bar{1}\bar{1}],[\bar{1}\bar{1}\bar{1}]$
 
+The above are the common directions. There are other directions as well.
+
 ### Show the direction
 
 To show the direction $ [132] $, for example: $ $

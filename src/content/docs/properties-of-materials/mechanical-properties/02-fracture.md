@@ -43,4 +43,4 @@ More dangerous than ductile fracture.
 
 - No warning sign
 - Crack propagates at very high speeds
-- No need for extra stress during crack propagation.
+- No need for extra stress during crack propagation

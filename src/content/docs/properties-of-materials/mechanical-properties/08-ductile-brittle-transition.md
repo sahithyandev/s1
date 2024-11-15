@@ -29,6 +29,6 @@ Many steels exhibit this behaviour.
 
 :::note
 
-Titanic sunk because of this transition.
+Titanic sunk because of this transition which was unknown at that time.
 
 :::

@@ -4,7 +4,7 @@ slug: properties-of-materials/basics/ceramics
 sidebar:
   order: 4
 prev: true
-next: false
+next: true
 ---
 
 Inter-molecular bonds: covalent and/or ionic.
@@ -13,7 +13,7 @@ Inter-molecular bonds: covalent and/or ionic.
 
 - Non metallic
 - Inorganic
-- Produced by: shaping => firing.
+- Produced by shaping and firing
 - High melting temperatures (some can survive upto $8000°\;\text{C}$)
 - Low density
 - High strength, stiffness, hardness
@@ -21,11 +21,10 @@ Inter-molecular bonds: covalent and/or ionic.
 - Generally good insulators (electrical and thermal)
 - Brittle as glass. Behaves glass-like mostly.
 
-:::note
+:::note[Glass]
 
-Glass is **not** an element of ceramics. Hugely differs in structure. Glass can
-be used to store liquids. But $\ce{HF}$ cannot be stored in glass. Because glass
-is soluable in $\ce{HF}$.
+**Not** an element of ceramics. Hugely differs in structure. Can be used to
+store liquids. Soluable in $\ce{HF}$. $ $
 
 :::
 

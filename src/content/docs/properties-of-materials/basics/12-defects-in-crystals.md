@@ -4,7 +4,7 @@ slug: properties-of-materials/basics/defects-in-crystals
 sidebar:
   order: 12
 prev: true
-next: true
+next: false
 ---
 
 There won't be a crystal with 100% of perfect arrangement. Defects are
@@ -84,5 +84,5 @@ observed through a microscope after careful preparation of samples
 
 ### Grain boundaries
 
-A grain boundary is the boundary between 2 adjacent grains. These are the planar
-defects found in crystalline materials.
+The boundary between 2 adjacent grains. These are the planar defects found in
+crystalline materials.

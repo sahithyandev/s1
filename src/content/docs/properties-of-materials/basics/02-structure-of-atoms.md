@@ -23,7 +23,7 @@ Presented by Neil Bohr.
 
 Bohr Theory **can't** be used to describe the energy characteristics of atoms
 containing many electrons. Consequently, in the Modern Atomic Theory, four
-quantum numbers were introduced to describe the energy levels
+quantum numbers were introduced to describe the energy levels.
 
 ## Quantum numbers
 
@@ -35,8 +35,8 @@ the principal energy levels. $ $
 
 ### Secondary quantum number
 
-Represents the various secondary sub-levels within the main energy level and it
-relates to the shape of the electron cloud. Denoted by $l$. Values goes from $0$
+Represents the various secondary sub-levels within the main energy level.
+Relates to the shape of the electron cloud. Denoted by $l$. Values goes from $0$
 to $n-1$.
 
 ### Magnetic quantum number
@@ -47,8 +47,8 @@ Values goes from $-l$ to $l$ (in total $2l + 1$ different values).
 
 ### Spin quantum number
 
-Represents the electron spin. +0.5 for clockwise and -0.5 for counterclockwise
-spin.
+Represents the electron spin. $+\frac{1}{2}$ for clockwise and $-\frac{1}{2}$
+for counterclockwise spin.
 
 ## Principles
 
@@ -69,7 +69,7 @@ electrons with opposed spins take place.
 
 ### Primary (strong) bonds
 
-Form when valence electrons are present (outer shell not completely filled.
+Form when valence electrons are present (outer shell not completely filled).
 
 #### Ionic
 
@@ -97,15 +97,13 @@ dipolarity caused inside molecules. Non-directional.
 
 #### Hydrogen
 
-Forms between polar covalently bonded molecules containing H. Polarity is due to
-the asymmetry of the molecule. Directional.
+Forms between polar covalently bonded molecules containing $\ce{H}$. Polarity is
+due to the asymmetry of the molecule. Directional. $ $
 
-:::note
+## Properties of bonds
 
-In these bonds, order of them based on some properties:
-
-Hardness, Melting point, crystalline percentage: Ceremics > Metals > Polymers
-
-Directionality: Covalent > Ionic > Metallic
-
-:::
+| Property                                        | Order                        |
+| ----------------------------------------------- | ---------------------------- |
+| Hardness, Melting point, Crystalline percentage | Ceramics > Metals > Polymers |
+| Directionality                                  | Covalent > Ionic > Metallic  |
+| Brittleness                                     | Ionic > Covalent > Metallic  |

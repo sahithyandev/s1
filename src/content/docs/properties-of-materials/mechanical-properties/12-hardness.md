@@ -4,11 +4,11 @@ slug: properties-of-materials/mechanical-properties/hardness
 sidebar:
   order: 12
 prev: true
-next: true
+next: false
 ---
 
 Hardness of metals is defined as resistance to indentation. Can be measured by
-[indentation test](/properties-of-materials/mechanical-properties/indentation-test)..
+[indentation test](/properties-of-materials/mechanical-properties/indentation-test).
 
 When 2 surfaces are rubbing against each other, hardness is important. Materials
 with less hardness will be worn off quickly. Only materials with high hardness,

@@ -7,14 +7,8 @@ prev: true
 next: true
 ---
 
-Metals can be categorized into 2 types. Metals are isotropic. Metals are
-generally crystalline.
-
-:::note
-
-Metals can be made amorphous by melting and then suddenly cooling a sample.
-
-:::
+Generally isotropic, and crystalline. Can be made amorphous by melting and then
+suddenly cooling a sample. Metals can be categorized into 2 types.
 
 ### Pure Metals
 
@@ -46,8 +40,11 @@ alloying elements (all elements other than parent metal).
 
 :::note
 
-Steel has maximum of $2\%\; \ce{C}$. Won't break easily (ductile). Cast Iron has
-$2\%-4\% \ce{C}$. Will break easily (brittle).
+Steel has maximum of $2\%\; \ce{C}$ and it's
+[ductile](/properties-of-materials/mechanical-properties/ductility) (won't break
+easily). Cast Iron has $2\%-4\% \ce{C}$ and it's
+[brittle](/properties-of-materials/mechanical-properties/ductility#brittle)
+(will break easily).
 
 :::
 
@@ -64,10 +61,3 @@ Alloys containing too many alloying elements (maybe even 20).
 - High stiffness (= high
   [young's modulus](/properties-of-materials/mechanical-properties/definitions/#youngs-modulus-aka-elastic-modulus))
 - Good ductility
-
-:::note
-
-Ductile - easily changes shape by applying force. Brittle - easily breaks when
-applying force.
-
-:::

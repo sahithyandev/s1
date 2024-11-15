@@ -24,14 +24,14 @@ Materials can also be categorized based on their usage or their
 
 :::note
 
-Previously wood is considered as a separate classification, along with the
+Previously wood was considered as a separate classification, along with the
 above-mentioned ones.
 
 :::
 
 ## Property
 
-A property is the response given by a material to a specific stimulus
+The response given by a material to a specific stimulus.
 
 - [Mechanical properties](/properties-of-materials/mechanical-properties/introduction)
   – stress
