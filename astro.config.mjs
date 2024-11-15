@@ -81,6 +81,7 @@ export default defineConfig({
 				Sidebar: "./src/components/Sidebar.astro",
 				MarkdownContent: "./src/components/MarkdownContent.astro",
 				SiteTitle: "./src/components/SiteTitle.astro",
+				PageTitle: "./src/components/PageTitle.astro",
 			},
 			sidebar: [
 				{

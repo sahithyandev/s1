@@ -4,7 +4,7 @@ slug: properties-of-materials/degradation/forms-of-corrosion
 sidebar:
   order: 3
 prev: true
-next: true
+next: false
 ---
 
 8 main forms:
@@ -29,11 +29,7 @@ Only the first 3 forms are discussed in s1.
 Occurs uniformly over the entire exposed area of the metal. Rust forms all over
 the surface. Leads to 30% of corrosion failures.
 
-:::note
-
 All other forms of corrosion happen on selected areas of a metal.
-
-:::
 
 ## Galvanic corrosion
 

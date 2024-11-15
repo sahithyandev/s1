@@ -1,0 +1,22 @@
+---
+import type {Props} from "@astrojs/starlight/props";
+import { SITE_TITLE } from "../../config.mjs";
+import {hyphenCaseToTitleCase} from "../../utils/index";
+
+const sectionLabel = hyphenCaseToTitleCase(Astro.props.entry.slug.split("/")[0])
+---
+
+<div class="mt-4">
+    <strong class="mb-0 text-inherit hidden header-credits">{SITE_TITLE} -- {sectionLabel}</strong>
+    <h1 id="_top" class="font-semibold">{Astro.props.entry.data.title}</h1>
+</div>
+
+<style>
+	h1 {
+		font-size: var(--sl-text-h1);
+	}
+	h1,h2 {
+	line-height: var(--sl-line-height-headings);
+	color: var(--sl-color-white);
+	}
+</style>

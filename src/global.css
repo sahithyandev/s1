@@ -181,17 +181,15 @@ br {
 	astro-dev-toolbar {
 		@apply !hidden;
 	}
+	.header-credits {
+		@apply !block;
+	}
 	div:has(> .sl-markdown-content)::after {
 		@apply block mt-8 text-sm;
 		content: "This PDF is saved from " var(--credits) " (" var(--path) ")";
 	}
 	.main-frame {
 		@apply pt-2 pl-2;
-	}
-	h1::before {
-		@apply opacity-80 block mb-1;
-		content: "Sahithyan's S1";
-		font-size: 1rem;
 	}
 	h1,
 	h2,

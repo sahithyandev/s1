@@ -1,20 +1,6 @@
 import { readdir, rename, writeFile } from "node:fs/promises";
 import { join, relative } from "node:path";
-
-/**
-    @param {string} text
-*/
-function hyphenCaseToTitleCase(text) {
-	const words = text.split("-");
-	const newText = new Array(words.length);
-
-	for (let i = 0; i < words.length; i++) {
-		const word = words[i];
-		newText[i] = word[0].toUpperCase().concat(word.slice(1));
-	}
-
-	return newText.join(" ");
-}
+import { hyphenCaseToTitleCase } from "../utils/index";
 
 /**
 @param {Array<string>} args
