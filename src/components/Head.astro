@@ -23,24 +23,6 @@ const ogImageUrl = new URL(
 <meta name="twitter:image" content={ogImageUrl.toString()} />
 </>
 }
-<link rel="icon" href="/favicon-light.ico">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32-light.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16-light.png">
-
-<script>
-const faviconEl = document.querySelector('link[rel="icon"]')
-const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)')
-mediaQuery.addEventListener('change', (event) => themeChanged(event.matches))
-
-function themeChanged(matches: boolean) {
-    if (!faviconEl) return;
-    const hrefValue = faviconEl.getAttribute("href")
-    if (!hrefValue) return;
-    if (matches && hrefValue.includes("light")) {
-      faviconEl.setAttribute('href', hrefValue.replace('light',"dark"))
-    } else if (!matches && hrefValue.includes("dark")){
-      faviconEl.setAttribute('href', hrefValue.replace("dark", "light"))
-  }
-  }
-  themeChanged(mediaQuery.matches)
-</script>
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
