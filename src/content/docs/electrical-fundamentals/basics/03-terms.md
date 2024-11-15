@@ -43,7 +43,8 @@ A mesh is a loop without having other loops inside it. Subset of loops.
 
 ![Delta connection](/electrical/delta-connection.jpg)
 
-Doesn't have a neutral wire. Neutral point is imaginary.
+- Doesn't have a neutral wire. Neutral point is imaginary.
+- Delivers more power
 
 ```math
 V_P = V_L

@@ -4,7 +4,7 @@ slug: electrical-fundamentals/basics/capacitors
 sidebar:
   order: 6
 prev: true
-next: true
+next: false
 ---
 
 Made of two conductive plates separated by an insulating
@@ -19,6 +19,7 @@ C = \frac{\epsilon A}{d}
 
 Here:
 
+- $\epsilon$: permittivity of the material in-between
 - $ d $: distance between the plates
 - $ A $: area of a plate
 
