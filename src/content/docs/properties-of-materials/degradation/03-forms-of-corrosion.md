@@ -18,11 +18,7 @@ next: false
 7. Stress corrosion
 8. Selective leaching
 
-:::note
-
 Only the first 3 forms are discussed in s1.
-
-:::
 
 ## Uniform corrosion
 

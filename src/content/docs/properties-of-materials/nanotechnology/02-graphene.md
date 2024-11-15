@@ -7,15 +7,15 @@ prev: true
 next: true
 ---
 
-Carbons arranged to a hexagonal network. 2D crystal based. Has 3 fold symmetry.
-Single sheet of graphite.
+$\ce{C}$ atoms arranged to a hexagonal network. 2D crystal based. Has $3$ fold
+symmetry. Single sheet of graphite.
 
 ## Unit Cell
 
-- A rhombus with $120°$.
-- Lattice parameter (side length of a unit cell) $a=2d\cos{30}°$ where $d$ is
-  the $\text{C}-\text{C}$ bond length.
-- 2 atoms per unit cell.
+- A rhombus with $120°$
+- Lattice parameter (side length of a unit cell) $a=2d\cos{30}°=\sqrt3 d$ where
+  $d$ is the $\text{C}-\text{C}$ bond length
+- 2 atoms per unit cell
 
 :::note
 

@@ -22,7 +22,7 @@ When electrons jump into conduction band, it leaves a hole in the valence band.
 The hole can be treated as a positive charge, having an equal and opposite
 charge value as an electron.
 
-Under the influence of an electric filed, an electron in valence band can jump
+Under the influence of an electric field, an electron in valence band can jump
 into a hole, creating new hole in the electron’s original position.
 
 If the number of holes is increased, fermi level move towards the valence band.
@@ -31,7 +31,7 @@ If the number of holes is increased, fermi level move towards the valence band.
 
 2 types based on the crystal structure.
 
-- Intrinsic: Made of a pure compound (no dopants)
+- Intrinsic: Made of a pure compound
 - Extrinsic: Made of a pure compound and a dopant
 
 ### Intrinsic Semiconductors
@@ -77,8 +77,8 @@ B, Ga, In).
 
 2 types based on the dopant.
 
-- n-type: When dopant is a pentavalent atom.
-- p-type: When dopant is a trivalent atom.
+- n-type: When dopant is a pentavalent atom
+- p-type: When dopant is a trivalent atom
 
 #### n-type
 
@@ -93,7 +93,7 @@ donor states.
 \;\;
 \text{because}
 \;
-(n_e >> n_h)
+(n_e \gg n_h)
 ```
 
 #### p-type
@@ -109,5 +109,5 @@ facilitating movement of holes.
 \;\;
 \text{because}
 \;
-(n_h>>n_e)
+(n_h \gg n_e)
 ```

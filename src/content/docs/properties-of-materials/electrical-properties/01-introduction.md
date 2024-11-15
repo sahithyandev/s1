@@ -79,7 +79,7 @@ Number of charge carriers per unit volume. Usually denoted by $n$. $ $
 
 ## Current Density
 
-Amount of electric current flows through a unit area.
+Amount of electric current flowing through a unit area.
 
 $J=nq\overline{\nu}=\sigma E$
 

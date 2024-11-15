@@ -4,27 +4,22 @@ slug: properties-of-materials/electrical-properties/dielectric-behavior
 sidebar:
   order: 4
 prev: true
-next: true
+next: false
 ---
 
 ## Dielectric material
 
 A material that is electrically insulating (non-metallic) and exhibits (or be
-made to) an electric dipole structure.
+made to) an electric dipole structure. One of the common use cases of dielectric
+materials is in capacitors.
 
 ## Electric Dipole Structure
 
-Electric Dipole Structure is the separation of positive and negative
-electrically charged entities on a molecular or atomic level.
-
-:::note
-
-One of the common use cases of dielectric materials is in capacitors.
-
-:::
+A structure where the positive and negative charges are separated on atomic or
+molecular level.
 
 ## Electric Polarization
 
 In dielectric materials, the electric dipoles are aligned in one direction due
-to the presence of the electric field. This process of alignment is called
+to the presence of the electric field. This alignment process is called
 polarization.

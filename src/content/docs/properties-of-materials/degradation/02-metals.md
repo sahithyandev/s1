@@ -121,8 +121,8 @@ Fe -> Fe^{2+} + 2e
 
 :::note
 
-$\ce{Al}$ doesn't corrode in atmosphere because the aluminium oxide is stable
-and works as a barrier between the metal and the atmosphere. $ $
+$\ce{Al}$ doesn't corrode in atmosphere because $\ce{Al2O3}$ is stable and works
+as a barrier between the metal and the atmosphere.
 
 Steel corrodes but stainless steel doesn't. The reason is: stainless steel
 contains $\ce{Cr}$ and $\ce{Cr2O3}$ is stable and it acts as a barrier.

@@ -15,7 +15,8 @@ A material with
 - having internal structure or surface structure in the nanoscale.
 
 At nanoscale, materials exhibit very unusual and very interesting properties.
-Examples: Graphene has very high young's modulus and very high carrier mobility.
+For example, graphene has very high young's modulus and very high carrier
+mobility.
 
 ## Nomenclature
 
@@ -30,7 +31,7 @@ bucky ball.
 #### Bucky ball
 
 Short for Buckminsterfullerene. Has $60\;\ce{C}$ atoms inside a molecule. A
-molecule is a truncated icosahedron shaped. Diameter of the molecule is approx.
+molecule is truncated icosahedron shaped. Diameter of the molecule is approx.
 $1\,\text{nm}$. Each carbon atom is bonded to another 3. Not chemically inert.
 
 ### Nano-structured material

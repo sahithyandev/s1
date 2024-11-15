@@ -140,7 +140,7 @@ For a $(n,m)$ tube: $ $
 - If $n-m$ is a integer multiple of $3$: small band gap semiconductors
 - Else: large band gap semiconductors
 
-Band gap decreases as the radius of the diameter increases.
+Band gap decreases as the radius increases.
 
 ## Applications
 
