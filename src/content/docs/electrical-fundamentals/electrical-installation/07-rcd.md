@@ -4,12 +4,19 @@ slug: electrical-fundamentals/electrical-installation/rcd
 sidebar:
   order: 7
 prev: true
-next: false
+next: true
 ---
 
 ![RCD](/electrical/rcd.jpg)
 
-Short for Residual Current Device. If there is an out of balance, as what
-happens when part of the current from the live flows to earth at the fault, an
-out of balance flux is produced, causing operation of the relay and opening of
-the main contacts.
+Short for Residual Current Device. Protects against electric shock and fire
+risks.
+
+Works by monitoring the residual current between the live and neutral lines.
+
+Under normal operation, the residual current is $0$. Generated magnetic fields
+cancel each other out. $ $
+
+When some current leaks to earth (like when someone touch the live wire), there
+will be a residual current. Which causes an unbalanced flux. Trips when the
+residual current exceeds the rated sensitivity (usually $30\,\text{mA}$). $ $

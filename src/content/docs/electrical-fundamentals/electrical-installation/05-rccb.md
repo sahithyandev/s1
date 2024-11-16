@@ -1,7 +1,7 @@
 ---
 title: RCCB
 sidebar:
-  order: 4
+  order: 5
 slug: electrical-fundamentals/electrical-installation/rccb
 prev: true
 next: true
@@ -31,7 +31,7 @@ In both ELCB and RCCB, a test switch is provided to create an artificial fault.
 
 :::
 
-### Advantages of RCCB
+## Advantages of RCCB
 
 Suppose the live wire is exposed. If somebody touches it, they may get a shock
 if a current passes through them.

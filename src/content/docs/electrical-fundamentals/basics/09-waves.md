@@ -31,7 +31,9 @@ A periodic waveform that is symmetric about the time axis.
 An alternating and symmetric waveform. Same as $\sin\theta$ vs $\theta$ (in
 rad). Also called sine waves or sinusoid.
 
-$y=A\sin(\omega{t}+\phi)$
+```math
+y=A\sin(\omega{t}+\phi)
+```
 
 When $\phi$ is: $ $
 

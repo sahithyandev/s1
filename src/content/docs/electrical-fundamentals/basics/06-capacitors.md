@@ -4,7 +4,7 @@ slug: electrical-fundamentals/basics/capacitors
 sidebar:
   order: 6
 prev: true
-next: false
+next: true
 ---
 
 Made of two conductive plates separated by an insulating
@@ -26,7 +26,9 @@ Here:
 In an ideal capacitor, the charge imbalance $ Q $ is proportional to the voltage
 $ V $ across the plates.
 
-$ Q = CV $
+```math
+Q = CV
+```
 
 ## v and i
 

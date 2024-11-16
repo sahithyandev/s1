@@ -1,7 +1,7 @@
 ---
 title: MCB
 sidebar:
-  order: 5
+  order: 6
 slug: electrical-fundamentals/electrical-installation/mcb
 prev: true
 next: true

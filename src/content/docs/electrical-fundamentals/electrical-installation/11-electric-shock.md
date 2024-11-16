@@ -23,8 +23,8 @@ Depends on
 
 ## Zones
 
-The below chart shows the time/current zones of effects of 50 Hz current on the
-human body:
+The below chart shows the time/current zones of effects of $50\,\text{Hz}$
+current on the human body: $ $
 
 ![Electric shock zones](/electrical/electric-shock-zones.jpg)
 

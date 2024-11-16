@@ -4,7 +4,7 @@ slug: electrical-fundamentals/basics/ac-theory
 sidebar:
   order: 10
 prev: true
-next: true
+next: false
 ---
 
 :::note
@@ -103,7 +103,9 @@ across a resistor $R$ in time $T$ as $i(t)$. Similar for voltage.
 
 ## Instantaneous power
 
-$P=vi=i^2R$
+```math
+P=vi=i^2R
+```
 
 ## Form factor
 

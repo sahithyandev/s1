@@ -7,6 +7,11 @@ prev: true
 next: true
 ---
 
+Earthing of equipment refers to the connection of non-current carrying parts of
+electrical equipment to the earth to maintain earth potential. Usually the
+earthing circuit is connected to a burried electrode. Done using a low-resistant
+conductor.
+
 An effective earthing system avoids having dangerous potentials on the equipment
 even during electrical faults and also ensures the proper operation of
 electrical protection equipment during fault condition.
@@ -30,15 +35,14 @@ are limited to near phase to ground voltage.
 Limiting the potential of non-current carrying metal work associated with
 equipment, apparatus and appliances in the system.
 
-Refers to grounding of all non-current carrying metal work of equipment.
 Governed by various regulations such as the IEE regulations. The objectives of
 this grounding are:
 
 - To ensure effective and rapid operation of the protective gear in the event of
-  earth fault currents. Otherwise, those currents might be undetected, cause
-  fire
-- Protect against danger to life through shock due to installation metal work
-  being maintained at a dangerous potential relative to earth
+  earth fault currents.  
+  Otherwise, those currents might be undetected, and cause fire
+- Protect against shocks caused by installation metal work having a dangerous
+  potential
 
 ## Types of earthing arrangements
 
@@ -55,15 +59,15 @@ earth.
 
 Above the first letter means:
 
-- **T** - Short for terra. Refers to one or more points of the source to earth
+- **T** - Short for terra. Means the source is earthed at its star point.
 - **I** - Short for isolated. Indicates either:
-  - (i) all live parts are isolated from earth
-  - (ii) one point of live is connected to earth through high impedance
+  1. all live parts are isolated from earth
+  2. one point of live is connected to earth through high impedance
 
 Above the second letter means:
 
-- **T** - Denotes a direct connection from exposed parts of consumer
-  installation to earth, independently of any point of the supply authority side
+- **T** - Means all exposed conductive parts of consumer installation are
+  directly earthed independently.
 - **N** - Denotes a direct electrical connection of the exposed conductive parts
   to the earthed point of the supply authority side (which is usually the
   neutral point)
@@ -72,17 +76,16 @@ Above the second letter means:
 
 Used in Sri Lanka. Supply is earthed at the source end. All exposed conductive
 parts of the installation are connected to earth (independent earth electrode)
-at consumer end.
+at consumer end. Earth serves as the return path for the fault current.
 
 ![TT system](/electrical/tt-system.jpg)
 
 :::note
 
-In domestic systems, the earthing circuit is usually earthed by connecting to
-metallic water pipes buried in ground. The resistance of this electrode to earth
-also depends on the condition of soil and may have values in excess of 100 .
-Thus in the TT system of earthing, it is now essential to use an RCCB for
-protection.
+In domestic systems, the earthing circuit is usually earthed through buried
+metallic pipes. The electrode's resistance depends on the condition of soil and
+may have values in excess of $100\,\Omega$. Thus in the TT system of earthing,
+it is now essential to use an RCCB for protection. $ $
 
 :::
 
