@@ -1,11 +1,11 @@
 ---
-title: Introduction to Programming A-book
+title: A-book
 sidebar:
   label: Introduction
   order: 1
 slug: programming-fundamentals/a-book/introduction
 prev: false
-next: true
+next: false
 ---
 
 ## Definitions

@@ -117,10 +117,9 @@ export default function generatePdfsIntegration(
 						const parts = safeSplit(content, "---", 3);
 						const sidebarLabel = parts[1]
 							.split("\n")[1]
-							.replaceAll("title: Introduction to ", "");
+							.replaceAll("title: ", "");
 						const frontmatter = parts[1]
 							.split("\n")[1]
-							.replaceAll("Introduction to ", "")
 							.concat(`\nsidebar:\n  label: ${sidebarLabel}\n`);
 						outputFileContents[outputPath] = "---".concat(
 							"\n",

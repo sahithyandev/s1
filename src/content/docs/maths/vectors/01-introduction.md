@@ -1,11 +1,11 @@
 ---
-title: Introduction to Vectors
+title: Vectors
 slug: maths/vectors/introduction
 sidebar:
   label: Introduction
   order: 1
 prev: false
-next: true
+next: false
 ---
 
 Revise Vectors unit from G.C.E (A/L) Combined Mathematics.

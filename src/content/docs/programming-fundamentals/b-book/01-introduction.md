@@ -1,11 +1,11 @@
 ---
-title: Introduction to B-book
+title: B-book
 sidebar:
   label: Introduction
   order: 1
 slug: programming-fundamentals/b-book/introduction
 prev: false
-next: true
+next: false
 ---
 
 Computers are used to process data and produce useful information.

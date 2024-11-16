@@ -1,11 +1,11 @@
 ---
-title: Introduction to Complex Numbers
+title: Complex Numbers
 slug: maths/complex-analysis/introduction
 sidebar:
   label: Introduction
   order: 1
 prev: false
-next: true
+next: false
 ---
 
 ### Representation methods

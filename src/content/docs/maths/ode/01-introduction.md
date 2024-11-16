@@ -1,11 +1,11 @@
 ---
-title: Introduction to Differential Equations
+title: Differential Equations
 slug: maths/ode/introduction
 sidebar:
   label: Introduction
   order: 1
 prev: false
-next: true
+next: false
 ---
 
 Equations which are composed of an unknown function and its derivatives.

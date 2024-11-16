@@ -1,11 +1,11 @@
 ---
-title: Introduction to Electrical Installations
+title: Electrical Installations
 slug: electrical-fundamentals/electrical-installation/introduction
 sidebar:
   label: Introduction
   order: 1
 prev: false
-next: true
+next: false
 ---
 
 An assembly (connected as a complete set) of associated electrical equipment to

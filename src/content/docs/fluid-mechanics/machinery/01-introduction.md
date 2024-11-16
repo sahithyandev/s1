@@ -1,11 +1,11 @@
 ---
-title: Introduction to Hydraulic Machinary
+title: Hydraulic Machinary
 sidebar:
   label: Introduction
   order: 1
 slug: fluid-mechanics/machinery/introduction
 prev: false
-next: true
+next: false
 ---
 
 Learning about machines that transfer energy between its operating parts and a

@@ -1,5 +1,5 @@
 ---
-title: Introduction to Basics
+title: Basics
 prev: false
 slug: properties-of-materials/basics/introduction
 sidebar:

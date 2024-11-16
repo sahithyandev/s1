@@ -1,11 +1,11 @@
 ---
-title: Introduction to Degradation
+title: Degradation
 sidebar:
   label: Introduction
   order: 1
 prev: false
 slug: properties-of-materials/degradation/introduction
-next: true
+next: false
 ---
 
 Ceramics are resistive to degradation. That's why glass is often used to contain

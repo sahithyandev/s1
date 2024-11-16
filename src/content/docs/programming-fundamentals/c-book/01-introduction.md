@@ -1,5 +1,5 @@
 ---
-title: Introduction to Programming C-book
+title: C-book
 slug: programming-fundamentals/c-book/introduction
 sidebar:
   label: Introduction

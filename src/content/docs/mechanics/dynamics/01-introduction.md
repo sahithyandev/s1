@@ -1,11 +1,11 @@
 ---
-title: Introduction to Dynamics
+title: Dynamics
 slug: mechanics/dynamics/introduction
 sidebar:
   label: Introduction
   order: 1
 prev: false
-next: true
+next: false
 ---
 
 A branch of mechanics, which deals with motion of bodies.

@@ -1,11 +1,11 @@
 ---
-title: Introduction to Fluid Mechanics
+title: Fluid Statics
 slug: fluid-mechanics/statics/introduction
 sidebar:
   label: Introduction
   order: 1
 prev: false
-next: true
+next: false
 ---
 
 Study of Fluids Mechanics include

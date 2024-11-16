@@ -1,11 +1,11 @@
 ---
-title: Introduction to Statics
+title: Statics
 slug: mechanics/statics/introduction
 sidebar:
   label: Introduction
   order: 1
 prev: false
-next: true
+next: false
 ---
 
 ## Centroid / Centre of area

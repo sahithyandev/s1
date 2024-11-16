@@ -1,5 +1,5 @@
 ---
-title: Introduction to Basics
+title: Basics
 slug: electrical-fundamentals/basics/introduction
 sidebar:
   label: Introduction

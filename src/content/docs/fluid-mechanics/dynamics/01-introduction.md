@@ -1,11 +1,11 @@
 ---
-title: Introduction to Fluid Dynamics
+title: Fluid Dynamics
 slug: fluid-mechanics/dynamics/introduction
 sidebar:
   label: Introduction
   order: 1
 prev: false
-next: true
+next: false
 ---
 
 ## Flow

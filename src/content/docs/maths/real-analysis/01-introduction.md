@@ -1,11 +1,11 @@
 ---
-title: Introduction to Real Analysis
+title: Real Analysis
 slug: maths/real-analysis/introduction
 sidebar:
   label: Introduction
   order: 1
 prev: false
-next: true
+next: false
 ---
 
 ## Mathematical logic

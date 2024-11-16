@@ -1,11 +1,11 @@
 ---
-title: Introduction to Mechanical Properties
+title: Mechanical Properties
 sidebar:
   label: Introduction
   order: 1
 slug: properties-of-materials/mechanical-properties/introduction
 prev: false
-next: true
+next: false
 ---
 
 ## Tensile Force

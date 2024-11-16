@@ -1,11 +1,11 @@
 ---
-title: Introduction to Riemann Integration
+title: Riemann Integration
 sidebar:
   label: Introduction
   order: 1
 slug: maths/riemann-integration/introduction
 prev: false
-next: true
+next: false
 ---
 
 ## Interval

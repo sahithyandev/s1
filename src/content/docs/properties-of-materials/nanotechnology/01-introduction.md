@@ -1,11 +1,11 @@
 ---
-title: Introduction to Nanomaterials
+title: Nanotechnology
 slug: properties-of-materials/nanotechnology/introduction
 sidebar:
   label: Introduction
   order: 1
 prev: false
-next: true
+next: false
 ---
 
 A material with
