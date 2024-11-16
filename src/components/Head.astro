@@ -7,8 +7,7 @@ const id = Astro.props.id === ".md" ? "index.md" : Astro.props.id;
 // Get the URL of the generated image for the current page using its // ID and
 // replace the file extension with `.png`.
 const ogImageUrl = new URL(
-    `/og/${id.replace(/\.\w+$/, ".png").replace(/\d+-/, ""
-	)}`,
+	`/og/${id.replace(/\.\w+$/, ".png").replace(/\d+-/, "")}`,
 	Astro.site,
 );
 ---

@@ -1,20 +1,20 @@
 ---
-import type {Props} from "@astrojs/starlight/props";
+import type { Props } from "@astrojs/starlight/props";
 import { SITE_TITLE } from "../../config.mjs";
-import {hyphenCaseToTitleCase} from "../../utils/index";
+import { hyphenCaseToTitleCase } from "../../utils/index";
 
 let sectionLabel = null;
 
 if (Astro.props.slug.startsWith("summary/")) {
-const slug = Astro.props.entry.slug.split("/").at(-1);
-if (slug) {
-  const parts = slug.split("--");
-  if (parts.length > 0) {
-    sectionLabel = hyphenCaseToTitleCase(parts[0])
-  }
-}
+	const slug = Astro.props.entry.slug.split("/").at(-1);
+	if (slug) {
+		const parts = slug.split("--");
+		if (parts.length > 0) {
+			sectionLabel = hyphenCaseToTitleCase(parts[0]);
+		}
+	}
 } else {
-  sectionLabel = hyphenCaseToTitleCase(Astro.props.entry.slug.split("/")[0]);
+	sectionLabel = hyphenCaseToTitleCase(Astro.props.entry.slug.split("/")[0]);
 }
 ---
 

@@ -33,14 +33,18 @@ function findSections(entries: Props["sidebar"], parentLabel = "") {
 			sections.push({
 				label: `${parentLabel}${entry.label}`,
 				href: "/as-pdf/".concat(
-					entry.entries[0].href.split("/").slice(1, -2).join("--").toLowerCase(),
-					".pdf"
+					entry.entries[0].href
+						.split("/")
+						.slice(1, -2)
+						.join("--")
+						.toLowerCase(),
+					".pdf",
 				),
 			});
 		} else {
 			for (const subsection of findSections(
 				entry.entries,
-				`${entry.label}${parentLabel} | `
+				`${entry.label}${parentLabel} | `,
 			)) {
 				sections.push(subsection);
 			}
