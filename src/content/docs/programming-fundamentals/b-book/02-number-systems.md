@@ -1,9 +1,9 @@
 ---
-title: Introduction to Number Systems
+title: Number Systems
 slug: programming-fundamentals/b-book/number-systems
 sidebar:
-  order: 1
-prev: false
+  order: 2
+prev: true
 next: true
 ---
 

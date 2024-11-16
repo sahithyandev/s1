@@ -2,7 +2,7 @@
 title: Data Representation
 slug: programming-fundamentals/b-book/data-representation
 sidebar:
-  order: 2
+  order: 3
 prev: true
 next: true
 ---

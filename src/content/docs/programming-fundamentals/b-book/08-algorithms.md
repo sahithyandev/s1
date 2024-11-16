@@ -2,7 +2,7 @@
 title: Algorithms
 slug: programming-fundamentals/b-book/algorithms
 sidebar:
-  order: 7
+  order: 8
 prev: true
 next: true
 ---
@@ -222,35 +222,47 @@ split a list around a selected value called the split point.
 
 ```py
 def quick_sort(a_list, first, last):
+    # Only proceed if there are at least 2 elements to sort
     if first < last:
+        # Get the partition point and sort the pivot into its final position
         split_point = partition(a_list, first, last)
+        # Recursively sort the left portion (elements smaller than pivot)
         quick_sort(a_list, first, split_point - 1)
+        # Recursively sort the right portion (elements larger than pivot)
         quick_sort(a_list, split_point + 1, last)
 
 def partition(a_list, first, last):
+    # Choose the first element as the pivot
     pivot_value = a_list[first]
+    # Set initial positions for left and right markers
     left_mark = first + 1
     right_mark = last
     done = False
 
     while not done:
+        # Move left marker right until we find an element greater than pivot
         while left_mark <= right_mark and a_list[left_mark] <= pivot_value:
-        left_mark = left_mark + 1
+            left_mark = left_mark + 1
 
+        # Move right marker left until we find an element less than pivot
         while a_list[right_mark] >= pivot_value and right_mark >= left_mark:
-            right_mark = right_mark - 1 36 / 46
+            right_mark = right_mark - 1
 
-            if right_mark < left_mark:
-                done = True
-            else:
-                temp = a_list[left_mark]
-                a_list[left_mark] = a_list[right_mark]
-                a_list[right_mark] = temp
+        # If markers have crossed, partitioning is complete
+        if right_mark < left_mark:
+            done = True
+        else:
+            # Swap elements at left and right markers since they are in wrong positions
+            temp = a_list[left_mark]
+            a_list[left_mark] = a_list[right_mark]
+            a_list[right_mark] = temp
 
+    # Place pivot in its final position by swapping with right_mark
     temp = a_list[first]
     a_list[first] = a_list[right_mark]
     a_list[right_mark] = temp
 
+    # Return the position of the pivot
     return right_mark
 ```
 

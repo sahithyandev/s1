@@ -2,9 +2,9 @@
 title: Data Types
 slug: programming-fundamentals/b-book/data-types
 sidebar:
-  order: 6
+  order: 7
 prev: true
-next: false
+next: true
 ---
 
 Data types can be grouped into 3 categories.
@@ -103,6 +103,44 @@ Collection of key-value pairs. Unordered.
 
 A "Last-In-First-Out" model.
 
+```py
+class Stack:
+    def __init__(self):
+        # Initialize empty list to store stack elements
+        self.items = []
+
+    def is_empty(self):
+        # Return True if stack is empty
+        return len(self.items) == 0
+
+    def push(self, item):
+        # Add item to top of stack
+        self.items.append(item)
+
+    def pop(self):
+        # Remove and return top item from stack
+        if not self.is_empty():
+            return self.items.pop()
+        return None
+
+    def peek(self):
+        # Return top item without removing it
+        if not self.is_empty():
+            return self.items[-1]
+        return None
+
+    def size(self):
+        # Return number of items in stack
+        return len(self.items)
+
+# Example usage:
+# stack = Stack()
+# stack.push(1)
+# stack.push(2)
+# print(stack.pop())  # Returns 2
+# print(stack.peek()) # Returns 1
+```
+
 ### Queue
 
 A "First-In-First-Out" model. Implemented in Python as `deque`.
@@ -111,9 +149,42 @@ A "First-In-First-Out" model. Implemented in Python as `deque`.
 
 Holds a set of nodes. Each node holds a value. Each node can have child nodes.
 
+```py
+class Tree:
+    def __init__(self, value=None):
+        # Initialize node with value and empty list of children
+        self.value = value
+        self.children = []
+
+    def add_child(self, child_node):
+        # Add a child node to this node
+        self.children.append(child_node)
+
+    def remove_child(self, child_node):
+        # Remove a child node from this node
+        self.children.remove(child_node)
+
+    def get_value(self):
+        # Get the value stored in this node
+        return self.value
+
+    def get_children(self):
+        # Get list of child nodes
+        return self.children
+
+# Example usage:
+# tree = Tree(1)
+# child1 = Tree(2)
+# child2 = Tree(3)
+# tree.add_child(child1)
+# tree.add_child(child2)
+```
+
 ### Binary Tree
 
-Tree with the restriction of at most 2 child nodes per node.
+Tree with the restriction of at most 2 child nodes per node. Binary tree can be
+implemented similarily as a tree class. Instead of a `children` array, `left`
+and `right` nodes are preferred.
 
 #### Complete Binary Tree
 

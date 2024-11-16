@@ -2,7 +2,7 @@
 title: Strings
 slug: programming-fundamentals/b-book/strings
 sidebar:
-  order: 5
+  order: 6
 prev: true
 next: true
 ---

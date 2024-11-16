@@ -1,11 +1,14 @@
 ---
 title: Introduction to Programming C-book
-slug: programming-fundamentals/c-book/computers
+slug: programming-fundamentals/c-book/introduction
 sidebar:
+  label: Introduction
   order: 1
 prev: false
-next: true
+next: false
 ---
+
+## Computers
 
 An electronic device for analyzing and storing data, making calculations, etc.
 
@@ -75,15 +78,3 @@ A computer is a system. A complete computer system consists of:
 - Data: Individual facts or pieces of information that is input to the computer
   for processing or produces as output after processing.
 - User(s)
-
-## Information
-
-Computers can process various types of data. When a communication link (such as
-Internet) is provided, the data can be transferred to other users despite of
-distance. The computer and communication technologies that made this possible
-are together referred to as information technology or IT (or, sometimes as
-information and communication technology or ICT). Computers are therefore at the
-heart of IT.
-
-An information system is a system with well-defined procedures and techniques to
-collect, store, process, and disseminate information.
