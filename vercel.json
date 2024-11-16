@@ -87,11 +87,11 @@
     },
     {
       "source": "/programming-fundamentals/c-book",
-      "destination": "/programming-fundamentals/c-book/computers"
+      "destination": "/programming-fundamentals/c-book/introduction"
     },
     {
       "source": "/programming-fundamentals/b-book",
-      "destination": "/programming-fundamentals/b-book/number-systems"
+      "destination": "/programming-fundamentals/b-book/introduction"
     }
   ]
 }
