@@ -33,7 +33,7 @@
 		"typescript": "^5.6.2"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "^1.9.0",
+		"@biomejs/biome": "1.9.4",
 		"@types/rollup": "^0.54.0",
 		"husky": "^9.1.6",
 		"lint-staged": "^15.2.10",
@@ -43,23 +43,13 @@
 		"*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx}": [
 			"biome check --write --no-errors-on-unmatched"
 		],
-		"*.css": [
-			"biome lint --write",
-			"biome format --write"
-		],
+		"*.css": ["biome lint --write", "biome format --write"],
 		"*.md": [
 			"bun scripts/auto-slug.js",
 			"prettier --write .",
 			"bun scripts/fix-vercel-config.ts"
 		],
-		"*.astro": [
-			"prettier --write ."
-		]
+		"*.astro": ["prettier --write ."]
 	},
-	"trustedDependencies": [
-		"@biomejs/biome",
-		"esbuild",
-		"puppeteer",
-		"sharp"
-	]
+	"trustedDependencies": ["@biomejs/biome", "esbuild", "puppeteer", "sharp"]
 }
