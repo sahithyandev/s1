@@ -27,7 +27,7 @@ export default defineConfig({
 			title: SITE_TITLE,
 			favicon: "/favicon.ico",
 			description:
-				"Short notes of 1st semester of Engineering at University of Moratuwa.",
+				"Notes of 1st semester of Engineering at University of Moratuwa.",
 			head: [
 				{
 					tag: "link",

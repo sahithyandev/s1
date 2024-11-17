@@ -226,6 +226,12 @@ export default function generatePdfsIntegration(
 							waitUntil: "networkidle2",
 							timeout: 120000,
 						});
+						await summaryPage.evaluate(() => {
+							const items = document.querySelectorAll(".expressive-code .copy");
+							for (let i = 0; i < items.length; i++) {
+								items.item(i).remove();
+							}
+						});
 						await summaryPage.pdf({
 							path: pathToSavePdf,
 							format: "A4",

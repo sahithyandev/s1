@@ -272,3 +272,8 @@ svg text {
 .pagination-links a {
 	@apply bg-gray-100 dark:bg-gray-700 shadow-none;
 }
+.expressive-code {
+	figure pre {
+		@apply rounded-sm;
+	}
+}
