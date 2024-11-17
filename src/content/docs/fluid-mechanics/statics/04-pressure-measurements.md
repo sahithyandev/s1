@@ -2,7 +2,7 @@
 title: Pressure Measurements
 slug: fluid-mechanics/statics/pressure-measurements
 sidebar:
-  order: 5
+  order: 4
 prev: true
 next: true
 ---
@@ -36,7 +36,9 @@ Measures the pressure head of a liquid.
 Hydrostatic principle is used here. Measures absolute pressue. Manometer liquid
 should not mix with the liquid in which the pressure is to be measured.
 
-$ P_x = P_y $
+```math
+P_x = P_y
+```
 
 ```math
 P_{A} + a\rho g = P_{\text{atm}} + h \rho_{m} g

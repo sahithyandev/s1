@@ -2,7 +2,7 @@
 title: Relative Equilibrium
 slug: fluid-mechanics/statics/relative-equilibrium
 sidebar:
-  order: 10
+  order: 7
 prev: true
 next: true
 ---
@@ -74,18 +74,13 @@ On the free surface $P=0$ as gauge pressure is considered. $ $
 =c_1
 ```
 
-Free surface is a plane surface in 3D.
+Free surface is a plane in 3D.
 
-### Inclination with horizontal plane
+## Inclined Acceleration
 
-:::caution
-
-I am unsure whether this section is 100% correct.
-
-:::
-
-Suppose a vessel is in acceleration in $a_x,a_z$ in $x,z$ directions and
-$a_y=0$.
+```math
+a_x, a_z \neq 0 \;\;\;\land\;\;\; a_y = 0
+```
 
 If $\theta_x,\theta_y$ are the angles in $x,y$ directions.
 
@@ -117,9 +112,11 @@ And similarly for $y$: $ $
 \tan{(\theta_y)}=\frac{-a_y}{a_z+g}
 ```
 
-## Under Horizontal Acceleration
+## Horizontal Acceleration
 
-$a_x\neq 0\;\land\;a_y=a_z=0$
+```math
+a_x\neq 0\;\land\;a_y=a_z=0
+```
 
 ### Equation of the free surface
 
@@ -140,7 +137,7 @@ $\theta_x$:
 
 ![horizontal-acceleration-vertical-pressure-variation.jpg](/fluids/horizontal-acceleration-vertical-pressure-variation.jpg)
 
-## Under Vertical Acceleration
+## Vertical Acceleration
 
 $a_z\neq 0\;\land\;a_x=a_y=0$
 

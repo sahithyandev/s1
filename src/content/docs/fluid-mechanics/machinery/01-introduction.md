@@ -5,18 +5,18 @@ sidebar:
   order: 1
 slug: fluid-mechanics/machinery/introduction
 prev: false
-next: false
+next: true
 ---
 
-Learning about machines that transfer energy between its operating parts and a
-fluid.
+Hydraulic machines are the machines that transfer energy between its operating
+parts and a fluid.
 
 Examples:
 
 - [Pumps](/fluid-mechanics/machinery/pumps)
+- [Turbines](/fluid-mechanics/machinery/turbines)
 - Blowers
 - Compressors
-- [Turbines](/fluid-mechanics/machinery/turbines)
 
 ## Classification
 
@@ -33,10 +33,10 @@ Examples:
 
 Examples:
 
-- Fluid motors
 - Turbines
+- Fluid motors
 
-#### Fluid only as a energy transfer medium
+#### Energy transfer using fluid
 
 Examples:
 
@@ -63,7 +63,7 @@ In piston pump (slider-crank mechanism), the movement of the piston is called as
 #### Rotodynamic
 
 Main component is a rotating element. It rotates inside a fluid. Rotating
-element's kinetic energy is transferred to fluid when the fluid flwos through
+element's kinetic energy is transferred to fluid when the fluid flows through
 it.
 
 | Machine      | Main rotating element |
@@ -82,6 +82,6 @@ it.
 :::note
 
 In s1, only rotodynamic [pumps](/fluid-mechanics/machinery/pumps) and
-rotodynamic turbines are studied.
+rotodynamic [turbines](/fluid-mechanics/machinery/turbines) are studied.
 
 :::

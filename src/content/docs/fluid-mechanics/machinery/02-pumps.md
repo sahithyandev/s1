@@ -7,8 +7,6 @@ prev: true
 next: true
 ---
 
-Energy flow direction is machine to fluid.
-
 ### Vane
 
 A curved blade used in a pump.
@@ -28,12 +26,12 @@ Fluid enters and exits the impeller axially.
 
 ### Radial flow
 
-Fluid enters the impeller axially. Leaves radially. Aka.
-[centrifugal pumps](/fluid-mechanics/machinery/centrifugal-pumps).
+Fluid enters the impeller axially. Leaves radially.
 
 ### Mixed flow
 
 Fluid enters the impeller axially. Leaves in both axial and radial directions.
+Aka. [centrifugal pumps](/fluid-mechanics/machinery/centrifugal-pumps).
 
 :::note
 

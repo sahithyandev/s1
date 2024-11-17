@@ -12,8 +12,6 @@ flow rates. Mixed flow, rotodynamic pump.
 
 ![Centrifugal pump](/fluids/centrifugal-pump.jpg)
 
-There can be a diffuser as well, which is optional.
-
 ### Volute
 
 Casing of the impeller. A passage with increasing area, to reduce velocity (to
@@ -21,14 +19,15 @@ reduce losses).
 
 :::note
 
-Energy losses in a fluid flow is directly proportional to $v^2$. $ $
+[Energy loss in a fluid flow](/fluid-mechanics/dynamics/losses) is directly
+proportional to $v^2$. $ $
 
 :::
 
 ### Diffuser
 
 A fixed set of vanes added to the impeller. To direct the flow into the volute,
-to minimize impact losses.
+to minimize impact losses. Optional.
 
 ## Operation
 

@@ -53,7 +53,9 @@ $P_x=P_z=P_s$
 
 Let $p$ be the pressure at the point $A\equiv (x,y,z)$.
 
-$ p = f(x,y,z) $
+```math
+p = f(x,y,z)
+```
 
 ```math
 dp =
@@ -139,17 +141,49 @@ $\rho$ is constant. $p = -\rho g\int{\text{d}z} = -\rho gz + c = f(z)$.
 
 :::
 
-## Piezometric pressure
+## Isobar
 
-$ P = -\rho gz + c $
+Surface of constant pressure.
+
+## Types of pressure
+
+### Atmospheric Pressure
+
+Pressure exerted by atmospheric air.
+
+### Gauge Pressure
+
+Measured in respect to atmospheric pressure.
+
+### Absolute Pressure
+
+Measured in respect to perfect vaccum.
+
+```math
+\text{Absolute Pressure} = \text{Atmospheric Pressure} + \text{Guage Pressure}
+```
+
+### Piezometric pressure
+
+```math
+P = -\rho gz + c
+```
 
 ```math
 P + \rho gz = c = P^{*}
 ```
 
-## Isobar
+## Pressure diagram
 
-Surface of constant pressure.
+A diagram showing the variation of pressure along a submerged surface.
+
+## Pressure Head
+
+Height of a particular fluid column that will produce the pressure at a point.
+
+```math
+\text{Pressure head} = h = \frac{p}{\gamma}
+```
 
 ## Pressure difference between 2 points
 
@@ -162,11 +196,3 @@ $ P_2 = -\rho gz_2 + c $
 $ P_2 - P_1 = -\rho g(z_2 - z_1) = -\rho g (-h) = h \rho g $
 
 $ P_2 = P_1 + h \rho g $
-
-In a homogenous,
-[incompressible fluid](/fluid-mechanics/dynamics/introduction/#incompressible)
-in equilibrium:
-
-1. Piezometric pressure is constant throughout the fluid
-2. Pressure varies linearly with depth only
-3. Isobars are horizontal

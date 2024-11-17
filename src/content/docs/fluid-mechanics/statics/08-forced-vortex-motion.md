@@ -2,7 +2,7 @@
 title: Forced Vortex Motion
 slug: fluid-mechanics/statics/forced-vortex-motion
 sidebar:
-  order: 11
+  order: 8
 next: false
 prev: true
 ---
@@ -14,7 +14,7 @@ be in Forced Vortex Motion.
 
 :::note
 
-For S1, forced vortex motion, only about vertical axis, is required.
+For s1, forced vortex motion only about vertical axis is required.
 
 :::
 
@@ -27,12 +27,6 @@ P = \frac{1}{2}\rho \omega^2 r^2 - \rho gz +c
 Here:
 
 - $\omega$ - angular velocity
-
-:::caution[TODO]
-
-Explain how to derive the above equation.
-
-:::
 
 ## Equation of the free surface
 

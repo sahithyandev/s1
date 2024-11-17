@@ -2,7 +2,7 @@
 title: Hydrostatic Thrust
 slug: fluid-mechanics/statics/hydrostatic-thrust
 sidebar:
-  order: 6
+  order: 5
 prev: true
 next: true
 ---
@@ -12,7 +12,9 @@ next: true
 Acts **normal to the surface** on the point on the surface known as **the Centre
 of Pressure** with a magnitude of:
 
-$ \text{Thrust} = \text{submerged area} \times P_c $
+```math
+\text{Thrust} = \text{submerged area} \times P_c
+```
 
 $C$ is the centroid of the submerged area. $P_c$ is the pressure at the
 centroid.
@@ -42,6 +44,13 @@ pressure diagram}
 
 :::
 
+### For common shapes
+
+| Shape         | Description                                        | $y_p$             |
+| ------------- | -------------------------------------------------- | ----------------- |
+| Parallelogram | Base $b$. Height $h$. Base is at the free surface. | $ \cfrac{2h}{3}$  |
+| Triangle      | Base $b$. Height $h$. Base is at the free surface. | $ \cfrac{5h}{6} $ |
+
 ### Proof
 
 ![Hydrostatic thrust on a plane surface](/fluids/hydrostatic-thrust-on-a-plane.jpg)
@@ -63,13 +72,13 @@ normal to the surface. $ $
 ```math
 F = \int_A{\text{d}F}
 = \int_A{p\text{d}A}
-= \int_A{ysin{\theta}\rho g\, \text{d}A}
+= \int_A{y\sin{\theta}\rho g\, \text{d}A}
 ```
 
 ```math
-F = sin{\theta}\rho g \int_A{y\,\text{d}A}
-= sin{\theta}\rho g \cdot A y_{c}
-= A\cdot {y_{c}sin{\theta}\rho g}
+F = \sin{\theta}\rho g \int_A{y\,\text{d}A}
+= \sin{\theta}\rho g \cdot A y_{c}
+= A\cdot {y_{c}\sin{\theta}\rho g}
 ```
 
 ```math
@@ -84,7 +93,7 @@ F \cdot y_p = \int_{A}{y\,\text{d}F}
 
 ```math
 y_p = \frac{\int_{A}{y\,\text{d}F}}{\int_{A}{\text{d}F}}
-= \frac{\int_{A}{y(ysin{\theta}\rho g)\,\text{d}A}}{\int_{A}{ysin{\theta}\rho g\,\text{d}A}}
+= \frac{\int_{A}{y(y\sin{\theta}\rho g)\,\text{d}A}}{\int_{A}{y\sin{\theta}\rho g\,\text{d}A}}
 = \frac{\int_{A}{y^2\,\text{d}A}}{\int_{A}{y\,\text{d}A}}
 ```
 
@@ -96,10 +105,14 @@ y_p
 
 ## On a Curved Surface
 
-$ F_x = \text{Thrust exerted on the vertical projection of the submerged
-surface} $
+```math
+F_x = \text{Thrust exerted on the vertical projection of the submerged
+surface}
+```
 
-$ F_y = \text{Weight of the fluid above submerged surface} $
+```math
+F_y = \text{Weight of the fluid above submerged surface}
+```
 
 ### Proof
 
@@ -120,6 +133,10 @@ F_x = F_{AE}
 :::note[Tensile stress in pipe]
 
 For a pipe with inner diameter $d$ and thickness $t$ containing a liquid under
-pressure $p$, experiences a tensile stress $f = \frac{pd}{2t}$.
+pressure $p$, experiences a tensile stress:
+
+```math
+f = \frac{pd}{2t}
+```
 
 :::

@@ -3,7 +3,7 @@ title: Buoyancy
 description: Thrust exerted on a submerged object in a liquid
 slug: fluid-mechanics/statics/buoyancy
 sidebar:
-  order: 8
+  order: 6
 prev: true
 next: true
 ---
@@ -11,7 +11,9 @@ next: true
 Thrust exerted on a submerged object in a liquid. Direction is vertically
 upwards. Line of action passes through center of buoyancy.
 
-$u=\text{weight of the fluid volume displaced}=v\rho{g}$
+```math
+u=\text{weight of displaced fluid}=v\rho{g}
+```
 
 Here:
 
@@ -31,7 +33,9 @@ displaced volume before it was displaced.
 
 Consider the equilibrium of displaced volume before it was displaced:
 
-$\text{Weight}=W=\text{Resultant force exerted by surrounding liquid}=F$
+```math
+\text{Weight}=W=\text{Resultant force exerted by surrounding liquid}=F
+```
 
 $F$ must be equal to $W$, opposite to $W$ and acts through $G$ of the considered
 volume of fluid.
@@ -52,8 +56,8 @@ of buoyancy $B$.
 
 ### Metacentre
 
-Intersection point between the line of action of $U$ through $B$ AND the axis
-$BG$. Denoted by $M$.
+Intersection point between the line of action of $U$ through $B$ **and** the
+axis $BG$. Denoted by $M$.
 
 For small displacements $M$ is fixed in position relative to the body.$ $
 
@@ -105,8 +109,11 @@ Considering the shift in centre of gravity:
 W(GG')=Px+0(W-P) \implies GG'=\frac{Px}{W}
 ```
 
-When $\theta$ is very small:
-$GG'=\frac{Px}{W}\approx(GM)\theta\implies GM\approx\frac{Px}{W\theta}$
+When $\theta$ is very small: $ $
+
+```math
+GG'=\frac{Px}{W}\approx(GM)\theta\implies GM\approx\frac{Px}{W\theta}
+```
 
 ```math
 GM=\lim\limits_{\theta\to{0}}\frac{Px}{W\theta}
@@ -202,7 +209,7 @@ T=-W(\text{GM})\sin{\theta}=I_G\ddot{\theta}
 ```
 
 ```math
-\frac{\text{d}^2\theta}{\text{d}t^2}=-\frac{W(\text{GM})}{I_G}\theta=-\frac{Mg(\text{GM})}{Mk^2}\theta
+\ddot{\theta}=-\frac{W(\text{GM})}{I_G}\theta=-\frac{Mg(\text{GM})}{Mk^2}\theta
 ```
 
 Here
