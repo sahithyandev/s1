@@ -4,7 +4,7 @@ import { defineConfig } from "astro/config";
 import rehypeMathjax from "rehype-mathjax";
 import remarkMath from "remark-math";
 import starlightLinksValidator from "starlight-links-validator";
-import { SITE_TITLE } from "./config.mjs";
+import { SITE_HREF, SITE_TITLE } from "./config.mjs";
 import generatePdfsIntegration from "./plugins/generate-pdfs";
 
 // https://astro.build/config
@@ -13,10 +13,15 @@ export default defineConfig({
 		remarkPlugins: [remarkMath],
 		rehypePlugins: [rehypeMathjax],
 	},
-	site: "https://s1.sahithyan.dev",
+	site: SITE_HREF,
 	integrations: [
 		generatePdfsIntegration({
 			watermarkImage: "public/logo.png",
+			credits: {
+				text: "From Sahithyan's S1",
+				href: SITE_HREF,
+				size: 10,
+			},
 		}),
 		starlight({
 			plugins: [

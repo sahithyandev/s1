@@ -5,7 +5,14 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import chromium from "@sparticuz/chromium";
 import type { AstroIntegration } from "astro";
-import { PDFDocument } from "pdf-lib";
+import {
+	ColorTypes,
+	PDFDict,
+	PDFDocument,
+	type PDFImage,
+	PDFName,
+	PDFString,
+} from "pdf-lib";
 import type { Browser, Page } from "puppeteer-core";
 import puppeteer from "puppeteer-core";
 import { setMetadata } from "./helpers/meta";
@@ -20,6 +27,30 @@ function outputFilename(filePath: string) {
 		CONTENT_DIRECTORY,
 		"summary",
 		dirname(filePath).replaceAll("/", "--").concat(".md"),
+	);
+}
+export function createPageLinkAnnotation(
+	pdfDocument: PDFDocument,
+	url: string,
+	placement: {
+		x1: number;
+		y1: number;
+		x2: number;
+		y2: number;
+	},
+) {
+	return pdfDocument.context.register(
+		pdfDocument.context.obj({
+			Type: "Annot",
+			Subtype: "Link",
+			Rect: [placement.x1, placement.y1, placement.x2, placement.y2],
+			Border: [0, 0, 0],
+			A: {
+				Type: "Action",
+				S: "URI",
+				URI: PDFString.of(url),
+			},
+		}),
 	);
 }
 
@@ -67,6 +98,11 @@ interface Config {
     Path to the watermark image. Relative to the project root.
   */
 	watermarkImage?: string;
+	credits?: {
+		text: string;
+		href: string;
+		size: number;
+	};
 }
 
 export default function generatePdfsIntegration(
@@ -227,6 +263,7 @@ export default function generatePdfsIntegration(
 							timeout: 120000,
 						});
 						await summaryPage.evaluate(() => {
+							// remove code-copy buttons
 							const items = document.querySelectorAll(".expressive-code .copy");
 							for (let i = 0; i < items.length; i++) {
 								items.item(i).remove();
@@ -291,12 +328,22 @@ export default function generatePdfsIntegration(
 				}
 				const watermarkSize = { width: WATERMARK_EXPECTED_WIDTH, height: 0 };
 
+				const bottomTextSize =
+					config.credits === undefined
+						? undefined
+						: { width: 90, height: config.credits.size };
+
 				await Promise.all(
 					pagesAdditionalInformations.map(async (pageInfo) => {
 						const pdfBuffer = await readFile(pageInfo.path, {});
 						const pdfDoc = await PDFDocument.load(Uint8Array.from(pdfBuffer));
+						let watermarkImage: PDFImage | undefined = undefined;
+						let textPlacement:
+							| { x1: number; y1: number; x2: number; y2: number }
+							| undefined = undefined;
+
 						if (watermarkImageBytes) {
-							const watermarkImage = await pdfDoc.embedPng(
+							watermarkImage = await pdfDoc.embedPng(
 								Uint8Array.from(watermarkImageBytes),
 							);
 							if (watermarkSize.height === 0) {
@@ -304,15 +351,64 @@ export default function generatePdfsIntegration(
 									(watermarkImage.height * WATERMARK_EXPECTED_WIDTH) /
 									watermarkImage.width;
 							}
-
+						}
+						if (config.credits) {
+							textPlacement = {
+								x1: 0,
+								y1: 12,
+								x2: 0,
+								y2: 0,
+							};
+						}
+						if (watermarkImage || config.credits) {
 							for (const page of pdfDoc.getPages()) {
-								page.drawImage(watermarkImage, {
-									x: (page.getWidth() - watermarkSize.width) / 2,
-									y: (page.getHeight() - watermarkSize.height) / 2,
-									width: watermarkSize.width,
-									height: watermarkSize.height,
-									opacity: 0.1,
-								});
+								if (watermarkImage) {
+									page.drawImage(watermarkImage, {
+										x: (page.getWidth() - watermarkSize.width) / 2,
+										y: (page.getHeight() - watermarkSize.height) / 2,
+										width: watermarkSize.width,
+										height: watermarkSize.height,
+										opacity: 0.1,
+									});
+								}
+								if (textPlacement && config.credits && bottomTextSize) {
+									if (textPlacement.x1 === 0) {
+										textPlacement.x1 =
+											page.getWidth() - bottomTextSize.width - 15;
+										textPlacement.x2 = textPlacement.x1 + bottomTextSize.width;
+										textPlacement.y2 = textPlacement.y1 + bottomTextSize.height;
+									}
+
+									page.drawText(config.credits.text, {
+										x: textPlacement.x1,
+										y: textPlacement.y1,
+										opacity: 0.8,
+										size: config.credits.size,
+									});
+									// page.drawRectangle({
+									// 	x: textPlacement.x1,
+									// 	y: textPlacement.y1,
+									// 	width: bottomTextSize.width,
+									// 	height: bottomTextSize.height,
+									// 	opacity: 1,
+									// 	borderColor: {
+									// 		type: ColorTypes.RGB,
+									// 		blue: 255,
+									// 		green: 0,
+									// 		red: 0,
+									// 	},
+									// });
+
+									const linkRef = createPageLinkAnnotation(
+										pdfDoc,
+										config.credits.href,
+										textPlacement,
+									);
+									page.node.set(
+										PDFName.of("Annots"),
+										pdfDoc.context.obj([linkRef]),
+									);
+								}
 							}
 						}
 
