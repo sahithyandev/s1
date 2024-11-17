@@ -2,7 +2,7 @@
 title: Principal Axes
 slug: mechanics/statics/principal-axes
 sidebar:
-  order: 6
+  order: 5
 prev: true
 next: true
 ---

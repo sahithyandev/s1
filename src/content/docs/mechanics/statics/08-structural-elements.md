@@ -2,7 +2,7 @@
 title: Structural Elements
 slug: mechanics/statics/structural-elements
 sidebar:
-  order: 9
+  order: 8
 prev: true
 next: true
 ---

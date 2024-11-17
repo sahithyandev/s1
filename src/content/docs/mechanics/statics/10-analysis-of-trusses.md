@@ -2,7 +2,7 @@
 title: Analysis of Trusses
 slug: mechanics/statics/analysis-of-trusses
 sidebar:
-  order: 11
+  order: 10
 prev: true
 next: true
 ---

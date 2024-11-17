@@ -2,7 +2,7 @@
 title: Beam Analogy (Approximate) method
 slug: mechanics/statics/beam-analogy
 sidebar:
-  order: 12
+  order: 11
 prev: true
 next: true
 ---

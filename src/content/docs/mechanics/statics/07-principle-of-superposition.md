@@ -2,7 +2,7 @@
 title: Principle of Superposition
 slug: mechanics/statics/principle-of-superposition
 sidebar:
-  order: 8
+  order: 7
 prev: true
 next: true
 ---

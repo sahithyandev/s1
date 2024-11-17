@@ -5,7 +5,7 @@ sidebar:
   label: Introduction
   order: 1
 prev: false
-next: false
+next: true
 ---
 
 ## Centroid / Centre of area
@@ -45,6 +45,15 @@ About an axis of symmetry, first moment of area is $0$. $ $
 ```
 
 Always positive.
+
+### For common shapes
+
+| Shape                      | Description                                                   | $I_{xx}$                |
+| -------------------------- | ------------------------------------------------------------- | ----------------------- |
+| Rectangle or Parallelogram | Base $b$. Height $h$. About centroidal axis parallel to base. | $ \cfrac{bh^3}{12} $    |
+| Triangle                   | Base $b$. Height $h$. About base.                             | $ \cfrac{bh^3}{12} $    |
+| Triangle                   | Base $b$. Height $h$. About centroidal axis parallel to base. | $ \cfrac{bh^3}{36} $    |
+| Circle                     | Diameter $d$. About centroidal axis.                          | $ \cfrac{\pi d^4}{64} $ |
 
 ## The product of moment of area about x,y axes
 

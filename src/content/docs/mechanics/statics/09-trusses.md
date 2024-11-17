@@ -2,7 +2,7 @@
 title: Trusses
 slug: mechanics/statics/trusses
 sidebar:
-  order: 10
+  order: 9
 prev: true
 next: true
 ---

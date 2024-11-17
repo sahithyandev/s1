@@ -2,7 +2,7 @@
 title: Beams
 slug: mechanics/statics/beams
 sidebar:
-  order: 7
+  order: 6
 prev: true
 next: true
 ---

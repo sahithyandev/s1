@@ -2,7 +2,7 @@
 title: Transformation Law
 slug: mechanics/statics/transformation-law
 sidebar:
-  order: 5
+  order: 4
 prev: true
 next: true
 ---

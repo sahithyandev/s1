@@ -2,7 +2,7 @@
 title: Indeterminate Trusses
 slug: mechanics/statics/indeterminate-trusses
 sidebar:
-  order: 13
+  order: 12
 next: false
 prev: true
 ---

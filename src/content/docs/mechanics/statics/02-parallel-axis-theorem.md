@@ -2,7 +2,7 @@
 title: Parallel Axis Theorem
 slug: mechanics/statics/parallel-axis-theorem
 sidebar:
-  order: 3
+  order: 2
 prev: true
 next: true
 ---
