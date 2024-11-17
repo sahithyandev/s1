@@ -1,6 +1,11 @@
 ---
 title: License
 slug: license
+prev: true
+next: false
+editUrl: false
+tableOfContents: false
+sidebar: {}
 ---
 
 Your use of the content is licensed by

@@ -13,7 +13,7 @@ if (Astro.props.slug.startsWith("summary/")) {
 			sectionLabel = hyphenCaseToTitleCase(parts[0]);
 		}
 	}
-} else {
+} else if (Astro.props.slug.includes("/")) {
 	sectionLabel = hyphenCaseToTitleCase(Astro.props.entry.slug.split("/")[0]);
 }
 ---
