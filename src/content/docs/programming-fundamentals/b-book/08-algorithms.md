@@ -4,7 +4,7 @@ slug: programming-fundamentals/b-book/algorithms
 sidebar:
   order: 8
 prev: true
-next: true
+next: false
 ---
 
 An algorithm is a finite set of instructions, used to solve a problem.
@@ -106,8 +106,8 @@ def bubble_sort(arr: list[int | float]):
 ### Selection sort
 
 Iterates through the list to find the smallest (or highest) value. Swaps its
-position with the first element. Then redo this starting from index 1. And
-repeat.
+position with the first (or last) element. Then redo this starting for the
+remaining indices. An improved version of bubble sort.
 
 ```py
 def selection_sort(arr):
@@ -117,24 +117,6 @@ def selection_sort(arr):
             if arr[i] < arr[smallest_index]:
                 smallest_index = i
         arr[smallest_index], arr[current_starting_index] = arr[current_starting_index], arr[smallest_index]
-```
-
-### Insertion sort
-
-Maintains a sorted sublist in the lower positions in the list. Each item picked
-from the unsorted sublist is inserted into the sorted sublist.
-
-```py
-def insertion_sort(a_list):
-    start_index = 1
-    while start_index < len(a_list):
-        pointer = start_index
-        while pointer > 0 and a_list[pointer - 1] > a_list[pointer]:
-            # swap the position
-            a_list[pointer], a_list[pointer -1] = \
-                a_list[pointer-1], a_list[pointer]
-            pointer -= 1
-        start_index += 1
 ```
 
 ### Shell sort
@@ -167,12 +149,12 @@ def shell_sort(a_list):
 
 ### Merge sort
 
-Recursive algorithm that continually splits a list in half.
+Recursive algorithm that continually splits a list in half and sorts them.
 
 - If the list is empty or has one item, it is sorted
 - If the list has more elements, the list is split in the middle and merge sort
   is recursively used on those parts
-- Once sorted, the halves are combined to create a new, sorted list
+- Once sorted, the halves are combined to create a sorted list
 
 ```py
 def merge_sort(a_list):

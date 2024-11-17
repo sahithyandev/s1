@@ -55,17 +55,11 @@ Examples:
 
 - List
 - Set
-- Stack - Last in; first out
-- Queue - First in; first out
+- Stack
+- Queue
 - Tree
 - Hash Table
 - Graph
-
-:::note
-
-Implementations of stacks, queues, and binary search trees are required in s1.
-
-:::
 
 ### List
 
@@ -106,8 +100,7 @@ A "Last-In-First-Out" model.
 ```py
 class Stack:
     def __init__(self):
-        # Initialize empty list to store stack elements
-        self.items = []
+        self.items = [] # to store stack elements
 
     def is_empty(self):
         # Return True if stack is empty
