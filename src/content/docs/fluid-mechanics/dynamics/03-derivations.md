@@ -4,7 +4,7 @@ slug: fluid-mechanics/dynamics/derivations
 sidebar:
   order: 3
 prev: true
-next: true
+next: false
 ---
 
 ## Continuity equation
@@ -36,7 +36,7 @@ Here:
 
 - $z$ - Datum head. Height to the point from a reference level.
 - $\frac{P}{\rho g}$ -
-  [Pressure head](/fluid-mechanics/statics/pressure/#pressure-head).
+  [Pressure head](/fluid-mechanics/statics/hydrostatic-pressure/#pressure-head).
 - $\frac{v^2}{2g}$ - Velocity head. Kinetic energy per unit weight.
 
 :::note

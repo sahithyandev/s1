@@ -23,21 +23,15 @@ Hardness units differ with the type of indenter used and the load applied.
 - Diameter of the indentation is measured instead of the depth
 
 ```math
-HB = \frac{2F}{\pi D (D-\sqrt{D^2 - d^2})}
+\text{HB} = \frac{2F}{\pi D h}
 ```
 
 Here:
 
-- F - applied load (in kN)
-- D - diameter of the indenter
-- d - diameter of the indentation
-- h - depth of the indentation
-
-:::note
-
-Load is measured in kN and lengths are measured in mm.
-
-:::
+- $F$ - applied load (in $\text{kN}$)
+- $D$ - diameter of the indenter (in $\text{mm}$)
+- $d$ - diameter of the indentation (in $\text{mm}$)
+- $h = (D-\sqrt{D^2 - d^2})$ - depth of the indentation (in $\text{mm}$)
 
 ### Vickers (HV)
 

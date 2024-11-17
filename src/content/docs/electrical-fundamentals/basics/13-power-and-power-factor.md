@@ -4,7 +4,7 @@ slug: electrical-fundamentals/basics/power-and-power-factor
 sidebar:
   order: 13
 prev: true
-next: true
+next: false
 ---
 
 - In a purely resistive AC circuit, the energy delivered by the source will be
@@ -89,6 +89,21 @@ P_\text{avg} =\frac{1}{T}\int_{t_0}^{t_0 + T} p(t)\,\text{d}t = V_{\text{rms}}I_
 
 ## Types of power
 
+### Active power
+
+Aka. true power, resistive power. In all electrical and electronic systems, it
+is the true power (the resistive power) that does the work.
+
+```math
+P = V_{\text{rms}}I_{\text{rms}}\cos{\theta}
+```
+
+:::note
+
+In a question, if "power" is asked to be calculated, that means "active power".
+
+:::
+
 ### Reactive Power
 
 Power delivered to/from a pure energy storage element (inductors and capacitors)
@@ -104,21 +119,6 @@ is known as reactive power.
 ```math
 Q_\text{reactive} = V_\text{rms}I_\text{rms}\sin\theta
 ```
-
-### Active power
-
-Aka. true power, resistive power. In all electrical and electronic systems, it
-is the true power (the resistive power) that does the work.
-
-```math
-P = V_{\text{rms}}I_{\text{rms}}\cos{\theta}
-```
-
-:::note
-
-In a question, if "power" is asked to be calculated, that means "active power".
-
-:::
 
 ### Apparent power
 

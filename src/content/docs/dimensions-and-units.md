@@ -1,6 +1,9 @@
 ---
 title: Dimensions & Units
 slug: dimensions-and-units
+next: true
+prev: true
+sidebar: {}
 ---
 
 ## Common
@@ -13,26 +16,26 @@ slug: dimensions-and-units
 | Frequency   | $ T^{-1} $       | $s^{-1}$         |
 | Momentum    | $MLT^{-1}$       | $kgms^{-1}$      |
 
-## Electrical Fundamentals
+## Electrical Fundamenta-a
 
-| Property        | Dimension                  | Units                                |
-| --------------- | -------------------------- | ------------------------------------ |
-| Charge          | $ IT $                     | $ C $                                |
-| Current         | $ I $                      | $ A $                                |
-| Voltage         | $ ML^{2}T^{-3}I^{-1} $     | $ V $                                |
-| Resistivity     | $ ML^{3}T^{-3}I^{-2} $     | $ \Omega m $                         |
-| Resistance      | $ ML^{2}T^{-3}I^{-2} $     | $ \Omega $                           |
-| Conductivity    | $ M^{-1}L^{-3}T^3I^2 $     | $ Sm^{-1}, \Omega^{-1}m^{-1}$        |
-| Capacitance     | $ M^{-1}L^{-2}T^{4}I^{2} $ | $ F $                                |
-| Inductance      | $ ML^{2}T^{-2}I^{-2} $     | $ H $                                |
-| Current Density | $ IL^{-1} $                | $Cm^{-1}s^{-1}$                      |
-| Electric Field  | $ MLT^{-3}I^{-1} $         | $NC^{-1}$                            |
-| Impedance       | $ ML^{2}T^{-3}I^{-2} $     | $ \Omega $                           |
-| Admittance      | $ M^{-1}L^{-2}T^3I^2 $     | $ S, \Omega^{-1}$                    |
-| Reactance       | $ ML^{2}T^{-3}I^{-2} $     | $ \Omega $                           |
-| Active Power    | $ ML^{2}T^{-3} $           | $ Js^{-1} $                          |
-| Reactive Power  | $ ML^{2}T^{-3} $           | $\text{VAR}$ (Volat Ampere Reactive) |
-| Apparent Power  | $ ML^{2}T^{-3} $           | $\text{VA}$ (Volt Ampere)            |
+| Property        | Dimension                  | Units                               |
+| --------------- | -------------------------- | ----------------------------------- |
+| Charge          | $ IT $                     | $ C $                               |
+| Current         | $ I $                      | $ A $                               |
+| Voltage         | $ ML^{2}T^{-3}I^{-1} $     | $ V $                               |
+| Resistivity     | $ ML^{3}T^{-3}I^{-2} $     | $ \Omega m $                        |
+| Resistance      | $ ML^{2}T^{-3}I^{-2} $     | $ \Omega $                          |
+| Conductivity    | $ M^{-1}L^{-3}T^3I^2 $     | $ Sm^{-1}, \Omega^{-1}m^{-1}$       |
+| Capacitance     | $ M^{-1}L^{-2}T^{4}I^{2} $ | $ \text{F} $                        |
+| Inductance      | $ ML^{2}T^{-2}I^{-2} $     | $ \text{H} $                        |
+| Current Density | $ IL^{-1} $                | $Cm^{-1}s^{-1}$                     |
+| Electric Field  | $ MLT^{-3}I^{-1} $         | $NC^{-1}$                           |
+| Impedance       | $ ML^{2}T^{-3}I^{-2} $     | $ \Omega $                          |
+| Admittance      | $ M^{-1}L^{-2}T^3I^2 $     | $ S, \Omega^{-1}$                   |
+| Reactance       | $ ML^{2}T^{-3}I^{-2} $     | $ \Omega $                          |
+| Active Power    | $ ML^{2}T^{-3} $           | $ \text{W},Js^{-1} $                |
+| Reactive Power  | $ ML^{2}T^{-3} $           | $\text{var}$ (Volt-ampere reactive) |
+| Apparent Power  | $ ML^{2}T^{-3} $           | $\text{VA}$ (Volt-ampere)           |
 
 ### Conversions
 
