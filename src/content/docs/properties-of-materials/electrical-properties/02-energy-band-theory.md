@@ -4,7 +4,7 @@ slug: properties-of-materials/electrical-properties/energy-band-theory
 sidebar:
   order: 2
 prev: true
-next: true
+next: false
 ---
 
 In every atom, electrons occupy discrete energy levels in atomic orbitals,
@@ -31,13 +31,13 @@ The energy of the highest electron orbital occupied at $0\,\text{K}$. $ $
 
 In $0\,\text{K}$, electrons settle into lowest available energy states and build
 a _Fermi Sea_ of electron energy states. Fermi energy is the surface of this sea
-and no electron has energy to rise above this surface.
+and no electron has energy to rise above this surface. $ $
 
 ## Fermi Level
 
-The energy level at which has 50% probablity for electron occupancy. Fermi level
-is located at the center between valence band and conduction band for pure
-elements.
+The energy level at which has $50\%$ probablity for electron occupancy. Fermi
+level is located at the center between valence band and conduction band for pure
+elements. $ $
 
 Fermi level of a material affects its electrical properties.
 
@@ -64,7 +64,7 @@ Here:
 - $E_i$ - Energy of the $i$th energy state
 - $K_B$ - Boltzmann constant
 - $T$ - Absolute temperature
-- $exp()$ - exponent function
+- $\exp()$ - exponent function
 
 Fermi-Dirac distribution of Fermi level is $0.5$. From this equation, all
 materials are insulators at $T=0$.

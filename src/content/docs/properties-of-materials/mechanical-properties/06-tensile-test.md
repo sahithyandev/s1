@@ -2,7 +2,7 @@
 title: Tensile Test
 slug: properties-of-materials/mechanical-properties/tensile-test
 sidebar:
-  order: 4
+  order: 6
 prev: true
 next: true
 ---
@@ -36,6 +36,13 @@ Measures the force applied to the specimen.
 
 Used to measures the elongation (increase in length) in the specimen.
 
+## Necking
+
+All deformation up to the maximum point is uniform throughout the specimen.
+
+At this maximum stress, a neck begins to form – known as necking. All subsequent
+deformation is confined to this neck.
+
 ## For brittle material
 
 The σ-ε behavior of brittle materials cannot be assessed by a tensile test
@@ -51,10 +58,3 @@ strength** value.
 ```math
 \text{Tensile strength} \times 1.3 = \text{MOR}
 ```
-
-## Necking
-
-All deformation up to the maximum point is uniform throughout the specimen.
-
-At this maximum stress, a neck begins to form – known as necking. All subsequent
-deformation is confined to this neck.

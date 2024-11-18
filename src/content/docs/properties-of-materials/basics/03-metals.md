@@ -4,7 +4,7 @@ slug: properties-of-materials/basics/metals
 sidebar:
   order: 3
 prev: true
-next: true
+next: false
 ---
 
 Generally isotropic, and crystalline. Can be made amorphous by melting and then
@@ -59,5 +59,5 @@ Alloys containing too many alloying elements (maybe even 20).
 - Good thermal conductivity
 - High strength
 - High stiffness (= high
-  [young's modulus](/properties-of-materials/mechanical-properties/definitions/#youngs-modulus-aka-elastic-modulus))
+  [young's modulus](/properties-of-materials/mechanical-properties/elasticity/#youngs-modulus))
 - Good ductility

@@ -27,8 +27,6 @@ Elastomers are a type of polymers.
 
 ## Examples
 
-- Silicone (not to be confused with silicon which is a metalloid)
-
 ### Plastics
 
 - Polyvinylchloride (PVC)
@@ -39,7 +37,8 @@ Elastomers are a type of polymers.
 - Polymethylmethacrylite (PMMA) Perspex  
   It's transparent and lightweight. Used in aircraft windows and contact lenses.
 - Polytetrafluoroethylene (PTFE) Teflon
-- Polysiloxane or Silicone
+- Polysiloxane or Silicone (not to be confused with silicon which is a
+  metalloid)
 
 ### Rubber
 

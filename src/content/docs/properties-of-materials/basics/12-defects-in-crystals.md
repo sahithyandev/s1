@@ -29,7 +29,7 @@ Bulk defects are not covered in s1.
 Related to a single atom.
 
 - Vacancy - Missing parent atom
-- Self-interstitial atom - A parent atom entered into an interstitial site
+- Self-interstitial atom - A self atom entered into an interstitial site
 - Interstitial impurity atom - A foreign atom entered into an interstitial site
 - Substitutional impurity atom - A foreign atom replaced a parent atom or a
   vacancy

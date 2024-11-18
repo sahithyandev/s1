@@ -2,9 +2,9 @@
 title: Hardness
 slug: properties-of-materials/mechanical-properties/hardness
 sidebar:
-  order: 12
+  order: 13
 prev: true
-next: false
+next: true
 ---
 
 Hardness of metals is defined as resistance to indentation. Can be measured by

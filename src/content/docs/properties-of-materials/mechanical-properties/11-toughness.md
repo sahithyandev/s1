@@ -2,7 +2,7 @@
 title: Toughness
 slug: properties-of-materials/mechanical-properties/toughness
 sidebar:
-  order: 10
+  order: 11
 prev: true
 next: true
 ---

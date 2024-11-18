@@ -2,7 +2,7 @@
 title: Ductility
 slug: properties-of-materials/mechanical-properties/ductility
 sidebar:
-  order: 7
+  order: 2
 prev: true
 next: true
 ---

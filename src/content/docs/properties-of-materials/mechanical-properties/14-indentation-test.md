@@ -2,7 +2,7 @@
 title: Indentation Test
 slug: properties-of-materials/mechanical-properties/indentation-test
 sidebar:
-  order: 13
+  order: 14
 next: false
 prev: true
 ---
@@ -37,7 +37,7 @@ Here:
 
 - Pyramid shaped indenter made of diamond
 - Any load can be applied
-- Diagonal lengths $d1$ and $d2$ of the diamond-shape indentation are measured
+- Diagonal lengths $d_1$ and $d_2$ of the diamond-shape indentation are measured
 - Average $d$ is used in the calculation
 
 :::note

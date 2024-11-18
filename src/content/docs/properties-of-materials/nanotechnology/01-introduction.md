@@ -26,13 +26,7 @@ An object with any external dimension is in the nanoscale.
 
 Examples:
 [carbon nanotube](/properties-of-materials/nanotechnology/carbon-nanotubes),
-bucky ball.
-
-#### Bucky ball
-
-Short for Buckminsterfullerene. Has $60\;\ce{C}$ atoms inside a molecule. A
-molecule is truncated icosahedron shaped. Diameter of the molecule is approx.
-$1\,\text{nm}$. Each carbon atom is bonded to another 3. Not chemically inert.
+[bucky ball](/properties-of-materials/basics/allotropy/#buckminsterfullerene).
 
 ### Nano-structured material
 

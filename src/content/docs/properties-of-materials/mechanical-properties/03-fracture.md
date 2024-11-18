@@ -2,7 +2,7 @@
 title: Fracture
 slug: properties-of-materials/mechanical-properties/fracture
 sidebar:
-  order: 2
+  order: 3
 prev: true
 next: true
 ---
@@ -35,7 +35,7 @@ Steps:
 4. Crack propagates towards surface perpendicular to stress
 5. Direction of crack changes to $45^\circ$
 
-### Brittle fracture
+## Brittle fracture
 
 Little or no plastic deformation prior to fracture. Fracture surface is smooth.
 

@@ -2,7 +2,7 @@
 title: Work Hardening
 slug: properties-of-materials/mechanical-properties/work-hardening
 sidebar:
-  order: 9
+  order: 10
 prev: true
 next: true
 ---
@@ -22,7 +22,10 @@ Decreases:
 
 ## Steps
 
-- Specimen is loaded onto a tensile test apparatus
-- Test is stopped after the specimen has gone under plastic deformation
+- Specimen is loaded onto a
+  [tensile test](/properties-of-materials/mechanical-properties/tensile-test)
+  apparatus
+- Test is stopped after the specimen has plastically deformed and haven't
+  reached UTS
 - Specimen is unloaded and reloaded
-- New $\sigma-\epsilon$ diagram will have a increased yield strength
+- New $\sigma-\epsilon$ diagram will have an increased yield strength
