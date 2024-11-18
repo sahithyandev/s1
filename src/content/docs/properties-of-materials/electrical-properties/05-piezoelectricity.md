@@ -37,8 +37,11 @@ Here:
 
 ## Uses
 
-- Can be used to convert mechanical stresses into electrical signals
-- Can be used to produce X-rays
+- Converting mechanical stresses into electrical signals
+- Producing ultrasonic sounds
+- Producing X-rays
+- Converting sounds to electrical signals
+- In nano-precision actuators
 
 ### Piezoelectric Transducer
 
