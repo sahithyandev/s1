@@ -5,7 +5,7 @@ sidebar:
   order: 1
 slug: programming-fundamentals/b-book/introduction
 prev: false
-next: false
+next: true
 ---
 
 Computers are used to process data and produce useful information.

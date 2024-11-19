@@ -5,7 +5,7 @@ sidebar:
   label: Introduction
   order: 1
 prev: false
-next: false
+next: true
 ---
 
 An assembly (connected as a complete set) of associated electrical equipment to

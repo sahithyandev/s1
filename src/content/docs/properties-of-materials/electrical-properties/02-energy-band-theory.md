@@ -4,7 +4,7 @@ slug: properties-of-materials/electrical-properties/energy-band-theory
 sidebar:
   order: 2
 prev: true
-next: false
+next: true
 ---
 
 In every atom, electrons occupy discrete energy levels in atomic orbitals,

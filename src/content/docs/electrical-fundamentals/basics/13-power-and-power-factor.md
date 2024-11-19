@@ -4,7 +4,7 @@ slug: electrical-fundamentals/basics/power-and-power-factor
 sidebar:
   order: 13
 prev: true
-next: false
+next: true
 ---
 
 - In a purely resistive AC circuit, the energy delivered by the source will be

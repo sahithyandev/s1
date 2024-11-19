@@ -4,7 +4,7 @@ slug: properties-of-materials/degradation/forms-of-corrosion
 sidebar:
   order: 3
 prev: true
-next: false
+next: true
 ---
 
 8 main forms:

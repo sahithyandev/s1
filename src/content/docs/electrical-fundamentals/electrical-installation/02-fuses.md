@@ -37,6 +37,8 @@ Minimum current that will cause the fuse element to heat up melt or blow.
 \text{Fusing factor}=\frac{\text{Fusing current}}{\text{Current rating}}
 ```
 
+Always greater than $1$. Usually in the range of $1.7 - 2$.
+
 ### Rupturing capacity
 
 Product of maximum current and supply voltage.
@@ -84,6 +86,6 @@ commerical and small scale industrial applications.
 
 :::
 
-### High-rupturing capacity (HRC) fuses
+### High-rupturing capacity (HRC) fuse
 
 Used for high current applications. Expensive.

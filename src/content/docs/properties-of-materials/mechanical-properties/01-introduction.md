@@ -5,7 +5,7 @@ sidebar:
   order: 1
 slug: properties-of-materials/mechanical-properties/introduction
 prev: false
-next: false
+next: true
 ---
 
 ## Tensile Force

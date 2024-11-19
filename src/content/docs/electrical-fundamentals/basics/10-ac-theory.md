@@ -4,7 +4,7 @@ slug: electrical-fundamentals/basics/ac-theory
 sidebar:
   order: 10
 prev: true
-next: false
+next: true
 ---
 
 :::note

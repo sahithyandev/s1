@@ -4,7 +4,7 @@ slug: properties-of-materials/electrical-properties/dielectric-behavior
 sidebar:
   order: 4
 prev: true
-next: false
+next: true
 ---
 
 ## Dielectric material

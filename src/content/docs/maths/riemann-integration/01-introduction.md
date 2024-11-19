@@ -5,7 +5,7 @@ sidebar:
   order: 1
 slug: maths/riemann-integration/introduction
 prev: false
-next: false
+next: true
 ---
 
 ## Interval

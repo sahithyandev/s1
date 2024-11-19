@@ -4,7 +4,7 @@ slug: properties-of-materials/basics/metals
 sidebar:
   order: 3
 prev: true
-next: false
+next: true
 ---
 
 Generally isotropic, and crystalline. Can be made amorphous by melting and then

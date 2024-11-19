@@ -5,7 +5,7 @@ sidebar:
   label: Introduction
   order: 1
 prev: false
-next: false
+next: true
 ---
 
 Be sure to revise the Electricity unit of G.C.E. (A/L) Physics.
@@ -104,7 +104,8 @@ Something that consumes electrical energy.
 
 ### Linear loads
 
-Loads that can be expressed using a combination of resistors, capacitors and
+Loads that have a linear relationship between the applied voltage and the
+current. Can be expressed using a combination of resistors, capacitors and
 inductors only.
 
 :::note
@@ -113,3 +114,10 @@ If a AC sinusoidal voltage is applied across a load, current through the load
 will also be sinusoidal **iff** the load is linear.
 
 :::
+
+### Non-linear loads
+
+- Diodes
+- Superconductors
+- Varistors (voltage-dependent resistors)
+- Non-linear inductors

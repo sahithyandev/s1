@@ -21,10 +21,9 @@ const TIME_NOW = new Date().valueOf();
     @param {Array<string>} mdFilePaths
 */
 export async function autoSlug(mdFilePaths) {
-	console.log(mdFilePaths);
 	for (let i = 0; i < mdFilePaths.length; i++) {
 		const filePath = mdFilePaths[i];
-		if (!filePath.endsWith(".md")) {
+		if (!filePath.endsWith(".md") || filePath.includes("/summary/")) {
 			continue;
 		}
 		const file = matter.read(filePath);
@@ -69,16 +68,20 @@ export async function autoSlug(mdFilePaths) {
 		} else {
 			console.log(filePath, "isn't named correctly.");
 		}
+		console.log(`${i} ${section} ${file.data.slug}`);
 		if (file.data.sidebar.order === 1) {
 			file.data.prev = false;
+			console.log(">>> prev false");
 		} else {
 			file.data.prev = true;
+			console.log(">>> prev true");
 		}
-		console.log(`${i} ${file.data.slug} ${section}`);
 		if (i === mdFilePaths.length - 1 || !mdFilePaths[i + 1].includes(section)) {
 			file.data.next = false;
+			console.log(">>> next false");
 		} else {
 			file.data.next = true;
+			console.log(">>> next true");
 		}
 		const updatedFileContent = matter.stringify(file, {});
 		writeFile(filePath, updatedFileContent);

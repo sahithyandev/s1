@@ -4,7 +4,7 @@ sidebar:
   order: 6
 slug: electrical-fundamentals/electrical-installation/mcb
 prev: true
-next: true
+next: false
 ---
 
 ![MCB](/electrical/mcb.jpg)
@@ -24,12 +24,14 @@ Has 4 functional components:
 
 Advantages of a MCB over fuses:
 
-- Non-destructive determination of tripping characteristics
-- Shorter tripping times under moderate overcurrents
-- Immediate indication of faulty current
-- Reclosing can be effected at once after the fault has been cleared
-- No stock of fuses required
-- Can be used as a circuit control switch
+- **Non-destructive**
+- **Fast**
+  - Shorter tripping times under moderate overcurrents
+  - Immediate indication of faulty current
+- **Manual operation**: can be used as a circuit control switch
+- **Easy to use**
+  - No stock of fuses required
+  - Reclosing can be effected at once after the fault has been cleared
 
 ### Ratings
 
