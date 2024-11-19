@@ -32,8 +32,7 @@ Some ceramic materials are:
 
 - magnetic
 - [piezoelectric](/properties-of-materials/electrical-properties/piezoelectricity/)
-- [superconductors](/properties-of-materials/electrical-properties/semiconductivity/)
-  (only few, and only at very low temperatures)
+- superconductors (only few, and only at very low temperatures)
 
 ### Refractory ceramics
 

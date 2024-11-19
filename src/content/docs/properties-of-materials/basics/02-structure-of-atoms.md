@@ -31,7 +31,7 @@ quantum numbers were introduced to describe the energy levels.
 
 The number given in Bohr’s original stationary states corresponds to the
 principal quantum number ($n$). Relates to the distance between the nucleus and
-the principal energy levels. $ $
+the principal energy levels. Maximum is $7$.
 
 ### Secondary quantum number
 

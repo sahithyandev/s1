@@ -121,8 +121,9 @@ D=\frac{|\text{CH}|}{\pi}=\frac{a}{\pi}\sqrt{n^2+m^2+nm}
 ## Properties
 
 - Mechanical properties
-  - High young's modulus: depends on tube diameter, multi-walled or
-    single-walled but not tube chirality.
+  - High young's modulus  
+    Depends on tube diameter, multi-walled or single-walled but not tube
+    chirality. Multi-walled CNTs have higher young's modulus.
   - Sustains higher strain
 - Electrical properties
   - Depends on chirality and size
