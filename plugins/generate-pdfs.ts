@@ -12,10 +12,11 @@ import {
 	type PDFImage,
 	PDFName,
 	PDFString,
+	sum,
 } from "pdf-lib";
 import type { Browser, Page } from "puppeteer-core";
 import puppeteer from "puppeteer-core";
-import { setMetadata } from "./helpers/meta";
+import { getMetadata, setMetadata } from "./helpers/meta";
 import { type OutlineNode, getOutline, setOutline } from "./helpers/outline";
 
 chromium.args.splice(chromium.args.indexOf("--single-process"), 1);
@@ -284,26 +285,7 @@ export default function generatePdfsIntegration(
 
 						pagesAdditionalInformations.push({
 							path: pathToSavePdf,
-							meta: await summaryPage.evaluate(() => {
-								const meta: Record<string, string> = {};
-								const title = document.querySelector("title");
-								if (title?.textContent)
-									meta.title = title.textContent
-										.trim()
-										.replace("Summary | ", "");
-
-								const lang = document
-									.querySelector("html")
-									?.getAttribute("lang");
-								if (lang) meta.lang = lang;
-
-								const metaTags = document.querySelectorAll("meta");
-								for (let tagIndex = 0; tagIndex < metaTags.length; tagIndex++) {
-									const tag = metaTags.item(tagIndex);
-									if (tag.name) meta[tag.name] = tag.content;
-								}
-								return meta;
-							}),
+							meta: await getMetadata(summaryPage),
 							outlines: (
 								await getOutline(summaryPage, ["h2", "h3", "h4", "h5", "h6"])
 							).slice(1), // to remove "On this section label"
