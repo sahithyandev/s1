@@ -15,6 +15,11 @@ Only sinusoidal AC supply are considered in s1.
 
 Say $v$ is alternating as in $v=V_{m}\sin(\omega{t}+\phi)$.
 
+### Why AC instead of DC?
+
+- Production of AC is less expensive
+- AC devices are efficient and require less maintenance
+
 ## Peak value
 
 Maximum instantaneous value. $V_m$ in the example. $ $
@@ -58,7 +63,7 @@ For sinusoidal waveforms, from the example:
 v_{\text{average}}
 =
 \frac{2}{T}
-\int_{T_0}^{T_0+\frac{T}{2}}{V_{m}sin(\omega{t}+\phi)\,\text{d}t}
+\int_{T_0}^{T_0+\frac{T}{2}}{V_{m}\sin(\omega{t}+\phi)\,\text{d}t}
 ```
 
 ```math

@@ -35,7 +35,7 @@ Constant voltage for any required currents. Does not exist.
 
 Either consumes or stores electrical energy.
 
-- Resistors
-- Inductors
-- Capacitors
+- [Resistors](/electrica-fundamentals/resistors)
+- [Capacitors](/electrica-fundamentals/capacitors)
+- [Inductors](/electrica-fundamentals/inductors)
 - Any other elements

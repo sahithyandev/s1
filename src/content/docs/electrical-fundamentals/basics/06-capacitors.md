@@ -7,11 +7,19 @@ prev: true
 next: true
 ---
 
-Made of two conductive plates separated by an insulating
-([dielectric](/properties-of-materials/electrical-properties/dielectric-behavior/))
+Made of two conductive plates separated by a
+[dielectric](/properties-of-materials/electrical-properties/dielectric-behavior/)
 layer.
 
-Capacitance ($ C $), in terms of physical dimensions: $ $
+In an ideal capacitor, the charge imbalance $ Q $ is proportional to the voltage
+$ V $ across the plates.
+
+```math
+Q = CV
+```
+
+The proportionality constant is the capacitance ($ C $), in terms of physical
+dimensions: $ $
 
 ```math
 C = \frac{\epsilon A}{d}
@@ -23,17 +31,10 @@ Here:
 - $ d $: distance between the plates
 - $ A $: area of a plate
 
-In an ideal capacitor, the charge imbalance $ Q $ is proportional to the voltage
-$ V $ across the plates.
-
-```math
-Q = CV
-```
-
 ## v and i
 
-As $ C $ is constant, current $ i $ passing through the capacitor and the
-voltage $ v $ across the capacitor are related by:
+Current $ i $ passing through the capacitor and the voltage $ v $ across the
+capacitor are related by:
 
 ```math
 i = C \frac{\text{d}v}{\text{d}t}

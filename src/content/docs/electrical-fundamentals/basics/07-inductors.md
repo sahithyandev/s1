@@ -9,7 +9,8 @@ next: true
 
 When there is a current in the inductor, a magnetic field is created. Any change
 in current causes the magnetic field to change, this in turn induces a voltage
-across the inductor that opposes the original change in current.
+across the inductor that opposes the original change in current. The polarity of
+the induced magnetic field opposes the change in current.
 
 A length of wire turned into a coil works as an inductor.
 
@@ -21,14 +22,14 @@ For an ideal inductor:
 v = L \frac{\text{d}i}{\text{d}t}
 ```
 
-Here the $ v $ is the voltage difference between the inductor, and $ i $ is the
-current through the inductor.
+Here:
 
-The polarity is such as to oppose the change in current.
+- $ v $ - voltage difference across the inductor
+- $ i $ - current through the inductor
 
 ## Energy stored
 
-Suppose voltage across an inductor rises from $0$ to $ i $ during a time period
+Suppose current across an inductor rises from $0$ to $ i $ during a time period
 of $t$ seconds.
 
 ```math
@@ -36,5 +37,5 @@ e = \int_{0}^{t} p\,dt = \int_{0}^{t} vi\,dt = L \int_{0}^{i} i\,di
 ```
 
 ```math
-E = \frac{1}{2}Li^2
+E = \frac{1}{2}LI^2
 ```

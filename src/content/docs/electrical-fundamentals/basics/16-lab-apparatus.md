@@ -4,8 +4,17 @@ sidebar:
   order: 16
 slug: electrical-fundamentals/basics/lab-apparatus
 prev: true
-next: true
+next: false
 ---
+
+## Variac
+
+A variable AC power supply. Input is connected to $230\,\text{V}$ AC power
+supply. $ $
+
+## Rheostat
+
+A variable resistor. Used to control the current in a circuit.
 
 ## Multimeter
 
@@ -25,7 +34,7 @@ Comes in either 1 or 2 or 4 channels. Each channel is used to connect a probe
 using BNC connector. Vertical section controls the voltage or current scale for
 each channel. Horizontal section controls the time scale.
 
-### Passive Voltage Probes
+### Passive Voltage Probe
 
 Measures voltage difference between ground clip and hook clip. Hook is covered
 with a retractable cover. The BNC connector includes a capacitor compensation
@@ -43,20 +52,20 @@ additional $9\,\text{M}\Omega$ resistor and a compensation capacitor. $ $
 
 - Set _10x_ on the probe
 - Connect it to the oscilloscope
-- Make sure only the appropriate channel is turned on
-- Make sure DC option is selected in Coupling setting  
+- Turn on the appropriate channel only
+- Set Coupling setting to DC  
   To see all parts of the signal
-- Select _10x_ option in Probe setting
-- Make sure Type setting is selected to Edge
-- Make sure Source setting is selected to the appropriate channel
+- Set Probe setting to _10x_
+- Set Type setting to Edge
+- Set Source setting to the appropriate channel
 - Attach ground clip to the ground tab
 - Hook the probe around the signal tab
 - Adjust the vertical and horizontal scale knobs  
   To clearly see the waveform. Turning the knobs clockwise decreases the time or
   voltage scale (like zooming in).
-- Adjust the smaller knob of channel 1 To center the waveform vertically
-- Use the knob in the Trigger section To raise the level somewhere between the
-  min and max of the waveform
+- Adjust the smaller knob of the appropriate channel  
+  To center the waveform vertically
+- Adjust the Trigger level betwen min and max of the waveform.
 - Adjust the capacitor compensation trimmer  
   Until the square wave has straight edges
 
@@ -77,13 +86,4 @@ can be opened by the opening lever. Powered through power supply cable.
   oscilloscope
 - Connect the sensor head to the circuit
 - Turn on the channel
--
-
-## Variac
-
-A variable AC power supply. Input is connected to $230\,\text{V}$ AC power
-supply. $ $
-
-## Rheostat
-
-A variable resistor. Used to control the current in a circuit.
+- Adjust knobs in vertical and horizontal sections

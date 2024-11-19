@@ -91,6 +91,27 @@ There are 3 types of socket outlets.
 
 Electrical equipments can be wired in 2 ways.
 
+### Radial circuit
+
+![Radial circuit](/electrical/radial-connection.jpg)
+
+Each circuit commences from consumer unit through an MCB (or fuse), loops into
+each socket outlet and terminates at the last socket outlet.
+
+To connect 2 equipments in radial connection:
+
+- 2 switches are required. Both switches are connected to a MCB. Each connect to
+  the equipments
+- 2 live wire connects 2 switches to of them to a MCB
+- Neutral wires of the 2 equipments is connected to the neutral bus bar.
+
+:::note
+
+Clip-on meter can be used to measure the current drawn by an electrical
+equipment.
+
+:::
+
 ### Ring circuit
 
 ![Ring circuit](/electrical/ring-circuit.jpg)
@@ -112,24 +133,3 @@ To connect 2 equipments in ring connection:
 - A live wire starts from a MCB, connects to the 2 equipments and come back to
   the MCB
 - Similarily neutral wire is connected in a ring starting from neutral bus bar
-
-### Radial connection
-
-![Radial connection](/electrical/radial-connection.jpg)
-
-Each circuit commences from consumer unit through an MCB (or fuse), loops into
-each socket outlet and terminates at the last socket outlet.
-
-To connect 2 equipments in radial connection:
-
-- 2 switches are required. Both switches are connected to a MCB. Each connect to
-  the equipments
-- 2 live wire connects 2 switches to of them to a MCB
-- Neutral wires of the 2 equipments is connected to the neutral bus bar.
-
-:::note
-
-Clip-on meter can be used to measure the current drawn by an electrical
-equipment.
-
-:::

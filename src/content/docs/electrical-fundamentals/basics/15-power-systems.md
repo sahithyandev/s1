@@ -4,7 +4,7 @@ slug: electrical-fundamentals/basics/power-systems
 sidebar:
   order: 15
 prev: true
-next: false
+next: true
 ---
 
 An electric power system consists of 3 principle sections.
@@ -29,26 +29,17 @@ supply network.
 
 ## Sri Lankan Scenario
 
-There are 2 major electric utilities in Sri Lanka: CEB and LECO.
+There are 2 major electric utilities in Sri Lanka: CEB and LECO. Public Utilties
+Commission of Sri Lanka (PUCSL) is the economic, technical and safety regulator
+of the electricity industry in Sri Lanka.
 
 ### Voltage Levels
 
 - Generation voltage $13.8\;\text{kV}$
-- High voltage $132\;\text{kV}$ or $220\;\text{kV}$
-- Medium voltage $11\;\text{kV}$ or $33\;\text{kV}$
+- Transmission: $132\;\text{kV}$ or $220\;\text{kV}$
+- Distribution: $11\;\text{kV}$ or $33\;\text{kV}$
 - Nominal voltage $230\;\text{V}$
 - Nominal line-to-line $400\;\text{V}$
-
-### Power sources
-
-Hydro-power is the most used source of energy for electricity.
-
-:::note
-
-Public Utilties Commission of Sri Lanka (PUCSL) is the economic, technical and
-safety regulator of the electricity industry in Sri Lanka.
-
-:::
 
 ## Why high voltage transmission?
 

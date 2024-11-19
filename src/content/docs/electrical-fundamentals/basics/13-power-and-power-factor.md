@@ -45,9 +45,15 @@ Instantaneous power dissipated by the load is given by:
 p(t) = \frac{V_m^2}{2\omega L}\sin{(2\omega t)}
 ```
 
+The inductive reactive power is given by:
+
+```math
+Q = \frac{V^2}{\omega L} = I^2 \omega L
+```
+
 ### Purely capacitive circuit
 
-Suppose a circuit with inductor $L$ is supplied a voltage of
+Suppose a circuit with capacitor $C$ is supplied a voltage of
 $v(t)=V_m\cos{\omega t}$.
 
 Instantaneous power dissipated by the load is given by:
@@ -59,7 +65,7 @@ p(t) = -\frac{V_m^2 \omega C}{2}\sin{(2\omega t)}
 The capacitive reactive power is given by:
 
 ```math
-Q = V^2\omega C
+Q = V^2\omega C = \frac{I^2}{\omega L}
 ```
 
 ### General load
@@ -111,7 +117,7 @@ is known as reactive power.
 
 - Average power consumed by a pure energy storage element is $0$.
 - Current associated with it is **not** $0$. Transmission lines, transformers,
-  fuses, etc. must all be designed to be capable of withstanding this current.
+  fuses, etc. must all be designed to withstand this current.
 - Loads with energy storage elements will draw large currents and require heavy
   duty wiring even though little average power is consumed.
 - Shuttles back and forth between the source and the load.

@@ -31,17 +31,14 @@ Amount of charge flowing through a point in unit time. Conventional current
 I = \frac{\text{d}Q}{\text{d}t}
 ```
 
-Time invariant current (DC) is denoted as $ I
-$. And time varying current (AC) is denoted as
+Time invariant current is denoted as $ I
+$. And time varying current is denoted as
 $ i $.
 
 ## Voltage
 
 Voltage at a point is the work that must be done against the electric field to
 move a unit positive charge from infinity to that point.
-
-$1$ volt is the potential difference between $2$ points when $1$ joule of energy
-is used to move $1$ coulomb of charge from one point to the other.
 
 ```math
 V = \frac{E}{Q}

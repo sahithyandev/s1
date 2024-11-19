@@ -4,7 +4,7 @@ sidebar:
   order: 6
 slug: electrical-fundamentals/electrical-installation/mcb
 prev: true
-next: false
+next: true
 ---
 
 ![MCB](/electrical/mcb.jpg)
