@@ -5,10 +5,8 @@ sidebar:
   label: Introduction
   order: 1
 prev: false
-next: true
+next: false
 ---
-
-Be sure to revise the Electricity unit of G.C.E. (A/L) Physics.
 
 ## Charge
 

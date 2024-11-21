@@ -5,10 +5,8 @@ slug: properties-of-materials/basics/introduction
 sidebar:
   label: Introduction
   order: 1
-next: true
+next: false
 ---
-
-Revise the second unit of Chemistry in G.C.E (A/L).
 
 ## Materials
 

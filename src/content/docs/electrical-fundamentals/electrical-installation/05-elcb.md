@@ -1,16 +1,21 @@
 ---
 title: ELCB
 sidebar:
-  order: 4
+  order: 5
 slug: electrical-fundamentals/electrical-installation/elcb
 prev: true
 next: true
 ---
 
-![ELCB](/electrical/elcb.jpg)
+Short for Earth Leakage Current Breaker. Detects earth leakage.
 
-Short for Earth Leakage Current Breaker. Detects if electricity is leaking to
-earth from an appliance. Protects from shocks.
+Current through the body, not voltage, is what harms people. Because of that
+[RCCB](/electrical-fundamentals/electrical-installation/rccb)s are preferred
+instead of ELCBs.
+
+### Mechanism
+
+![ELCB](/electrical/elcb.jpg)
 
 Has a trip coil. Trips when voltage difference between the frame earth and the
 reference earth exceeds the rated voltage (usually $40\,\text{V}$). The trip
@@ -23,7 +28,3 @@ has been traditionally considered as a safe voltage.
 - Frame earth: to which all non-conducting metallic parts of equipment are
   connected
 - Reference earth
-
-Current through the body, not voltage, is what harms people. Because of that
-[RCCB](/electrical-fundamentals/electrical-installation/rccb)s are preferred
-instead of ELCBs.

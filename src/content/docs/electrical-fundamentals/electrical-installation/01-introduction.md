@@ -13,9 +13,11 @@ fulfill a specific purpose and having certain coordinated characteristics.
 
 ### Standard colors
 
-- Protective earth: mixed yellow and green
-- Neutral: blue
-- Single phase line: black or brown
+| Type              | Color                  | Example                                                                                                                                                                                                                                                                                                                                                                                    |
+| ----------------- | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Protective earth  | Mixed yellow and green | <svg width="120" height="20"><defs><linearGradient id="earthgrad" x1="0%" y1="100%" x2="0%" y2="0%"><stop offset="0%" style="stop-color:yellow"/><stop offset="33.33%" style="stop-color:green"/><stop offset="66.66%" style="stop-color:yellow"/><stop offset="100%" style="stop-color:green"/></linearGradient></defs><rect width="100" height="20" style="fill:url(#earthgrad)"/></svg> |
+| Neutral           | Blue                   | <svg width="100" height="20"><rect width="120" height="20" style="fill:#0000FF"/></svg>                                                                                                                                                                                                                                                                                                    |
+| Single phase line | Black or brown         | <svg width="120" height="20"><rect width="100" height="20" style="fill:#8B4513"/></svg>                                                                                                                                                                                                                                                                                                    |
 
 ## Nomenclature
 
@@ -78,7 +80,7 @@ Protecting livestock and electrical equipments from electric faults.
 ### Protection methods
 
 - [Earthing](/electrical-fundamentals/electrical-installation/earthing) of
-  equipments
+  equipment
 - Use of
   [circuit breakers](/electrical-fundamentals/electrical-installation/circuit-breakers)/[fuses](/electrical-fundamentals/electrical-installation/fuses/)
 - Use of

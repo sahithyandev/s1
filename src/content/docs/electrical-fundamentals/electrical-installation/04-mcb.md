@@ -1,24 +1,14 @@
 ---
 title: MCB
 sidebar:
-  order: 6
+  order: 4
 slug: electrical-fundamentals/electrical-installation/mcb
 prev: true
 next: true
 ---
 
-![MCB](/electrical/mcb.jpg)
-
-MCB is short for miniature circuit breaker. Not main circuit breaker. Each sub
-circuit in the consumer unit starts with a MCB. Protects against overcurrent,
-caused by both overload and short-circuit current.
-
-Has 4 functional components:
-
-- A thermal overload trip (bi-metal)
-- An electromagnetic short-circuit trip
-- A switching mechanism with contacts
-- Arc exhausting system
+Short for miniature circuit breaker. Not main circuit breaker. Each sub circuit
+in the consumer unit starts with a MCB. Protects against overcurrent.
 
 ### Advantages
 
@@ -32,29 +22,29 @@ Advantages of a MCB over fuses:
 - **Easy to use**
   - No stock of fuses required
   - Reclosing can be effected at once after the fault has been cleared
+- **More accurate**
+
+MCBs are more expensive than fuses.
 
 ### Ratings
 
 - Rated current
 - Rated voltage (single phase and 3-phase)
 
-## Differences to a fuse
+## Mechanism
 
-| MCB                 | Fuse                               |
-| ------------------- | ---------------------------------- |
-| Non-destructive     | Self-destructive                   |
-| Used repeatedly     | Wire must be replaced before reuse |
-| Automatic or manual | Only automatic                     |
-| High cost           | Low cost                           |
-| More accurate       | Less accurate                      |
+![MCB](/electrical/mcb.jpg)
 
-In MCBs, both a thermal device and an electromagnetic device are involved.
+Has 4 functional components:
 
-- Thermal mechanism for small overloads and time-graded operation
-- Electromagnetic mechanism for high fault currents and near-instantaneous
-  operation
+- A thermal overload trip (bi-metal)  
+  For small overloads and time-graded operation
+- An electromagnetic short-circuit trip  
+  For high fault currents and near-instantaneous operation
+- A switching mechanism with contacts
+- Arc exhausting system
 
-## Function of the thermal device
+### Function of the thermal device
 
 ![Thermal device of MCB](/electrical/function-of-mcb-thermal.jpg)
 
@@ -65,7 +55,7 @@ on:
 - Intensity of current flow
 - Duration
 
-## Function of the EM device
+### Function of the EM device
 
 ![EM device of MCB](/electrical/function-of-mcb-em.jpg)
 
