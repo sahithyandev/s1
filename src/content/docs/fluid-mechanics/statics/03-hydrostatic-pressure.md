@@ -17,8 +17,7 @@ P = \lim_{\delta A \to 0} \frac{\delta F}{\delta A}
 
 ## Pascal's law
 
-The hydrostatic pressure at a point is the same from all directions. Applies
-only for hydrostatic pressure.
+The hydrostatic pressure at a point is the same from all directions.
 
 ### Proof
 
@@ -137,7 +136,11 @@ p = -\int{\rho g\,\text{d}z}
 
 :::note[For incompressible fluids]
 
-$\rho$ is constant. $p = -\rho g\int{\text{d}z} = -\rho gz + c = f(z)$.
+$\rho$ is constant. $ $
+
+```math
+p = -\rho g\int{\text{d}z} = -\rho gz + c = f(z)
+```
 
 :::
 

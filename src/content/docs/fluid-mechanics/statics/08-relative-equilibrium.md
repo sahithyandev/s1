@@ -2,7 +2,7 @@
 title: Relative Equilibrium
 slug: fluid-mechanics/statics/relative-equilibrium
 sidebar:
-  order: 7
+  order: 8
 prev: true
 next: true
 ---
@@ -76,13 +76,10 @@ On the free surface $P=0$ as gauge pressure is considered. $ $
 
 Free surface is a plane in 3D.
 
-## Inclined Acceleration
+### Inclination from horizontal plane
 
-```math
-a_x, a_z \neq 0 \;\;\;\land\;\;\; a_y = 0
-```
-
-If $\theta_x,\theta_y$ are the angles in $x,y$ directions.
+The free surface has an inclination from the horizontal plane:
+$\theta_x, \theta_y$, the slopes in $x$ and $y$ directions.
 
 ```math
 \tan{(\theta_x)}=
@@ -92,7 +89,10 @@ If $\theta_x,\theta_y$ are the angles in $x,y$ directions.
 \frac{\text{d}z}{\text{d}y}
 ```
 
-Differentiating the equation of the free surface with respect to $x$. $ $
+To find $\theta_x$, it is possible to set $y=0$ since movement in the $y$
+direction does not affect the slope in the $x$ direction. A point can move along
+the surface in the $xz$-plane by choosing any fixed $y$ value. After setting
+$y=0$, the free surface equation is differentiated with respect to $x$:
 
 ```math
 \rho a_x
@@ -102,7 +102,7 @@ Differentiating the equation of the free surface with respect to $x$. $ $
 \tan{(\theta_x)}=\frac{-a_x}{a_z+g}
 ```
 
-And similarly for $y$: $ $
+Similarily $\theta_y$ can be solved: $ $
 
 ```math
 \rho a_y

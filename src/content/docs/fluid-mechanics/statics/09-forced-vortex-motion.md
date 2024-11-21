@@ -2,7 +2,7 @@
 title: Forced Vortex Motion
 slug: fluid-mechanics/statics/forced-vortex-motion
 sidebar:
-  order: 8
+  order: 9
 next: false
 prev: true
 ---

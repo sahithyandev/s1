@@ -9,8 +9,7 @@ next: true
 
 ## On a Plane Surface
 
-Acts **normal to the surface** on the point on the surface known as **the Centre
-of Pressure** with a magnitude of:
+Acts normal to the surface on the centre of pressure with a magnitude of:
 
 ```math
 \text{Thrust} = \text{submerged area} \times P_c
@@ -50,6 +49,7 @@ pressure diagram}
 | ------------- | -------------------------------------------------- | ----------------- |
 | Parallelogram | Base $b$. Height $h$. Base is at the free surface. | $ \cfrac{2h}{3}$  |
 | Triangle      | Base $b$. Height $h$. Base is at the free surface. | $ \cfrac{5h}{6} $ |
+| Circle        | Radius $r$. Center is at a depth $r$.              | $ \cfrac{5r}{4} $ |
 
 ### Proof
 

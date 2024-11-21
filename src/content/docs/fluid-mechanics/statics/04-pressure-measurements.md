@@ -33,7 +33,7 @@ Measures the pressure head of a liquid.
 
 ![Manometer](/fluids/manometer.jpg)
 
-Hydrostatic principle is used here. Measures absolute pressue. Manometer liquid
+Hydrostatic principle is used here. Measures absolute pressure. Manometer liquid
 should not mix with the liquid in which the pressure is to be measured.
 
 ```math
@@ -45,11 +45,8 @@ P_{A} + a\rho g = P_{\text{atm}} + h \rho_{m} g
 ```
 
 ```math
-P_{A} = P_{\text{atm}} + h \rho_{m} - a\rho g
+P_{A} = P_{\text{atm}} + h \rho_{m}g - a\rho g
 ```
-
-<!-- prettier-ignore -->
-If $ P_{\text{atm}} = 0 $, $ P_{A} = h \rho_{m} - a\rho g $. That's gauge pressure.
 
 ### Differential Manometer
 
