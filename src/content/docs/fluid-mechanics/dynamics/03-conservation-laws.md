@@ -2,7 +2,7 @@
 title: Conservation Laws
 slug: fluid-mechanics/dynamics/conservation-laws
 sidebar:
-  order: 2
+  order: 3
 prev: true
 next: true
 ---
@@ -17,12 +17,9 @@ In fluid dynamics, 4 laws are used to analyse the fluid flow.
 These laws are applied to a specific volume of the fluid in motion, and it's
 called as control volume.
 
-## Control volume
+### Control volume
 
-A volume, through which a fluid flows.
-
-- It's a fixed volume
-- Can either be real or imaginary
+A fixed volume, through which a fluid flows. Can either be real or imaginary.
 
 ## Conservation of mass
 
@@ -30,12 +27,12 @@ Mass cannot be created nor destroyed.
 
 ## Conservation of energy
 
-Energy cannot be created nor destroyed, but can be converted from one form to
+Energy cannot be created nor destroyed. Can only be converted from one form to
 another.
 
 ## Conservation of momentum
 
-Unless a resultant force is exerted on a mass, it cannot gain or lose momentum.
+A mass cannot gain or lose momentum unless a resultant force is exerted on it.
 
 ### Momentum
 

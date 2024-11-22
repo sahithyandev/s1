@@ -2,12 +2,13 @@
 title: Losses
 slug: fluid-mechanics/dynamics/losses
 sidebar:
-  order: 4
+  order: 5
 next: false
 prev: true
 ---
 
-Energy losses in a fluid under motion.
+Energy loss in fluid motion is directly proportional to $v^2$ where $v$ is the
+velocity.
 
 ## Types
 

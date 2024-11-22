@@ -2,9 +2,9 @@
 title: Derivations
 slug: fluid-mechanics/dynamics/derivations
 sidebar:
-  order: 3
+  order: 4
 prev: true
-next: false
+next: true
 ---
 
 ## Continuity equation
@@ -49,6 +49,8 @@ Here:
 
 ## Steady flow momentum equation
 
+For an incompressible fluid under steady flow:
+
 ```math
 F_S = \dot{M_o}-\dot{M_i}
 ```
@@ -59,21 +61,16 @@ Here:
 - $\dot{M_o}$ - Rate of change of momentum of the inflow fluid
 - $\dot{M_i}$ - Rate of change of momentum of the outflow fluid
 
-:::note
-
-Below equation can be useful in applications.
-
 ```math
 \dot{M} = \rho Q v
 ```
 
-Where:
+Here:
 
+- $\dot{M}$ - rate of change of momentum
 - $\rho$ - density
 - $Q$ - flow rate
 - $v$ - velocity
-
-:::
 
 ## Power
 
