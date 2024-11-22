@@ -4,7 +4,7 @@ slug: electrical-fundamentals/basics/circuit-elements
 sidebar:
   order: 4
 prev: true
-next: true
+next: false
 ---
 
 Two types of circuit elements.
@@ -35,7 +35,7 @@ Constant voltage for any required currents. Does not exist.
 
 Either consumes or stores electrical energy.
 
-- [Resistors](/electrica-fundamentals/resistors)
-- [Capacitors](/electrica-fundamentals/capacitors)
-- [Inductors](/electrica-fundamentals/inductors)
+- [Resistors](/electrical-fundamentals/resistors)
+- [Capacitors](/electrical-fundamentals/capacitors)
+- [Inductors](/electrical-fundamentals/inductors)
 - Any other elements
