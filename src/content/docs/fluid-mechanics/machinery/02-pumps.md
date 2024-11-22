@@ -13,10 +13,9 @@ A curved blade used in a pump.
 
 ### Impeller
 
-Set of vanes attached to a disc or a cyllinder. Main rotating element in a pump.
-
-In a pump, impeller is mounted on a shaft. The shaft is driven by an electric
-motor or IC engine.
+A disc or a cylinder on which a set of vanes are attached. Main rotating element
+in a pump. Mounted on a shaft. The shaft is driven by an electric motor or IC
+engine.
 
 ## Direction of the fluid flow
 
@@ -31,7 +30,6 @@ Fluid enters the impeller axially. Leaves radially.
 ### Mixed flow
 
 Fluid enters the impeller axially. Leaves in both axial and radial directions.
-Aka. [centrifugal pumps](/fluid-mechanics/machinery/centrifugal-pumps).
 
 :::note
 
@@ -76,6 +74,8 @@ Denoted by $\mu$. Varies with $Q$.
 ```
 
 :::
+
+## Performance characteristic
 
 All these parameters, plotted vs $Q$, is known as **performance characteristic**
 of the pump. Will be given by the manufacturer. Can be found by laboratory

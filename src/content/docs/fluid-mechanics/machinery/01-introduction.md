@@ -1,5 +1,5 @@
 ---
-title: Hydraulic Machinary
+title: Hydraulic Machinery
 sidebar:
   label: Introduction
   order: 1
@@ -74,7 +74,7 @@ it.
 
 ### Summary
 
-|                       | Machine to Fluid         | Fluid to Machine | Fluid as a energy transfer medium    |
+|                       | Machine to Fluid         | Fluid to Machine | Energy transfer using fluid          |
 | --------------------- | ------------------------ | ---------------- | ------------------------------------ |
 | Positive Displacement | Piston pump, Rotary pump | Motors           | Hydraulic Ram, Jack Press            |
 | Rotodynamic           | Pumps, Compressors       | Turbines         | Hydraulic coupling, Torque converter |
