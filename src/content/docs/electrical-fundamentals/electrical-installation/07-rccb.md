@@ -4,7 +4,7 @@ sidebar:
   order: 7
 slug: electrical-fundamentals/electrical-installation/rccb
 prev: true
-next: false
+next: true
 ---
 
 ![RCCB](/electrical/rccb.jpg)

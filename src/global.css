@@ -167,7 +167,7 @@ br {
 }
 @page {
 	margin-top: 0.3in;
-	margin-bottom: 1in;
+	margin-bottom: 0.6in;
 }
 @media print {
 	header.header,

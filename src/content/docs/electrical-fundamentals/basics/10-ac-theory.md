@@ -119,7 +119,7 @@ P=vi=i^2R
 =
 \frac{\text{rms value}}{\text{average value}}
 =
-{\frac{V_m}{\sqrt{2}}}\times{\frac{2}{\pi{V_m}}}
+{\frac{V_m}{\sqrt{2}}}\times{\frac{\pi}{2{V_m}}}
 =1.111
 ```
 

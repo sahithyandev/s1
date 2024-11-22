@@ -5,7 +5,7 @@ slug: properties-of-materials/basics/introduction
 sidebar:
   label: Introduction
   order: 1
-next: false
+next: true
 ---
 
 ## Materials
