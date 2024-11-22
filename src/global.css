@@ -270,3 +270,7 @@ svg text {
 		@apply rounded-sm;
 	}
 }
+.notes-as-pdf-links {
+	@apply list-none px-0 grid gap-2;
+	grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}

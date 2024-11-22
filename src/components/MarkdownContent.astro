@@ -94,7 +94,7 @@ const sections = findSections(Astro.props.sidebar);
 			<p>
 				The PDFs are automatically generated. Formatting may not be perfect.
 			</p>
-			<ul class="notes-as-pdf-links list-none px-0 flex flex-wrap gap-2">
+			<ul class="notes-as-pdf-links">
 				{sections.map((section) => {
 					return (
 						<NotesPdfDownloadLink
