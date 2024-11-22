@@ -92,10 +92,6 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: "Home",
-					link: "/",
-				},
-				{
 					label: "Dimensions & Units",
 					link: "/dimensions-and-units",
 				},
