@@ -2,6 +2,7 @@
 import Default from "@astrojs/starlight/components/MarkdownContent.astro";
 import type { Props } from "@astrojs/starlight/props";
 import ContentEntries from "./ContentEntries.astro";
+import NotesPdfDownloadLink from "./NotesPdfDownloadLink.astro";
 
 function countTotalEntries(entries: Props["sidebar"]) {
 	let count = 0;
@@ -18,6 +19,7 @@ function countTotalEntries(entries: Props["sidebar"]) {
 }
 
 interface SectionSummaryLink {
+	parentLabel: string;
 	label: string;
 	href: string;
 }
@@ -31,20 +33,21 @@ function findSections(entries: Props["sidebar"], parentLabel = "") {
 
 		if (entry.entries[0].type === "link") {
 			sections.push({
-				label: `${parentLabel}${entry.label}`,
+				parentLabel,
+				label: entry.label,
 				href: "/as-pdf/".concat(
 					entry.entries[0].href
 						.split("/")
 						.slice(1, -2)
 						.join("--")
 						.toLowerCase(),
-					".pdf",
+					".pdf"
 				),
 			});
 		} else {
 			for (const subsection of findSections(
 				entry.entries,
-				`${entry.label}${parentLabel} | `,
+				`${entry.label}${parentLabel}`
 			)) {
 				sections.push(subsection);
 			}
@@ -70,10 +73,9 @@ const sections = findSections(Astro.props.sidebar);
 				short notes of my 1st semester of Engineering at University of Moratuwa.{" "}
 			</p>
 			<p>
-			The semester is now complete. All modules are included totaling to{" "}
-				<span class="font-bold">{totalPages} pages</span>.
-					Let me
-					know if something is missing or you find anything wrong.
+				The semester is now complete. All modules are included totaling to{" "}
+				<span class="font-bold">{totalPages} pages</span>. Let me know if
+				something is missing or you find anything wrong.
 			</p>
 			<p>
 				This wouldn't be possible without the help of my friends. Huge thanks
@@ -93,20 +95,20 @@ const sections = findSections(Astro.props.sidebar);
 			</ul>{" "}
 			<h2>Notes as PDFs</h2>
 			<p>
-				The PDFs are automatically generated.
-				Formatting may not be perfect.
+				The PDFs are automatically generated. Formatting may not be perfect.
 			</p>
-			<ul class="notes-as-pdf-links">
+			<ul class="notes-as-pdf-links list-none px-0 flex flex-wrap gap-2">
 				{sections.map((section) => {
 					return (
-						<li>
-							<a href={section.href}>{section.label}</a>
-						</li>
+						<NotesPdfDownloadLink
+							href={section.href}
+							moduleName={section.parentLabel}
+							heading={section.label}
+						/>
 					);
 				})}
 			</ul>
 			<h2 class="mb-1">Content Included</h2>
-
 			<div id="content-included">
 				<p>
 					<Fragment>

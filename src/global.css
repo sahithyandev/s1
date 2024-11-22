@@ -6,7 +6,7 @@
 	@apply text-[15px] lg:text-[16px] xl:text-[17.5px] 2xl:text-[18px];
 	--note-border-radius: 5px;
 	--sl-content-width: 72em;
-	--sl-content-pad-x: 3rem;
+	--sl-content-pad-x: 2.4rem;
 	--sl-text-h1: var(--sl-text-4xl);
 	--sl-text-h2: var(--sl-text-3xl);
 	--sl-text-h3: var(--sl-text-2xl);
@@ -14,6 +14,7 @@
 	--sl-sidebar-width: 19rem;
 	--sl-color-blue-low: hsl(var(--sl-hue-blue), 54%, 30%);
 
+	--sl-color-text-strong: #ff2f87;
 	--sl-color-accent-low: #c4d7ff;
 	--sl-color-accent: #1e50ff;
 	--sl-color-accent-high: #0f2975;
@@ -136,7 +137,7 @@ li .MathJax {
 	@apply text-xl;
 }
 strong {
-	color: #ff2f87;
+	color: var(--sl-color-text-strong);
 }
 #content-included {
 	@apply relative;
