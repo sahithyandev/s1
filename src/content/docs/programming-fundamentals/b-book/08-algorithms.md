@@ -119,32 +119,20 @@ def selection_sort(arr):
         arr[smallest_index], arr[current_starting_index] = arr[current_starting_index], arr[smallest_index]
 ```
 
-### Shell sort
+### Insertion sort
 
-A specific "gap" is chosen. Start from any index (which is smaller than gap),
-and use insertion sort to sort the elements that are gap number of indices away.
-Redo this after reducing the gap. Repeat until the gap eventually becomes 1.
-
-The performance depends on the sequence of gaps chosen.
+Work through a list starting at one end. Each item from the unsorted portion is
+inserted into its correct position among the items already processed.
 
 ```py
-# a modified version of insertion sort
-def gap_insertion_sort(a_list, start_index, gap):
-    while start_index < len(a_list):
-        pointer = start_index
-        while pointer >= gap and a_list[pointer - gap] > a_list[pointer]:
-            # swap the position
-            a_list[pointer], a_list[pointer - gap] = \
-                a_list[pointer-gap], a_list[pointer]
-
-            pointer -= gap
-        start_index += gap
-
-
-def shell_sort(a_list):
-    for gap in range(4, 0, -1):
-        for starting_index in range(0, gap):
-            gap_insertion_sort(a_list, starting_index, gap)
+def insertion_sort(arr):
+    for i in range(1, len(arr)):
+        key = arr[i]
+        j = i - 1
+        while j >= 0 and arr[j] > key:
+            arr[j + 1] = arr[j]
+            j -= 1
+        arr[j + 1] = key
 ```
 
 ### Merge sort
@@ -248,6 +236,34 @@ def partition(a_list, first, last):
     return right_mark
 ```
 
+### Shell sort
+
+A specific "gap" is chosen. Start from any index (which is smaller than gap),
+and use insertion sort to sort the elements that are gap number of indices away.
+Redo this after reducing the gap. Repeat until the gap eventually becomes 1.
+
+The performance depends on the sequence of gaps chosen.
+
+```py
+# a modified version of insertion sort
+def gap_insertion_sort(a_list, start_index, gap):
+    while start_index < len(a_list):
+        pointer = start_index
+        while pointer >= gap and a_list[pointer - gap] > a_list[pointer]:
+            # swap the position
+            a_list[pointer], a_list[pointer - gap] = \
+                a_list[pointer-gap], a_list[pointer]
+
+            pointer -= gap
+        start_index += gap
+
+
+def shell_sort(a_list):
+    for gap in range(4, 0, -1):
+        for starting_index in range(0, gap):
+            gap_insertion_sort(a_list, starting_index, gap)
+```
+
 ### Heap sort
 
 Uses a [binary heap](/programming-fundamentals/b-book/data-types/#binary-heap).
@@ -306,12 +322,12 @@ def heap_sort(a_list):
 
 ### Time complexities
 
-| Algorithms     | Best       | Average        | Worst          |
-| -------------- | ---------- | -------------- | -------------- |
-| Bubble sort    | O(n)       | O(n^2)         | O(n^2)         |
-| Selection sort | O(n^2)     | O(n^2)         | O(n^2)         |
-| Insertion sort | O(n)       | O(n^2)         | O(n^2)         |
-| Shell sort     | O(n)       | O((n log n)^2) | O((n log n)^2) |
-| Merge sort     | O(n log n) | O(n log n)     | O(n log n)     |
-| Quick sort     | O(n log n) | O(n log n)     | O(n^2)         |
-| Heap sort      | O(n log n) | O(n log n)     | O(n log n)     |
+| Algorithms     | Best                | Average               | Worst                 |
+| -------------- | ------------------- | --------------------- | --------------------- |
+| Bubble sort    | $\text O(n)$        | $\text O(n^2)$        | $\text O(n^2)$        |
+| Selection sort | $\text O(n^2)$      | $\text O(n^2)$        | $\text O(n^2)$        |
+| Insertion sort | $\text O(n)$        | $\text O(n^2)$        | $\text O(n^2)$        |
+| Shell sort     | $\text O(n \log n)$ | $\text O(n \log^2 n)$ | $\text O(n \log^2 n)$ |
+| Merge sort     | $\text O(n \log n)$ | $\text O(n \log n)$   | $\text O(n \log n)$   |
+| Quick sort     | $\text O(n \log n)$ | $\text O(n \log n)$   | $\text O(n^2)$        |
+| Heap sort      | $\text O(n \log n)$ | $\text O(n \log n)$   | $\text O(n \log n)$   |
