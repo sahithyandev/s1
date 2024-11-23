@@ -4,7 +4,7 @@ slug: maths/riemann-integration/converging-functions
 sidebar:
   order: 13
 prev: true
-next: false
+next: true
 ---
 
 Convergence of functions is introduced in

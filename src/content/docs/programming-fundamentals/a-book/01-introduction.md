@@ -5,7 +5,7 @@ sidebar:
   order: 1
 slug: programming-fundamentals/a-book/introduction
 prev: false
-next: false
+next: true
 ---
 
 ## Definitions

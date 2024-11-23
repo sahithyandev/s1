@@ -4,7 +4,7 @@ slug: maths/real-analysis/strategy-for-series
 sidebar:
   order: 28
 prev: true
-next: false
+next: true
 ---
 
 Consider a series in the form $\sum_{k=1}^n {u_n}$. To determine whether the

@@ -4,7 +4,7 @@ slug: fluid-mechanics/machinery/centrifugal-pumps
 sidebar:
   order: 3
 prev: true
-next: false
+next: true
 ---
 
 Most used pumps in engineering because they support wide range of heights and

@@ -4,7 +4,7 @@ sidebar:
   order: 16
 slug: electrical-fundamentals/basics/lab-apparatus
 prev: true
-next: false
+next: true
 ---
 
 ## Variac

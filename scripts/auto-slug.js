@@ -1,5 +1,6 @@
+import { readdirSync } from "node:fs";
 import { writeFile } from "node:fs/promises";
-import { relative } from "node:path";
+import { dirname, join, relative } from "node:path";
 const matter = require("gray-matter");
 
 const PATTERN_TITLE_PREFIX = /\/(\d+)-/;
@@ -21,7 +22,6 @@ const TIME_NOW = new Date().valueOf();
     @param {Array<string>} mdFilePaths
 */
 export async function autoSlug(mdFilePaths) {
-	mdFilePaths.sort();
 	for (let i = 0; i < mdFilePaths.length; i++) {
 		const filePath = mdFilePaths[i];
 		if (!filePath.endsWith(".md") || filePath.includes("/summary/")) {
@@ -91,5 +91,20 @@ export async function autoSlug(mdFilePaths) {
 
 // updates the frontmatter of mdx files
 if (require.main === module) {
-	autoSlug(process.argv.slice(2));
+	const directories = [];
+	const filePaths = [];
+
+	for (const changedFile of process.argv.slice(2)) {
+		const changedDirectory = dirname(changedFile);
+		if (directories.includes(changedDirectory)) {
+			continue;
+		}
+		directories.push(changedDirectory);
+		const files = readdirSync(changedDirectory);
+		for (const file of files) {
+			filePaths.push(join(changedDirectory, file));
+		}
+	}
+	filePaths.sort();
+	autoSlug(filePaths);
 }

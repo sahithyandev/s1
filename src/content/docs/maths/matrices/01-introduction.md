@@ -5,7 +5,7 @@ sidebar:
   label: Introduction
   order: 1
 prev: false
-next: false
+next: true
 ---
 
 Revise Matrices unit from G.C.E. (A/L) Combined Mathematics and G.C.E. (O/L)

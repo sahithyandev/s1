@@ -4,7 +4,7 @@ slug: electrical-fundamentals/electrical-installation/installation-tests
 sidebar:
   order: 10
 prev: true
-next: false
+next: true
 ---
 
 After an electric installation is done, it must be tested for faults, to ensure

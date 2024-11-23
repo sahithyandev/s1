@@ -4,7 +4,7 @@ sidebar:
   order: 4
 slug: properties-of-materials/mechanical-properties/elasticity
 prev: true
-next: false
+next: true
 ---
 
 Deformation is temporary. Returns to its original shape when load is released.
