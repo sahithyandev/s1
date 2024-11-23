@@ -3,6 +3,7 @@ import Default from "@astrojs/starlight/components/MarkdownContent.astro";
 import type { Props } from "@astrojs/starlight/props";
 import ContentEntries from "./ContentEntries.astro";
 import NotesPdfDownloadLink from "./NotesPdfDownloadLink.astro";
+import { IS_NOTES_AS_PDFS_ENABLED } from "../../config.mjs";
 
 function countTotalEntries(entries: Props["sidebar"]) {
 	let count = 0;
@@ -59,7 +60,7 @@ function findSections(entries: Props["sidebar"], parentLabel = "") {
 
 const totalPages = countTotalEntries(Astro.props.sidebar);
 const isHomepage = Astro.props.slug === "";
-const sections = findSections(Astro.props.sidebar);
+const sections = IS_NOTES_AS_PDFS_ENABLED ? findSections(Astro.props.sidebar) : undefined;
 ---
 
 {
@@ -90,6 +91,10 @@ const sections = findSections(Astro.props.sidebar);
 				</li>{" "}
 				<li>Accessible from everywhere.</li> <li>Helpful to everyone.</li>{" "}
 			</ul>{" "}
+			{
+			sections === undefined ? null :
+
+			<>
 			<h2>Notes as PDFs</h2>
 			<p>
 				The PDFs are automatically generated. Formatting may not be perfect.
@@ -105,6 +110,8 @@ const sections = findSections(Astro.props.sidebar);
 					);
 				})}
 			</ul>
+			</>
+			}
 			<h2 class="mb-1">Content Included</h2>
 			<div id="content-included">
 				<p>
