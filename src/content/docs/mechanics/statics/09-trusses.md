@@ -7,7 +7,7 @@ prev: true
 next: true
 ---
 
-Also known as Ties-Struts model.
+Aka. Ties-Struts model.
 
 ## Definition
 
@@ -70,8 +70,9 @@ alone.
 #### Stable & indeterminate
 
 **Indeterminate** means laws of statics alone are not sufficient to determine
-forces; relative stiffness of members will influence the solution (Indeterminate
-trusses are safer).
+forces; relative stiffness of members will influence the solution. One or more
+compatibility equations (related to truss deformation) must be used.
+Indeterminate trusses are safer.
 
 ### Unstable truss
 

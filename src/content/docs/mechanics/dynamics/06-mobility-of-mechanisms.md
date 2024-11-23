@@ -4,7 +4,7 @@ slug: mechanics/dynamics/mobility-of-mechanisms
 sidebar:
   order: 6
 prev: true
-next: false
+next: true
 ---
 
 ### Independent object

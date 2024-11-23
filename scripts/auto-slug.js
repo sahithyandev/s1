@@ -21,6 +21,7 @@ const TIME_NOW = new Date().valueOf();
     @param {Array<string>} mdFilePaths
 */
 export async function autoSlug(mdFilePaths) {
+	mdFilePaths.sort();
 	for (let i = 0; i < mdFilePaths.length; i++) {
 		const filePath = mdFilePaths[i];
 		if (!filePath.endsWith(".md") || filePath.includes("/summary/")) {

@@ -4,7 +4,7 @@ slug: mechanics/statics/beam-analogy
 sidebar:
   order: 11
 prev: true
-next: true
+next: false
 ---
 
 In this method, the internal forces are found assuming the elongated truss is a

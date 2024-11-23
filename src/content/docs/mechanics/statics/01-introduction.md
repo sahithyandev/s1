@@ -8,11 +8,10 @@ prev: false
 next: true
 ---
 
-## Centroid / Centre of area
+## Centroid
 
-The point where the area of a figure is assumed to be concentrated.
-
-Located on the axes of symmetry.
+Aka. centre of area. The point where the area of a figure is assumed to be
+concentrated. Located on the axes of symmetry.
 
 ## First moment of area
 
