@@ -87,7 +87,7 @@ board which will be needed in this module.
 
 ## Software
 
-Software programs for Arudio is created on a computer using Arduino IDE. They
+Software programs for Aruduino is created on a computer using Arduino IDE. They
 are called as sketches. The IDE can be used to write and edit code and convert
 this code into instructions that Arduino hardware understands. The IDE also
 transfers those instructions to the Arduino board (a process called uploading).

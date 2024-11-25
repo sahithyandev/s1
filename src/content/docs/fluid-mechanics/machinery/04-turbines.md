@@ -31,10 +31,6 @@ Aka. Kaplan turbine. Commonly used to get a head output of 3 to 70m.
 
 Aka. Francis turbine. Commonly used to get a head output of 30 to 500m.
 
-#### Mixed flow
-
-A combination of radial flow and axial flow.
-
 ### Impulse turbines
 
 Aka. velocity turbines. Used for high heads. Highly efficient. High velocity jet

@@ -41,13 +41,8 @@ Examples:
 - JUMPZ: Jump to a program address only if the last operation had a zero value
 - JUMPNZ: Jump to a program address only if the last operation had a non-zero
   value
-- NOP: Do nothing but spend some CPU time
-
-:::note
-
-NOP operation is required to keep the CPU idle while waiting for some data.
-
-:::
+- NOP: Do nothing but spend some CPU time  
+  Used to keep the CPU idle while waiting for some data.
 
 ## Composition of instructions
 

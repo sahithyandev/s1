@@ -19,9 +19,11 @@ reduce losses).
 
 ### Diffuser
 
-A fixed set of vanes installed inside the volute. Increases pressure of the
-fluid exiting the impeller by decreasing its velocity. Minimizes the energy loss
-from turbulence and impact. Optional.
+A fixed set of vanes installed inside the volute.
+
+Optional. Increases pressure of the fluid exiting the impeller by decreasing its
+velocity. Guides the fluid tangentially into the volute. Minimizes energy loss
+from turbulence and impact.
 
 ## Operation
 

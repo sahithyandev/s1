@@ -25,10 +25,11 @@ Input/Output (IO) devices. Resides between memory and CPU.
 
 ### Disk controllers
 
-When reading/writing to/from a disk the CPU will create a buffer (special memory
-area) containing the sector address and the data to be written or read. Then the
-CPU informs the controller about the location of the buffer. The controller then
-transfers the content of the buffer directly from memory to the disk sector.
+When reading from or writing to a disk the CPU will create a buffer (special
+memory area) containing the sector address and the data to be written or read.
+Then the CPU informs the controller about the location of the buffer. The
+controller then transfers the content of the buffer directly from memory to the
+disk sector.
 
 Examples:
 
@@ -38,8 +39,8 @@ Examples:
 ### Real-Time Clocks
 
 Used to keep track of time of the day. Usually backed-up by an extra power
-source such as a Li battery. Used to store some of the configuration information
-such as CMOS setup memory.
+source such as a $\ce{Li+}$ battery. Used to store some of the configuration
+information such as CMOS setup memory. $ $
 
 ### Display controllers
 

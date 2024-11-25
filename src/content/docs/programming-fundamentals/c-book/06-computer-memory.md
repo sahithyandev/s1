@@ -109,7 +109,7 @@ Set of memory ICs presented as a single memory block to the motherboard .
 
 Type of memory modules:
 
-- SIM - Single Inline Memory Module
+- SIMM - Single Inline Memory Module
 - DIMM - Dual Inline Memory Module (64-bit wide 168-pin)
 - DDR-DIMM - Double Data Rate-DIMM
 
@@ -134,6 +134,8 @@ items in the faster devices and others in slower devices.
 ### Traditional
 
 ![Traditional Memory Hierarchy](/programming/traditional-memory-hierarchy.jpg)
+
+Doesn't include cache memory.
 
 ### Modern
 

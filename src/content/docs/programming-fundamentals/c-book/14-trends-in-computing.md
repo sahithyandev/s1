@@ -5,16 +5,8 @@ sidebar:
   order: 14
 next: false
 prev: true
+draft: true
 ---
-
-:::note
-
-I don't like including stuff like these in the curriculum. The trends are
-changing quickly.
-
-Included those for the sake of completeness.
-
-:::
 
 ## Current Trends
 
