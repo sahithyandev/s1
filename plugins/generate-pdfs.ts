@@ -149,6 +149,9 @@ export default function generatePdfsIntegration(
 					const content = await readFile(inputFile, {
 						encoding: "utf-8",
 					});
+					if (content.includes("\ndraft: true\n")) {
+						continue;
+					}
 					const outputPath = outputFilename(fileString);
 					if (outputFileContents[outputPath] === undefined) {
 						const parts = safeSplit(content, "---", 3);
