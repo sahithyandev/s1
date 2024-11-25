@@ -108,8 +108,14 @@ characteristic and performance characteristic (of the pump) curves.
 
 ### In serial
 
-When 2 pumps are operating in a series, their head inputs are added.
+When 2 pumps are operating in a series:
+
+- $Q$ is same for both
+- $H = H_1 + H_2$
 
 ### In parallel
 
-When 2 pumps are operating in a parallel, their flow rates are added.
+When 2 pumps are operating in a parallel:
+
+- $Q = Q_1 + Q_2$
+- $H$ is same for both

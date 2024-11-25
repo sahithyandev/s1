@@ -19,8 +19,9 @@ reduce losses).
 
 ### Diffuser
 
-A fixed set of vanes added to the impeller. To direct the flow into the volute,
-to minimize impact losses. Optional.
+A fixed set of vanes installed inside the volute. Increases pressure of the
+fluid exiting the impeller by decreasing its velocity. Minimizes the energy loss
+from turbulence and impact. Optional.
 
 ## Operation
 
