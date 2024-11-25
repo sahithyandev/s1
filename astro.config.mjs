@@ -85,12 +85,14 @@ export default defineConfig({
 			},
 			lastUpdated: true,
 			expressiveCode: true,
+			credits: true,
 			components: {
 				Head: "./src/components/Head.astro",
 				Sidebar: "./src/components/Sidebar.astro",
 				MarkdownContent: "./src/components/MarkdownContent.astro",
 				SiteTitle: "./src/components/SiteTitle.astro",
 				PageTitle: "./src/components/PageTitle.astro",
+				Footer: "./src/components/Footer.astro",
 			},
 			sidebar: [
 				{

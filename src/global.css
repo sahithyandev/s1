@@ -272,5 +272,9 @@ svg text {
 }
 .notes-as-pdf-links {
 	@apply list-none px-0 grid gap-2;
-	grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(255px, 1fr));
+
+	a:hover svg {
+		@apply opacity-50;
+	}
 }

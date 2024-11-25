@@ -1,0 +1,71 @@
+---
+import type { Props } from '@astrojs/starlight/props';
+
+import Pagination from '@astrojs/starlight/components/Pagination.astro';
+import config from 'virtual:starlight/user-config';
+import { Icon } from '@astrojs/starlight/components';
+
+const {lang,lastUpdated, editUrl} = Astro.props;
+---
+
+<footer class="sl-flex">
+	<div class="flex flex-wrap">
+	{lastUpdated ?
+	<span>
+	This page was last updated on
+				<time datetime={lastUpdated.toISOString()}>
+					{lastUpdated.toLocaleDateString(lang, { dateStyle: 'medium', timeZone: 'UTC' })}
+				</time>.
+				</span>
+			 : null
+				}
+				{editUrl ? <span>
+				You can
+				<a href={editUrl} class="text-[var(--sl-color-text-accent)]">
+				contribute your changes
+				</a> through GitHub.
+
+				</span> : null}
+				{
+					config.credits && (
+						<a class="kudos" href="https://starlight.astro.build">
+							<Icon name={'starlight'} /> {Astro.locals.t('builtWithStarlight.label') + "."}
+						</a>
+					)
+				}
+	</div>
+	<Pagination {...Astro.props} />
+
+</footer>
+
+<style>
+	footer {
+		flex-direction: column;
+		gap: 1.5rem;
+	}
+	.meta {
+		gap: 0.75rem 3rem;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		margin-top: 3rem;
+		font-size: var(--sl-text-sm);
+		color: var(--sl-color-gray-3);
+	}
+	.meta > :global(p:only-child) {
+		margin-inline-start: auto;
+	}
+
+	.kudos {
+	@apply inline-flex ml-auto items-center;
+		gap: 0.5em;
+		font-size: var(--sl-text-xs);
+		text-decoration: none;
+		color: var(--sl-color-gray-3);
+	}
+	.kudos :global(svg) {
+		color: var(--sl-color-orange);
+	}
+	.kudos:hover {
+		color: var(--sl-color-white);
+	}
+</style>
