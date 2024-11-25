@@ -38,24 +38,24 @@ export const { getStaticPaths, GET } = OGImageRoute({
 	param: "slug",
 	getImageOptions: (_path, page: (typeof pages)[number]) => {
 		return {
-			title: page.data.title.concat(" | ", SITE_TITLE),
-			description: page.data.description,
+			title: page.data.title, // concat(" | ", SITE_TITLE),
+			description: "On ".concat(SITE_TITLE),
 			bgGradient: [[250, 254, 247]],
 			logo: {
 				path: "./public/logo.png",
 				size: [170],
 			},
-			fonts: ["./public/fonts/noto-sans_5.0.22_latin-400-normal.ttf"],
+			fonts: ["./public/fonts/DMSans_36pt-Regular.ttf"],
 			font: {
 				title: {
 					color: [0, 0, 0],
-					weight: "ExtraBlack",
-					size: 80,
+					weight: "Bold",
+					size: 90,
 					lineHeight: 1.2,
 				},
 				description: {
 					color: [0, 0, 0],
-					size: 35,
+					size: 32,
 				},
 			},
 			padding: 60,
