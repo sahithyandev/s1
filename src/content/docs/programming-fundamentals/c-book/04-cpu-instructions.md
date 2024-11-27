@@ -25,13 +25,13 @@ Examples:
 
 Examples:
 
-- ADD: Adds 2 values in CPU
+- ADD: Adds 2 values
 
 ### Logical operations
 
 Examples:
 
-- COMP: Compare 2 values in CPU
+- COMP: Compare 2 values
 
 ### CPU control instructions
 
@@ -48,8 +48,8 @@ Examples:
 
 ### OpCode
 
-A coded value which tells what the instruction is supposed to do. OpCodes are
-the examples mentioned above (such as ADD and COMP).
+A coded value which tells what the instruction is supposed to do. Examples are
+mentioned above such as ADD and COMP.
 
 ### Operands
 
@@ -68,26 +68,26 @@ the next instruction.
 
 :::
 
-## Execution of a program (Instruction cycle)
+## Instruction cycle
 
-A program is executed as a series of steps.
+A program is executed as a series of steps, which are called sub-cycles.
 
 ### Instruction Fetch
 
-Next instruction is loaded into the CPU from memory. A memory read cycle is
-executed. Similar for any instruction.
+An instruction is loaded into the CPU from memory. A memory read cycle is
+executed. Common for all instruction.
 
 ### Decode
 
-CPU decides the instruction binary pattern and decides on what action to take.
-Similar for any instruction.
+Handled by CU. Binary pattern of the instruction and what action to take is
+decided. Common for all instruction.
 
 ### Operand Fetch
 
-If the operation requires additional operands in memory, ready cycles are
-executed to fetch them. Depends on the operation. Somtimes optional.
+If the operation requires operand(s), they are read from memory. Depends on the
+operation. Optional for some operations.
 
 ### Execution cycle
 
-Instruction is executed by the CU. CPU generates the signal for its internal
-circuits to carry out the operation. Depends on the operation.
+CU executes the instruction. CPU generates the signal for its internal circuits
+to carry out the operation. Depends on the operation.

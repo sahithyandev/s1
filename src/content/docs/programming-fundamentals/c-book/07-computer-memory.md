@@ -2,7 +2,7 @@
 title: Computer Memory
 slug: programming-fundamentals/c-book/computer-memory
 sidebar:
-  order: 6
+  order: 7
 prev: true
 next: true
 ---

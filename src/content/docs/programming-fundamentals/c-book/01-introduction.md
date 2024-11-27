@@ -28,17 +28,6 @@ An alternate system was Macintosh (introduced by Apple). Due to differences in
 hardware architecture between x86 and Macintosh, software used by these systems
 were not portable to the other.
 
-Types of personal computers:
-
-- Desktop - designed to sit on or under a desk. too big to be carried around.
-- Workstation - desktop computers with high specs. powerful. built for
-  specialized use cases.
-- Laptop - portable. categorized under mobile computers.
-- Tablet - even lighter than laptops. include touch input support.
-- Handheld - can fit in our hands. example: personal digital assistant.
-- Smartphone - cellular phones with advanced features
-- Wearable - can be worn such as glasses
-
 ### Network servers
 
 Powerful personal computers with special hardware and software that enable them

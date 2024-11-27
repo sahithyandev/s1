@@ -19,7 +19,7 @@ significant bit. Or left-most bit.
 
 ### Least Significant Bit (LSB)
 
-In a $n$-bit memory, memory cell at the $0$-th position is the most significant
+In a $n$-bit memory, memory cell at the $0$-th position is the least significant
 bit. Or right-most bit.
 
 ### Number of states

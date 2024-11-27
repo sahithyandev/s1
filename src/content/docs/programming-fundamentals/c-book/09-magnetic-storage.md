@@ -19,6 +19,8 @@ Uses a disk coated with magnetic medium. High data transfer speed.
 
 ![Hard disk - internal structure](/programming/hard-disk-internal-structure.jpg)
 
+The head arm moves laterally from center to the edge.
+
 Capacity can be improved by adding more platters. Platters are kept in dust free
 environment to avoid damages because of high speed. Each side of the platter
 require a read/write head.
@@ -58,10 +60,5 @@ Paper rings are used for protection.
 
 Flap - a small opening for the read/write head to access the disk
 
-The head actuator mechanism is slightly different to the mechanism in a hard
-disk. In a hard disk the head arm moves laterally from centre of the disk
-towards to the edge while in a floppy disk the movement is horizontal.
-
-The read/write head is mounted on a spindle and the spindle is controlled by a
-stepper motor. The high density hole is only available in High Density floppy
-disks.
+Head arm moves horizontally. Head arm is mounted on a spindle. Controlled by a
+stepper motor.

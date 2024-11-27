@@ -17,7 +17,7 @@ program and run it without any additional circuit development.
 - Can be used to develop interactive devices, taking inputs from a variety of
   switches or sensors, and controlling a variety of lights, motors, and other
   physical outputs.
-- Can be stand-alone, or can be run through a software (e.g., Flash, Processing,
+- Can be standalone, or can be run through a software (e.g., Flash, Processing,
   MaxMSP)
 
 The boards can be assembled by hand or purchased pre-assembled; the open-source
@@ -25,8 +25,7 @@ IDE can be downloaded for free.
 
 ## Differences
 
-Programming an embedded platform like the Arduino is somewhat different from
-programming a PC.
+Differences to programming a PC:
 
 - Arduino does not have a keyboard, or a display screen
 - Memory and storage are limitted

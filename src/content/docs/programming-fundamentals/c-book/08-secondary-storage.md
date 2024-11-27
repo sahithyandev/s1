@@ -9,8 +9,7 @@ next: true
 
 Non-volatile or permanent. High capacity. Low cost-per-megabyte.
 
-Can be categorized into 3 types (Magnetic storages are included in a separate
-page):
+Can be categorized into 3 types:
 
 - [Magnetic](/programming-fundamentals/c-book/magnetic-storage)
 - [Optical](#optical)
@@ -53,16 +52,16 @@ Built using EEPROMs. High capacity and high transfer speed compared to other
 forms of portable media. Low latency, low noise, low power consumption, high
 reliability.
 
-HDDs are now being replaced with SSDs which uses flash memory technology. RAM
-modules are also starting to use flash memory technology.
+SSDs use flash memory technology. RAM modules are also starting to use flash
+memory technology.
 
-Categorized into 2 divisions based on operational characteristics:
+Categorized into 2, based on operational characteristics:
 
 - NAND Flash
 - NOR Flash
 
 Flash memory stores information in an array of memory cells made from floating
 gate transistors. In the traditional flash drives, each cell stores a single bit
-of data. However, newer flash devices known as multi- level cell devices can
+of data. However, newer flash devices known as multi-level cell devices can
 store more than one bit per cell by choosing between multiple levels of
 electrical charge.

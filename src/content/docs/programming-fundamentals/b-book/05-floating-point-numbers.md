@@ -68,7 +68,7 @@ Uses $64$ bits. $ $
 
 - sign bit - $1$ bit
 - exponent - $11$ bit
-- mantissa - $53$ bit
+- mantissa - $52$ bit
 
 ### Sign bit
 

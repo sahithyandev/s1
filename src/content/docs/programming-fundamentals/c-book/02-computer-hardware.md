@@ -28,7 +28,7 @@ next: true
   - Network / Wi-Fi controllers
   - Audio Interface (Sound card)
   - Universal Serial Bus (USB) controller
-- Chassis the platform that holds all other components
+- Other components
   - Power supply unit
   - Fan / cooling system
 

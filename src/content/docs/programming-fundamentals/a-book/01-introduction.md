@@ -24,3 +24,21 @@ code.
 
 A software that reads a source code file, builds the software into a runnable
 version.
+
+## Operator precedence
+
+| Operator                                        | Description                              |
+| ----------------------------------------------- | ---------------------------------------- |
+| `**`                                            | Exponentiation                           |
+| `~`, `+`, `-`                                   | Complement, unary plus, and minus        |
+| `*`, `/`, `%`, `//`                             | Multiply; divide, modulo, floor division |
+| `+`, `-`                                        | Addition and subtraction                 |
+| `>>`, `<<`                                      | Right and left bitwise shift             |
+| `&`                                             | Bitwise `AND`                            |
+| `^`, `\|`                                       | Bitwise `XOR` and `OR`                   |
+| `<=`, `<`, `>`, `>=`                            | Comparison operators                     |
+| `==`, `!=`                                      | Equality operators                       |
+| `=`, `%=`, `/=`, `//=`, `-=`, `+=`, `*=`, `**=` | Assignment operators                     |
+| `is`, `is not`                                  | Identity operators                       |
+| `in`, `not in`                                  | Membership operators                     |
+| `not`, `or`, `and`                              | Logical operators                        |

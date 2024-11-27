@@ -23,11 +23,10 @@ An instance of a running program.
 ## Categorization of Software
 
 Software can be categorized into system software and application software.
-Categorizing software into these 2 types is a difficult task.
 
 ### System software
 
-Any software that satisfies any one of the following conditions:
+Any software that satisfies one of the following conditions:
 
 - manages the computer hardware
 - can be used to maintain the computer so that it runs efficiently
@@ -43,8 +42,7 @@ programming application software.
 #### Utility software
 
 Performs very specific tasks, usually related to managing computer system
-resources. Widely used utility software today can be incorporated into operating
-systems in the future.
+resources.
 
 #### Software development tools
 
@@ -57,12 +55,11 @@ Examples:
 - Linkers
 - Debuggers
 
-Some operating systems (like Linux) provide such software by default.
+Some operating systems, like Linux, include such software by default.
 
 #### Firmware
 
-System software embedded in a hardware device (i.e., stored on a non-volatile
-storage).
+System software embedded in a hardware device.
 
 Examples:
 

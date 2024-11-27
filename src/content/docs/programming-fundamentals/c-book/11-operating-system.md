@@ -9,8 +9,7 @@ next: true
 
 A layer of (systems) software that manages the hardware resources. Also provides
 a friendly interface to the users by hiding the complexity of the hardware. Acts
-as a virtual machine to application software. Microsoft Windows, Linux, and Mac
-OS are a few examples.
+as a virtual machine to application software.
 
 OS provides common interfaces of the hardware to software regardless of the
 specific features of its underlying hardware. Thus, the program needed only to
@@ -31,18 +30,15 @@ Responsible for managing CPU, memory, disk, processes.
 
 An operating system provides two major services.
 
-### OS as an Extended Machine
+### As an Extended Machine
 
 OS hides specific details about the underlying hardware. Instead, provide a
 simpler and uniform interfaces for application software and users.
 
-For example: saving a file to a secondary storage device. Writing mechanism is
-physically different for floppy disk, hard disk, and magnetic tape. However,
-application software authors or the end users do not need to be aware of those
-details. For them, saying “save this file in that place” to the OS is enough.
-All other details will be handled by the OS.
+For example: Saving something on a hard disk and a floppy disk can be done
+similarily through an OS.
 
-### OS as a Resource Manager
+### As a Resource Manager
 
 OS manages all hardware resources. OS decides which programs run at which time,
 how much memory is allocated to each program, where to write data, how to deal
@@ -134,7 +130,7 @@ learn. Closed source and paid.
 There are 2 well-known variants:
 
 - Personal Computer DOS - developed and sold with IBM PCs
-- Microsoft-DOS - sold in open market.
+- Microsoft-DOS - sold in open market
 
 ### Windows
 
@@ -142,21 +138,19 @@ DOS with a GUI. Inspired by Apple Lisa. Initial versions of Windows were just an
 application over DOS; GUI was issuing DOS commands. Windows 98 also supported
 multitasking. Closed source and paid.
 
-Supports most of the hardware and software components. Mostly used OS in the
-consumer market. However, compared to some other OSs Windows is not so stable,
-does not use resources in an effective way and have many security issues.
+Supports most of the hardware and software components. Most used OS in the
+consumer market.
 
 ### UNIX
 
-Has many variants and versions which are still being used. It was developed as a
-time-sharing system for minicomputers and was initially mostly used by
-universities. Very stable. Highly reputed for its security, reliability,
-robustness, and performance.
+Developed as a time-sharing system for minicomputers and was initially mostly
+used by universities. Very stable. Highly reputed for its security, reliability,
+robustness, and performance. Led to many variants.
 
-It was developed by engineers for engineers. Therefore, it was harder for an
-average person to effectively use UNIX or any of its variants. As a result, UNIX
-was not so popular among the average users. However, modern variants with GUIs
-are much better in terms of user friendliness.
+Developed by engineers for engineers. Therefore, it was harder for an average
+person to effectively use UNIX or any of its variants. As a result, UNIX was not
+so popular among the average users. However, modern variants with GUIs are much
+better in terms of user friendliness.
 
 ### Linux
 

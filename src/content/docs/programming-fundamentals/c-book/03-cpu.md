@@ -33,7 +33,8 @@ processing and control functionalities.
 
 ### Program Counter
 
-Keeps track of memory address of the next instruction to be executed.
+Keeps track of memory address of the next instruction to be executed. Directly
+connected to ALU.
 
 ### Instruction Register
 
@@ -52,7 +53,7 @@ Stores the status of the last operation carried out by ALU.
 ### General Purpose Registers
 
 Can be used to various tasks. Used to store immediate results of the ALU. Number
-of GPRs vary depending on the CPU. Usually denoted as "B", "C" and so on.
+of GPRs vary with the CPU. Usually denoted as "B", "C" and so on.
 
 ## Internal Structure
 
@@ -66,14 +67,14 @@ of GPRs vary depending on the CPU. Usually denoted as "B", "C" and so on.
 
 ### Instruction pre-fetching
 
-When an instruction is in the execution cycle, next instruction will be fetched.
+The process of fetching next instruction while current instruction is still
+executing. Reduces idle time of CPU.
 
 ### Instruction pipelining
 
-Instruction cycle is divided into sub-operations and different segments of CPU
-handle each sub-operations.
-
-Increases thorough put of the microprocessor.
+The process of dividing instruction execution cycle into multiple stages. Those
+multiple stages will be executed in parallel. Increases thoroughput of the
+microprocessor.
 
 ### Hyper Threading
 
