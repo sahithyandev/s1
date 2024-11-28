@@ -6,6 +6,14 @@ interface Props {
 	depth?: number;
 }
 const { entries, depth = 0 } = Astro.props;
+const moduleCodes: Record<string, string> = {
+  "Electrical Fundamentals": "EE1040",
+	"Fluid Mechanics": "CE1023",
+	"Mathematics": "MA1014",
+	"Mechanics": "ME1033",
+	"Programming Fundamentals": "CS1033",
+	"Properties of Materials": "MT1023"
+}
 ---
 
 {
@@ -37,7 +45,14 @@ const { entries, depth = 0 } = Astro.props;
 						<section>
 							{() => {
 								if (depth === 0) {
+								let moduleCode = undefined;
+								if (item.label in moduleCodes) {
+								moduleCode = moduleCodes[item.label];
+								}
+								if (!moduleCode)
 									return <h3>{item.label}</h3>;
+
+								return <h3>{item.label} ({moduleCode})</h3>;
 								} else if (depth === 1) {
 									return <h4>{item.label}</h4>;
 								} else if (depth === 2) {
