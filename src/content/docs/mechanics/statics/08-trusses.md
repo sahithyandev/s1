@@ -2,20 +2,18 @@
 title: Trusses
 slug: mechanics/statics/trusses
 sidebar:
-  order: 9
+  order: 8
 prev: true
 next: true
 ---
-
-Aka. Ties-Struts model.
-
-## Definition
 
 An assembly of members used to span long distances. Idealized as
 
 - Connected by **frictionless**
   [pin joints](/mechanics/statics/structural-elements/#pin-joint) at their ends
 - Developing axial forces
+
+Aka. Ties-Struts model. Predominant force is axial force.
 
 ## Types
 
@@ -25,8 +23,6 @@ An assembly of members used to span long distances. Idealized as
 - Space truss (3D)
 
 A truss requires 3 external reactions for equilibrium.
-
-Predominant force is axial force.
 
 ## Advantages of truss
 

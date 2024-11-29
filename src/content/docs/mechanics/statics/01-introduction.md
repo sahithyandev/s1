@@ -10,8 +10,14 @@ next: true
 
 ## Centroid
 
-Aka. centre of area. The point where the area of a figure is assumed to be
-concentrated. Located on the axes of symmetry.
+Aka. centre of area, geometric centre. The point where the area of a figure is
+assumed to be concentrated. Defined for a 2D shape.
+
+Located on the axes of symmetry, if one exists.
+
+## Center of gravity
+
+The point where the mass of an object is concentrated. Defined for a 3D shape.
 
 ## First moment of area
 
@@ -34,6 +40,11 @@ Here:
 About an axis of symmetry, first moment of area is $0$. $ $
 
 ## Second moment of area
+
+Aka. area moment of inertia. Describes how the cross-sectional area of a shape
+is distributed relative to an axis.
+
+Not to be confused with [moment of inertia](#moment-of-inertia).
 
 ```math
 \text{About x-axis} = I_{xx} = I_x = \int_A {y^2\;\text{d}A}
@@ -79,3 +90,7 @@ I_{zz} = J_0 = \int_A {r^2\; \text{d}A} = I_{xx} + I_{yy}
 ```math
 \text{About z-axis} = r_z^2 = \frac{I_{zz}}{A}
 ```
+
+## Moment of inertia
+
+Describes the resistance of a body to changes in its rotational motion.

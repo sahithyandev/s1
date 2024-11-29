@@ -2,18 +2,16 @@
 title: Structural Elements
 slug: mechanics/statics/structural-elements
 sidebar:
-  order: 8
+  order: 7
 prev: true
 next: true
 ---
 
 3 types:
 
-- Bars (1D)
+- Bars (1D) - Only covered in s1
 - Plates and Shells (2D)
 - Blocks (3D)
-
-Bar elements are only focused for s1.
 
 ## Pin Joint
 
@@ -34,15 +32,15 @@ Here
 
 #### Axially loaded
 
-Generally in trusses, **pin joints** are considered.
+Load causes tension or compression predominantly.
 
-- Predominant tension - Ties
-- Predominant compression - Struts
+- Predomniant tension - Ties
+- Predomniant compression - Struts
 
 #### Flexural
 
-- Predominant bending - beams
+Load causes bending predominantly. Example: beams.
 
 #### Torsional
 
-- Predominant torque - shafts
+Load causes torque predominantly. Example: Shafts.

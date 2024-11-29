@@ -94,7 +94,7 @@ table {
 	}
 	th,
 	td {
-		@apply !py-2 !px-4;
+		@apply !py-2 !px-4 !align-middle;
 	}
 	.MathJax {
 		@apply inline-block text-xl;

@@ -19,14 +19,14 @@ First 3 are the mandatory ones in s1.
 
 u.d.l means uniformly distributed load.
 
-| Type                      | Image                                                                  |
-| ------------------------- | ---------------------------------------------------------------------- |
-| Simply supported beam     | ![Simply supported beam](/mechanics/simply-supported-beam.jpg)         |
-| Cantilevered beam         | ![Cantilevered beam](/mechanics/cantilevered-beam.jpg)                 |
-| Overhanging beam          | ![Overhanging beam](/mechanics/overhanging-beam.jpg)                   |
-| Propped cantilevered beam | ![Propped cantilevered beam](/mechanics/propped-cantilevered-beam.jpg) |
-| Continuous beam           | ![Continuous beam](/mechanics/continuous-beam.jpg)                     |
-| Fixed beam                | ![Fixed beam](/mechanics/fixed-beam.jpg)                               |
+| Type                      | Image                                                                  | Notes                                  |
+| ------------------------- | ---------------------------------------------------------------------- | -------------------------------------- |
+| Simply supported beam     | ![Simply supported beam](/mechanics/simply-supported-beam.jpg)         |                                        |
+| Cantilevered beam         | ![Cantilevered beam](/mechanics/cantilevered-beam.jpg)                 | Maximum moment is at the fixed support |
+| Overhanging beam          | ![Overhanging beam](/mechanics/overhanging-beam.jpg)                   |                                        |
+| Propped cantilevered beam | ![Propped cantilevered beam](/mechanics/propped-cantilevered-beam.jpg) |                                        |
+| Continuous beam           | ![Continuous beam](/mechanics/continuous-beam.jpg)                     |                                        |
+| Fixed beam                | ![Fixed beam](/mechanics/fixed-beam.jpg)                               |                                        |
 
 ## At a section
 
@@ -66,7 +66,7 @@ constant. $ $
 The point about which bending moment is $0$, and changes its sign through the
 point. $ $
 
-## Distributed load, shear force & bending moment
+## Distributed load
 
 Suppose a beam is under a distributed load of $w=f(x)$ per unit length. $ $
 
@@ -102,3 +102,10 @@ Here:
 - $L$ - Span length
 - $E$ - Young's modulus
 - $I$ - Second moment of cross-sectional area
+
+## Principle of Superposition
+
+A beam with multiple loads can be split into multiple systems each with a single
+load. Reason for doing so is the ease of calculations.
+
+Values will be the sum of each system's corresponding value.

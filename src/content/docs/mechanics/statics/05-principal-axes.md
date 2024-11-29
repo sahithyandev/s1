@@ -7,14 +7,19 @@ prev: true
 next: true
 ---
 
-The product of moment of area is $0$ about principal axes. $ $
+An axis through which the product of moment of area is $0$. $ $
 
 ```math
 I_{xy} = 0
 ```
 
-There will be 2 directions of principal axes which are perpendicular to each
-other.
+There will be 2 principal axes which are perpendicular to each other.
+
+:::note[For circle]
+
+In circle, any centroidal axis is a principal axis.
+
+:::
 
 ## Principal second moments of area
 
@@ -24,10 +29,5 @@ About principal axes second moments of area will be at minimum and maximum.
 
 ## Centroidal principal axes
 
-Principal axes through the centroid.
-
-:::note
-
-Any axis of symmetry is a centroidal principal axis.
-
-:::
+Principal axes through the centroid. An axis of symmetry is a centroidal
+principal axis.

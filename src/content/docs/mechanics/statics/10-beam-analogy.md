@@ -1,14 +1,14 @@
 ---
-title: Beam Analogy (Approximate) method
+title: Beam Analogy
 slug: mechanics/statics/beam-analogy
 sidebar:
-  order: 11
+  order: 10
 prev: true
-next: false
+next: true
 ---
 
 In this method, the internal forces are found assuming the elongated truss is a
-beam.
+beam. This is an approximate method.
 
 :::note[For a simply supported beam]
 
@@ -30,22 +30,3 @@ In the truss,
 - Bending moment is carried by chord members.  
   $\text{Bending moment}=F_{\text{chord}}\times d$
 - Shear force is carried by vertical component of web member force
-
-:::note[Pratt & Howe type trusses]
-
-**Pratt type truss** is shown below.
-
-![Pratt type truss](/mechanics/pratt-type-truss.jpg)
-
-Internal force in web members are tensile.
-
-**Howe type truss** is a shown below.
-
-![Howe type truss](/mechanics/howe-type-truss.jpg)
-
-Internal force in web members are compressive.
-
-Usually **Pratt type** is cost-efficient. To make sure a howe type truss is
-strong enough like pratt type, web members must be shorter and thicker.
-
-:::
