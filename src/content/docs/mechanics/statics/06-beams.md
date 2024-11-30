@@ -19,14 +19,14 @@ First 3 are the mandatory ones in s1.
 
 u.d.l means uniformly distributed load.
 
-| Type                      | Image                                                                  | Notes                                  |
-| ------------------------- | ---------------------------------------------------------------------- | -------------------------------------- |
-| Simply supported beam     | ![Simply supported beam](/mechanics/simply-supported-beam.jpg)         |                                        |
-| Cantilevered beam         | ![Cantilevered beam](/mechanics/cantilevered-beam.jpg)                 | Maximum moment is at the fixed support |
-| Overhanging beam          | ![Overhanging beam](/mechanics/overhanging-beam.jpg)                   |                                        |
-| Propped cantilevered beam | ![Propped cantilevered beam](/mechanics/propped-cantilevered-beam.jpg) |                                        |
-| Continuous beam           | ![Continuous beam](/mechanics/continuous-beam.jpg)                     |                                        |
-| Fixed beam                | ![Fixed beam](/mechanics/fixed-beam.jpg)                               |                                        |
+| Type                      | Image                                                                  | Notes                           |
+| ------------------------- | ---------------------------------------------------------------------- | ------------------------------- |
+| Simply supported beam     | ![Simply supported beam](/mechanics/simply-supported-beam.jpg)         | **At ends**: Max SF and BM = 0  |
+| Cantilevered beam         | ![Cantilevered beam](/mechanics/cantilevered-beam.jpg)                 | **At fixed end**: Max SF and BM |
+| Overhanging beam          | ![Overhanging beam](/mechanics/overhanging-beam.jpg)                   |                                 |
+| Propped cantilevered beam | ![Propped cantilevered beam](/mechanics/propped-cantilevered-beam.jpg) |                                 |
+| Continuous beam           | ![Continuous beam](/mechanics/continuous-beam.jpg)                     |                                 |
+| Fixed beam                | ![Fixed beam](/mechanics/fixed-beam.jpg)                               | **At ends**: Max SF and BM      |
 
 ## At a section
 

@@ -15,11 +15,9 @@ I_{xy} = 0
 
 There will be 2 principal axes which are perpendicular to each other.
 
-:::note[For circle]
-
-In circle, any centroidal axis is a principal axis.
-
-:::
+If a plane area has more than 2 axes of symmetries, all centroidal axes will be
+principal centroidal axes. In such case, second moment of area with respect to
+any centroidal axis will be a constant.
 
 ## Principal second moments of area
 
