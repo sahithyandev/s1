@@ -2,7 +2,7 @@
 title: Velocity & Acceleration Diagram
 slug: mechanics/dynamics/velocity-acceleration-diagram
 sidebar:
-  order: 7
+  order: 6
 prev: true
 next: true
 ---

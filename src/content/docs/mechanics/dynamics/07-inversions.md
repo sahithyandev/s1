@@ -2,7 +2,7 @@
 title: Inversions of a mechanism
 slug: mechanics/dynamics/inversions
 sidebar:
-  order: 8
+  order: 7
 next: true
 prev: true
 ---

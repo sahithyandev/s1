@@ -2,7 +2,7 @@
 title: Kinetic Analysis
 slug: mechanics/dynamics/kinetic-analysis
 sidebar:
-  order: 9
+  order: 8
 prev: true
 next: false
 ---
