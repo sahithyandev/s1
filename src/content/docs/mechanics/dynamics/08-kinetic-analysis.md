@@ -98,3 +98,19 @@ produce no reactive shock at the pivot.
 
 Translational and rotational motions cancel at the pivot when an impulsive blow
 is struck at the center of percussion.
+
+```math
+l_{\text{P/G}} = \frac{k_\text{G}^2}{\text{OG}}
+```
+
+Here:
+
+- $\text{P}$ - Center of percussion
+- $\text{G}$ - Center of gravity
+- $\text{O}$ - Pivot
+
+For a uniform rod:
+
+```math
+l_{\text{P/G}} = \frac{L}{6}
+```
