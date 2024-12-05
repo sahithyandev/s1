@@ -37,8 +37,8 @@ For example $ \pi $: $ $
 $ \pi = 3 + \cfrac{1}{7 + \cfrac{1}{15 + \cfrac{1}{1 + \cfrac{1}{292 +
 \dotsb}}}} $
 
-Conintued fraction expansion of $ \pi $ is $ [3; 7, 15, 1, 292, 1, 1, 1, 2,
-1, 3, 1, 14, 2, 1, 1, 2, \ldots] $.
+Conintued fraction expansion of $ \pi $ is $ [3; 7, 15, 1, 292, 1, 1, 1, 2, 1,
+3, 1, 14, 2, 1, 1, 2, \ldots] $.
 
 ## Convergence
 
