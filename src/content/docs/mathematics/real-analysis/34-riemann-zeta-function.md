@@ -12,9 +12,9 @@ prev: true
 ```
 
 Convergence of this function can be derived using
-[integral test](/maths/real-analysis/convergence-tests/#integral-test). The
-above-mentioned series is referred to as
-[p-series](/maths/real-analysis/known-series/#p-series).
+[integral test](/mathematics/real-analysis/convergence-tests/#integral-test).
+The above-mentioned series is referred to as
+[p-series](/mathematics/real-analysis/known-series/#p-series).
 
 ## Extension
 

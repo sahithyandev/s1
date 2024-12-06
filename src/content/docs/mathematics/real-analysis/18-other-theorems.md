@@ -19,7 +19,7 @@ between $f'(a)$ and $f'(b)$:
 :::note[Proof Hint]
 
 Use $g(x)=ux - f(x)$ and follow the proof pattern of
-[IVT](/maths/real-analysis/continuity-theorems/#intermediate-value-theorem)
+[IVT](/mathematics/real-analysis/continuity-theorems/#intermediate-value-theorem)
 proof. $ $
 
 :::
@@ -36,7 +36,7 @@ Then:
 :::note[Proof Hint]
 
 By
-[Extreme Value Theorem](/maths/real-analysis/continuity-theorems/#extreme-value-theorem),
+[Extreme Value Theorem](/mathematics/real-analysis/continuity-theorems/#extreme-value-theorem),
 maximum and minimum exists for $f$. $ $
 
 Consider $2$ cases: $ $

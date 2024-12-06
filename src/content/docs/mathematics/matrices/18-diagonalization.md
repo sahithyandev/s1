@@ -25,7 +25,7 @@ B=P^{-1}AP
 ## Definition
 
 A matrix $A$ is **diagonalizable** if it is similar to a
-[diagonal matrix](/maths/matrices/introduction/#diagonal-matrix). $ $
+[diagonal matrix](/mathematics/matrices/introduction/#diagonal-matrix). $ $
 
 ```math
 \exists\, D,P\;\text{ s.t. } D = P^{-1}AP

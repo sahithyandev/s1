@@ -37,9 +37,10 @@ bounded. Bounded monotone sequences converge. $ $
 
 For a set $A$, all $3$ statements are equivalent:
 
-- $A$ has the [completeness property](/maths/real-analysis/completeness-axiom/)
-- $A$ is [complete](/maths/real-analysis/cauchy-sequence/#complete)
-- [Bolzano-Weierstrass theorem](/maths/real-analysis/subsequence/#bolzano-weierstrass)
+- $A$ has the
+  [completeness property](/mathematics/real-analysis/completeness-axiom/)
+- $A$ is [complete](/mathematics/real-analysis/cauchy-sequence/#complete)
+- [Bolzano-Weierstrass theorem](/mathematics/real-analysis/subsequence/#bolzano-weierstrass)
   on $A$
 
 :::

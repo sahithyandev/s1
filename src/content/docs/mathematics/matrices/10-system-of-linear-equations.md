@@ -37,8 +37,9 @@ AX=B
 
 2 types based on $B$: $ $
 
-- $=0$: [Homogeneous system](/maths/matrices/homogenous-systems/)
-- $\neq0$: [Non-homogeneous system](/maths/matrices/non-homogenous-systems/)
+- $=0$: [Homogeneous system](/mathematics/matrices/homogenous-systems/)
+- $\neq0$:
+  [Non-homogeneous system](/mathematics/matrices/non-homogenous-systems/)
 
 ## Number of solutions
 

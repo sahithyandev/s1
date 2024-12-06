@@ -12,7 +12,7 @@ comparison test.
 
 ## p-series
 
-Not to be confused with [power series](/maths/real-analysis/power-series).
+Not to be confused with [power series](/mathematics/real-analysis/power-series).
 
 ```math
 \sum_{k=1}^\infty \frac{1}{k^s}
@@ -22,7 +22,7 @@ Converges **iff** $s \gt 1$. When $s=1$ the series is called the **harmonic
 series**. $ $
 
 This series occurs in the definition of
-[Riemann zeta function](/maths/real-analysis/riemann-zeta-function).
+[Riemann zeta function](/mathematics/real-analysis/riemann-zeta-function).
 
 :::note
 
@@ -54,4 +54,4 @@ The above series is conditionally converging.
 ```
 
 Convergence of the above series can be proven using
-[Dirichlet's test](/maths/real-analysis/convergence-tests/#dirichlets-test).
+[Dirichlet's test](/mathematics/real-analysis/convergence-tests/#dirichlets-test).

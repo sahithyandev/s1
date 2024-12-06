@@ -41,6 +41,6 @@ $B$.
 ### Method 3: Reducing to Echelon Form
 
 Start with $(A|B)$. Convert the $\text{LHS}$ to
-[echelon form](/maths/matrices/echelon-form). The solution can be found easily.
-If a contradiction is encountered while solving the equation, then the system
-has no solutions.
+[echelon form](/mathematics/matrices/echelon-form). The solution can be found
+easily. If a contradiction is encountered while solving the equation, then the
+system has no solutions.

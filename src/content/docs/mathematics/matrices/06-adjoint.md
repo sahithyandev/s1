@@ -14,7 +14,8 @@ Suppose $A=(a_{ij})_{n\times{n}}$. $ $
 ```
 
 Where $A_{ij}$ is the
-[co-factor of](/maths/matrices/determinant/#co-factor-of-an-element) $a_{ij}$.
+[co-factor of](/mathematics/matrices/determinant/#co-factor-of-an-element)
+$a_{ij}$.
 
 ## Properties
 

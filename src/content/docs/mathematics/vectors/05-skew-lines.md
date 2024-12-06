@@ -12,7 +12,7 @@ Two non-parallel lines in 3D-space that do not intersect.
 ## Normal to 2 skew lines
 
 Similar to
-[Normal to 2 lines -- Straight Lines](/maths/vectors/straight-lines/#normal-to-2-lines).
+[Normal to 2 lines -- Straight Lines](/mathematics/vectors/straight-lines/#normal-to-2-lines).
 
 ## Distance between 2 skew lines
 

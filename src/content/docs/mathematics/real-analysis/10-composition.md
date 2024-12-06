@@ -28,7 +28,7 @@ by $I$.
 ## Composition of functions
 
 Let $f:A\rightarrow{B}$ and $g:B\rightarrow{C}$ be 2 functions where $f$ is
-[onto](/maths/real-analysis/relations/#onto).
+[onto](/mathematics/real-analysis/relations/#onto).
 
 ```math
 g\circ{f}=\set{(x,z)\,|\,(x,y)\in{f},\,(y,z)\in{g},\,y\in{B}}=g(f(x))

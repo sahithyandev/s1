@@ -22,16 +22,16 @@ next: true
   rational numbers)
 - Real numbers: $ \mathbb{R} = \mathbb{Q}^{c} \cup \mathbb{Q} $. $ $
 
-[Complex numbers](/maths/complex-analysis/introduction) are taught in a separate
-set of lectures, and not included under real analysis lectures.
+[Complex numbers](/mathematics/complex-analysis/introduction) are taught in a
+separate set of lectures, and not included under real analysis lectures.
 
 ## Axiomatic definiton of real numbers
 
 Set of real numbers is a set satisfying all these axioms:
 
-- [Field axioms](/maths/real-analysis/field-axioms)
-- [Order axioms](/maths/real-analysis/order-axioms)
-- [Completeness axiom](/maths/real-analysis/completeness-axiom)
+- [Field axioms](/mathematics/real-analysis/field-axioms)
+- [Order axioms](/mathematics/real-analysis/order-axioms)
+- [Completeness axiom](/mathematics/real-analysis/completeness-axiom)
 
 ## Archimedean property
 

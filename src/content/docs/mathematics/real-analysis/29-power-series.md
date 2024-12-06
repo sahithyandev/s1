@@ -20,8 +20,8 @@ Here:
 - $c$ - a constant
 
 Convergence of a power series can be checked using
-[ratio test](/maths/real-analysis/convergence-tests#ratio-test) or
-[root test](/maths/real-analysis/convergence-tests#root-test).
+[ratio test](/mathematics/real-analysis/convergence-tests#ratio-test) or
+[root test](/mathematics/real-analysis/convergence-tests#root-test).
 
 ### Radius of convergence
 

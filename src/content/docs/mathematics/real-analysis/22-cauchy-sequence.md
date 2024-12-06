@@ -44,7 +44,7 @@ u_n\;\text{is a Cauchy sequence}
 ```
 
 Converse is true **only when** the sequence is a subset of a
-[Complete](/maths/real-analysis/cauchy-sequence/#complete) set.
+[Complete](/mathematics/real-analysis/cauchy-sequence/#complete) set.
 
 :::note[Proof Hint]
 

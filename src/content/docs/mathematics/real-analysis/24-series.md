@@ -81,7 +81,7 @@ Suppose $s_n$ is a conditionally converging series. Then: $ $
 ```
 
 The converse is known as the
-[divergence test](/maths/real-analysis/convergence-tests/#divergence-test):
+[divergence test](/mathematics/real-analysis/convergence-tests/#divergence-test):
 
 ## Grouping
 

@@ -19,7 +19,7 @@ f(c)
 \frac{f^{(n+1)}(\zeta)}{(n+1)!}{(x-c)}^{n+1}
 ```
 
-[Mean value theorem](/maths/real-analysis/other-theorems/#mean-value-theorem)
+[Mean value theorem](/mathematics/real-analysis/other-theorems/#mean-value-theorem)
 can be derived from taylor's theorem when $n=0$. $ $
 
 :::note[Proof Hint]
@@ -35,7 +35,7 @@ G(t)=(x-t)^{n+1}
 - Define $F,G$ as mentioned above
 - Consider the interval $[c,x]$
 - Use
-  [Cauchy's mean value theorem](/maths/real-analysis/other-theorems/#cauchys-mean-value-theorem)
+  [Cauchy's mean value theorem](/mathematics/real-analysis/other-theorems/#cauchys-mean-value-theorem)
   for $F,G$ after making sure the conditions are met.
 
 :::
@@ -81,7 +81,7 @@ R_n(x,c)=
 
 - Method 1: Use integration by parts and mathematical induction.
 - Method 2: Use
-  [Generalized IVT for Riemann Integrals](/maths/riemann-integration/generalized-ivt)
+  [Generalized IVT for Riemann Integrals](/mathematics/riemann-integration/generalized-ivt)
   where:
   - $F=f^{(n+1)}$
   - $G=(x-t)^n$

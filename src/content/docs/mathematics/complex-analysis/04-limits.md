@@ -19,8 +19,8 @@ $\lim_\limits{z\to z_0} f(z) = L$ **iff**: $ $
 ## Properties
 
 All properties mentioned in
-[Limits | Real Analysis](/maths/real-analysis/limits/#properties) are applicable
-to complex limits. Additional properties are mentioned below:
+[Limits | Real Analysis](/mathematics/real-analysis/limits/#properties) are
+applicable to complex limits. Additional properties are mentioned below:
 
 Suppose $\lim f(z)=L$. $ $
 

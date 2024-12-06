@@ -19,8 +19,8 @@ integrable on $[a,b]$ then
 :::note[Proof Hint]
 
 Consider a general partition and use
-[Mean Value Theorem](/maths/real-analysis/other-theorems/#mean-value-theorem) on
-each parition.
+[Mean Value Theorem](/mathematics/real-analysis/other-theorems/#mean-value-theorem)
+on each parition.
 
 :::
 
@@ -39,7 +39,7 @@ $(a,b)$. If $u'$ and $v'$ are Riemann integrable on $[a,b]$:
 :::note[Proof Hint]
 
 Consider $g=uv$ and use
-[FTC I](/maths/riemann-integration/fundamental-theorem-of-calculus/#theorem-i).
+[FTC I](/mathematics/riemann-integration/fundamental-theorem-of-calculus/#theorem-i).
 $ $
 
 :::

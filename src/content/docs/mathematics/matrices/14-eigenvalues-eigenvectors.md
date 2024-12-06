@@ -24,10 +24,10 @@ Roots of the equation $p(\lambda) = 0$ are the eigenvalues of $A$.
 :::note
 
 - Product of the eigenvalues is equal to the
-  [determinant](/maths/matrices/determinant/#in-relation-with-eigenvalues) of
-  the matrix
-- Sum of the eigenvalues is equal to the [trace](/maths/matrices/trace) of a
-  matrix
+  [determinant](/mathematics/matrices/determinant/#in-relation-with-eigenvalues)
+  of the matrix
+- Sum of the eigenvalues is equal to the [trace](/mathematics/matrices/trace) of
+  a matrix
 - If $\lambda$ is an eigenvalue of $A$, then $\lambda^2$ is an eigenvalue of
   $A^2$
 - $A$ and $A^T$ have the same eigenvalues.

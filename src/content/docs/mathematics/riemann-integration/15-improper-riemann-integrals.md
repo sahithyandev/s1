@@ -50,7 +50,7 @@ exist.
 :::
 
 Convergence of improper integrals is similar to the convergence of
-[series](/maths/real-analysis/series/).
+[series](/mathematics/real-analysis/series/).
 
 ## Absolute convergence test
 

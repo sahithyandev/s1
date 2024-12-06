@@ -12,7 +12,7 @@ are positive and $m \ge n$), the division can either be internal or external.
 
 ## Internally
 
-![Internal section](/maths/vectors/internal-section.jpg)
+![Internal section](/mathematics/vectors/internal-section.jpg)
 
 ```math
 \overrightarrow{\text{OR}} = \frac{m\overrightarrow{\text{OQ}}+n\overrightarrow{\text{OP}}}{m+n}
@@ -20,7 +20,7 @@ are positive and $m \ge n$), the division can either be internal or external.
 
 ## Externally
 
-![External section](/maths/vectors/external-section.jpg)
+![External section](/mathematics/vectors/external-section.jpg)
 
 ```math
 \overrightarrow{\text{OR}} = \frac{m\overrightarrow{\text{OQ}}-n\overrightarrow{\text{OP}}}{m-n}

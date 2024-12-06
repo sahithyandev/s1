@@ -33,7 +33,7 @@ Suppose $f'(x)=0$ and $f''(x)$ is continuous at $c$:
 - $f''(c) \lt 0 \implies $ a local maximum is at $c$. Converse is **not** true.
 
 The above conclusion is from
-[Taylor's theorem](/maths/real-analysis/taylor-theorem/) when $n=1$: $ $
+[Taylor's theorem](/mathematics/real-analysis/taylor-theorem/) when $n=1$: $ $
 
 ```math
 f(x)=f(c)+f'(c)(x-c)+\frac{f''(\zeta)}{2!}(x-c)^2

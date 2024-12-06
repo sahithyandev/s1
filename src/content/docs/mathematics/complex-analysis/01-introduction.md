@@ -10,7 +10,7 @@ next: true
 
 ### Representation methods
 
-![Representation of a complex number](/maths/complex/representation-methods.jpg)
+![Representation of a complex number](/mathematics/complex/representation-methods.jpg)
 
 The methods are:
 
@@ -34,7 +34,7 @@ e^{ix} = \cos{x} + i\sin{x}
 
 :::note[Proof Hint]
 
-Use [Taylor series](/maths/real-analysis/taylor-series/#examples) for
+Use [Taylor series](/mathematics/real-analysis/taylor-series/#examples) for
 $e^x,\cos{x}, \sin{x}$. $ $
 
 :::

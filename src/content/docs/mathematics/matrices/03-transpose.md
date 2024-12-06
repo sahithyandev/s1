@@ -16,6 +16,6 @@ Denoted with a superscript T, like $A^T$. $ $
 - Distributive over addition: $(A+B)^T=A^T+B^T$
 - $(kA)^T=kA^T$
 - $(A\times B)^T=B^T\times A^T$
-- [Spectrum](/maths/matrices/eigenvalues-eigenvectors/#spectrum) of $A^T$ is
-  equal to the spectrum of $A$
+- [Spectrum](/mathematics/matrices/eigenvalues-eigenvectors/#spectrum) of $A^T$
+  is equal to the spectrum of $A$
 - $\big|A^{T}\big|=|A|$

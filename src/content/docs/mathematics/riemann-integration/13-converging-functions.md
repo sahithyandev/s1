@@ -8,7 +8,7 @@ next: true
 ---
 
 Convergence of functions is introduced in
-[Sequence of Functions | Real Analysis](/maths/real-analysis/sequence-of-functions/).
+[Sequence of Functions | Real Analysis](/mathematics/real-analysis/sequence-of-functions/).
 
 ## Uniform Convergence Theorem
 

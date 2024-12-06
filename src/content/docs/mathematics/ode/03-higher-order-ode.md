@@ -52,7 +52,7 @@ Here
 ### Particular solution
 
 Doesn't exist for homogenous equations. For non-homogenous equations check
-[steps section of 2nd order ODE](/maths/ode/second-order-ode#steps).
+[steps section of 2nd order ODE](/mathematics/ode/second-order-ode#steps).
 
 ### Complementary solution
 

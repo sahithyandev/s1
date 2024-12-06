@@ -96,7 +96,7 @@ For some $i \in [1,n]$. $ $
 ## In relation with eigenvalues
 
 For a $n\times n$ matrix A with $n$ number of
-[eigenvalues](/maths/matrices/eigenvalues-eigenvectors/#eigenvalues):
+[eigenvalues](/mathematics/matrices/eigenvalues-eigenvectors/#eigenvalues):
 
 ```math
 |A|=\prod_{i=1}^{n}{\lambda_i}
