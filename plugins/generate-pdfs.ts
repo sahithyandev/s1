@@ -38,7 +38,7 @@ function outputFilename(dirPath: string, index: number) {
 		CONTENT_DIRECTORY,
 		"summary",
 		dirPath
-			.replace("/", `--${(2 * index + 1).toString().padStart(2, "0")}--`)
+			.replace("/", `--${index.toString().padStart(2, "0")}--`)
 			.concat(".md"),
 	);
 }
@@ -210,13 +210,13 @@ export default function generatePdfsIntegration(
 						const linkParts = pageUrl.split("/").slice(0, -1);
 						const lastPart = linkParts.at(-1);
 						if (!lastPart) return;
-						const fileName = lastPart.concat(".pdf");
+						const fileName = lastPart.concat("--1content.pdf");
 
 						const parts = fileName.split("--");
 
 						const module = parts[0];
 						const index = Number.parseInt(parts[1]);
-						const section = parts[2].replace(".pdf", "");
+						const section = parts[2];
 
 						await createIntroDoc(logger, module, index, section, outputDir);
 

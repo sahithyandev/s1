@@ -4,7 +4,13 @@ import { join } from "node:path";
 import { promisify } from "node:util";
 import fontkit from "@pdf-lib/fontkit";
 import type { AstroIntegrationLogger } from "astro";
-import { PDFDocument, PDFString, PageSizes } from "pdf-lib";
+import {
+	type PDFDict,
+	PDFDocument,
+	PDFName,
+	PDFString,
+	PageSizes,
+} from "pdf-lib";
 import { BOOK_CONFIG, MODULE_CODES } from "../../config.mjs";
 import { hyphenCaseToTitleCase } from "../../utils";
 
@@ -52,12 +58,33 @@ export async function mergeIntoOne(
 		const pdfBytes = Uint8Array.from(await readFile(outputFilePath));
 		const pdfDoc = await PDFDocument.load(pdfBytes);
 
-		//meta overrides
+		// meta overrides
 		pdfDoc.setAuthor("Sahithyan's S1 (https://s1.sahithyan.dev)");
 		pdfDoc.setProducer("Sahithyan Kandathasan (https://sahithyan.dev)");
 		pdfDoc.setCreator("Sahithyan Kandathasan (https://sahithyan.dev)");
 
-		return writeFile(outputFilePath, await pdfDoc.save());
+		// outlines fix
+		const outlines = pdfDoc.catalog.lookup(PDFName.of("Outlines"));
+
+		// biome-ignore lint/suspicious/noExplicitAny: don't know of the type exactly
+		let currentOutline = (outlines as any).lookup(PDFName.of("First"));
+		while (currentOutline) {
+			const firstChild = currentOutline.lookup(PDFName.of("First")) as PDFDict;
+			if (firstChild) {
+				logger.info(
+					`fix outline: ${currentOutline.lookup(PDFName.of("Title")).asString()}`,
+				);
+				currentOutline.set(
+					PDFName.of("Dest"),
+					firstChild.lookup(PDFName.of("Dest")),
+				);
+			}
+			currentOutline = currentOutline.lookup(PDFName.of("Next"));
+		}
+
+		await writeFile("./dist/S1.pdf", await pdfDoc.save()).then(() =>
+			logger.info("saved: ./dist/S1.pdf"),
+		);
 	} catch (error) {
 		logger.error("Error merging PDFs");
 		console.error(error);
@@ -103,19 +130,9 @@ export async function createIntroDoc(
 		font: DMSansEmbeddedFont,
 	});
 
-	// TODO setup outline
-	// setOutline(introDoc, [
-	// 	{
-	// 		title: `${moduleDisplayText} - ${sectionDisplayText}`,
-	// 		children: [],
-	// 		depth: 1,
-	// 		destination:
-	// 	}
-	// ])
-
 	const introDocSavePath = join(
 		outputDir,
-		`${module}--${((index - 1) / 2).toString().padStart(2, "0")}--${section}.pdf`,
+		`${module}--${index.toString().padStart(2, "0")}--${section}--0intro.pdf`,
 	);
 	return writeFile(introDocSavePath, await introDoc.save(), {}).then(() =>
 		logger.info(`saved intro: ${introDocSavePath}`),
@@ -131,7 +148,7 @@ export async function createPrefaceDoc(
 	pdfDoc.setAuthor("Sahithyan Kandathasan (https://sahithyan.dev)");
 	pdfDoc.setProducer("Sahithyan's S1 (https://s1.sahithyan.dev)");
 
-	const watermarkImageBytes = await readFile("./public/logo.png");
+	const watermarkImageBytes = await readFile("./src/logo-high-res.png");
 	const watermarkImage = await pdfDoc.embedPng(
 		Uint8Array.from(watermarkImageBytes),
 	);
@@ -174,9 +191,9 @@ export async function createPrefaceDoc(
 	// second page
 	const secondPage = pdfDoc.addPage();
 	secondPage.moveTo(pageSize.width / 2 - 240, pageSize.height - 200);
+
 	secondPage.drawText(BOOK_CONFIG.description, {
 		size: 18,
-		wordBreaks: [""],
 		maxWidth: pageSize.width - 100,
 	});
 	secondPage.moveDown(40);
