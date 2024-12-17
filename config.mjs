@@ -80,9 +80,6 @@ export const STARLIGHT_CONFIG = {
 	tableOfContents: {
 		maxHeadingLevel: 4,
 	},
-	editLink: {
-		baseUrl: "https://github.com/sahithyandev/s1/edit/main/",
-	},
 	lastUpdated: true,
 	expressiveCode: true,
 	credits: true,
