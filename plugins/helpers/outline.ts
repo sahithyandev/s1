@@ -43,13 +43,6 @@ export interface OutlineRef {
 	color?: number[];
 }
 
-/**
- * Parses the outline of a webpage based on specified tags.
- * @param {Element[]} tagsToProcess - An array of HTML elements to process.
- * @param {string[]} tags - An array of tag names to use for the outline.
- * @returns {OutlineNode[]} An array of top-level OutlineNode objects representing the parsed outline.
- */
-
 // export function parseOutline(tagsToProcess: Element[], tags: string[]) {
 // 	const root: RootOutlineNode = { children: [], depth: -1, parent: undefined };
 // 	let currentOutlineNode = root;
@@ -136,10 +129,10 @@ export function formatOutlineContainerSelector(
 
 /**
  * Gets the outline of a webpage using a headless browser.
- * @param {Page} page - The page to evaluate.
- * @param {string[]} tags - An array of tag names to use for the outline.
- * @param {string} outlineContainerSelector - Outline Container Selector
- * @returns {Promise<OutlineNode[]>} A Promise that resolves to an array of top-level OutlineNode objects representing the parsed outline.
+ * @param page - The page to evaluate.
+ * @param tags - An array of tag names to use for the outline.
+ * @param outlineContainerSelector - Outline Container Selector
+ * @returns A Promise that resolves to an array of top-level OutlineNode objects representing the parsed outline.
  */
 export async function getOutline(
 	page: Page,
@@ -220,10 +213,10 @@ export async function getOutline(
 
 /**
  * Adds PDF references to each outline item in a nested outline tree.
- * @param {OutlineNode[]} outlines - The nested outline tree to add references to.
- * @param {PDFContext} context - The PDF context to use.
- * @param {PDFRef} parentRef - The reference of the parent outline item.
- * @returns {OutlineRef[]} An array of outline items with references.
+ * @param outlines - The nested outline tree to add references to.
+ * @param context - The PDF context to use.
+ * @param parentRef - The reference of the parent outline item.
+ * @returns An array of outline items with references.
  */
 function addRefsForOutlineItems(
 	outlines: OutlineNode[],
@@ -243,8 +236,8 @@ function addRefsForOutlineItems(
 
 /**
  * Counts the total number of outline items in a nested outline tree.
- * @param {OutlineNode[]} outlines - The nested outline tree to count the items of.
- * @returns {number} The total number of outline items in the tree.
+ * @param outlines - The nested outline tree to count the items of.
+ * @returns The total number of outline items in the tree.
  */
 function countChildrenOfOutline(outlines: OutlineNode[]): number {
 	let count = 0;
@@ -257,8 +250,8 @@ function countChildrenOfOutline(outlines: OutlineNode[]): number {
 
 /**
  * Builds the PDF objects for a nested outline tree with references.
- * @param {OutlineRef[]} outlinesWithRef - The nested outline tree with references.
- * @param {PDFContext} context - The PDF context to use.
+ * @param outlinesWithRef - The nested outline tree with references.
+ * @param context - The PDF context to use.
  */
 function buildPdfObjectsForOutline(
 	outlinesWithRef: OutlineRef[],
@@ -314,8 +307,8 @@ function buildPdfObjectsForOutline(
 
 /**
  * Generates warnings for each missing destination in a nested outline tree.
- * @param {OutlineNode[]} layer - The nested outline tree to generate warnings for.
- * @param {PDFDocument} pdfDoc - The PDF document to generate warnings for.
+ * @param layer - The nested outline tree to generate warnings for.
+ * @param pdfDoc - The PDF document to generate warnings for.
  */
 function generateWarningsAboutMissingDestinations(
 	layer: OutlineNode[],
@@ -346,17 +339,17 @@ function generateWarningsAboutMissingDestinations(
 
 /**
  * Sets the outlines of a PDF document from a nested outline tree.
- * @param {PDFDocument} pdfDoc - The PDF document to set outlines on.
- * @param {OutlineNode[]} outlines - The nested outline tree to use as outlines.
- * @param {boolean} [enableWarnings=false] - Whether to generate warnings for missing destinations.
- * @returns {PDFDocument} The PDF document with outlines set.
+ * @param pdfDoc - The PDF document to set outlines on.
+ * @param outlines - The nested outline tree to use as outlines.
+ * @param [enableWarnings=false] - Whether to generate warnings for missing destinations.
+ * @returns The PDF document with outlines set.
  */
 
 export async function setOutline(
 	pdfDoc: PDFDocument,
 	outlines: OutlineNode[],
 	enableWarnings = false,
-) {
+): Promise<PDFDocument> {
 	const context = pdfDoc.context;
 	const rootOutlineRef = context.nextRef();
 

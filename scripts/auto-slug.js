@@ -5,6 +5,10 @@ const matter = require("gray-matter");
 
 const PATTERN_TITLE_PREFIX = /\/(\d+)-/;
 
+/**
+ * @param {string | undefined} value
+ * @param {number | undefined} defaultValue
+ */
 function safeParseInt(value, defaultValue = undefined) {
 	if (typeof value === "undefined") return defaultValue;
 
@@ -14,9 +18,6 @@ function safeParseInt(value, defaultValue = undefined) {
 	}
 	return parsed;
 }
-
-const TIME_DELTA = 24 * 3600 * 1000;
-const TIME_NOW = new Date().valueOf();
 
 /**
     @param {Array<string>} mdFilePaths
@@ -35,7 +36,7 @@ export async function autoSlug(mdFilePaths) {
 		}
 		const relativeFromDocsDirectory = relative("./src/content/docs", filePath);
 		const parts = relativeFromDocsDirectory.split("/");
-		const filename = parts.pop();
+		parts.pop();
 		const section = parts.join("/");
 
 		file.data = {
@@ -91,7 +92,9 @@ export async function autoSlug(mdFilePaths) {
 
 // updates the frontmatter of mdx files
 if (require.main === module) {
+	/** @type {Array<string>} */
 	const directories = [];
+	/** @type {Array<string>} */
 	const filePaths = [];
 
 	for (const changedFile of process.argv.slice(2)) {

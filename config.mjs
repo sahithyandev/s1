@@ -23,6 +23,53 @@ export const BOOK_CONFIG = {
 };
 
 /**
+ * @type {Parameters<typeof starlight>[0]["head"]}
+ */
+const STARLIGHT_CONFIG_HEAD = [
+	{
+		tag: "link",
+		attrs: {
+			rel: "preconnect",
+			href: "https://fonts.googleapis.com",
+		},
+	},
+	{
+		tag: "link",
+		attrs: {
+			rel: "preconnect",
+			href: "https://fonts.gstatic.com",
+			crossOrigin: true,
+		},
+	},
+	{
+		tag: "link",
+		attrs: {
+			rel: "stylesheet",
+			href: "https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap",
+		},
+	},
+];
+
+[2].push(1, 2);
+
+if (process.env.NODE_ENV === "production") {
+	STARLIGHT_CONFIG_HEAD.push(
+		{
+			tag: "script",
+			attrs: {
+				rel: "preload",
+				href: "https://www.googletagmanager.com/gtag/js?id=G-CM1QCK35XF",
+			},
+		},
+		{
+			tag: "script",
+			content:
+				"window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config', 'G-CM1QCK35XF');",
+		},
+	);
+}
+
+/**
  * @type {Parameters<typeof starlight>[0]}
  */
 export const STARLIGHT_CONFIG = {
@@ -35,47 +82,7 @@ export const STARLIGHT_CONFIG = {
 	favicon: "/favicon.ico",
 	description:
 		"Notes of 1st semester of Engineering at University of Moratuwa.",
-	head: [
-		{
-			tag: "link",
-			attrs: {
-				rel: "preconnect",
-				href: "https://fonts.googleapis.com",
-			},
-		},
-		{
-			tag: "link",
-			attrs: {
-				rel: "preconnect",
-				href: "https://fonts.gstatic.com",
-				crossOrigin: true,
-			},
-		},
-		{
-			tag: "link",
-			attrs: {
-				rel: "stylesheet",
-				href: "https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap",
-			},
-		},
-	].concat(
-		process.env.NODE_ENV === "production"
-			? [
-					{
-						tag: "script",
-						attrs: {
-							rel: "preload",
-							href: "https://www.googletagmanager.com/gtag/js?id=G-CM1QCK35XF",
-						},
-					},
-					{
-						tag: "script",
-						content:
-							"window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config', 'G-CM1QCK35XF');",
-					},
-				]
-			: [],
-	),
+	head: STARLIGHT_CONFIG_HEAD,
 	customCss: ["./src/global.css"],
 	tableOfContents: {
 		maxHeadingLevel: 4,
