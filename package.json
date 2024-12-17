@@ -17,6 +17,7 @@
 		"@astrojs/starlight": "0.29.2",
 		"@astrojs/starlight-tailwind": "^2.0.3",
 		"@astrojs/tailwind": "5.1.2",
+		"@pdf-lib/fontkit": "^1.1.1",
 		"@sparticuz/chromium": "^130.0.0",
 		"@types/bun": "^1.1.14",
 		"astro": "4.16.14",

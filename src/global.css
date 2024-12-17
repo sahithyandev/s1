@@ -168,16 +168,17 @@ br {
 	margin-top: 0.3in;
 	margin-bottom: 0.6in;
 }
+.content-panel {
+	@apply !border-t-0;
+}
 @media print {
 	header.header,
 	nav,
 	footer,
 	.starlight__sidebar,
-	astro-dev-toolbar {
+	astro-dev-toolbar,
+	.content-panel:has(h1) {
 		@apply !hidden;
-	}
-	.header-credits {
-		@apply !block;
 	}
 	.main-frame {
 		@apply pt-2 pl-2;

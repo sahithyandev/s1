@@ -2,65 +2,8 @@
 import Default from "@astrojs/starlight/components/MarkdownContent.astro";
 import type { Props } from "@astrojs/starlight/props";
 import ContentEntries from "./ContentEntries.astro";
-import NotesPdfDownloadLink from "./NotesPdfDownloadLink.astro";
-import { IS_NOTES_AS_PDFS_ENABLED } from "../../config.mjs";
 
-function countTotalEntries(entries: Props["sidebar"]) {
-	let count = 0;
-
-	for (const entry of entries) {
-		if (entry.type === "link" && entry.label !== "License") {
-			count += 1;
-		} else if (entry.type === "group") {
-			count += countTotalEntries(entry.entries);
-		}
-	}
-
-	return count;
-}
-
-interface SectionSummaryLink {
-	parentLabel: string;
-	label: string;
-	href: string;
-}
-
-function findSections(entries: Props["sidebar"], parentLabel = "") {
-	const sections: Array<SectionSummaryLink> = [];
-	for (const entry of entries) {
-		if (entry.type !== "group") {
-			continue;
-		}
-
-		if (entry.entries[0].type === "link") {
-			sections.push({
-				parentLabel,
-				label: entry.label,
-				href: "/as-pdf/".concat(
-					entry.entries[0].href
-						.split("/")
-						.slice(1, -2)
-						.join("--")
-						.toLowerCase(),
-					".pdf"
-				),
-			});
-		} else {
-			for (const subsection of findSections(
-				entry.entries,
-				`${entry.label}${parentLabel}`
-			)) {
-				sections.push(subsection);
-			}
-		}
-	}
-
-	return sections;
-}
-
-const totalPages = countTotalEntries(Astro.props.sidebar);
 const isHomepage = Astro.props.slug === "";
-const sections = IS_NOTES_AS_PDFS_ENABLED ? findSections(Astro.props.sidebar) : undefined;
 ---
 
 {
@@ -69,47 +12,25 @@ const sections = IS_NOTES_AS_PDFS_ENABLED ? findSections(Astro.props.sidebar) : 
 			<p>
 				It's a website of{" "}
 				<a href="https://sahithyan.dev" class="text-[var(--sl-color-accent)]">
-					my</a>{" "}
+					my
+				</a>{" "}
 				short notes of my 1st semester of Engineering at University of Moratuwa.
 			</p>
 			<p>
-				The semester is now complete. You can <a href="https://github.com/sahithyandev/s1/issues">create an issue</a>, if
-				something is missing or you find anything wrong.
-			</p>
-			<p>
-				This wouldn't be possible without the help of my friends. Huge thanks
-				for everyone involved. Want to support this? Contribute to the
-				<a href="https://github.com/sahithyandev/s1">
-					sahithyandev/s1 repository</a>{" "}
-				on GitHub.
+				You can contact <a href="https://sahithyan.dev">me</a>, if something is
+				missing or you find anything wrong. This wouldn't be possible without
+				the help of my friends. Huge thanks for everyone involved.
 			</p>
 			<h2 id="why">Why?</h2>{" "}
 			<ul>
-				<li>
-					Indexable. Exercise books are not.
-				</li>{" "}
+				<li>Indexable. Exercise books are not.</li>{" "}
 				<li>Accessible from everywhere.</li> <li>Helpful to everyone.</li>{" "}
 			</ul>{" "}
-			{
-			sections === undefined ? null :
-			<>
-			<h2>Notes as PDFs</h2>
+			<h2 id="support-me">Want to support?</h2>
 			<p>
-				The PDFs are automatically generated. Formatting may not be perfect.
+				You can download the notes as a PDF file from{" "}
+				<a href="https://buymeacoffee.com/rrziwfs">Buy Me a Coffee</a> for $5.
 			</p>
-			<ul class="notes-as-pdf-links">
-				{sections.map((section) => {
-					return (
-						<NotesPdfDownloadLink
-							href={section.href}
-							moduleName={section.parentLabel}
-							heading={section.label}
-						/>
-					);
-				})}
-			</ul>
-			</>
-			}
 			<h2 class="mb-1">Content Included</h2>
 			<div id="content-included">
 				<p>

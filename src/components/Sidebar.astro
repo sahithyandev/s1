@@ -1,5 +1,17 @@
 ---
 import DefaultPageSidebar from "@astrojs/starlight/components/Sidebar.astro";
+import type { Props } from "@astrojs/starlight/props";
+
+if (Array.isArray(Astro.props.sidebar)) {
+	Astro.props.sidebar.unshift({
+		label: "E-book",
+		badge: undefined,
+		type: "link",
+		isCurrent: false,
+		attrs: {},
+		href: "#support-me",
+	});
+}
 ---
 
 {
@@ -11,7 +23,6 @@ import DefaultPageSidebar from "@astrojs/starlight/components/Sidebar.astro";
 		</DefaultPageSidebar>
 	)
 }
-
 
 <script>
 	const activeEl = document.querySelector(

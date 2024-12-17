@@ -1,19 +1,12 @@
 ---
 import type { Props as StarlightProps } from "@astrojs/starlight/props";
+import { MODULE_CODES } from "../../config.mjs";
 
 interface Props {
 	entries: StarlightProps["sidebar"];
 	depth?: number;
 }
 const { entries, depth = 0 } = Astro.props;
-const moduleCodes: Record<string, string> = {
-  "Electrical Fundamentals": "EE1040",
-	"Fluid Mechanics": "CE1023",
-	"Mathematics": "MA1014",
-	"Mechanics": "ME1033",
-	"Programming Fundamentals": "CS1033",
-	"Properties of Materials": "MT1023"
-}
 ---
 
 {
@@ -45,14 +38,17 @@ const moduleCodes: Record<string, string> = {
 						<section>
 							{() => {
 								if (depth === 0) {
-								let moduleCode = undefined;
-								if (item.label in moduleCodes) {
-								moduleCode = moduleCodes[item.label];
-								}
-								if (!moduleCode)
-									return <h3>{item.label}</h3>;
+									let moduleCode = undefined;
+									if (item.label in MODULE_CODES) {
+										moduleCode = MODULE_CODES[item.label];
+									}
+									if (!moduleCode) return <h3>{item.label}</h3>;
 
-								return <h3>{item.label} ({moduleCode})</h3>;
+									return (
+										<h3>
+											{item.label} ({moduleCode})
+										</h3>
+									);
 								} else if (depth === 1) {
 									return <h4>{item.label}</h4>;
 								} else if (depth === 2) {

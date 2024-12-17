@@ -392,3 +392,14 @@ export async function setOutline(
 	pdfDoc.catalog.set(PDFName.of("Outlines"), rootOutlineRef);
 	return pdfDoc;
 }
+
+export function formatOutlines(
+	outlineNodes: Array<OutlineNode>,
+	h1Suffix: string,
+) {
+	outlineNodes.shift(); // remove first
+	for (let i = 0; i < outlineNodes.length; i++) {
+		outlineNodes[i].title = outlineNodes[i].title.concat(h1Suffix);
+	}
+	return outlineNodes;
+}

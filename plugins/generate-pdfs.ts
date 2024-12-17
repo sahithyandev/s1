@@ -5,91 +5,42 @@ import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import chromium from "@sparticuz/chromium";
 import type { AstroIntegration } from "astro";
-import {
-	ColorTypes,
-	PDFDict,
-	PDFDocument,
-	type PDFImage,
-	PDFName,
-	PDFString,
-	sum,
-} from "pdf-lib";
+import { PDFDocument, type PDFImage, PDFName } from "pdf-lib";
 import type { Browser, Page } from "puppeteer-core";
 import puppeteer from "puppeteer-core";
+import { STARLIGHT_CONFIG } from "../config.mjs";
+import { hyphenCaseToTitleCase } from "../utils";
+import {
+	extractSectionIndicesFromSidebar,
+	safeSplit,
+	waitForServer,
+} from "./helpers/common";
 import { getMetadata, setMetadata } from "./helpers/meta";
-import { type OutlineNode, getOutline, setOutline } from "./helpers/outline";
+import {
+	type OutlineNode,
+	formatOutlines,
+	getOutline,
+	setOutline,
+} from "./helpers/outline";
+import {
+	createIntroDoc,
+	createPageLinkAnnotation,
+	createPrefaceDoc,
+	mergeIntoOne,
+} from "./helpers/pdf";
 
 chromium.args.splice(chromium.args.indexOf("--single-process"), 1);
 chromium.setHeadlessMode = true;
 const CONTENT_DIRECTORY = "./src/content/docs";
 
-function outputFilename(filePath: string) {
+function outputFilename(dirPath: string, index: number) {
 	return join(
 		CONTENT_DIRECTORY,
 		"summary",
-		dirname(filePath).replaceAll("/", "--").concat(".md"),
+		dirPath
+			.replace("/", `--${(2 * index + 1).toString().padStart(2, "0")}--`)
+			.concat(".md"),
 	);
-}
-export function createPageLinkAnnotation(
-	pdfDocument: PDFDocument,
-	url: string,
-	placement: {
-		x1: number;
-		y1: number;
-		x2: number;
-		y2: number;
-	},
-) {
-	return pdfDocument.context.register(
-		pdfDocument.context.obj({
-			Type: "Annot",
-			Subtype: "Link",
-			Rect: [placement.x1, placement.y1, placement.x2, placement.y2],
-			Border: [0, 0, 0],
-			A: {
-				Type: "Action",
-				S: "URI",
-				URI: PDFString.of(url),
-			},
-		}),
-	);
-}
-
-async function waitForServer(url: string, timeout = 10000, interval = 500) {
-	const start = Date.now();
-
-	while (Date.now() - start < timeout) {
-		try {
-			const response = await fetch(url);
-
-			if (response.ok) {
-				console.log(`Server is ready at ${url}`);
-				return true;
-			}
-		} catch {}
-		await new Promise((resolve) => setTimeout(resolve, interval));
-	}
-
-	throw new Error(`Server did not become ready within ${timeout}ms`);
-}
-
-function safeSplit(str: string, splitter: string, maximumSplits?: number) {
-	const parts: Array<string> = [];
-	let currentCursor = 0;
-	while (currentCursor <= str.length) {
-		const nextOccuranceIndex = str.indexOf(splitter, currentCursor);
-		if (
-			(typeof maximumSplits === "number" &&
-				parts.length === maximumSplits - 1) ||
-			nextOccuranceIndex === -1
-		) {
-			parts.push(str.substring(currentCursor));
-			return parts;
-		}
-		parts.push(str.substring(currentCursor, nextOccuranceIndex));
-		currentCursor = nextOccuranceIndex + splitter.length;
-	}
-	return parts;
 }
 
 const WATERMARK_EXPECTED_WIDTH = 200; // px
@@ -137,6 +88,10 @@ export default function generatePdfsIntegration(
 				});
 				inputFiles.sort();
 
+				const sections = extractSectionIndicesFromSidebar(
+					STARLIGHT_CONFIG.sidebar,
+				);
+
 				for (const fileString of inputFiles) {
 					if (
 						!fileString.includes("/") ||
@@ -152,7 +107,11 @@ export default function generatePdfsIntegration(
 					if (content.includes("\ndraft: true\n")) {
 						continue;
 					}
-					const outputPath = outputFilename(fileString);
+					const sectionPath = dirname(fileString);
+					const outputPath = outputFilename(
+						sectionPath,
+						sections[sectionPath] || 0,
+					);
 					if (outputFileContents[outputPath] === undefined) {
 						const parts = safeSplit(content, "---", 3);
 						const sidebarLabel = parts[1]
@@ -193,10 +152,11 @@ export default function generatePdfsIntegration(
 				}
 
 				Promise.all(
-					Object.entries(outputFileContents).map(async ([filePath, content]) =>
-						writeFile(filePath, content).then(() => {
-							logger.info(`saved: ${filePath}`);
-						}),
+					Object.entries(outputFileContents).map(
+						async ([outputFilePath, content]) =>
+							writeFile(outputFilePath, content).then(() => {
+								logger.info(`saved: ${outputFilePath}`);
+							}),
 					),
 				);
 			},
@@ -244,12 +204,22 @@ export default function generatePdfsIntegration(
 					outlines: OutlineNode[];
 				}> = [];
 
+				await createPrefaceDoc(logger, outputDir);
 				await Promise.all(
 					pagesToExport.map(async (pageUrl) => {
 						const linkParts = pageUrl.split("/").slice(0, -1);
 						const lastPart = linkParts.at(-1);
 						if (!lastPart) return;
 						const fileName = lastPart.concat(".pdf");
+
+						const parts = fileName.split("--");
+
+						const module = parts[0];
+						const index = Number.parseInt(parts[1]);
+						const section = parts[2].replace(".pdf", "");
+
+						await createIntroDoc(logger, module, index, section, outputDir);
+
 						const pathToSavePdf = join(outputDir, fileName);
 
 						let summaryPage: Page;
@@ -289,9 +259,10 @@ export default function generatePdfsIntegration(
 						pagesAdditionalInformations.push({
 							path: pathToSavePdf,
 							meta: await getMetadata(summaryPage),
-							outlines: (
-								await getOutline(summaryPage, ["h2", "h3", "h4", "h5", "h6"])
-							).slice(1), // to remove "On this section label"
+							outlines: formatOutlines(
+								await getOutline(summaryPage, ["h1", "h2", "h3", "h4", "h5"]),
+								` - ${hyphenCaseToTitleCase(module)}`,
+							),
 						});
 
 						await summaryPage.close();
@@ -397,19 +368,14 @@ export default function generatePdfsIntegration(
 							}
 						}
 
-						//meta overrides
-						pageInfo.meta.creator =
-							"Sahithyan Kandathasan (https://sahithyan.dev)";
-						pageInfo.meta.author = pageInfo.meta.creator;
-						pageInfo.meta.producer =
-							"Sahithyan's S1 (https://s1.sahithyan.dev)";
-
 						setMetadata(pdfDoc, pageInfo.meta);
 						setOutline(pdfDoc, pageInfo.outlines, false);
 						const updatedPdfDocBuffer = await pdfDoc.save();
 						return writeFile(pageInfo.path, updatedPdfDocBuffer, {});
 					}),
 				);
+
+				await mergeIntoOne(logger, outputDir);
 			},
 		},
 	};

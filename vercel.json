@@ -92,6 +92,30 @@
     {
       "source": "/programming-fundamentals/b-book",
       "destination": "/programming-fundamentals/b-book/introduction"
+    },
+    {
+      "source": "/mathematics/complex-analysis",
+      "destination": "/mathematics/complex-analysis/introduction"
+    },
+    {
+      "source": "/mathematics/riemann-integration",
+      "destination": "/mathematics/riemann-integration/introduction"
+    },
+    {
+      "source": "/mathematics/ode",
+      "destination": "/mathematics/ode/introduction"
+    },
+    {
+      "source": "/mathematics/real-analysis",
+      "destination": "/mathematics/real-analysis/introduction"
+    },
+    {
+      "source": "/mathematics/vectors",
+      "destination": "/mathematics/vectors/introduction"
+    },
+    {
+      "source": "/mathematics/matrices",
+      "destination": "/mathematics/matrices/introduction"
     }
   ]
 }
