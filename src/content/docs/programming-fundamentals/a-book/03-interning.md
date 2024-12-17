@@ -2,7 +2,7 @@
 title: Interning
 slug: programming-fundamentals/a-book/interning
 sidebar:
-  order: 2
+  order: 3
 prev: true
 next: true
 ---

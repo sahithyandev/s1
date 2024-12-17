@@ -2,7 +2,7 @@
 title: Practice Resources
 slug: programming-fundamentals/a-book/practice-resources
 sidebar:
-  order: 3
+  order: 7
 description: Small programs and other platforms to practice programming
 next: false
 prev: true
@@ -59,9 +59,4 @@ The programs are listed in no specific order.
 - HackerRank - https://hackerrank.com
 - Leetcode - https://leetcode.com (my least preferred one)
 
-:::caution[Hard Problems]
-
-If a problem from one of these platforms feels too hard for you, you can just
-skip and do another problem.
-
-:::
+When a coding problem feels too hard, just skip and try another problem.

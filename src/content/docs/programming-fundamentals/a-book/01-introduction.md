@@ -25,20 +25,17 @@ code.
 A software that reads a source code file, builds the software into a runnable
 version.
 
-## Operator precedence
+## Python vs C
 
-| Operator                                        | Description                              |
-| ----------------------------------------------- | ---------------------------------------- |
-| `**`                                            | Exponentiation                           |
-| `~`, `+`, `-`                                   | Complement, unary plus, and minus        |
-| `*`, `/`, `%`, `//`                             | Multiply; divide, modulo, floor division |
-| `+`, `-`                                        | Addition and subtraction                 |
-| `>>`, `<<`                                      | Right and left bitwise shift             |
-| `&`                                             | Bitwise `AND`                            |
-| `^`, `\|`                                       | Bitwise `XOR` and `OR`                   |
-| `<=`, `<`, `>`, `>=`                            | Comparison operators                     |
-| `==`, `!=`                                      | Equality operators                       |
-| `=`, `%=`, `/=`, `//=`, `-=`, `+=`, `*=`, `**=` | Assignment operators                     |
-| `is`, `is not`                                  | Identity operators                       |
-| `in`, `not in`                                  | Membership operators                     |
-| `not`, `or`, `and`                              | Logical operators                        |
+| Feature           | Python                                       | C                                        |
+| ----------------- | -------------------------------------------- | ---------------------------------------- |
+| Syntax            | High-level, easy to read and write           | Low-level, more complex and verbose      |
+| Typing            | Dynamically typed                            | Statically typed                         |
+| Memory Management | Automatic (Garbage Collection)               | Manual (malloc/free)                     |
+| Performance       | Slower due to interpreted nature             | Faster due to compiled nature            |
+| Use Cases         | Web development, data analysis, scripting    | System programming, embedded systems     |
+| Standard Library  | Extensive                                    | Limited                                  |
+| Compilation       | Interpreted                                  | Compiled                                 |
+| Error Handling    | Exception handling                           | Error codes and manual checks            |
+| Paradigms         | Multi-paradigm (procedural, OOP, functional) | Procedural                               |
+| Portability       | Highly portable                              | Requires recompilation for each platform |
