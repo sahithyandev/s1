@@ -62,30 +62,6 @@
 			"destination": "/properties-of-materials/degradation/introduction"
 		},
 		{
-			"source": "/maths/complex-analysis",
-			"destination": "/maths/complex-analysis/introduction"
-		},
-		{
-			"source": "/maths/riemann-integration",
-			"destination": "/maths/riemann-integration/introduction"
-		},
-		{
-			"source": "/maths/ode",
-			"destination": "/maths/ode/introduction"
-		},
-		{
-			"source": "/maths/real-analysis",
-			"destination": "/maths/real-analysis/introduction"
-		},
-		{
-			"source": "/maths/vectors",
-			"destination": "/maths/vectors/introduction"
-		},
-		{
-			"source": "/maths/matrices",
-			"destination": "/maths/matrices/introduction"
-		},
-		{
 			"source": "/programming-fundamentals/a-book",
 			"destination": "/programming-fundamentals/a-book/introduction"
 		},
