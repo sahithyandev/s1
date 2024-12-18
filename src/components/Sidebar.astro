@@ -5,11 +5,14 @@ import type { Props } from "@astrojs/starlight/props";
 if (Array.isArray(Astro.props.sidebar)) {
 	Astro.props.sidebar.unshift({
 		label: "E-book",
-		badge: undefined,
+		badge: {
+			text: "New",
+			variant: "success",
+		},
 		type: "link",
 		isCurrent: false,
 		attrs: {},
-		href: "#support-me",
+		href: "/#support-me",
 	});
 }
 ---

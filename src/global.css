@@ -245,6 +245,9 @@ blockquote {
 #starlight__sidebar li span {
 	@apply !leading-snug text-[1rem];
 }
+#starlight__sidebar li .sl-badge {
+	@apply !leading-snug text-sm;
+}
 #starlight__sidebar summary {
 	@apply !leading-tight;
 }
