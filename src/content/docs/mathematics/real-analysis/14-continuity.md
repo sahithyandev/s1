@@ -65,9 +65,3 @@ $(a,b)$ **iff**:
 
 If a function $f$ is continuous on $[a,b]$, $f$ is uniformly continuous on
 $[a,b]$.
-
-:::caution[Todo]
-
-Is this section correct? I am not 100% sure.
-
-:::

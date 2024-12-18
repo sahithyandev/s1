@@ -35,7 +35,7 @@ Denoted by $(A\lvert B)$. Example: $ $
 
 ```
 
-## Inverse using elementary row transformations
+## Finding Inverse
 
 Let $A$ be a square matrix with order $n\times n$.
 
@@ -46,8 +46,10 @@ Let $A$ be a square matrix with order $n\times n$.
   - Transform elements on the main diagonal to $1$ by multiplying by a constant.
 - $\text{RHS}$ is $A^{-1}$.
 
-:::caution[TODO]
+### For singular matrices
 
-What about singular matrices?
+They don't have an inverse, so the process of using elementary row
+transformations to find $A^{-1}$ will fail in such cases. $ $
 
-:::
+Typically occurs because at least one row becomes all zeros during the reduction
+process, indicating that the matrix has no full rank ($\text{rank}(A) < n$). $ $

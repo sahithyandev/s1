@@ -26,7 +26,3 @@ end.
 Suppose $f:[a,b]\rightarrow\mathbb{R}$ is bounded, and continuous on $[c,b]$ for
 all $c\in(a,b)$. Then $f$ is integrable on $[a,b]$. Also valid for the other
 end.
-
-:::caution[Todo]
-
-Add proof hint. :::
