@@ -16,10 +16,6 @@ $\text{O}$ is a fixed point. $ $
 - $oa$ - Absolute velocity of point $\text{A}$
 - $ab$ - Velocity of point $\text{B}$ relative to point $\text{A}$
 
-![Velocity diagram](/mechanics/dynamics/velocity-diagram.jpg)
-
-The above illustration is from Ruththiragayan, one of my friends.
-
 ## Acceleration diagram
 
 ### Notation
