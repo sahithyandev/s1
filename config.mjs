@@ -19,7 +19,7 @@ export const MODULE_CODES = {
 
 export const BOOK_CONFIG = {
 	description:
-		"This e-book is a complete compilation of all the modules I studied during my 1st semester at the University of Moratuwa. It is designed to serve as a well-organized and accessible resource for students, offering a streamlined way to review key concepts and materials.\n\nWhile all of this content is freely available on the website, this e-book provides a convenient, offline format for easy reference. By purchasing this e-book, you are not only supporting my work but also helping me continue to share educational resources for students like you.",
+		"This e-book is a complete compilation of all the modules I studied during my 1st semester of Engineering. It is designed to serve as a well-organized and accessible resource for students, offering a streamlined way to review key concepts and materials.\n\nWhile all of this content is freely available on the website, this e-book provides a convenient, offline format for easy reference. By purchasing this e-book, you are not only supporting my work but also helping me continue to share educational resources for students like you.",
 };
 
 /**
@@ -80,8 +80,7 @@ export const STARLIGHT_CONFIG = {
 	],
 	title: SITE_TITLE,
 	favicon: "/favicon.ico",
-	description:
-		"Notes of 1st semester of Engineering at University of Moratuwa.",
+	description: "My 1st semester notes of Engineering",
 	head: STARLIGHT_CONFIG_HEAD,
 	customCss: ["./src/global.css"],
 	tableOfContents: {

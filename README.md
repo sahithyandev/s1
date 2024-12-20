@@ -1,6 +1,6 @@
 # S1
 
-My 1st semester notes of Engineering @ University of Moratuwa.
+My 1st semester notes of Engineering.
 
 ## Prerequisites
 
