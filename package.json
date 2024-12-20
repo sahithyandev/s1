@@ -20,7 +20,7 @@
 		"@pdf-lib/fontkit": "^1.1.1",
 		"@sparticuz/chromium": "^130.0.0",
 		"@types/bun": "^1.1.14",
-		"astro": "4.16.14",
+		"astro": "4.16.18",
 		"astro-og-canvas": "^0.5.5",
 		"bun-types": "^1.1.39",
 		"html-entities": "^2.5.2",
