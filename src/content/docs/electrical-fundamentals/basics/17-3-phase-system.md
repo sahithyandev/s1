@@ -31,7 +31,13 @@ with $120°$ phase difference. $ $
 
 ### Phasor diagram
 
-![Balanced 3-phase system](/electrical/balanced-3-phase-ac.jpg)
+A graphical representation of the magnitude and phase relationship between
+different waveforms.
+
+In a balanced 3-phase system, the phasor diagram shows three phasors (vectors)
+of equal length, separated by 120° angles. Each phasor represents the voltage of
+one phase. The diagram helps in visualizing the phase differences and the
+symmetry of the system.
 
 ### Phase voltage
 

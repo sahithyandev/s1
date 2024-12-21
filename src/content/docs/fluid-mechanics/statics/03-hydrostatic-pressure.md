@@ -7,8 +7,6 @@ prev: true
 next: true
 ---
 
-![Pressure Definition](/fluids/pressure-definition.jpg)
-
 At a point,
 
 ```math
@@ -190,7 +188,7 @@ Height of a particular fluid column that will produce the pressure at a point.
 
 ## Pressure difference between 2 points
 
-![Pressure difference](/fluids/pressure-difference.jpg)
+Suppose there are 2 points $\text{A},\text{B}$ with a height difference of $h$.
 
 $ P_1 = -\rho gz_1 + c $
 

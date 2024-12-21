@@ -148,7 +148,8 @@ The apparent power is essentially the effective power that the source “sees”
 ## Power factor
 
 If $\theta$ is the phase angle difference between $v$ and $i$, $\cos(\theta)$ is
-called the power factor.
+called the power factor. Higher power factor indicates a more efficient use of
+electrical power.
 
 Power factor appears in the equation of $P_\text{avg}$. $ $
 
@@ -165,7 +166,22 @@ Power factor is:
 
 ## Power triangle
 
-![Power triangle](/electrical/power-triangle.jpg)
+A right triangle that visually represents the relationship between active,
+reactive and apparent power in an AC circuit.
 
-- Take $V$ phasor as the reference.
-- Draw $V$ and $I$ phasors.
+They are represented as below:
+
+- **Active Power (P)**: On the horizontal axis
+- **Reactive Power (Q)**: On the vertical axis
+- **Apparent Power (S)**: On the hypotenuse of the triangle
+
+```math
+S^2 = P^2 + Q^2
+```
+
+The angle θ between the active power and the apparent power represents the phase
+angle, and the cosine of this angle is the power factor:
+
+```math
+\cos{\theta} = \frac{P}{S}
+```

@@ -63,8 +63,6 @@ V_{AB} = V_A - V_B
 
 ## Electric Circuit
 
-![Different ways to depict circuits](/electrical/types-of-circuits.jpg)
-
 Types of circuits
 
 - Closed circuit - the electricity flows
