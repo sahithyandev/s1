@@ -63,7 +63,8 @@ b=-2^{n-1}b_{n-1}+\sum_{k=0}^{n-2}{2^{k} b_k}
 
 #### Represent n in two's complement
 
-If $n$ is positive or zero: $n$ is converted into binary and mentioned as is.
+If $n$ is positive or zero: $n$ is converted into binary and a leading zero is
+added.
 
 If $n$ is negative: $ $
 
