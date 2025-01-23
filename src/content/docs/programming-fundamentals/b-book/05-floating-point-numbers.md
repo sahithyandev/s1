@@ -46,13 +46,13 @@ the dot. So the inital $1$ is not included in the mantissa.
 
 Take $31.3125$. $ $
 
-- In binary: $1111.0101_2$
-- In binary scientific notation: $1.1110101_2 \times 2^3$
-- Add $127$ to exponent: $130$
-- Convert exponent to binary $10000010$
-- Write the final result: $0\;10000010\;00000000000000001110101$
+- In binary: $11111.0101_2$
+- In binary scientific notation: $1.11110101_2 \times 2^4$
+- Add $127$ to exponent: $131$
+- Convert exponent to binary $10000011$
+- Write the final result: $0\;10000011\;11110101000000000000000$
 
-Take $0.125$. $ $
+Take $-0.125$. $ $
 
 - In binary: $-0.001_2$
 - In binary scientific notation: $-1.0_2 \times 2^{-3}$
@@ -94,12 +94,12 @@ the dot. So we don't include that one. $ $
 
 Take $31.3125$. $ $
 
-- In binary: $1111.0101_2$
-- In binary scientific notation: $1.1110101_2 \times 2^3$
-- Add $1023$ to exponent: $1026$
-- Convert exponent to binary: $10000000010$
+- In binary: $11111.0101_2$
+- In binary scientific notation: $1.11110101_2 \times 2^4$
+- Add $1023$ to exponent: $1027$
+- Convert exponent to binary: $10000000011$
 - Write the final result:
-  $0\;10000000010\;00000000000000000000000000000000000000000000001110101$
+  $0\;10000000011\;11110101000000000000000000000000000000000000000000000$
 
 Take $0.125$. $ $
 
