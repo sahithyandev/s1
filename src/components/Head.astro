@@ -1,8 +1,10 @@
 ---
 import Default from "@astrojs/starlight/components/Head.astro";
-import type { Props } from "@astrojs/starlight/props";
 
-const id = Astro.props.id === ".md" ? "index.md" : Astro.props.id;
+let id = Astro.locals.starlightRoute.id;
+if (id == "/") {
+  id = "index.md";
+}
 
 // Get the URL of the generated image for the current page using its // ID and
 // replace the file extension with `.png`.

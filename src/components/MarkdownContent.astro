@@ -1,9 +1,8 @@
 ---
 import Default from "@astrojs/starlight/components/MarkdownContent.astro";
-import type { Props } from "@astrojs/starlight/props";
 import ContentEntries from "./ContentEntries.astro";
 
-const isHomepage = Astro.props.slug === "";
+const isHomepage = Astro.url.pathname == "/";
 ---
 
 {
@@ -63,7 +62,7 @@ const isHomepage = Astro.props.slug === "";
 					Images are either mine, or from the internet or from the lecture
 					notes.
 				</p>
-				<ContentEntries entries={Astro.props.sidebar} />
+				<ContentEntries entries={Astro.locals.starlightRoute.sidebar} />
 			</div>{" "}
 		</div>
 	) : (

@@ -1,9 +1,9 @@
 ---
-import type { Props as StarlightProps } from "@astrojs/starlight/props";
+import type { StarlightRouteData } from "@astrojs/starlight/route-data";
 import { MODULE_CODES } from "../../config.mjs";
 
 interface Props {
-	entries: StarlightProps["sidebar"];
+	entries: StarlightRouteData["sidebar"];
 	depth?: number;
 }
 const { entries, depth = 0 } = Astro.props;

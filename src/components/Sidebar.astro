@@ -2,8 +2,8 @@
 import DefaultPageSidebar from "@astrojs/starlight/components/Sidebar.astro";
 import type { Props } from "@astrojs/starlight/props";
 
-if (Array.isArray(Astro.props.sidebar)) {
-	Astro.props.sidebar.unshift({
+if (Array.isArray(Astro.locals.starlightRoute.sidebar)) {
+	Astro.locals.starlightRoute.sidebar.unshift({
 		label: "E-book",
 		badge: {
 			text: "New",

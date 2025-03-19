@@ -5,22 +5,22 @@ import { hyphenCaseToTitleCase } from "../../utils/index";
 
 let sectionLabel = null;
 
-if (Astro.props.slug.startsWith("summary/")) {
-	const slug = Astro.props.entry.slug.split("/").at(-1);
+if (Astro.locals.starlightRoute.id.startsWith("summary/")) {
+	const slug = Astro.locals.starlightRoute.id.split("/").at(-1);
 	if (slug) {
 		const parts = slug.split("--");
 		if (parts.length > 0) {
 			sectionLabel = hyphenCaseToTitleCase(parts[0]);
 		}
 	}
-} else if (Astro.props.slug.includes("/")) {
-	sectionLabel = hyphenCaseToTitleCase(Astro.props.entry.slug.split("/")[0]);
+} else if (Astro.locals.starlightRoute.id.includes("/")) {
+	sectionLabel = hyphenCaseToTitleCase(Astro.locals.starlightRoute.id.split("/")[0]);
 }
 ---
 
 <div class="mt-4">
     <strong class="mb-0 text-inherit header-credits">{SITE_TITLE} {sectionLabel ? `— ${sectionLabel}` : null}</strong>
-    <h1 id="_top" class="font-semibold">{Astro.props.entry.data.title}</h1>
+    <h1 id="_top" class="font-semibold">{Astro.locals.starlightRoute.entry.data.title}</h1>
 </div>
 
 <style>
