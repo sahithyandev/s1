@@ -1,45 +1,64 @@
-<div id="live-users-count-container" class="gap-x-1 h-fit hidden dark:bg-gray-700 bg-blue-100 outline-blue-500 outline-2 outline rounded-md px-2 items-center" title="Currently active users">
-	<svg  xmlns="http://www.w3.org/2000/svg"  width="22"  height="22"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-eye"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" /><path d="M21 12c-2.4 4 -5.4 6 -9 6c-3.6 0 -6.6 -2 -9 -6c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6" /></svg>
-	<span class="font-medium">
-	1
-	</span>
+<div
+	id="live-users-count-container"
+	class="gap-x-1 h-fit hidden dark:bg-gray-700 bg-blue-100 outline-blue-500 outline-2 outline rounded-md px-2 items-center"
+	title="Currently active users"
+>
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		width="22"
+		height="22"
+		viewBox="0 0 24 24"
+		fill="none"
+		stroke="currentColor"
+		stroke-width="2"
+		stroke-linecap="round"
+		stroke-linejoin="round"
+		class="icon icon-tabler icons-tabler-outline icon-tabler-eye"
+		><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path
+			d="M10 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0"></path><path
+			d="M21 12c-2.4 4 -5.4 6 -9 6c-3.6 0 -6.6 -2 -9 -6c2.4 -4 5.4 -6 9 -6c3.6 0 6.6 2 9 6"
+		></path></svg
+	>
+	<span class="font-medium"> 1 </span>
 </div>
 
 <script>
 	(() => {
-		const container = document.getElementById('live-users-count-container');
+		const container = document.getElementById("live-users-count-container");
 		if (!container) {
-			return
+			return;
 		}
-		const countDisplay = container.querySelector("span")
+		const countDisplay = container.querySelector("span");
 		if (!countDisplay) {
-			return
+			return;
 		}
 		const hideCountDisplay = () => {
 			container.classList.remove("flex");
 			container.classList.add("hidden");
-		}
+		};
 		const showCountDisplay = () => {
 			container.classList.remove("hidden");
 			container.classList.add("flex");
-		}
-		const eventSource = new EventSource("//rando.sahithyan.dev/live-users-count?d=s1.sahithyan.dev", {
-		});
+		};
+		const eventSource = new EventSource(
+			"//rando.sahithyan.dev/live-users-count?d=s1.sahithyan.dev",
+			{},
+		);
 		eventSource.addEventListener("message", function (event) {
 			try {
-			if (Number.parseInt(event.data) > 0) {
-				countDisplay.innerHTML = event.data;
-				showCountDisplay()
-			} else {
-				hideCountDisplay()
-			}
+				if (Number.parseInt(event.data) > 0) {
+					countDisplay.innerHTML = event.data;
+					showCountDisplay();
+				} else {
+					hideCountDisplay();
+				}
 			} catch {}
-		})
+		});
 		eventSource.addEventListener("open", function () {
-			console.log("opened")
-		})
-		eventSource.addEventListener("error",function () {
-			hideCountDisplay()
-		})
-	})()
+			console.log("opened");
+		});
+		eventSource.addEventListener("error", function () {
+			hideCountDisplay();
+		});
+	})();
 </script>

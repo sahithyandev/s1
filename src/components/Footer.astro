@@ -1,39 +1,48 @@
 ---
-import Pagination from '@astrojs/starlight/components/Pagination.astro';
-import config from 'virtual:starlight/user-config';
-import { Icon } from '@astrojs/starlight/components';
+import config from "virtual:starlight/user-config";
+import { Icon } from "@astrojs/starlight/components";
+import Pagination from "@astrojs/starlight/components/Pagination.astro";
 
-const {lang,lastUpdated, editUrl} = Astro.locals.starlightRoute;
+const { lang, lastUpdated, editUrl } = Astro.locals.starlightRoute;
 ---
 
 <footer class="sl-flex">
 	<div class="flex flex-wrap">
-	{lastUpdated ?
-	<span>
-	This page was last updated on
-				<time datetime={lastUpdated.toISOString()}>
-					{lastUpdated.toLocaleDateString(lang, { dateStyle: 'medium', timeZone: 'UTC' })}
-				</time>.
+		{
+			lastUpdated ? (
+				<span>
+					This page was last updated on
+					<time datetime={lastUpdated.toISOString()}>
+						{lastUpdated.toLocaleDateString(lang, {
+							dateStyle: "medium",
+							timeZone: "UTC",
+						})}
+					</time>
+					.
 				</span>
-			 : null
-				}
-				{editUrl ? <span>
-				You can
-				<a href={editUrl} class="text-[var(--sl-color-text-accent)]">
-				contribute your changes
-				</a> through GitHub.
-
-				</span> : null}
-				{
-					config.credits && (
-						<a class="kudos" href="https://starlight.astro.build">
-							<Icon name={'starlight'} /> {Astro.locals.t('builtWithStarlight.label') + "."}
-						</a>
-					)
-				}
+			) : null
+		}
+		{
+			editUrl ? (
+				<span>
+					You can
+					<a href={editUrl} class="text-[var(--sl-color-text-accent)]">
+						contribute your changes
+					</a>{" "}
+					through GitHub.
+				</span>
+			) : null
+		}
+		{
+			config.credits && (
+				<a class="kudos" href="https://starlight.astro.build">
+					<Icon name={"starlight"} />{" "}
+					{Astro.locals.t("builtWithStarlight.label") + "."}
+				</a>
+			)
+		}
 	</div>
 	<Pagination {...Astro.props} />
-
 </footer>
 
 <style>
@@ -54,7 +63,7 @@ const {lang,lastUpdated, editUrl} = Astro.locals.starlightRoute;
 	}
 
 	.kudos {
-	@apply inline-flex ml-auto items-center;
+		@apply inline-flex ml-auto items-center;
 		gap: 0.5em;
 		font-size: var(--sl-text-xs);
 		text-decoration: none;

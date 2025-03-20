@@ -1,6 +1,5 @@
 ---
 import DefaultPageSidebar from "@astrojs/starlight/components/Sidebar.astro";
-import type { Props } from "@astrojs/starlight/props";
 
 if (Array.isArray(Astro.locals.starlightRoute.sidebar)) {
 	Astro.locals.starlightRoute.sidebar.unshift({
@@ -29,7 +28,7 @@ if (Array.isArray(Astro.locals.starlightRoute.sidebar)) {
 
 <script>
 	const activeEl = document.querySelector(
-		"#starlight__sidebar a[aria-current]"
+		"#starlight__sidebar a[aria-current]",
 	);
 	if (activeEl instanceof HTMLElement) {
 		activeEl.scrollIntoView({

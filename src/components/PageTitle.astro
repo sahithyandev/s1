@@ -14,21 +14,28 @@ if (Astro.locals.starlightRoute.id.startsWith("summary/")) {
 		}
 	}
 } else if (Astro.locals.starlightRoute.id.includes("/")) {
-	sectionLabel = hyphenCaseToTitleCase(Astro.locals.starlightRoute.id.split("/")[0]);
+	sectionLabel = hyphenCaseToTitleCase(
+		Astro.locals.starlightRoute.id.split("/")[0],
+	);
 }
 ---
 
 <div class="mt-4">
-    <strong class="mb-0 text-inherit header-credits">{SITE_TITLE} {sectionLabel ? `— ${sectionLabel}` : null}</strong>
-    <h1 id="_top" class="font-semibold">{Astro.locals.starlightRoute.entry.data.title}</h1>
+	<strong class="mb-0 text-inherit header-credits"
+		>{SITE_TITLE} {sectionLabel ? `— ${sectionLabel}` : null}</strong
+	>
+	<h1 id="_top" class="font-semibold">
+		{Astro.locals.starlightRoute.entry.data.title}
+	</h1>
 </div>
 
 <style>
 	h1 {
 		font-size: var(--sl-text-h1);
 	}
-	h1,h2 {
-	line-height: var(--sl-line-height-headings);
-	color: var(--sl-color-white);
+	h1,
+	h2 {
+		line-height: var(--sl-line-height-headings);
+		color: var(--sl-color-white);
 	}
 </style>

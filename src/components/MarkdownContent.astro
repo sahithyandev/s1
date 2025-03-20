@@ -2,7 +2,7 @@
 import Default from "@astrojs/starlight/components/MarkdownContent.astro";
 import ContentEntries from "./ContentEntries.astro";
 
-const isHomepage = Astro.url.pathname == "/";
+const isHomepage = Astro.url.pathname === "/";
 ---
 
 {
