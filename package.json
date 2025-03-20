@@ -9,8 +9,8 @@
 		"build": "astro build",
 		"preview": "astro preview",
 		"astro": "astro",
-		"lint": "prettier --check .; biome check; biome format",
-		"lint-fix": "prettier --write . && biome check --write && biome format --write"
+		"lint": "prettier --check .; biome check .",
+		"lint-fix": "prettier --write . && biome check --write ."
 	},
 	"dependencies": {
 		"@astrojs/check": "0.9.4",
@@ -38,7 +38,8 @@
 		"@types/rollup": "^0.54.0",
 		"husky": "^9.1.7",
 		"lint-staged": "^15.2.11",
-		"prettier": "^3.4.2"
+		"prettier": "^3.4.2",
+		"prettier-plugin-astro": "0.14.1"
 	},
 	"lint-staged": {
 		"*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx}": [
