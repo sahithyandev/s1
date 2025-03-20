@@ -18,3 +18,6 @@ export function hyphenCaseToTitleCase(text) {
 
 	return newText.join(" ");
 }
+
+export const GOOGLE_APPSCRIPT_API_URL =
+	"https://script.google.com/macros/s/AKfycbyf4DRfGuwalzqovjBwOjwkc1OJFIzy_Egbsk3bH9auZ_XFa8jQQyf4hPll8Xl1cM09/exec";

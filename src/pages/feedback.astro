@@ -1,0 +1,136 @@
+---
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+import { GOOGLE_APPSCRIPT_API_URL } from "../../utils";
+import type { FeedbackItem } from "../../utils/types";
+import FeedbackCard from "../components/FeedbackCard.astro";
+
+export const prerender = false;
+
+const fetchFeedbacks = async () => {
+	const response = await fetch(
+		GOOGLE_APPSCRIPT_API_URL.concat("?sheet=s1&from=1"),
+		{
+			method: "get",
+		},
+	);
+	const result = await response.json();
+	if (result.data === undefined) {
+		return undefined;
+	}
+	return result.data as Array<FeedbackItem>;
+};
+
+const feedbacks: Array<FeedbackItem> | undefined = await fetchFeedbacks();
+---
+
+<StarlightPage
+	frontmatter={{ title: "Feedback & Suggestions", tableOfContents: false }}
+>
+	<p>
+		You can provide your feedback regarding this website, its content or any
+		other things anonymously.<br />
+	</p>
+	<form class="!mt-5 !mb-12">
+		<textarea
+			id="feedback-message"
+			placeholder="Write your feedback and suggestions here. The more, the better."
+			class="text-lg"
+			required></textarea>
+		<div class="flex justify-between items-center gap-x-5">
+			<p
+				class="text-md opacity-65 text-green-400 font-semibold"
+				id="response-message"
+			>
+			</p>
+			<button
+				type="submit"
+				id="submit-btn"
+				disabled
+				class="!mt-0 outline outline-transparent outline-[3px] hover:outline-white transition-colors duration-100 disabled:cursor-no-drop"
+			>
+				Submit
+			</button>
+		</div>
+	</form>
+
+	<script>
+		import { GOOGLE_APPSCRIPT_API_URL } from "../../utils";
+
+		const submitButton = document.getElementById("submit-btn");
+		const feedbackMessage = document.getElementById("feedback-message");
+		const responseMessage = document.getElementById("response-message");
+		if (
+			submitButton instanceof HTMLButtonElement &&
+			feedbackMessage instanceof HTMLTextAreaElement &&
+			responseMessage instanceof HTMLParagraphElement
+		) {
+			submitButton.addEventListener("click", async (event) => {
+				event.preventDefault();
+				const message = feedbackMessage.value;
+				if (message.length < 60) {
+					responseMessage.classList.toggle("success", false);
+					responseMessage.textContent =
+						"Please provide a feedback of at least 60 characters.";
+					return;
+				}
+
+				const response = await fetch("/submit-feedback", {
+					method: "post",
+					headers: {
+						"content-type": "application/json",
+					},
+					body: JSON.stringify({
+						payload: {
+							message,
+						},
+					}),
+				});
+				const result = await response.text();
+				if (result.startsWith("DONE:")) {
+					responseMessage.classList.toggle("success", true);
+					responseMessage.textContent = "Thanks for your feedback!";
+					feedbackMessage.value = "";
+					location.reload();
+				} else {
+					responseMessage.classList.toggle("success", false);
+					responseMessage.textContent = "Something went wrong :(";
+				}
+			});
+			submitButton.disabled = false;
+		}
+	</script>
+
+	{
+		feedbacks === undefined ? (
+			<div class="w-full grid place-items-center text-xl font-semibold text-red-500 bg-red-300/10 h-40 rounded-lg">
+				Oops! Couldn't load the feedbacks!
+			</div>
+		) : feedbacks.length === 0 ? (
+			<div class="w-full flex flex-col items-center justify-center bg-gray-300/10 h-40 rounded-lg">
+				<span class="font-semibold text-xl">No feedbacks yet :/</span>
+				<span class="text-md">Be the first one!</span>
+			</div>
+		) : (
+			<section class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+				{feedbacks.map((feedback) => (
+					<FeedbackCard item={feedback} />
+				))}
+			</section>
+		)
+	}
+</StarlightPage>
+
+<style>
+	textarea {
+		@apply rounded-lg w-full h-48 resize-none bg-[var(--sl-color-gray-5)] px-4 py-2;
+	}
+	button {
+		@apply rounded-md px-5 py-1.5 bg-[var(--sl-color-accent)] text-white font-semibold cursor-pointer hover:bg-opacity-65 transition-colors;
+	}
+	#response-message {
+		@apply text-red-400;
+		&.success {
+			@apply text-green-400;
+		}
+	}
+</style>

@@ -1,0 +1,21 @@
+---
+import type { FeedbackItem } from "../../utils/types";
+
+interface Props {
+	item: FeedbackItem;
+}
+---
+
+<div class="!mt-0">
+	<p>{Astro.props.item.message}</p>
+
+	<div>
+		{Astro.props.item.votes} votes
+	</div>
+</div>
+
+<style>
+	p {
+		@apply hyphens-auto;
+	}
+</style>

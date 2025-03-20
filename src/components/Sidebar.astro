@@ -2,17 +2,27 @@
 import DefaultPageSidebar from "@astrojs/starlight/components/Sidebar.astro";
 
 if (Array.isArray(Astro.locals.starlightRoute.sidebar)) {
-	Astro.locals.starlightRoute.sidebar.unshift({
-		label: "E-book",
-		badge: {
-			text: "New",
-			variant: "success",
+	Astro.locals.starlightRoute.sidebar.unshift(
+		{
+			label: "E-book",
+			badge: undefined,
+			type: "link",
+			isCurrent: false,
+			attrs: {},
+			href: "/#support-me",
 		},
-		type: "link",
-		isCurrent: false,
-		attrs: {},
-		href: "/#support-me",
-	});
+		{
+			label: "Feedback",
+			badge: {
+				text: "New",
+				variant: "success",
+			},
+			type: "link",
+			isCurrent: false,
+			attrs: {},
+			href: "/feedback",
+		},
+	);
 }
 ---
 
