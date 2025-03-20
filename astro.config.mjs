@@ -1,8 +1,10 @@
 import starlight from "@astrojs/starlight";
 import tailwind from "@astrojs/tailwind";
+import vercel from "@astrojs/vercel";
 import { defineConfig } from "astro/config";
 import rehypeMathjax from "rehype-mathjax";
 import remarkMath from "remark-math";
+
 import { CREATE_E_BOOK, SITE_HREF, STARLIGHT_CONFIG } from "./config.mjs";
 import generatePdfsIntegration from "./plugins/generate-pdfs";
 
@@ -28,4 +30,5 @@ export default defineConfig({
 			applyBaseStyles: false,
 		}),
 	],
+	adapter: vercel(),
 });
