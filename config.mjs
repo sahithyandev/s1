@@ -58,7 +58,7 @@ if (process.env.NODE_ENV === "production") {
 		attrs: {
 			defer: true,
 			"data-domain": "s1.sahithyan.dev",
-			href: "https://analytics.sahithyan.dev/js/script.js",
+			src: "https://analytics.sahithyan.dev/js/script.js",
 		},
 	});
 }
