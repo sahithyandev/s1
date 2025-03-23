@@ -16,10 +16,14 @@ A length of wire turned into a coil works as an inductor.
 
 ## Inductance (L)
 
+A property of electrical conductors. Measured in henries ($H$). When the current
+through a conductor changes, an electromotive force (emf) is produced. the
+magnetic field around it changes.
+
 For an ideal inductor:
 
 ```math
-v = L \frac{\text{d}i}{\text{d}t}
+v = -L \frac{\text{d}i}{\text{d}t}
 ```
 
 Here:
