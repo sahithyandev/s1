@@ -151,8 +151,6 @@ Horizontal straight line.
 
 ### Vertical Pressure Distribution
 
-![vertical-acceleration-vertical-pressure-variation](/fluids/vertical-acceleration-vertical-pressure-variation.jpg)
-
 $P_1=-\rho(a_z+g)z_1+c_1$
 
 $P_2=-\rho(a_z+g)z_2+c_1$
