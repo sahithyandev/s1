@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+	font-family: Excalifont;
+	src: url("/fonts/Excalifont-Regular.woff2") format("woff");
+	font-display: swap;
+}
+
 :root {
 	@apply text-[15px] lg:text-[16px] xl:text-[17.5px] 2xl:text-[18px];
 	--note-border-radius: 5px;
@@ -46,7 +52,7 @@
 		--sl-content-pad-x: 1.2rem;
 	}
 }
-* {
+*:not(svg text) {
 	font-variant-ligatures: none;
 	font-family: "DM Sans", sans-serif;
 }
