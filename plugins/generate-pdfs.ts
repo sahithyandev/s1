@@ -172,7 +172,7 @@ export default function generatePdfsIntegration(
 				}
 
 				const buildDir = join(fileURLToPath(dir.toString()));
-				const outputDir = join(buildDir, "as-pdf");
+				const outputDir = join(buildDir, "../as-pdf");
 				if (!existsSync(outputDir)) {
 					await mkdir(outputDir, { recursive: true });
 				}

@@ -66,20 +66,26 @@ export async function mergeIntoOne(
 		// outlines fix
 		const outlines = pdfDoc.catalog.lookup(PDFName.of("Outlines"));
 
-		// biome-ignore lint/suspicious/noExplicitAny: don't know of the type exactly
-		let currentOutline = (outlines as any).lookup(PDFName.of("First"));
-		while (currentOutline) {
-			const firstChild = currentOutline.lookup(PDFName.of("First")) as PDFDict;
-			if (firstChild) {
-				logger.info(
-					`fix outline: ${currentOutline.lookup(PDFName.of("Title")).asString()}`,
-				);
-				currentOutline.set(
-					PDFName.of("Dest"),
-					firstChild.lookup(PDFName.of("Dest")),
-				);
+		if (outlines) {
+			// biome-ignore lint/suspicious/noExplicitAny: don't know of the type exactly
+			let currentOutline = (outlines as any).lookup(PDFName.of("First"));
+			while (currentOutline) {
+				const firstChild = currentOutline.lookup(
+					PDFName.of("First"),
+				) as PDFDict;
+				if (firstChild) {
+					logger.info(
+						`fix outline: ${currentOutline.lookup(PDFName.of("Title")).asString()}`,
+					);
+					currentOutline.set(
+						PDFName.of("Dest"),
+						firstChild.lookup(PDFName.of("Dest")),
+					);
+				}
+				currentOutline = currentOutline.lookup(PDFName.of("Next"));
 			}
-			currentOutline = currentOutline.lookup(PDFName.of("Next"));
+		} else {
+			logger.warn("No outlines found in the PDF");
 		}
 
 		await writeFile("./dist/S1.pdf", await pdfDoc.save()).then(() =>
