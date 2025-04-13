@@ -2,6 +2,7 @@ import starlight from "@astrojs/starlight";
 // import starlightLinksValidator from "starlight-links-validator";
 
 export const SITE_TITLE = "Sahithyan's S1";
+export const SITE_DESCRIPTION = "Sahithyan's 1st semester notes of Engineering";
 export const SITE_HREF = "https://s1.sahithyan.dev";
 export const CREATE_E_BOOK = process.env.CREATE_E_BOOK || false;
 
@@ -38,201 +39,192 @@ if (process.env.NODE_ENV === "production") {
 }
 
 /**
- * @type {Parameters<typeof starlight>[0]}
+ * @type {Parameters<typeof starlight>[0]["sidebar"]}
  */
-export const STARLIGHT_CONFIG = {
-  // plugins: [
-  //   starlightLinksValidator({
-  //     exclude: ["/summary/"],
-  //   }),
-  // ],
-  description: "My 1st semester notes of Engineering",
-  head: STARLIGHT_CONFIG_HEAD,
-  sidebar: [
-    {
-      label: "Dimensions & Units",
-      link: "/dimensions-and-units",
-    },
-    {
-      label: "Electrical Fundamentals",
-      items: [
-        {
-          label: "Basics",
-          collapsed: true,
-          autogenerate: {
-            directory: "electrical-fundamentals/basics",
-          },
+export const STARLIGHT_SIDEBAR_CONFIG = [
+  {
+    label: "Dimensions & Units",
+    link: "/dimensions-and-units",
+  },
+  {
+    label: "Electrical Fundamentals",
+    items: [
+      {
+        label: "Basics",
+        collapsed: true,
+        autogenerate: {
+          directory: "electrical-fundamentals/basics",
         },
-        {
-          label: "Electrical Installation",
-          collapsed: true,
-          autogenerate: {
-            directory: "electrical-fundamentals/electrical-installation",
-          },
+      },
+      {
+        label: "Electrical Installation",
+        collapsed: true,
+        autogenerate: {
+          directory: "electrical-fundamentals/electrical-installation",
         },
-      ],
-    },
-    {
-      label: "Fluid Mechanics",
-      items: [
-        {
-          label: "Statics",
-          collapsed: true,
-          autogenerate: {
-            directory: "fluid-mechanics/statics",
-          },
+      },
+    ],
+  },
+  {
+    label: "Fluid Mechanics",
+    items: [
+      {
+        label: "Statics",
+        collapsed: true,
+        autogenerate: {
+          directory: "fluid-mechanics/statics",
         },
-        {
-          label: "Dynamics",
-          collapsed: true,
-          autogenerate: {
-            directory: "fluid-mechanics/dynamics",
-          },
+      },
+      {
+        label: "Dynamics",
+        collapsed: true,
+        autogenerate: {
+          directory: "fluid-mechanics/dynamics",
         },
-        {
-          label: "Machinery",
-          collapsed: true,
-          autogenerate: {
-            directory: "fluid-mechanics/machinery",
-          },
+      },
+      {
+        label: "Machinery",
+        collapsed: true,
+        autogenerate: {
+          directory: "fluid-mechanics/machinery",
         },
-      ],
-    },
-    {
-      label: "Mathematics",
-      items: [
-        {
-          label: "Vectors",
-          collapsed: true,
-          autogenerate: {
-            directory: "mathematics/vectors",
-          },
+      },
+    ],
+  },
+  {
+    label: "Mathematics",
+    items: [
+      {
+        label: "Vectors",
+        collapsed: true,
+        autogenerate: {
+          directory: "mathematics/vectors",
         },
-        {
-          label: "Matrices",
-          collapsed: true,
-          autogenerate: {
-            directory: "mathematics/matrices",
-          },
+      },
+      {
+        label: "Matrices",
+        collapsed: true,
+        autogenerate: {
+          directory: "mathematics/matrices",
         },
-        {
-          label: "Complex Analysis",
-          collapsed: true,
-          autogenerate: {
-            directory: "mathematics/complex-analysis",
-          },
+      },
+      {
+        label: "Complex Analysis",
+        collapsed: true,
+        autogenerate: {
+          directory: "mathematics/complex-analysis",
         },
-        {
-          label: "Real Analysis",
-          collapsed: true,
-          autogenerate: {
-            directory: "mathematics/real-analysis",
-          },
+      },
+      {
+        label: "Real Analysis",
+        collapsed: true,
+        autogenerate: {
+          directory: "mathematics/real-analysis",
         },
-        {
-          collapsed: true,
-          label: "ODE",
-          autogenerate: {
-            directory: "mathematics/ode",
-          },
+      },
+      {
+        collapsed: true,
+        label: "ODE",
+        autogenerate: {
+          directory: "mathematics/ode",
         },
-        {
-          collapsed: true,
-          label: "Riemann Integration",
-          autogenerate: {
-            directory: "mathematics/riemann-integration",
-          },
+      },
+      {
+        collapsed: true,
+        label: "Riemann Integration",
+        autogenerate: {
+          directory: "mathematics/riemann-integration",
         },
-      ],
-    },
-    {
-      label: "Mechanics",
-      items: [
-        {
-          label: "Statics",
-          collapsed: true,
-          autogenerate: {
-            directory: "mechanics/statics",
-          },
+      },
+    ],
+  },
+  {
+    label: "Mechanics",
+    items: [
+      {
+        label: "Statics",
+        collapsed: true,
+        autogenerate: {
+          directory: "mechanics/statics",
         },
-        {
-          label: "Dynamics",
-          collapsed: true,
-          autogenerate: {
-            directory: "mechanics/dynamics",
-          },
+      },
+      {
+        label: "Dynamics",
+        collapsed: true,
+        autogenerate: {
+          directory: "mechanics/dynamics",
         },
-      ],
-    },
-    {
-      label: "Programming Fundamentals",
-      items: [
-        {
-          label: "A book",
-          collapsed: true,
-          autogenerate: {
-            directory: "programming-fundamentals/a-book",
-          },
+      },
+    ],
+  },
+  {
+    label: "Programming Fundamentals",
+    items: [
+      {
+        label: "A book",
+        collapsed: true,
+        autogenerate: {
+          directory: "programming-fundamentals/a-book",
         },
-        {
-          collapsed: true,
-          label: "B book",
-          autogenerate: {
-            directory: "programming-fundamentals/b-book",
-          },
+      },
+      {
+        collapsed: true,
+        label: "B book",
+        autogenerate: {
+          directory: "programming-fundamentals/b-book",
         },
-        {
-          collapsed: true,
-          label: "C book",
-          autogenerate: {
-            directory: "programming-fundamentals/c-book",
-          },
+      },
+      {
+        collapsed: true,
+        label: "C book",
+        autogenerate: {
+          directory: "programming-fundamentals/c-book",
         },
-      ],
-    },
-    {
-      label: "Properties of Materials",
-      items: [
-        {
-          label: "Basics",
-          collapsed: true,
-          autogenerate: {
-            directory: "properties-of-materials/basics",
-          },
+      },
+    ],
+  },
+  {
+    label: "Properties of Materials",
+    items: [
+      {
+        label: "Basics",
+        collapsed: true,
+        autogenerate: {
+          directory: "properties-of-materials/basics",
         },
-        {
-          label: "Mechanical Properties",
-          collapsed: true,
-          autogenerate: {
-            directory: "properties-of-materials/mechanical-properties",
-          },
+      },
+      {
+        label: "Mechanical Properties",
+        collapsed: true,
+        autogenerate: {
+          directory: "properties-of-materials/mechanical-properties",
         },
-        {
-          label: "Electrical Properties",
-          collapsed: true,
-          autogenerate: {
-            directory: "properties-of-materials/electrical-properties",
-          },
+      },
+      {
+        label: "Electrical Properties",
+        collapsed: true,
+        autogenerate: {
+          directory: "properties-of-materials/electrical-properties",
         },
-        {
-          label: "Nanotechnology",
-          collapsed: true,
-          autogenerate: {
-            directory: "properties-of-materials/nanotechnology",
-          },
+      },
+      {
+        label: "Nanotechnology",
+        collapsed: true,
+        autogenerate: {
+          directory: "properties-of-materials/nanotechnology",
         },
-        {
-          label: "Degradation",
-          collapsed: true,
-          autogenerate: {
-            directory: "properties-of-materials/degradation",
-          },
+      },
+      {
+        label: "Degradation",
+        collapsed: true,
+        autogenerate: {
+          directory: "properties-of-materials/degradation",
         },
-      ],
-    },
-    {
-      label: "License",
-      link: "/license",
-    },
-  ],
-};
+      },
+    ],
+  },
+  {
+    label: "License",
+    link: "/license",
+  },
+];
