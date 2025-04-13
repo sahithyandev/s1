@@ -25,31 +25,7 @@ export const BOOK_CONFIG = {
 /**
  * @type {Parameters<typeof starlight>[0]["head"]}
  */
-const STARLIGHT_CONFIG_HEAD = [
-  {
-    tag: "link",
-    attrs: {
-      rel: "preconnect",
-      href: "https://fonts.googleapis.com",
-    },
-  },
-  {
-    tag: "link",
-    attrs: {
-      rel: "preconnect",
-      href: "https://fonts.gstatic.com",
-      crossOrigin: true,
-    },
-  },
-  {
-    tag: "link",
-    attrs: {
-      rel: "stylesheet",
-      href: "https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap",
-    },
-  },
-];
-
+export const STARLIGHT_CONFIG_HEAD = [];
 if (process.env.NODE_ENV === "production") {
   STARLIGHT_CONFIG_HEAD.push({
     tag: "script",
@@ -70,25 +46,8 @@ export const STARLIGHT_CONFIG = {
       exclude: ["/summary/"],
     }),
   ],
-  title: SITE_TITLE,
-  favicon: "/favicon.ico",
   description: "My 1st semester notes of Engineering",
   head: STARLIGHT_CONFIG_HEAD,
-  customCss: ["./src/global.css"],
-  tableOfContents: {
-    maxHeadingLevel: 4,
-  },
-  lastUpdated: true,
-  expressiveCode: true,
-  credits: true,
-  components: {
-    Head: "./src/components/Head.astro",
-    Sidebar: "./src/components/Sidebar.astro",
-    MarkdownContent: "./src/components/MarkdownContent.astro",
-    SiteTitle: "./src/components/SiteTitle.astro",
-    PageTitle: "./src/components/PageTitle.astro",
-    Footer: "./src/components/Footer.astro",
-  },
   sidebar: [
     {
       label: "Dimensions & Units",
