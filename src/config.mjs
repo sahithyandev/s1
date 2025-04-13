@@ -3,7 +3,8 @@ import starlight from "@astrojs/starlight";
 
 export const SITE_TITLE = "Sahithyan's S1";
 export const SITE_DESCRIPTION = "Sahithyan's 1st semester notes of Engineering";
-export const SITE_HREF = "https://s1.sahithyan.dev";
+export const SITE_DOMAIN = "s1.sahithyan.dev";
+export const SITE_HREF = `https://${SITE_DOMAIN}`;
 export const CREATE_E_BOOK = process.env.CREATE_E_BOOK || false;
 
 /**
