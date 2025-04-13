@@ -12,3 +12,6 @@ bun.lock
 astro.config.mjs
 tsconfig.json
 .astro
+plugins
+src/pages/og
+public/fonts
