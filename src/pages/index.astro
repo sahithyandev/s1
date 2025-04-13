@@ -1,11 +1,12 @@
 ---
 import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+import { SITE_DESCRIPTION } from "../config.mjs";
 ---
 
 <StarlightPage
     frontmatter={{
         title: "What's this?",
-        description: "Sahithyan's 1st semester notes of Engineering",
+        description: SITE_DESCRIPTION,
         pagefind: false,
         tableOfContents: false,
         next: false,
