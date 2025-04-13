@@ -1,9 +1,12 @@
 node_modules
 dist
 
-src/content/docs/summary/*.md
-
 .shell
+src/content/docs/summary/*.md
+src/components
+src/global.css
+utils
+tailwind.config.mjs
 package.json
 bun.lock
 astro.config.mjs
