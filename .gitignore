@@ -1,7 +1,7 @@
 node_modules
 dist
 
-src/content/notes/summary/*.md
+src/content/docs/summary/*.md
 
 .shell
 package.json
