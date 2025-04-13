@@ -1,5 +1,5 @@
 import starlight from "@astrojs/starlight";
-import starlightLinksValidator from "starlight-links-validator";
+// import starlightLinksValidator from "starlight-links-validator";
 
 export const SITE_TITLE = "Sahithyan's S1";
 export const SITE_HREF = "https://s1.sahithyan.dev";
@@ -41,11 +41,11 @@ if (process.env.NODE_ENV === "production") {
  * @type {Parameters<typeof starlight>[0]}
  */
 export const STARLIGHT_CONFIG = {
-  plugins: [
-    starlightLinksValidator({
-      exclude: ["/summary/"],
-    }),
-  ],
+  // plugins: [
+  //   starlightLinksValidator({
+  //     exclude: ["/summary/"],
+  //   }),
+  // ],
   description: "My 1st semester notes of Engineering",
   head: STARLIGHT_CONFIG_HEAD,
   sidebar: [
