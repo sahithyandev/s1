@@ -8,7 +8,7 @@ export const SITE_HREF = `https://${SITE_DOMAIN}`;
 export const CREATE_E_BOOK = process.env.CREATE_E_BOOK || false;
 
 export const HTML__HOMEPAGE_DESCRIPTION =
-  "I have included all my 1st semester short notes of Engineering as a website. Maintaining this notes helped me get 4.0 GPA in my first semester.";
+  "I have included all my 1st semester short notes of Engineering as a website. <b>Maintaining this notes helped me get <u>4.0 GPA</u> in my first semester.</b>";
 
 /**
  * @type {Record<string, string>}
