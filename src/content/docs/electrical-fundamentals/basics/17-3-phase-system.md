@@ -7,7 +7,11 @@ prev: true
 next: false
 ---
 
+The phases are denoted by $\text{R},\text{Y},\text{B}$ in that order. $ $
+
 ## Why 3-phase?
+
+### Why not 1-phase? 
 
 - The current can be distributed into 3 wires instead of just 1.  
   There is a maximum limit of how much current a wire can carry.
@@ -15,8 +19,15 @@ next: false
   3-phase system requires $4$ wires ($3$ if balanced) while single phase system
   requires $6$.
 
-The phases are denoted by $\text{R},\text{Y},\text{B}$ in that order. $ $
+### Why not 2 or 4 or 6?
 
+- Generators are volume constrained.   
+  3-phase system has the most optimum volume utilization in a generator.
+- 3-wired 3-phase system carry 3 times the power of a 2-wired 1-phase system.
+- As number of phases increases, the power advantage diminishes.
+- As number of phases increases, the complexity of construction and maintanance increases.
+- 3-phase motors have the most optimum volume utilization for a given output.
+  
 ## Balanced 3-phase
 
 A 3-phase system is said to be balanced **iff**:
