@@ -52,7 +52,7 @@ Maximum of the absolute row sums.
     \sum_{j=1}^{n}
     {\lvert a_{ij} \rvert}
     \;;\;
-    i \in [1,m]
+    i \in [1,n]
 \bigg\}
 ```
 
