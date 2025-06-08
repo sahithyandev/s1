@@ -40,6 +40,18 @@ capacitor are related by:
 i = C \frac{\text{d}v}{\text{d}t}
 ```
 
+:::note
+
+When 2 capacitors are connected in series, the charge $ Q $ is the same for both
+capacitors.
+
+When 2 capacitors are connected in parallel, the voltage $ V $ is the same for
+both capacitors.
+
+Total charge is conserved in both cases.
+
+:::
+
 ## Energy stored
 
 Suppose voltage across an initially uncharged capacitor rises from $0$ to $ V $
