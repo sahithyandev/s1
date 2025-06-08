@@ -36,7 +36,7 @@ Suppose $\lim f(x) = L, \lim g(x) =M$. $ $
 \Big(
 \lim_\limits{x\to{a^-}}{f(x)}=L
 \land
-\lim_\limits{x\to{a^-}}{f(x)}=L
+\lim_\limits{x\to{a^+}}{f(x)}=L
 \Big)
 ```
 
