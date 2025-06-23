@@ -77,7 +77,7 @@ through induction, $\Gamma$ function cannot be defined for negative integers.
 ```math
 \forall n \in\mathbb{Z}^+
 \;
-\lim_\limits{x\to\infty}
+\lim_{x\to\infty}
 \frac{x^{n-1}}{e^{x/2}}
 =0
 ```

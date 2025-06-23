@@ -17,7 +17,7 @@ A function that is **not** integrable at one endpoint of the interval.
 Suppose $f:(a,b]\to\mathbb{R}$ is integrable on $[c,b]\;\forall c\in (a,b)$.
 
 ```math
-\int_a^b f = \lim_\limits{\epsilon \to 0}\; \int_{a+\epsilon}^b f
+\int_a^b f = \lim_{\epsilon \to 0}\; \int_{a+\epsilon}^b f
 ```
 
 Can be similarly defined on the other endpoint. The above integral converges
@@ -30,7 +30,7 @@ A function defined on unbounded interval (including $\infty$). $ $
 Suppose $f:[a,\infty)\to\mathbb{R}$ is integrable on $[a,r] \forall r > a$.
 
 ```math
-\int_a^\infty f = \lim_\limits{r \to \infty}\; \int_a^r f
+\int_a^\infty f = \lim_{r \to \infty}\; \int_a^r f
 ```
 
 Can be similarly defined on the other endpoint. The above integral converges

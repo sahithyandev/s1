@@ -43,9 +43,9 @@ Let:
 
 - For some $\delta>0$:
   $\forall x (0<|x-a|<\delta \implies f(x)\le g(x) \le h(x) )$
-- $\lim_\limits{x\to a} f(x) = \lim_\limits{x\to a} h(x) = L \in \mathbb{R}$
+- $\lim_{x\to a} f(x) = \lim_{x\to a} h(x) = L \in \mathbb{R}$
 
-Then $\lim_\limits{x\to a} g(x) = L$. $ $
+Then $\lim_{x\to a} g(x) = L$. $ $
 
 Works for any kind of x limits.
 

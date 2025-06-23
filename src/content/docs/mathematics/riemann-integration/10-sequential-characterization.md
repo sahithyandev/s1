@@ -11,7 +11,7 @@ A bounded function $f:[a,b]\to \mathbb{R}$ is Riemann integrable **iff**
 $\exists \set{P_n}$ a sequence of partitions, such that:
 
 ```math
-\lim_\limits{n\to\infty}{
+\lim_{n\to\infty}{
 \Big[
 U(f;P_n)-
 L(f;P_n)
@@ -25,10 +25,10 @@ In that case:
 ```math
 \int_a^b f
 =
-\lim_\limits{n\to\infty}
+\lim_{n\to\infty}
 U(f;P_n)
 =
-\lim_\limits{n\to\infty}
+\lim_{n\to\infty}
 L(f;P_n)
 ```
 

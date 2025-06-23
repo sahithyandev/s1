@@ -7,7 +7,7 @@ prev: true
 next: true
 ---
 
-$\lim_\limits{z\to z_0} f(z) = L$ **iff**: $ $
+$\lim_{z\to z_0} f(z) = L$ **iff**: $ $
 
 ```math
 \forall{\epsilon>0}\;
@@ -36,15 +36,15 @@ Suppose the real part and imaginary part limits to $L_1,L_2$, which can be
 written as: $ $
 
 ```math
-\lim_\limits{(x,y)\to(x_0,y_0)} u(x,y)=L_1
+\lim_{(x,y)\to(x_0,y_0)} u(x,y)=L_1
 \;\;\;
-\lim_\limits{(x,y)\to(x_0,y_0)} v(x,y)=L_2
+\lim_{(x,y)\to(x_0,y_0)} v(x,y)=L_2
 ```
 
 Then:
 
 ```math
-\lim_\limits{z\to z_0} f(z)=L_1+iL_2
+\lim_{z\to z_0} f(z)=L_1+iL_2
 ```
 
 ## Difference from real functions
@@ -67,7 +67,7 @@ plane. The distance $\lvert z − z_0 \rvert$ decreases to $0$.
 ## Important limits
 
 ```math
-\lim_\limits{z\to 0} \frac{z}{\overline{z}}\;\text{doesn't exist}
+\lim_{z\to 0} \frac{z}{\overline{z}}\;\text{doesn't exist}
 ```
 
 The above limit is important as it shows up in many questions. Can be disproved
@@ -75,7 +75,7 @@ by taking two paths: real, imaginary axes.
 
 ```math
 
-\lim_\limits{z\to 0} \frac{z \overline{z}}{z+\overline{z}}\;\text{doesn't exist}
+\lim_{z\to 0} \frac{z \overline{z}}{z+\overline{z}}\;\text{doesn't exist}
 
 ```
 

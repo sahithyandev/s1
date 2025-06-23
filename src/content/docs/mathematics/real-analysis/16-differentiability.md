@@ -10,7 +10,7 @@ next: true
 A function $f$ is differentiable at $a$ **iff**:
 
 ```math
-\lim_\limits{x\to a}{\frac{f(x)-f(a)}{x-a}} = L \in \mathbb{R} = f'(a)
+\lim_{x\to a}{\frac{f(x)-f(a)}{x-a}} = L \in \mathbb{R} = f'(a)
 ```
 
 When it is differentiable, $f'(a)$ is called the derivative of $f$ at $a$.
@@ -37,7 +37,7 @@ $f$ is right differentiable at $a$.
 A function $f$ is left-differentiable at $a$ **iff**:
 
 ```math
-\lim_\limits{x\to a^{-}}{\frac{f(x)-f(a)}{x-a}} = L \in \mathbb{R} = f'_{-}(a)
+\lim_{x\to a^{-}}{\frac{f(x)-f(a)}{x-a}} = L \in \mathbb{R} = f'_{-}(a)
 ```
 
 ### Right differentiable
@@ -45,7 +45,7 @@ A function $f$ is left-differentiable at $a$ **iff**:
 A function $f$ is right-differentiable at $a$ **iff**:
 
 ```math
-\lim_\limits{x\to a^{+}}{\frac{f(x)-f(a)}{x-a}} = L \in \mathbb{R} = f'_{+}(a)
+\lim_{x\to a^{+}}{\frac{f(x)-f(a)}{x-a}} = L \in \mathbb{R} = f'_{+}(a)
 ```
 
 ## On intervals

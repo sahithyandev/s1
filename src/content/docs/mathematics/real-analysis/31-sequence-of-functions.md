@@ -49,7 +49,7 @@ Suppose $u_n(x)$ is sequence of bounded functions. $u_n(x)$ converges to $u(x)$
 uniformly **iff**:
 
 ```math
-\lim_\limits{n\to\infty} \sup_x\, \lvert u_n(x) - u(x) \rvert = 0
+\lim_{n\to\infty} \sup_x\, \lvert u_n(x) - u(x) \rvert = 0
 ```
 
 :::note[Proof Hint]

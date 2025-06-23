@@ -10,7 +10,7 @@ next: true
 $f(z)$ is continuous at $z_0$ **iff**:
 
 ```math
-\lim_\limits{z\to z_0} f(z) = f(z_0)
+\lim_{z\to z_0} f(z) = f(z_0)
 ```
 
 ```math
@@ -26,8 +26,8 @@ $f(z)$ is continuous at $z_0$ **iff**:
 For $f$ to be continuous on $z_0$, all these conditions are required.
 
 - $f$ is defined at $z_0$
-- $\lim_\limits{z\to z_0} f(z)$ exists
-- $\lim_\limits{z\to z_0} f(z) = f(z_0)$
+- $\lim_{z\to z_0} f(z)$ exists
+- $\lim_{z\to z_0} f(z) = f(z_0)$
 
 ## Properties
 

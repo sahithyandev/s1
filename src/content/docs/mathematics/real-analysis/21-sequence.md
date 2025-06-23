@@ -39,7 +39,7 @@ A sequence $\big(u_n\big)$ is $ $
 ### Converging
 
 A sequence $\big(u_n\big)_{n=1}^{\infty}$ is converging (to $L\in\mathbb{R}$)
-**iff**: $\lim_\limits{n\to \infty}{u_n} = L$
+**iff**: $\lim_{n\to \infty}{u_n} = L$
 
 ```math
 \forall \epsilon > 0\;
@@ -59,7 +59,7 @@ n > N
 A sequence is diverging **iff** it is not converging.
 
 ```math
-\lim_\limits{n\to\infty}u_n=
+\lim_{n\to\infty}u_n=
 \begin{cases}
 \;\infty\\
 \;-\infty\\
@@ -80,7 +80,7 @@ converging (to $\sup\,\set{u_n}$).
 :::note[Proof Hint]
 
 - $\set{u_n}$ has a $\sup u_n (= s)$
-- Prove: $\lim_\limits{n\to\infty}u_n=s^{-}$
+- Prove: $\lim_{n\to\infty}u_n=s^{-}$
 
 :::
 
@@ -92,7 +92,7 @@ converging (to $\inf\,\set{u_n}$).
 :::note[Proof Hint]
 
 - $\set{u_n}$ has a $\inf u_n (= l)$
-- Prove: $\lim_\limits{n\to\infty}u_n=l^{+}$
+- Prove: $\lim_{n\to\infty}u_n=l^{+}$
 
 :::
 

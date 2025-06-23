@@ -9,7 +9,7 @@ next: true
 
 Let $f$ be infinitely many times differentiable on $(a,b)$ and $c,x \in (a,b)$.
 
-If $\lim_\limits{n\to \infty} R_n(x) = 0$ for $x \in (c-R, c+R) \subset (a,b)$,
+If $\lim_{n\to \infty} R_n(x) = 0$ for $x \in (c-R, c+R) \subset (a,b)$,
 then Taylor series of $f$ at $c$ is given by:
 
 ```math

@@ -52,17 +52,17 @@ Suppose $u_{n_k}$ is a subsequence of $u_n$.
 ### Sequence converging
 
 ```math
-\lim_\limits{n \to \infty} u_n = L
+\lim_{n \to \infty} u_n = L
 \implies
-\lim_\limits{n_k \to \infty} u_{n_k} = L
+\lim_{n_k \to \infty} u_{n_k} = L
 ```
 
 ### Sequence diverging to infinity
 
 ```math
-\lim_\limits{n \to \infty} u_k = \infty
+\lim_{n \to \infty} u_k = \infty
 \implies
-\lim_\limits{n_k \to \infty} u_{n_k} = \infty
+\lim_{n_k \to \infty} u_{n_k} = \infty
 ```
 
 :::note[Proof Hint]

@@ -15,7 +15,7 @@ Suppose $u_k>0$. An alternating series is:$ $
 
 ## Convergence test
 
-**If** $\forall k\; u_k>0$, decreasing and $\lim_\limits{n\to \infty} u_n = 0$,
+**If** $\forall k\; u_k>0$, decreasing and $\lim_{n\to \infty} u_n = 0$,
 **then**:
 
 ```math
@@ -56,14 +56,14 @@ $s_{2m}$ is bounded above by $u_1$ and increasing. $s_{2m+1}$ is bounded below
 by $0$ and decreasing. So both converges.
 
 ```math
-\lim_\limits{m\to \infty} (s_{2m+1} - s_{2m}) =
-\lim_\limits{m\to \infty} u_{2m + 1} = 0
+\lim_{m\to \infty} (s_{2m+1} - s_{2m}) =
+\lim_{m\to \infty} u_{2m + 1} = 0
 ```
 
 ```math
 \implies
-\lim_\limits{m\to \infty} s_{2m+1} =
-\lim_\limits{m\to \infty} s_{2m} = s
+\lim_{m\to \infty} s_{2m+1} =
+\lim_{m\to \infty} s_{2m} = s
 ```
 
 Both converges to the same number.

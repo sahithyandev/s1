@@ -19,8 +19,8 @@ s_n=\sum_{k=1}^{n}{u_k}
 If $(s_n)$ is converging: $ $
 
 ```math
-\lim_\limits{n\to \infty}{s_n} =
-\lim_\limits{n\to \infty}{\sum_{k=1}^n {u_k}} =
+\lim_{n\to \infty}{s_n} =
+\lim_{n\to \infty}{\sum_{k=1}^n {u_k}} =
 \sum_{k=1}^\infty u_k = S\in\mathbb{R}
 ```
 
@@ -77,7 +77,7 @@ Suppose $s_n$ is a conditionally converging series. Then: $ $
 ```math
 \sum_{k=1}^{n}{u_k}\text{ is converging}
 \implies
-\lim_\limits{k\to\infty}{u_k} = 0
+\lim_{k\to\infty}{u_k} = 0
 ```
 
 The converse is known as the

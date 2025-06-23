@@ -10,7 +10,7 @@ next: true
 A complex function $f$ is differentiable at $z_0$ **iff**:
 
 ```math
-\lim_\limits{z\to z_0}{\frac{f(z)-f(z_0)}{z-z_0}} = L = f'(z_0)
+\lim_{z\to z_0}{\frac{f(z)-f(z_0)}{z-z_0}} = L = f'(z_0)
 ```
 
 $f'(z_0)$ is called the derivative of $f$ at $z_0$. Properties of

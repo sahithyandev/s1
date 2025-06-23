@@ -10,7 +10,7 @@ next: true
 ## Divergence test
 
 ```math
-\lim_\limits{k \to \infty} u_k \neq 0
+\lim_{k \to \infty} u_k \neq 0
 \implies
 \sum_{k=1}^n u_k\; \text{is diverging}
 ```
@@ -42,7 +42,7 @@ $k! \ge 2^{k-1}$ for all $k\ge 0$.
 
 ## Limit Comparison Test
 
-Let $0<u_k,v_k$ and $\lim_\limits{n\to \infty}{\frac{u_n}{v_n}} =R$.
+Let $0<u_k,v_k$ and $\lim_{n\to \infty}{\frac{u_n}{v_n}} =R$.
 
 ```math
 R \gt 0\implies \bigg(\sum_{n=1}^\infty u_n\;\text{is converging}\iff  \sum_{n=1}^\infty v_n\;\text{is converging}\bigg)
@@ -110,8 +110,8 @@ For $\implies$: $ $
 
 - Define $F(n)=\int_1^n {u(x)\,\text{d}x}$
 - Note that $F(n)$ is increasing
-- Note that $\lim_\limits{n\to\infty}{u_n} = 0$
-- Show that $F(n)$ is bounded above by $\lim_\limits{n\to\infty}{s_n}$
+- Note that $\lim_{n\to\infty}{u_n} = 0$
+- Show that $F(n)$ is bounded above by $\lim_{n\to\infty}{s_n}$
 
 :::
 
@@ -120,21 +120,21 @@ For $\implies$: $ $
 ```math
 \sum_{n=1}^\infty u_n\text{ is converging}
 \implies
-\lim_\limits{k \to \infty} u_k = 0
+\lim_{k \to \infty} u_k = 0
 
 ```
 
 ```math
 \int_1^\infty {u(x)\,\text{d}x}\text{ is converging}
 \implies
-\lim_\limits{k \to \infty} u(k) = 0
+\lim_{k \to \infty} u(k) = 0
 ```
 
 :::
 
 ## Ratio Test
 
-Let $u(x) \gt 0$ and $\lim_\limits{n\to \infty}{\frac{u_{n+1}}{u_n}} =L$.
+Let $u(x) \gt 0$ and $\lim_{n\to \infty}{\frac{u_{n+1}}{u_n}} =L$.
 
 ```math
  L \lt 1 \implies \sum_{n=1}^\infty u_n\;\text{is converging}
@@ -158,7 +158,7 @@ Let $u(x) \gt 0$ and $\lim_\limits{n\to \infty}{\frac{u_{n+1}}{u_n}} =L$.
 ## Root Test
 
 Let $u_n$ is a sequence and
-$\lim_\limits{n\to \infty}{(\rvert u_n\rvert)^{1/n}} =L$.
+$\lim_{n\to \infty}{(\rvert u_n\rvert)^{1/n}} =L$.
 
 ```math
  L \lt 1 \implies \sum_{n=1}^\infty u_n\;\text{is absolutely converging}

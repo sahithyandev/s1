@@ -7,7 +7,7 @@ prev: true
 next: true
 ---
 
-$\lim_\limits{x\to{a}}{f(x)}=L$ **iff**: $ $
+$\lim_{x\to{a}}{f(x)}=L$ **iff**: $ $
 
 ```math
 \forall{\epsilon>0}\;
@@ -31,18 +31,18 @@ Suppose $\lim f(x) = L, \lim g(x) =M$. $ $
 ### In x-limit
 
 ```math
-\lim_\limits{x\to{a}}{f(x)}=L
+\lim_{x\to{a}}{f(x)}=L
 \iff
 \Big(
-\lim_\limits{x\to{a^-}}{f(x)}=L
+\lim_{x\to{a^-}}{f(x)}=L
 \land
-\lim_\limits{x\to{a^+}}{f(x)}=L
+\lim_{x\to{a^+}}{f(x)}=L
 \Big)
 ```
 
 #### Right limit
 
-$\lim_\limits{x\to{a^{-}}}{f(x)}=L$ **iff**: $ $
+$\lim_{x\to{a^{-}}}{f(x)}=L$ **iff**: $ $
 
 ```math
 \forall{\epsilon>0}\;
@@ -53,7 +53,7 @@ $\lim_\limits{x\to{a^{-}}}{f(x)}=L$ **iff**: $ $
 
 #### Left limit
 
-$\lim_\limits{x\to{a^{+}}}{f(x)}=L$ **iff**: $ $
+$\lim_{x\to{a^{+}}}{f(x)}=L$ **iff**: $ $
 
 ```math
 \forall{\epsilon>0}\;
@@ -65,18 +65,18 @@ $\lim_\limits{x\to{a^{+}}}{f(x)}=L$ **iff**: $ $
 ### In the answer
 
 ```math
-\lim_\limits{x\to{a}}{f(x)}=L
+\lim_{x\to{a}}{f(x)}=L
 \iff
 \Big(
-\lim_\limits{x\to{a}}{f(x)}=L^{+}
+\lim_{x\to{a}}{f(x)}=L^{+}
 \lor
-\lim_\limits{x\to{a}}{f(x)}=L^{-}
+\lim_{x\to{a}}{f(x)}=L^{-}
 \Big)
 ```
 
 #### Top limit
 
-$\lim_\limits{x\to{a}}{f(x)}=L^{+}$ **iff**: $ $
+$\lim_{x\to{a}}{f(x)}=L^{+}$ **iff**: $ $
 
 ```math
 \forall{\epsilon>0}\;
@@ -87,7 +87,7 @@ $\lim_\limits{x\to{a}}{f(x)}=L^{+}$ **iff**: $ $
 
 #### Bottom limit
 
-$\lim_\limits{x\to{a}}{f(x)}=L^{-}$ **iff**: $ $
+$\lim_{x\to{a}}{f(x)}=L^{-}$ **iff**: $ $
 
 ```math
 \forall{\epsilon>0}\;
@@ -102,7 +102,7 @@ $\lim_\limits{x\to{a}}{f(x)}=L^{-}$ **iff**: $ $
 
 #### Positive infinity
 
-$\lim_\limits{x\to{\infty}}{f(x)}=L$ **iff**: $ $
+$\lim_{x\to{\infty}}{f(x)}=L$ **iff**: $ $
 
 ```math
 \forall{\epsilon\gt 0}\;
@@ -113,7 +113,7 @@ $\lim_\limits{x\to{\infty}}{f(x)}=L$ **iff**: $ $
 
 #### Negative infinity
 
-$\lim_\limits{x\to{-\infty}}{f(x)}=L$ **iff**: $ $
+$\lim_{x\to{-\infty}}{f(x)}=L$ **iff**: $ $
 
 ```math
 \forall{\epsilon\gt 0}\;
@@ -126,7 +126,7 @@ $\lim_\limits{x\to{-\infty}}{f(x)}=L$ **iff**: $ $
 
 #### Positive infinity
 
-$\lim_\limits{x\to a}{f(x)}=\infty$ **iff**: $ $
+$\lim_{x\to a}{f(x)}=\infty$ **iff**: $ $
 
 ```math
 \forall{M\gt 0}\;
@@ -137,7 +137,7 @@ $\lim_\limits{x\to a}{f(x)}=\infty$ **iff**: $ $
 
 #### Negative infinity
 
-$\lim_\limits{x\to a}{f(x)}=-\infty$ **iff**: $ $
+$\lim_{x\to a}{f(x)}=-\infty$ **iff**: $ $
 
 ```math
 \forall{M\gt 0}\;

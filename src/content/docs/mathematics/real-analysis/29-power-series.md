@@ -34,7 +34,7 @@ R = \sup{\big\{r\;|\; \text{series converges for}\; \lvert x-c \rvert < r\big\}}
 The below equation can be used to find $R$: $ $
 
 ```math
-\lim_\limits{k\to \infty} |a_k|^{\frac{1}{k}} = \frac{1}{R}
+\lim_{k\to \infty} |a_k|^{\frac{1}{k}} = \frac{1}{R}
 ```
 
 The series may converge or diverge for $\lvert x - c \rvert = R$. $ $

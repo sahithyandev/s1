@@ -26,11 +26,11 @@ $\forall x \in [a,b]$:
 and:
 
 ```math
-\lim_\limits{n\to \infty}
+\lim_{n\to \infty}
 \int_a^b f_n(x)\,\text{d}x
 =
 \int_a^b
-\lim_\limits{n\to \infty} f_n(x)\,\text{d}x
+\lim_{n\to \infty} f_n(x)\,\text{d}x
 =
 \int_a^b f(x)\,\text{d}x
 ```
@@ -48,7 +48,7 @@ When $f_n$ converges to $f$ pointwise, it is not certain whether $f$ is Riemann
 integrable or not. An example where $f$ is not Riemann integrable:
 
 ```math
-\lim_\limits{n\to\infty}u_n=
+\lim_{n\to\infty}u_n=
 \begin{cases}
 \;1 & x=q_k\;\text{where}\; k \le n\\
 \;0 & \text{otherwise}\\
@@ -65,7 +65,7 @@ $\exists M>0\;\forall n\; \forall x \in [a,b]\;\text{s.t.}\; \lvert f_n(x)
 \rvert \le M $:
 
 ```math
-\lim_\limits{n\to \infty}
+\lim_{n\to \infty}
 \int_a^b f_n(x)\,\text{d}x
 =
 \int_a^b f(x)\,\text{d}x
@@ -80,7 +80,7 @@ $[a,b]$. If $\exists M>0\;\forall n\; \forall x \in [a,b]\;\text{s.t.}\; \lvert
 f_n(x) \rvert \le M $:
 
 ```math
-\lim_\limits{n\to \infty}
+\lim_{n\to \infty}
 \int_a^b f_n(x)\,\text{d}x
 =
 \int_a^b f(x)\,\text{d}x
