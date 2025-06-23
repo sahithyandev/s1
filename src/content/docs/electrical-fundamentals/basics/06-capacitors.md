@@ -43,10 +43,10 @@ i = C \frac{\text{d}v}{\text{d}t}
 :::note
 
 When 2 capacitors are connected in series, the charge $ Q $ is the same for both
-capacitors.
+capacitors. $ $
 
 When 2 capacitors are connected in parallel, the voltage $ V $ is the same for
-both capacitors.
+both capacitors. $ $
 
 Total charge is conserved in both cases.
 
