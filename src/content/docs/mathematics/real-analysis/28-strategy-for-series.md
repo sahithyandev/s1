@@ -54,13 +54,13 @@ n^n
 For $p \le k$: $ $
 
 ```math
-n^p \log p \ll n^k
+n^p \log n \ll n^k
 ```
 
 For $p \gt k$: $ $
 
 ```math
-n^p \log p \gg n^k
+n^p \log n \gg n^k
 ```
 
 These inequalities can be used to find corresponding $v_n$ to some $u_n$ to be
