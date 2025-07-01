@@ -10,7 +10,7 @@ prev: true
 Metal is subjected to indentation with a hard indenter. Depth of the indent is a
 measure of hardness.
 
-![Indentation Test](/props/indentation-test.jpg)
+![Indentation Test](./images/indentation-test.jpg)
 
 Hardness units differ with the type of indenter used and the load applied.
 

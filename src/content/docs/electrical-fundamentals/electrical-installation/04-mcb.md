@@ -33,7 +33,7 @@ MCBs are more expensive than fuses.
 
 ## Mechanism
 
-![MCB](/electrical/mcb.jpg)
+![MCB](./images/mcb.jpg)
 
 Has 4 functional components:
 
@@ -46,7 +46,7 @@ Has 4 functional components:
 
 ### Function of the thermal device
 
-![Thermal device of MCB](/electrical/function-of-mcb-thermal.jpg)
+![Thermal device of MCB](./images/function-of-mcb-thermal.jpg)
 
 Consists of a bi-metal strip. When overheated from overload current, the
 bi-metal strip is deflected. The deflection depends on the heat which depends
@@ -57,7 +57,7 @@ on:
 
 ### Function of the EM device
 
-![EM device of MCB](/electrical/function-of-mcb-em.jpg)
+![EM device of MCB](./images/function-of-mcb-em.jpg)
 
 Consists of a solenoid coil. Load current is set to flow through the coil.
 

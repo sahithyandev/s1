@@ -70,4 +70,4 @@ Examples:
 
 All software except system software. Designed to be used by end-users.
 
-![Systems & Application software](/programming/systems-and-application-software.jpg)
+![Systems & Application software](./images/systems-and-application-software.jpg)

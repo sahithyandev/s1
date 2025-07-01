@@ -7,7 +7,7 @@ prev: true
 next: true
 ---
 
-![RCCB](/electrical/rccb.jpg)
+![RCCB](./images/rccb.jpg)
 
 Short for Residual Current Circuit Breaker. A type of
 [RCD](/electrical-fundamentals/electrical-installation/rcd).

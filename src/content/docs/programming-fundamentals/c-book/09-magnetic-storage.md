@@ -17,7 +17,7 @@ for data backups nowadays. Aka. DAT drives.
 Magnetic storage. Operationally identical to a conventional radio cassette tape.
 Uses a disk coated with magnetic medium. High data transfer speed.
 
-![Hard disk - internal structure](/programming/hard-disk-internal-structure.jpg)
+![Hard disk - internal structure](./images/hard-disk-internal-structure.jpg)
 
 The head arm moves laterally from center to the edge.
 
@@ -52,9 +52,9 @@ are at the same distance from the center of the disk.
 Removable. Has a flexible, magnetic medium that is enclosed in a (semi-)rigid
 plastic case.
 
-![Parts of Floppy Disk](/programming/parts-of-floppy-disk.jpg)
+![Parts of Floppy Disk](./images/parts-of-floppy-disk.jpg)
 
-![Functionality of Floppy Disk](/programming/floppy-disk-functionality.jpg)
+![Functionality of Floppy Disk](./images/floppy-disk-functionality.jpg)
 
 Paper rings are used for protection.
 

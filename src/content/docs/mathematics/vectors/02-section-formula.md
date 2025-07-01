@@ -12,15 +12,13 @@ are positive and $m \ge n$), the division can either be internal or external.
 
 ## Internally
 
-![Internal section](/mathematics/vectors/internal-section.jpg)
-
 ```math
 \overrightarrow{\text{OR}} = \frac{m\overrightarrow{\text{OQ}}+n\overrightarrow{\text{OP}}}{m+n}
 ```
 
 ## Externally
 
-![External section](/mathematics/vectors/external-section.jpg)
+![External section](./images/external-section.jpg)
 
 ```math
 \overrightarrow{\text{OR}} = \frac{m\overrightarrow{\text{OQ}}-n\overrightarrow{\text{OP}}}{m-n}

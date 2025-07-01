@@ -7,7 +7,7 @@ prev: true
 next: true
 ---
 
-![Flexural Test](/props/flexural-test.jpg)
+![Flexural Test](./images/flexural-test.jpg)
 
 Support the material at 2 ends. Apply pressure perpendicular to the material
 until the material fractures. 3-point bending is used here.

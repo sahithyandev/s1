@@ -133,7 +133,7 @@ items in the faster devices and others in slower devices.
 
 ### Traditional
 
-![Traditional Memory Hierarchy](/programming/traditional-memory-hierarchy.jpg)
+![Traditional Memory Hierarchy](./images/traditional-memory-hierarchy.jpg)
 
 Doesn't include cache memory.
 
@@ -143,7 +143,7 @@ Cache memory is added to this hierarchy to bridge the speed difference between
 processor and memory. It is used by the microprocessor to store frequently used
 instructions and data.
 
-![modern-memory-hierarchy](/programming/modern-memory-hierarchy.jpg)
+![Modern Memory Hierarchy](./images/modern-memory-hierarchy.jpg)
 
 ## Swapping
 

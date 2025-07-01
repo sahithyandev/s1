@@ -15,7 +15,7 @@ This is a separate unit itself and taught as the last thing in the module.
 
 Materials are categorized into a tree.
 
-![Classification of Materials](/props/materials-classification.jpg)
+![Classification of Materials](./images/materials-classification.jpg)
 
 In computerized selection software, materials are stored in the above structure.
 

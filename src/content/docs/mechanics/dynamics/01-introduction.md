@@ -58,7 +58,7 @@ Right hand rule is used here to denote the direction of any rotary motions.
 
 #### Rectangular form
 
-![motion-rectangular-form.jpg](/mechanics/dynamics/motion-rectangular-form.jpg)
+![Motion (rectangular form)](./images/motion-rectangular-form.jpg)
 
 ```math
 v_y = \frac{\text{d}y}{\text{d}t}=\dot{y}
@@ -78,14 +78,14 @@ a_x = \frac{\text{d}^2x}{\text{d}t^2}=\ddot{x}
 
 #### Polar form
 
-![motion-polar-form.jpg](/mechanics/dynamics/motion-polar-form.jpg)
+![Motion (polar form)](./images/motion-polar-form.jpg)
 
 Velocity have a transverse and radial components.
 
 - Transverse component $v_\theta=\underline{\dot{\theta}}\times \underline{r}$
 - Radial component $v_r=\underline{\dot{r}}$
 
-![curvilinear-motion-polar-acceleration.jpg](/mechanics/dynamics/curvilinear-motion-polar-acceleration.jpg)
+![Curvilinear motion has polar acceleration](./images/curvilinear-motion-polar-acceleration.jpg)
 
 Acceleration also have a transverse and radial components.
 

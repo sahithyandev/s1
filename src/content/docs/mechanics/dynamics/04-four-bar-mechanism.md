@@ -16,7 +16,7 @@ Usually:
 - 2 moving pivots + 2 fixed pivots
 - 4 turning pairs
 
-![Four bar linkage](/mechanics/dynamics/four-bar-linkage.jpg)
+![Four bar linkage](./images/four-bar-linkage.jpg)
 
 - **input link** - usually denoted in the left.
 - **output link** - usually denoted in the right.

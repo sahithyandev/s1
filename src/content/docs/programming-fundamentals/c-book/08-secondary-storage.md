@@ -38,7 +38,7 @@ configuration starting from the inside of the disk and spiralling outwards. When
 examined under a microscope, pits (raised bumps along the track) and lands (flat
 areas between the pits) can be seen. Pits are 0 and lands are 1.
 
-![Parts of CD](/programming/parts-of-cd.jpg)
+![Parts of CD](./images/parts-of-cd.jpg)
 
 These components are used in CD technology.
 

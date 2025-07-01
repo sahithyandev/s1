@@ -78,7 +78,7 @@ Used in Sri Lanka. Supply is earthed at the source end. All exposed conductive
 parts of the installation are connected to earth (independent earth electrode)
 at consumer end. Earth serves as the return path for the fault current.
 
-![TT system](/electrical/tt-system.jpg)
+![TT system](./images/tt-system.jpg)
 
 :::note
 

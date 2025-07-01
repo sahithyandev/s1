@@ -39,4 +39,4 @@ and the origin.
 
 Equal to the instantaneous tangent on a point in the stress-strain diagram.
 
-![Types of modulus](/props/types-of-modulus.jpg)
+![Types of modulus](./images/types-of-modulus.jpg)

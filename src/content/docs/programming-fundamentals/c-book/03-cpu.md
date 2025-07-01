@@ -57,7 +57,7 @@ of GPRs vary with the CPU. Usually denoted as "B", "C" and so on.
 
 ## Internal Structure
 
-![CPU Internal Structure](/programming/internal-structure-of-cpu.jpg)
+![CPU Internal Structure](./images/internal-structure-of-cpu.jpg)
 
 - There is a secondary ALU after PC. That increments the PC after fetching a new
   instruction.

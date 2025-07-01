@@ -57,7 +57,7 @@ Metacentric height and metacentric radius are related by: $BM=BG+GM$.$ $
 The metacentric height of a floating body can be determined experimentally by
 shifting a known weight by a known distance and measuring the angle of tilt.
 
-![Experimental Metacentre Height](/fluids/experimental-metacentre-height.jpg)
+![Experimental Metacentre Height](./images/experimental-metacentre-height.jpg)
 
 In the above picture
 
@@ -91,7 +91,7 @@ GM=\lim\limits_{\theta\to{0}}\frac{Px}{W\theta}
 If the shape of the submerged volume is known, the metacentric height can
 theoretically be determined.
 
-![Theoretical Metacentre Height](/fluids/theoretical-metacentre-height.jpg)
+![Theoretical Metacentre Height](./images/theoretical-metacentre-height.jpg)
 
 #### Rotation is about centroidal axis of waterline plane
 
@@ -165,7 +165,7 @@ GM = BM - OG + OB
 
 ## Types of tilting
 
-![Types of tilting](/fluids/types-of-tilting.jpg)
+![Types of tilting](./images/types-of-tilting.jpg)
 
 - Pitching - tilting about transverse axis
 - Rolling - tilting about longitudinal axis

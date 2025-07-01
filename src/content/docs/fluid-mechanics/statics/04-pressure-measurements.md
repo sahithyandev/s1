@@ -9,7 +9,7 @@ next: true
 
 ## Barometer
 
-![Barometer](/fluids/barometer.jpg)
+![Barometer](./images/barometer.jpg)
 
 ## Piezometer
 
@@ -17,7 +17,7 @@ Open-ended tube connected to a vessel / pipe containing a liquid.
 
 Measures the pressure head of a liquid.
 
-![Piezometer](/fluids/piezometer.jpg)
+![Piezometer](./images/piezometer.jpg)
 
 ### Advantages
 
@@ -31,7 +31,7 @@ Measures the pressure head of a liquid.
 
 ## Manometer
 
-![Manometer](/fluids/manometer.jpg)
+![Manometer](./images/manometer.jpg)
 
 Hydrostatic principle is used here. Measures absolute pressure. Manometer liquid
 should not mix with the liquid in which the pressure is to be measured.
@@ -50,7 +50,7 @@ P_{A} = P_{\text{atm}} + h \rho_{m}g - a\rho g
 
 ### Differential Manometer
 
-![Differential Manometer](/fluids/differential-manometer.jpg)
+![Differential Manometer](./images/differential-manometer.jpg)
 
 Used to measure pressure difference between two points. Can be used for both
 liquids and gases. Difficult to measure small pressure differences (because

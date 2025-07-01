@@ -10,7 +10,7 @@ next: true
 Most used pumps in engineering because they support wide range of heights and
 flow rates. Radial flow, rotodynamic pump.
 
-![Centrifugal pump](/fluids/centrifugal-pump.jpg)
+![Centrifugal pump](./images/centrifugal-pump.jpg)
 
 ### Volute
 
@@ -34,4 +34,4 @@ from turbulence and impact.
 
 ## Performance characteristic
 
-![Performance characteristic curve of centrifugal pump](/fluids/centrifugal-pump-performance-characteristic.jpg)
+![Performance characteristic curve of centrifugal pump](./images/centrifugal-pump-performance-characteristic.jpg)

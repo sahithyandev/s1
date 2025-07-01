@@ -17,7 +17,7 @@ The difference between live and neutral currents.
 
 ### Mechanism
 
-![RCD](/electrical/rcd.jpg)
+![RCD](./images/rcd.jpg)
 
 Consists of a solonoid coil. There are 2 identical windings on the coil.
 

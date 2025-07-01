@@ -18,7 +18,7 @@ For s1, forced vortex motion only about vertical axis is required.
 
 :::
 
-![Forced Vortex Motion Axes](/fluids/forced-vortex-motion.jpg)
+![Forced Vortex Motion Axes](./images/forced-vortex-motion.jpg)
 
 ```math
 P = \frac{1}{2}\rho \omega^2 r^2 - \rho gz +c
@@ -47,7 +47,7 @@ distance. Isobars are parabolic.
 
 ## Volume of the fluid
 
-![Forced Vortex Motion Volume](/fluids/forced-vortex-motion-volume.jpg)
+![Forced Vortex Motion Volume](./images/forced-vortex-motion-volume.jpg)
 
 Total volume of the fluid is:
 

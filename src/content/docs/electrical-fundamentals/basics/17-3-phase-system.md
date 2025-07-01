@@ -89,7 +89,7 @@ In a 3-phase system, line-to-line voltage is mentioned.
 
 ## Analysis
 
-![Analysis of 3-phase circuit](/electrical/3-phase-circuit-analysis.jpg)
+![Analysis of 3-phase circuit](./images/3-phase-circuit-analysis.jpg)
 
 ```math
 I_N=E
@@ -123,7 +123,7 @@ When a 3-phase system is balanced, it is sufficient to consider only a single
 phase. The diagram showing the single-phase equivalent of the power system using
 standard symbols.
 
-![Per-phase equivalent circuit](/electrical/per-phase-circuit.jpg)
+![Per-phase equivalent circuit](./images/per-phase-circuit.jpg)
 
 Here:
 

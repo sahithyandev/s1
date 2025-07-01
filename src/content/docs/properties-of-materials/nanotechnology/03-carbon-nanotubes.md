@@ -22,7 +22,7 @@ A rolled up sheet of graphene.
 Chirality means the way that graphene sheet is oriented with respect to the axis
 of carbon nanotube.
 
-![CNT classification based on chirality](/props/nano/cnt-chirality-types.jpg)
+![CNT classification based on chirality](./images/cnt-chirality-types.jpg)
 
 ### Achiral
 
@@ -33,13 +33,13 @@ Have mirror planes. Has 2 types.
 
 #### Armchair
 
-![Armchair structure of CNT](/props/nano/armchair-structure.jpg)
+![Armchair structure of CNT](./images/armchair-structure.jpg)
 
 Circumference has a repeating armchair structure.
 
 #### Zigzag
 
-![Zigzag structure of CNT](/props/nano/zigzag-structure.jpg)
+![Zigzag structure of CNT](./images/zigzag-structure.jpg)
 
 Circumference has a repeating zigzag structure.
 
@@ -53,7 +53,7 @@ No mirror planes. Definition for the chiral type is later explained.
 
 Equivalent atoms means the atoms having the same surrounding.
 
-![Equivalent atoms](/props/nano/equivalent-atoms.jpg)
+![Equivalent atoms](./images/equivalent-atoms.jpg)
 
 In graphene, next-near neighbours are equivalent atoms.
 

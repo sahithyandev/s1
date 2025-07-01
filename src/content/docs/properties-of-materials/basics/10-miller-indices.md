@@ -7,7 +7,7 @@ prev: true
 next: true
 ---
 
-![Miller Indices in Simple Cubic](/props/miller-indices.jpg)
+![Miller Indices in Simple Cubic](./images/miller-indices.jpg)
 
 Any vertex can be chosen as the origin.
 

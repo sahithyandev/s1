@@ -53,7 +53,7 @@ pressure diagram}
 
 ### Proof
 
-![Hydrostatic thrust on a plane surface](/fluids/hydrostatic-thrust-on-a-plane.jpg)
+![Hydrostatic thrust on a plane surface](./images/hydrostatic-thrust-on-a-plane.jpg)
 
 :::note
 
@@ -116,7 +116,7 @@ F_y = \text{Weight of the fluid above submerged surface}
 
 ### Proof
 
-![Hydrostatic thrust on a curved surface](/fluids/hydrostatic-thrust-on-a-curved-surface.jpg)
+![Hydrostatic thrust on a curved surface](./images/hydrostatic-thrust-on-a-curved-surface.jpg)
 
 For the equilibrium of the fluid volume $ABCDA$. $ $
 

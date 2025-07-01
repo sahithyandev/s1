@@ -15,7 +15,7 @@ instead of ELCBs.
 
 ### Mechanism
 
-![ELCB](/electrical/elcb.jpg)
+![ELCB](./images/elcb.jpg)
 
 Has a trip coil. Trips when voltage difference between the frame earth and the
 reference earth exceeds the rated voltage (usually $40\,\text{V}$). The trip

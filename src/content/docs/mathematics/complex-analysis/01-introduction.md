@@ -10,7 +10,7 @@ next: true
 
 ### Representation methods
 
-![Representation of a complex number](/mathematics/complex/representation-methods.jpg)
+![Representation of a complex number](./images/representation-methods.jpg)
 
 The methods are:
 

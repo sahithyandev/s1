@@ -53,7 +53,7 @@ $ a \times b = 0 \implies \lvert a \rvert = 0 \lor \lvert b \rvert = 0 \lor a
 
 Cross products between $i$, $j$, $k$ are circular.
 
-![Cross products of i,j,k](/mathematics/vectors/ijk-cross-product.jpg)
+![Cross products of i,j,k](./images/ijk-cross-product.jpg)
 
 ### Properties
 

@@ -35,7 +35,7 @@ Let $P=f(x,y,z)$. $ $
 Consider the fluid element containing point $A$ which is under an acceleration
 of $a_x,a_y,a_z$ in the $x,y,z$ directions.
 
-![Variation of pressure proof](/fluids/rel-eq-variation-of-pressure.jpg)
+![Variation of pressure proof](./images/rel-eq-variation-of-pressure.jpg)
 
 By applying Newton's second law of motion in all 3 directions:
 
@@ -135,7 +135,7 @@ $\theta_x$:
 
 ### Vertical Pressure Distribution
 
-![horizontal-acceleration-vertical-pressure-variation.jpg](/fluids/horizontal-acceleration-vertical-pressure-variation.jpg)
+![horizontal-acceleration-vertical-pressure-variation.jpg](./images/horizontal-acceleration-vertical-pressure-variation.jpg)
 
 ## Vertical Acceleration
 

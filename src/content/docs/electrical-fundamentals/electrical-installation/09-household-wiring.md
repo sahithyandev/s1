@@ -57,7 +57,7 @@ After the live bus bar, the live wire is connected to multiple
 
 ### Loop-in method
 
-![Loop-in method](/electrical/loop-in-method.jpg)
+![Loop-in method](./images/loop-in-method.jpg)
 
 Enables all joints and terminations in a single final circuit to be made at
 ceiling roses, switches or other accessories. This makes all joints accessible
@@ -74,7 +74,7 @@ fitting which needs to be earthed for safety.
 
 ### Two-way switches
 
-![Two-way switches](/electrical/two-way-switches.jpg)
+![Two-way switches](./images/two-way-switches.jpg)
 
 Used when it's necessary to operate an equipment from 2 positions.
 
@@ -93,7 +93,7 @@ Electrical equipments can be wired in 2 ways.
 
 ### Radial circuit
 
-![Radial circuit](/electrical/radial-connection.jpg)
+![Radial circuit](./images/radial-connection.jpg)
 
 Each circuit commences from consumer unit through an MCB (or fuse), loops into
 each socket outlet and terminates at the last socket outlet.
@@ -114,7 +114,7 @@ equipment.
 
 ### Ring circuit
 
-![Ring circuit](/electrical/ring-circuit.jpg)
+![Ring circuit](./images/ring-circuit.jpg)
 
 Each circuit commences from consumer unit through an MCB (or fuse), loops into
 each socket outlet and returns to the same MCB (or fuse) in the consumer unit.

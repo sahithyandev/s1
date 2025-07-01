@@ -10,7 +10,7 @@ next: true
 Suppose $w=f(z)$ where $z,w \in \mathbb{C}$. Input and output points are marked
 in 2 separate complex planes.
 
-![Complex function mapping](/mathematics/complex/complex-function.jpg)
+![Complex function mapping](./images/complex-function.jpg)
 
 Here:
 

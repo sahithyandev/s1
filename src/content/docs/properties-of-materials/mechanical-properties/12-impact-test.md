@@ -9,16 +9,16 @@ next: true
 
 ## Tester
 
-![Charpy Impact Tester](/props/charpy-impact-tester.jpg)
+![Charpy Impact Tester](./images/charpy-impact-tester.jpg)
 
 ## Specimen
 
 According to ASTM-E 23.
 
-![Charpy Impact Test Specimen](/props/charpy-impact-test-specimen.jpg)
+![Charpy Impact Test Specimen](./images/charpy-impact-test-specimen.jpg)
 
 Specimen is notched to keep the crack straight.
 
 ### Loaded state
 
-![Charpy Impact Test Specimen loaded state](/props/charpy-impact-test-load.jpg)
+![Charpy Impact Test Specimen loaded state](./images/charpy-impact-test-load.jpg)

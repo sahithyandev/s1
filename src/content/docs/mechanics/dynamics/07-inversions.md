@@ -10,7 +10,7 @@ prev: true
 The inversions are obtained by making different kinematic element stationary
 (one at a time) while keeping the same set of kinematic pairs.
 
-![Slider crank mechanism](/mechanics/dynamics/slider-crank-mechanism.jpg)
+![Slider crank mechanism](./images/slider-crank-mechanism.jpg)
 
 For example, in slider crank mechanism:
 

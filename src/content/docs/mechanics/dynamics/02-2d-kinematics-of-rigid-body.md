@@ -35,7 +35,7 @@ plane.
 
 ## General 2D motion
 
-![General 2D motion](/mechanics/dynamics/general-2d-motion.jpg)
+![General 2D motion](./images/general-2d-motion.jpg)
 
 Mixture of translation and rotation.
 
@@ -71,7 +71,7 @@ might be changing throughout the motion. Denoted by $I$.
 It can be imagined that the object is momentarily having a pure rotation about
 this centre $I$. $ $
 
-![finding instantaneous centre of rotation](/mechanics/dynamics/finding-instantaneous-centre-of-rotation.jpg)
+![Finding instantaneous centre of rotation](./images/finding-instantaneous-centre-of-rotation.jpg)
 
 $I$ can be found by drawing a line perpendicular at the velocity vectors at 2
 different points and finding their intersection point. $ $
