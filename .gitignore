@@ -2,7 +2,7 @@ node_modules
 dist
 
 .shell
-src/content/docs/summary/*.md
+src/content/docs/summary/
 src/components
 src/global.css
 utils
