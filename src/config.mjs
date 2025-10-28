@@ -47,6 +47,17 @@ if (process.env.NODE_ENV === "production") {
  */
 export const STARLIGHT_SIDEBAR_CONFIG = [
   {
+    label: "GPT: Sahithyan's Notes",
+    link: "https://chatgpt.com/g/g-69004975c8e88191b877c7fee2428a4b-sahithyan-s-notes",
+    attrs: {
+      target: "_blank",
+    },
+    badge: {
+      text: "New",
+      variant: "tip"
+    }
+  },
+  {
     label: "Dimensions & Units",
     link: "/dimensions-and-units",
   },
